@@ -500,7 +500,7 @@ class CfgGesturesMale {
 	skeletonName = "OFP2_ManSkeleton";
 	class States {  //-- Gestures
 		class GestureNo;
-		class tsp_melee_fistReady: GestureNo {file = "tsp_melee\anim\fistReady.rtm"; mask = "meleeFist"; looped = true; interpolationSpeed = 5; leftHandIKCurve[] = {0}; rightHandIKCurve[] = {0};};
+		class tsp_melee_fistReady: GestureNo {file = "tsp_melee\anim\fistReady.rtm"; mask = "meleeFist"; looped = true; enableOptics = 0; interpolationSpeed = 5; leftHandIKCurve[] = {0}; rightHandIKCurve[] = {0};};
 		class tsp_melee_fistReady1: tsp_melee_fistReady {file = "tsp_melee\anim\fistReady1.rtm";};
 		class tsp_melee_fistReady2: tsp_melee_fistReady {file = "tsp_melee\anim\fistReady2.rtm";};
 		class tsp_melee_fistReady3: tsp_melee_fistReady {file = "tsp_melee\anim\fistReady3.rtm";};
