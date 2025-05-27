@@ -231,7 +231,7 @@ class CfgMelee {
 			class variant1: variant {gesture = "tsp_melee_rifleSlashLeft";};
 		};
 		class alt: alt {
-			class variant: variant {gesture = "tsp_melee_rifleBayonet"; reach = 2.5; manDamage = 0.8; restTime = 0.4; objectProjectile = "tsp_melee_big";};
+			class variant: variant {gesture = "tsp_melee_rifleBayonet"; reach = 2.5; manDamage = 0.8; restTime = 0.3; afterTime = 0.2; objectProjectile = "tsp_melee_big";};
 			class variant1: variant {gesture = "tsp_melee_rifleBayonet1";};
 		};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
