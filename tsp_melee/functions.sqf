@@ -91,9 +91,10 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, kick, special, dodgeleft
 		if (_knockout) then {selectRandom _manKnockoutSound params ["_sound", "_volume"]; playSound3D [_sound, vehicle _victim, false, getPosASL _victim, 3*_volume, 1, 20*_volume]};  //-- Sound		
 		selectRandom _manSound params ["_sound", "_volume"]; playSound3D [_sound, vehicle _victim, false, getPosASL _victim, 3*_volume, 1, 20*_volume];                               //-- Sound
 		[_victim, _selections#0, _manDamage*tsp_cba_melee_damage, _manDamageType, _knockout] remoteExec ["tsp_fnc_hitpoint_damage", _victim];                                        //-- Damage
-		["tsp_melee_damageMan", [_unit, _victim]] call CBA_fnc_localEvent;                                                                                                          //-- CBA Event
-		if (!alive _victim) then {[_unit, [1, 0, 0, 0, 0]] remoteExec ["addPlayerScores", 2]};                                                                                     //-- Score
-		if !(([_victim] call tsp_fnc_melee_weapon) in ["rifle", "pistol"]) then {[_victim] remoteExec ["tsp_fnc_melee_ai", _victim]};                                             //-- AI behaviour
+		if (isPlayer _unit) then {[_shake*tsp_cba_animate_shake, 2, 5] remoteExec ["tsp_fnc_shake", _unit]};                                                                        //-- Shake
+		["tsp_melee_damageMan", [_unit, _victim]] call CBA_fnc_localEvent;                                                                                                         //-- CBA Event
+		if (!alive _victim) then {[_unit, [1, 0, 0, 0, 0]] remoteExec ["addPlayerScores", 2]};                                                                                    //-- Score
+		if !(([_victim] call tsp_fnc_melee_weapon) in ["rifle", "pistol"]) then {[_victim] remoteExec ["tsp_fnc_melee_ai", _victim]};                                            //-- AI behaviour
 	} else {if (count _objects > 0) then {
 		_adjust = (_objects#0#1) vectorAdd (([_unit, getCameraViewDirection _unit, 180] call tsp_fnc_vector) vectorMultiply 0.1);
 		_objectProjectile createVehicle ASLtoATL _adjust setVelocity (getCameraViewDirection _unit vectorMultiply 20);
