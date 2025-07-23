@@ -7,6 +7,7 @@ class CfgPatches {
 
 //-- FUNCTIONS
 class Extended_PreInit_EventHandlers {class tsp_melee_cba {init = "[] call compileScript ['\tsp_melee\cba.sqf']";}; class tsp_melee_functions {init = "[] call compileScript ['\tsp_melee\functions.sqf']";};};
+class Extended_PostInit_EventHandlers {class tsp_melee_init {init = "['CBA_settingsInitialized', {[] spawn compileScript ['\tsp_melee\init.sqf']}] call CBA_fnc_addEventHandler;";};};  
 
 //-- MELEE
 class CfgMelee {
