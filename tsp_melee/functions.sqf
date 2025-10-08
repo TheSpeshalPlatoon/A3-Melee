@@ -91,7 +91,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, kick, special, dodgeleft
 		if (_knockout) then {selectRandom _manKnockoutSound params ["_sound", "_volume"]; playSound3D [_sound, vehicle _victim, false, getPosASL _victim, 3*_volume, 1, 20*_volume]};  //-- Sound		
 		selectRandom _manSound params ["_sound", "_volume"]; playSound3D [_sound, vehicle _victim, false, getPosASL _victim, 3*_volume, 1, 20*_volume];                               //-- Sound
 		[_victim, _selections#0, _manDamage*tsp_cba_melee_damage, _manDamageType, _knockout] remoteExec ["tsp_fnc_hitpoint_damage", _victim];                                        //-- Damage
-		if (isPlayer _unit) then {[_shake*tsp_cba_animate_shake, 2, 5] remoteExec ["tsp_fnc_shake", _unit]};                                                                        //-- Shake
+		[_manDamage*10, 2, 3] spawn tsp_fnc_shake; if (isPlayer _victim) then {[_manDamage*20, 2, 5] remoteExec ["tsp_fnc_shake", _victim]};                                         //-- Shake
 		["tsp_melee_damageMan", [_unit, _victim]] call CBA_fnc_localEvent;                                                                                                         //-- CBA Event
 		if (!alive _victim) then {[_unit, [1, 0, 0, 0, 0]] remoteExec ["addPlayerScores", 2]};                                                                                    //-- Score
 		if !(([_victim] call tsp_fnc_melee_weapon) in ["rifle", "pistol"]) then {[_victim] remoteExec ["tsp_fnc_melee_ai", _victim]};                                            //-- AI behaviour
@@ -123,7 +123,7 @@ tsp_fnc_melee_takedown = {  //-- Used for takedown animations
 	[_unit, _unitAnim] remoteExec ["playMoveNow", 0]; waitUntil {animationState _unit == _unitAnim};
 	_victim attachTo [_unit, [0,0,0]]; [_victim, _victimAnim] remoteExec ["switchMove", 0];
 	{[_victim, _x] call tsp_fnc_throw} forEach [primaryWeapon _victim, handgunWeapon _victim];
-	playSound3D [_sound, _victim, false, getPosASL _victim, 4, 1, 10]; sleep _dieTime; _victim setDamage 1; 
+	playSound3D [_sound, _victim, false, getPosASL _victim, 4*tsp_cba_melee_volume, 1, 10]; sleep _dieTime; _victim setDamage 1; 
 	[_unit, "ready"] spawn tsp_fnc_melee_action; _unit setVariable ["tsp_melee_doing", false];
 	sleep 0.1; detach _victim;
 };

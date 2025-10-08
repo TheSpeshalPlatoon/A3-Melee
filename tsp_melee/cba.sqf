@@ -42,3 +42,4 @@
 	["tsp_cba_melee_disarm", "SLIDER", ["Disarm Modifier", "Change of disarm is multiplied by this value."], "TSP Melee", [0, 10, 1], true] call CBA_fnc_addSetting;  //-- Stamina Modifier
 	["tsp_cba_melee_stamina", "SLIDER", ["Stamina Modifier", "Stamina used is multiplied by this value."], "TSP Melee", [0, 10, 1], true] call CBA_fnc_addSetting;   //-- Stamina Modifier
 	["tsp_cba_melee_speed", "SLIDER", ["Sprint Speed", "Speeds higher than this will not allow melee."], "TSP Melee", [0, 25, 15], true] call CBA_fnc_addSetting;   //-- sPRINT
+	["tsp_cba_melee_volume", "SLIDER", ["Volume Multiplier", "Volume of takedowns, etc."], "TSP Melee", [0, 19, 1], true] call CBA_fnc_addSetting;   //-- sPRINT

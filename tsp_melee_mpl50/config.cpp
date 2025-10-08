@@ -16,6 +16,7 @@ class CfgWeapons {
 		meleeType = "spade";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tsp_melee_mpl50\tex\mpl50_co.paa"};
+		ace_trenches_entrenchingTool = 1;
 		class WeaponSlotsInfo {mass = 2; holsterScale = 0;};
 	};
 
