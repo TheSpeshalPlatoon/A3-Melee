@@ -54,15 +54,6 @@ class CfgMelee {
 		};
 		class alt {
 			class variant: variant_base {
-				gesture = "tsp_melee_fistPush";
-				stamina = 15; 
-				manStunChance = 1;
-				manDisarmChance = 0.75;
-				swingTime = 0.3;
-				impactTime = 0.2;
-				afterTime = 0.2;
-			};
-			class variant1: variant_base {
 				gesture = "tsp_melee_fistPunchBig"; 
 				stamina = 15; 
 				manDamage = 0.25; 
@@ -71,6 +62,17 @@ class CfgMelee {
 				impactTime = 0.2; 
 				afterTime = 0.2; 
 			};
+		};
+		class push {
+			class variant: variant_base {
+				gesture = "tsp_melee_fistPush";
+				stamina = 15; 
+				manStunChance = 1;
+				manDisarmChance = 0.75;
+				swingTime = 0.3;
+				impactTime = 0.2;
+				afterTime = 0.2;
+			}; 
 		};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_fistKick"; gesture = "tsp_common_stop";};};
 		class dodge_left {class variant: variant_base {animation = "tsp_melee_fist_dodge_left"; gesture = "tsp_common_stop";};};
@@ -110,6 +112,7 @@ class CfgMelee {
 				objectProjectile = "tsp_melee_medium";
 			};
 		};
+		class push {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
 		class dodge_left {class variant: variant_base {animation = "tsp_melee_rifle_dodge_left"; gesture = "tsp_melee_rifleblock";};};
 		class dodge_right {class variant: variant_base {animation = "tsp_melee_rifle_dodge_right"; gesture = "tsp_melee_rifleblock";};};
@@ -146,6 +149,7 @@ class CfgMelee {
 				objectProjectile = "tsp_melee_medium";
 			};
 		};
+		class push {class variant: variant_base_kick {animation = "tsp_melee_pistolKick"; gesture = "tsp_common_stop";};};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_pistolKick"; gesture = "tsp_common_stop";};};
 		class dodge_left {class variant: variant_base {animation = "tsp_melee_pistol_dodge_left";};};
 		class dodge_right {class variant: variant_base {animation = "tsp_melee_pistol_dodge_right"; gesture = "tsp_melee_pistolblock";};};
@@ -195,6 +199,7 @@ class CfgMelee {
 				objectProjectile = "tsp_melee_medium";
 			};
 		};
+		class push {class variant: variant_base_kick {animation = "tsp_melee_pistolKick"; gesture = "tsp_common_stop";};};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_pistolKick"; gesture = "tsp_common_stop";};};
 		class dodge_left {class variant: variant_base {animation = "tsp_melee_pistol_dodge_left"; gesture = "tsp_melee_knifeBlock";};};
 		class dodge_right {class variant: variant_base {animation = "tsp_melee_pistol_dodge_right"; gesture = "tsp_melee_knifeBlock";};};
@@ -235,6 +240,7 @@ class CfgMelee {
 			class variant: variant {gesture = "tsp_melee_rifleBayonet"; reach = 2.5; manDamage = 0.8; restTime = 0.3; afterTime = 0.2; objectProjectile = "tsp_melee_big";};
 			class variant1: variant {gesture = "tsp_melee_rifleBayonet1";};
 		};
+		class push {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
 		class special {class variant: variant_base {condition = "false";}}
 	};
@@ -338,6 +344,7 @@ class CfgMelee {
 				environmentDamage[] = {1,0.9,0.2,0,0};  //_glass,_civil,_military,_reinforced,_wall
 			};
 		};
+		class push {class variant: variant_base_kick {animation = "tsp_melee_axeKick"; gesture = "";};};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_axeKick"; gesture = "";};};
 		class dodge_left {class variant: variant_base {animation = "tsp_melee_axe_dodge_left"; gesture = "tsp_melee_axeBlock";};};
 		class dodge_right {class variant: variant_base {animation = "tsp_melee_axe_dodge_right"; gesture = "tsp_melee_axeBlock";};};

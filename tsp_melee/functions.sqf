@@ -2,9 +2,13 @@ tsp_fnc_melee_can = {_this getVariable ["ace_captives_isSurrendering", false] ==
 tsp_fnc_melee_doing = {_this getVariable ["tsp_melee_doing", false] || "melee" in gestureState _this || "melee" in animationState _this};
 
 tsp_fnc_melee_weapon = {  //-- Returns weapon's meleeType, "" if none
-    params ["_unit", ["_weapon", currentWeapon (_this#0)]]; [primaryWeaponItems _unit select {getText (configFile >> "CfgWeapons" >> _x >> "meleeType") != ""}] params ["_attachments"];
-    if (_weapon == primaryWeapon _unit && count _attachments > 0) exitWith {getText (configFile >> "CfgWeapons" >> _attachments#0 >> "meleeType")};  //-- Bayonets
-    if (_weapon in ["", "Throw"]) then {"fist"} else {getText (configFile >> "CfgWeapons" >> _weapon >> "meleeType")};
+    params ["_unit", ["_weapon", currentWeapon (_this#0)], ["_meleeType", ""]];
+    _meleeType = getText (configFile >> "CfgWeapons" >> _weapon >> "meleeType");
+    _bayonets = primaryWeaponItems _unit select {getText (configFile >> "CfgWeapons" >> _x >> "meleeType") != ""};
+    if (_weapon == primaryWeapon _unit && count _bayonets > 0) then {_meleeType = getText (configFile >> "CfgWeapons" >> _bayonets#0 >> "meleeType")};
+    if (_weapon in ["", "Throw"]) then {_meleeType = "fist"};
+    if (_meleeType in tsp_cba_melee_black) exitWith {""};
+    _meleeType
 };
 
 tsp_fnc_melee_config = {  //-- Get list of variants of certain mode from CfgMelee of meleeType (cfgMelee >> rifle >> main >> variant)
@@ -41,8 +45,10 @@ tsp_fnc_melee_config = {  //-- Get list of variants of certain mode from CfgMele
 	_variants
 };
 
-tsp_fnc_melee_action = {  //-- Ready, main, alt, block, kick, special, dodgeleft, dodgeright
-	params ["_unit", "_mode"]; [[[_unit] call tsp_fnc_melee_weapon, _mode] call tsp_fnc_melee_config] params ["_variants"]; 
+tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dodgeleft, dodgeright
+	params ["_unit", "_mode", ["_return", true]]; 
+
+	[[[_unit] call tsp_fnc_melee_weapon, _mode] call tsp_fnc_melee_config] params ["_variants"]; if (count _variants == 0) exitWith {};
 	if (count _variants > 1) then {_variants = _variants select {_x#1 != _unit getVariable ["previousAnim", "BRUH"]}};  //-- Don't repeat same animations if possible
 	(selectRandom _variants) params [  //-- Pick random variant and get parameters
 		"_animation", "_gesture",
@@ -103,7 +109,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, kick, special, dodgeleft
 	//-- Rest
 	sleep _restTime; 
 	_unit setStamina (getStamina _unit - (_stamina*tsp_cba_melee_stamina));
-	[_unit, if (inputAction "MoveBack" > 0) then {"block"} else {"ready"}] spawn tsp_fnc_melee_action;
+	if (_return) then {[_unit, if (inputAction "MoveBack" > 0) then {"block"} else {"ready"}] spawn tsp_fnc_melee_action} else {_unit playAction "tsp_common_stop"};
 	sleep (_afterTime + ((60-getStamina _unit)/300));
 	_unit setVariable ["tsp_melee_doing", false];	
 };

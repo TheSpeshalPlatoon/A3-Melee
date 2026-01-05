@@ -27,10 +27,15 @@
 	
 	[["TSP Core", "Melee"], "tsp_melee_main", "Main", {if (playa call tsp_fnc_melee_doing) then {[playa, "main"] spawn tsp_fnc_melee_action}}, {}, [0xF0, [false, false, false]]] call CBA_fnc_addKeybind;
 	[["TSP Core", "Melee"], "tsp_melee_alt", "Alternate", {if (playa call tsp_fnc_melee_doing) then {[playa, "alt"] spawn tsp_fnc_melee_action}}, {}, [0xF1, [false, false, false]]] call CBA_fnc_addKeybind;
+	[["TSP Core", "Melee"], "tsp_melee_push", "Push", {
+		if (playa call tsp_fnc_melee_doing) then {["", false] spawn tsp_fnc_scroll; [] spawn {sleep 1; ["", true] spawn tsp_fnc_scroll}};  //-- Hide scroll when kicking
+		if (playa call tsp_fnc_melee_doing) then {[playa, "push"] spawn tsp_fnc_melee_action};
+	}, {}, [0xF8, [false, false, false]]] call CBA_fnc_addKeybind;
 	[["TSP Core", "Melee"], "tsp_melee_kick", "Kick", {
 		if (playa call tsp_fnc_melee_doing) then {["", false] spawn tsp_fnc_scroll; [] spawn {sleep 1; ["", true] spawn tsp_fnc_scroll}};  //-- Hide scroll when kicking
 		if (playa call tsp_fnc_melee_doing) then {[playa, "kick"] spawn tsp_fnc_melee_action};
 	}, {}, [0xF9, [false, false, false]]] call CBA_fnc_addKeybind;
+	[["TSP Core", "Melee"], "tsp_melee_kick_quick", "Kick (Quick)", {[playa, "kick", false] spawn tsp_fnc_melee_action}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
 	[["TSP Core", "Melee"], "tsp_melee_block", "Block", {if (playa call tsp_fnc_melee_doing) then {[playa, "block"] spawn tsp_fnc_melee_action}}, {if (playa call tsp_fnc_melee_doing) then {[playa, "ready"] spawn tsp_fnc_melee_action}}, [0x1F, [false, false, false]]] call CBA_fnc_addKeybind;
 	[["TSP Core", "Melee"], "tsp_melee_special", "Special", {if (playa call tsp_fnc_melee_doing) then {[playa, "special"] spawn tsp_fnc_melee_action}}, {}, [0xF0, [true, false, false]]] call CBA_fnc_addKeybind;
 	[["TSP Core", "Melee"], "tsp_melee_dodge_left", "Dodge (Left)", {if (playa call tsp_fnc_melee_doing) then {[playa, "dodge_left"] spawn tsp_fnc_melee_action}}, {}, [16, [false, false, false]]] call CBA_fnc_addKeybind;
@@ -43,3 +48,4 @@
 	["tsp_cba_melee_stamina", "SLIDER", ["Stamina Modifier", "Stamina used is multiplied by this value."], "TSP Melee", [0, 10, 1], true] call CBA_fnc_addSetting;   //-- Stamina Modifier
 	["tsp_cba_melee_speed", "SLIDER", ["Sprint Speed", "Speeds higher than this will not allow melee."], "TSP Melee", [0, 25, 15], true] call CBA_fnc_addSetting;   //-- sPRINT
 	["tsp_cba_melee_volume", "SLIDER", ["Volume Multiplier", "Volume of takedowns, etc."], "TSP Melee", [0, 19, 1], true] call CBA_fnc_addSetting;   //-- sPRINT
+	["tsp_cba_melee_black", "EDITBOX", ["Blacklist", "Blacklist of CfgMelee types, example: ['rifle','pistol','bayonet']."], "TSP Melee", '[]', false, {tsp_cba_melee_black = call compile tsp_cba_melee_black}] call CBA_fnc_addSetting;
