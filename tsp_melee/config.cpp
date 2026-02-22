@@ -112,7 +112,19 @@ class CfgMelee {
 				objectProjectile = "tsp_melee_medium";
 			};
 		};
-		class push {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
+		class push {
+			class variant: variant_base {
+				gesture = "tsp_melee_rifleJab"; 
+				manDamage = 0.25; 
+				manKnockoutChance = 0.1;
+				manStunChance = 1.0; 
+				manDisarmChance = 0.5; 
+				swingTime = 0.25; 
+				impactTime = 0.2; 
+				afterTime = 0.3; 
+				objectProjectile = "tsp_melee_medium";
+			};
+		};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
 		class dodge_left {class variant: variant_base {animation = "tsp_melee_rifle_dodge_left"; gesture = "tsp_melee_rifleblock";};};
 		class dodge_right {class variant: variant_base {animation = "tsp_melee_rifle_dodge_right"; gesture = "tsp_melee_rifleblock";};};
@@ -240,7 +252,7 @@ class CfgMelee {
 			class variant: variant {gesture = "tsp_melee_rifleBayonet"; reach = 2.5; manDamage = 0.8; restTime = 0.3; afterTime = 0.2; objectProjectile = "tsp_melee_big";};
 			class variant1: variant {gesture = "tsp_melee_rifleBayonet1";};
 		};
-		class push {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
+		class push: main {};
 		class kick {class variant: variant_base_kick {animation = "tsp_melee_rifleKick"; gesture = "";};};
 		class special {class variant: variant_base {condition = "false";}}
 	};
@@ -475,6 +487,7 @@ class CfgMovesBasic {
 		tsp_melee_rifleSlashRight[] = {"tsp_melee_rifleSlashRight", "Gesture"};
 		tsp_melee_rifleSlashLeft[] = {"tsp_melee_rifleSlashLeft", "Gesture"};
 		tsp_melee_rifleButt[] = {"tsp_melee_rifleButt", "Gesture"};
+		tsp_melee_rifleJab[] = {"tsp_melee_rifleJab", "Gesture"};
 		tsp_melee_rifleBayonet[] = {"tsp_melee_rifleBayonet", "Gesture"};
 		tsp_melee_rifleBayonet1[] = {"tsp_melee_rifleBayonet1", "Gesture"};
 		tsp_melee_pistolReady[] = {"tsp_melee_pistolReady", "Gesture"};
@@ -523,6 +536,7 @@ class CfgGesturesMale {
 		class tsp_melee_rifleSlashRight: tsp_melee_rifleReady {file = "tsp_melee\anim\rifleSlashRight.rtm"; mask = "meleeRifleSpine"; speed = 2; looped = false;};
 		class tsp_melee_rifleSlashLeft: tsp_melee_rifleSlashRight {file = "tsp_melee\anim\rifleSlashLeft.rtm";};
 		class tsp_melee_rifleButt: tsp_melee_rifleSlashRight {file = "tsp_melee\anim\rifleButt.rtm"; mask = "meleeRifleSpineHeavy"; speed = 1;};
+		class tsp_melee_rifleJab: tsp_melee_rifleButt {file = "tsp_melee\anim\rifleJab.rtm"; speed = 1.4;};
 		class tsp_melee_rifleBayonet: tsp_melee_rifleButt {file = "tsp_melee\anim\rifleBayonet.rtm";};
 		class tsp_melee_rifleBayonet1: tsp_melee_rifleButt {file = "tsp_melee\anim\rifleBayonet1.rtm";};
 		class tsp_melee_pistolReady: tsp_melee_rifleReady {file = "tsp_melee\anim\pistolReady.rtm"; mask = "meleePistol"; showHandgun = true;};

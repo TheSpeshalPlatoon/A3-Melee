@@ -67,7 +67,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 	};
 
 	if (!(_mode in ["ready", "block"]) && _unit getVariable ["tsp_melee_doing", false]) exitWith {};  //-- No overwriting current melee action unless switching back to ready
-	_victims = [_unit, eyePos _unit, [0,_angle/6,_angle/3,_angle/2,_angle/1.5,_angle/1.2,-(_angle/6),-(_angle/3),-(_angle/2),-(_angle/1.5),-(_angle/1.2)], _reach, getCameraViewDirection _unit] call tsp_fnc_obstruction select {_x#0 isKindOf "Man" && [_unit, _x#0] call compile _condition};
+	_victims = [_unit, eyePos _unit, getCameraViewDirection _unit, _reach, _angle] call tsp_fnc_obstruction select {_x#0 isKindOf "Man" && [_unit, _x#0] call compile _condition};
 	if (_mode == "special") exitWith {if (count _victims > 0) then {[_unit, _victims#0#0] call compile _code}};
 	if (_animation != "") then {[_unit, _animation] remoteExec ["playMoveNow", 0]};
 	if (_gesture != "") then {[_unit, "", _gesture, "tsp_common_stop", true, true] spawn tsp_fnc_gesture_play}; 
@@ -81,8 +81,11 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 
 	//-- Impact
 	if (!isNil "tsp_fnc_breach_melee") then {[_unit, _environmentDamage] spawn tsp_fnc_breach_melee};
-	_victims = [_unit, eyePos _unit, [0,_angle/6,_angle/3,_angle/2,_angle/1.5,_angle/1.2,-(_angle/6),-(_angle/3),-(_angle/2),-(_angle/1.5),-(_angle/1.2)], _reach, getCameraViewDirection _unit] call tsp_fnc_obstruction select {_x#0 isKindOf "Man"};
-	_objects = [_unit, eyePos _unit, [0,5,10,-5,-10], _reach, getCameraViewDirection _unit] call tsp_fnc_obstruction select {!(_x#0 isKindOf "Man")};
+	if (!isPlayer _unit) then {_angle = 180};
+	_victims = [_unit, eyePos _unit, getCameraViewDirection _unit, _reach, _angle] call tsp_fnc_obstruction select {_x#0 isKindOf "Man"};
+	if (!isPlayer _unit) then {_victims = [_unit, 3, 10, {_x isKindOf "CAManBase"}] call tsp_fnc_targets};
+	if (!isPlayer _unit) then {_victims = _victims apply {[_x, eyePos _x, [selectRandom ["head", "body", "leftarm", "rightarm", "leftleg", "rightleg"]]]}};
+	_objects = [_unit, eyePos _unit, getCameraViewDirection _unit, _reach, 20, 5] call tsp_fnc_obstruction select {!(_x#0 isKindOf "Man")};
 	if (count _victims > 0) then {
 		(_victims#0) params ["_victim", "_intersect", "_selections", ["_knockout", false]];
 		if (count (_victim getVariable ["blocking", []]) > 0) then {
@@ -97,7 +100,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 		if (_knockout) then {selectRandom _manKnockoutSound params ["_sound", "_volume"]; playSound3D [_sound, vehicle _victim, false, getPosASL _victim, 3*_volume, 1, 20*_volume]};  //-- Sound		
 		selectRandom _manSound params ["_sound", "_volume"]; playSound3D [_sound, vehicle _victim, false, getPosASL _victim, 3*_volume, 1, 20*_volume];                               //-- Sound
 		[_victim, _selections#0, _manDamage*tsp_cba_melee_damage, _manDamageType, _knockout] remoteExec ["tsp_fnc_hitpoint_damage", _victim];                                        //-- Damage
-		[_manDamage*10, 2, 3] spawn tsp_fnc_shake; if (isPlayer _victim) then {[_manDamage*20, 2, 5] remoteExec ["tsp_fnc_shake", _victim]};                                         //-- Shake
+		[_manDamage*10, 2, 3] spawn tsp_fnc_shake; if (isPlayer _victim) then {[_manDamage*20, 2, 5] remoteExec ["tsp_fnc_shake", _victim]};                                        //-- Shake
 		["tsp_melee_damageMan", [_unit, _victim]] call CBA_fnc_localEvent;                                                                                                         //-- CBA Event
 		if (!alive _victim) then {[_unit, [1, 0, 0, 0, 0]] remoteExec ["addPlayerScores", 2]};                                                                                    //-- Score
 		if !(([_victim] call tsp_fnc_melee_weapon) in ["rifle", "pistol"]) then {[_victim] remoteExec ["tsp_fnc_melee_ai", _victim]};                                            //-- AI behaviour
@@ -143,18 +146,17 @@ tsp_fnc_melee_bayonet = {  //-- Swap bayonet attachment/item
 };
 
 tsp_fnc_melee_ai = {
-	params ["_unit", ["_radius", 100], ["_actionChance", 0.75], ["_blockChance", 0.75], ["_reach", 2]];
-	if (isPlayer _unit || _unit getVariable ["AIMELEE", false]) exitWith {}; _unit setVariable ["AIMELEE", true, true];
-	_unit setUnitPos "UP";
+	params ["_unit", ["_radius", 100], ["_reach", 2.5]];
+	if (isPlayer _unit || _unit getVariable ["AIMELEE", false]) exitWith {}; _unit setVariable ["AIMELEE", true, true];	
 	while {sleep 0.5; alive _unit} do {
-		_enemies = (_unit nearEntities [["CAManBase"], _radius]) select {_x != _unit && _unit knowsAbout _x > 0 && !([side _x, side _unit] call BIS_fnc_sideIsFriendly)};
-		if (_unit getVariable ["ACE_isUnconscious", false] || stance _unit != "STAND" || count _enemies == 0) then {[_unit] call tsp_fnc_gesture_stop; continue};
-		_enemies = _enemies apply {_distance = _x distance _unit; if (lifeState _x == "INCAPACITATED") then {_distance = _distance + 5}; [_distance, _x]};
-		_enemies sort true; _enemy = _enemies#0#1;
-		_unit doMove ([[[getPos _enemy, 5]],[]] call BIS_fnc_randomPos);
-		if (_unit distance _enemy > _reach || random 1 > _actionChance) then {[_unit] call tsp_fnc_gesture_stop; continue};
-		[_unit, (_unit getReldir _enemy) + getDir _unit, 0.1] spawn tsp_fnc_lookAt;
-		[_unit, if (_enemy getVariable ["ACE_isUnconscious", false]) then {"kick"} else {selectRandom ["main","main","alt","kick"]}] spawn tsp_fnc_melee_action;		
+		if (lifeState _unit == "INCAPACITATED" || !("amov" in animationState _unit)) then {continue};
+		if !(([gestureState _unit] call tsp_fnc_gesture_sanitize) == '' || 'melee' in ([gestureState _unit] call tsp_fnc_gesture_sanitize)) then {continue};
+		_targets = ([_unit, 5, _radius, {_x isKindOf "CAManBase"}] call tsp_fnc_targets);
+		_target = if (count _targets > 0) then {_targets#0} else {[_unit] call tsp_fnc_gesture_stop; continue};  //-- If no target, skip loop
+		_unit doMove ([[[getPos _target, _reach]],[]] call BIS_fnc_randomPos);
+		if (_unit distance _target > _reach) then {[_unit] call tsp_fnc_gesture_stop; continue};
+		_unit setUnitPos "UP"; if (speed _unit < 0.5) then {[_unit, (_unit getRelDir _target) + getDir _unit, 0.001, 2] call tsp_fnc_look};
+		[_unit, if (lifeState _target == "INCAPACITATED") then {"kick"} else {selectRandom ["main","main","alt","kick"]}] call tsp_fnc_melee_action;		
 	};
 };
 
