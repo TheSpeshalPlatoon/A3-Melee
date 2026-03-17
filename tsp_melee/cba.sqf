@@ -31,6 +31,7 @@
 		if (playa call tsp_fnc_melee_doing) then {["", false] spawn tsp_fnc_scroll; [] spawn {sleep 1; ["", true] spawn tsp_fnc_scroll}};  //-- Hide scroll when kicking
 		if (playa call tsp_fnc_melee_doing) then {[playa, "push"] spawn tsp_fnc_melee_action};
 	}, {}, [0xF8, [false, false, false]]] call CBA_fnc_addKeybind;
+	[["TSP Core", "Melee"], "tsp_melee_push_quick", "Push (Quick)", {[playa, "push", false] spawn tsp_fnc_melee_action}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
 	[["TSP Core", "Melee"], "tsp_melee_kick", "Kick", {
 		if (playa call tsp_fnc_melee_doing) then {["", false] spawn tsp_fnc_scroll; [] spawn {sleep 1; ["", true] spawn tsp_fnc_scroll}};  //-- Hide scroll when kicking
 		if (playa call tsp_fnc_melee_doing) then {[playa, "kick"] spawn tsp_fnc_melee_action};

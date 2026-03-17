@@ -1,4 +1,4 @@
-tsp_fnc_melee_can = {_this getVariable ["ace_captives_isSurrendering", false] == false && _this getVariable ["ace_captives_handcuffAnimEHID", -1] == -1 && stance _this in ["STAND", "CROUCH"] && speed _this < tsp_cba_melee_speed &&	vehicle _this == _this && ("amov" in animationState _this || "melee" in animationState _this)};
+tsp_fnc_melee_can = {_this getVariable ["ace_captives_isSurrendering", false] == false && _this getVariable ["ace_captives_handcuffAnimEHID", -1] == -1 && stance _this in ["STAND", "CROUCH"] && speed _this < tsp_cba_melee_speed &&	vehicle _this == _this && ("amov" in animationState _this || "melee" in animationState _this || "aadj" in animationState _this)};
 tsp_fnc_melee_doing = {_this getVariable ["tsp_melee_doing", false] || "melee" in gestureState _this || "melee" in animationState _this};
 
 tsp_fnc_melee_weapon = {  //-- Returns weapon's meleeType, "" if none
@@ -60,7 +60,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 		"_condition", "_code"
 	];
 		
-	if !(_unit getVariable ["meleeEH", false]) then {
+	if !(_unit getVariable ["meleeEH", false]) then {  //-- Need to do this way for AI melee i think - cancels melee if can no longer do
 		_unit addEventHandler ["AnimDone", {if (_this#0 call tsp_fnc_melee_doing && !(_this#0 call tsp_fnc_melee_can)) then {[_this#0] call tsp_fnc_gesture_stop}}];
 		_unit addEventHandler ["GestureChanged", {if (_this#0 call tsp_fnc_melee_doing && !(_this#0 call tsp_fnc_melee_can)) then {[_this#0] call tsp_fnc_gesture_stop}}];
 		_unit setVariable ["meleeEH", true, true];
@@ -71,7 +71,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 	if (_mode == "special") exitWith {if (count _victims > 0) then {[_unit, _victims#0#0] call compile _code}};
 	if (_animation != "") then {[_unit, _animation] remoteExec ["playMoveNow", 0]};
 	if (_gesture != "") then {[_unit, "", _gesture, "tsp_common_stop", true, true] spawn tsp_fnc_gesture_play}; 
-	if (_mode == "ready") exitWith {};  //unit,in,loop,out,interupt,instant,return,returnable,toggle,lower,code
+	if (_mode == "ready") exitWith {};
 	if (_mode == "block") exitWith {_unit setVariable ["blocking", _blockableDamage, true]; waitUntil {sleep 0.1; gestureState _unit != _gesture}; _unit setVariable ["blocking", [], true]};
  	_unit setVariable ["tsp_melee_doing", true]; _unit setVariable ["previousAnim", _gesture];
 	sleep _swingTime; (selectRandom _swingSound) params ["_sound", "_volume"]; playSound3D [_sound, _unit, false, getPosASL _unit, 3*_volume, 1, 20*_volume];
@@ -83,7 +83,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 	if (!isNil "tsp_fnc_breach_melee") then {[_unit, _environmentDamage] spawn tsp_fnc_breach_melee};
 	if (!isPlayer _unit) then {_angle = 180};
 	_victims = [_unit, eyePos _unit, getCameraViewDirection _unit, _reach, _angle] call tsp_fnc_obstruction select {_x#0 isKindOf "Man"};
-	if (!isPlayer _unit) then {_victims = [_unit, 3, 10, {_x isKindOf "CAManBase"}] call tsp_fnc_targets};
+	if (!isPlayer _unit) then {_victims = [_unit, 2.5, 10, {_x isKindOf "CAManBase"}] call tsp_fnc_targets};
 	if (!isPlayer _unit) then {_victims = _victims apply {[_x, eyePos _x, [selectRandom ["head", "body", "leftarm", "rightarm", "leftleg", "rightleg"]]]}};
 	_objects = [_unit, eyePos _unit, getCameraViewDirection _unit, _reach, 20, 5] call tsp_fnc_obstruction select {!(_x#0 isKindOf "Man")};
 	if (count _victims > 0) then {
@@ -118,10 +118,13 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 };
 
 tsp_fnc_melee_stun = {  //-- Stun lock
-	params ["_unit", ["_manDisarmChance", 0]]; if ("stun" in animationState _unit || stance _unit != "STAND") exitWith {};
-	_anim = switch (currentWeapon _unit) do {case "": {"tsp_melee_fistStun"}; case primaryWeapon _unit: {"tsp_melee_rifleStun"}; case handgunWeapon _unit: {"tsp_melee_pistolStun"}};
+	params ["_unit", ["_manDisarmChance", 0], ["_anim", "tsp_melee_fistStun"]]; 
+	if ("stun" in animationState _unit || stance _unit != "STAND") exitWith {};
+	if (currentWeapon _unit == primaryWeapon _unit && primaryWeapon _unit != "") then {_anim = "tsp_melee_rifleStun"};
+	if (currentWeapon _unit == handgunWeapon _unit && handgunWeapon _unit != "") then {_anim = "tsp_melee_pistolStun"};
 	[_unit] call tsp_fnc_gesture_stop; [_unit, _anim] remoteExec ["playMoveNow", 0]; 
 	if (random 1 < (_manDisarmChance*tsp_cba_melee_disarm) && ([_unit] call tsp_fnc_melee_weapon) in ["rifle", "pistol"]) then {sleep 0.2; [_unit, currentWeapon _unit] call tsp_fnc_throw};
+	if !(([_unit] call tsp_fnc_melee_weapon) in ["rifle", "pistol"]) then {[_unit] remoteExec ["tsp_fnc_melee_ai", _unit]};
 };
 
 tsp_fnc_melee_takedown = {  //-- Used for takedown animations
@@ -149,13 +152,13 @@ tsp_fnc_melee_ai = {
 	params ["_unit", ["_radius", 100], ["_reach", 2.5]];
 	if (isPlayer _unit || _unit getVariable ["AIMELEE", false]) exitWith {}; _unit setVariable ["AIMELEE", true, true];	
 	while {sleep 0.5; alive _unit} do {
-		if (lifeState _unit == "INCAPACITATED" || !("amov" in animationState _unit)) then {continue};
+		if (lifeState _unit == "INCAPACITATED" || !("amov" in animationState _unit) || captive _unit) then {continue};
 		if !(([gestureState _unit] call tsp_fnc_gesture_sanitize) == '' || 'melee' in ([gestureState _unit] call tsp_fnc_gesture_sanitize)) then {continue};
 		_targets = ([_unit, 5, _radius, {_x isKindOf "CAManBase"}] call tsp_fnc_targets);
 		_target = if (count _targets > 0) then {_targets#0} else {[_unit] call tsp_fnc_gesture_stop; continue};  //-- If no target, skip loop
 		_unit doMove ([[[getPos _target, _reach]],[]] call BIS_fnc_randomPos);
 		if (_unit distance _target > _reach) then {[_unit] call tsp_fnc_gesture_stop; continue};
-		_unit setUnitPos "UP"; if (speed _unit < 0.5) then {[_unit, (_unit getRelDir _target) + getDir _unit, 0.001, 2] call tsp_fnc_look};
+		_unit setUnitPos "UP"; if (speed _unit < 0.5) then {[_unit, (_unit getReldir _target) + getDir _unit] call tsp_fnc_look};
 		[_unit, if (lifeState _target == "INCAPACITATED") then {"kick"} else {selectRandom ["main","main","alt","kick"]}] call tsp_fnc_melee_action;		
 	};
 };

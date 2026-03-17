@@ -33,6 +33,8 @@ class Extended_PostInit_EventHandlers {class tsp_melee_moveset_init {init = "[] 
 //                $1tsp_$2$3
 //-- ANIMATIONS (////-- ADDED)
 
+//-- ONLY KEEP STAND AND CROUCH???
+
 class CfgMovesBasic
 {
 	class Default;

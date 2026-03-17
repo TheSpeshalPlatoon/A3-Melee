@@ -1,10 +1,10 @@
 //-- This method SUCKS, if anyone knows how to make proper movesets, lmk
 tsp_fnc_melee_moveset_change = {
-    params ["_unit", ["_moveset", ""], ["_sleep", false], ["_anim", ""]]; sleep 0.001;
+    params ["_unit", ["_moveset", ""], ["_anim", ""]]; sleep 0.001;
     if (vehicle _unit != _unit || !isNil "tsp_switch") exitWith {};
     if ((getText (configFile >> "CfgMovesMaleSdr" >> "States">> (animationState _unit) >> "moveset")) isEqualTo _moveset) exitWith {};  //-- If trying to replace current moveset with same one, do nothing
-    if !(isNil "tsp_melee_movesetChange") exitWith {}; [] spawn {tsp_melee_movesetChange = true; sleep 0.5; tsp_melee_movesetChange = nil};  //-- Anti spam
-    if (_moveset == "knife") then {
+    if !(isNil "tsp_melee_movesetChange") exitWith {}; [] spawn {tsp_melee_movesetChange = true; sleep 0.01; tsp_melee_movesetChange = nil};  //-- Anti spam
+    if (_moveset == "custom") then {
         _anim = "tsp_" + animationState _unit,;
         _anim = _anim regexReplace ["sraswpst", "snonwnon"];
         _anim = _anim regexReplace ["sraswrfl", "snonwnon"];
@@ -18,17 +18,18 @@ tsp_fnc_melee_moveset_change = {
     };
     _unit playMoveNow _anim;
     sleep 0.2; if ('wlnr' in animationState _unit) then {_unit switchMove _anim}; 
-    sleep 0.1; if (_moveset == "knife" && "amov" in gestureState _unit) then {_unit playActionNow "tsp_common_stop"};
+    sleep 0.1; if (_moveset == "custom" && "amov" in gestureState _unit) then {_unit playActionNow "tsp_common_stop"};
 };
 
 tsp_fnc_melee_moveset_poll = {
     params ["_unit"];
     if (getText (configFile >> "CfgMelee" >> ([_unit] call tsp_fnc_melee_weapon) >> "moveset") == "") exitWith {[_unit] spawn tsp_fnc_melee_moveset_change};
-    [_unit, if (_unit call tsp_fnc_melee_doing) then {""} else {"knife"}] spawn tsp_fnc_melee_moveset_change;
+    if (getText (configFile >> "CfgMelee" >> ([_unit] call tsp_fnc_melee_weapon) >> "moveset") == "knife") exitWith {[_unit, if (_unit call tsp_fnc_melee_doing) then {""} else {"custom"}] spawn tsp_fnc_melee_moveset_change};
+    if (getText (configFile >> "CfgMelee" >> ([_unit] call tsp_fnc_melee_weapon) >> "moveset") == "saber") exitWith {[_unit, "custom"] spawn tsp_fnc_melee_moveset_change};
 };
 	
 waitUntil {!isNull findDisplay 46};
-["weapon", {params ["_unit"]; if (getText (configFile >> "CfgMelee" >> [_unit] call tsp_fnc_melee_weapon >> "moveset") == "knife") then {_unit playActionNow "tsp_common_stop"}}] call CBA_fnc_addPlayerEventHandler;
+["weapon", {params ["_unit"]; if (getText (configFile >> "CfgMelee" >> [_unit] call tsp_fnc_melee_weapon >> "moveset") in ["knife","saber"]) then {_unit playActionNow "tsp_common_stop"}}] call CBA_fnc_addPlayerEventHandler;
 player addEventHandler ["OpticsSwitch", {params ["_unit", "_ads"]; if (_ads && (getText (configFile >> "CfgMovesMaleSdr" >> "States">> (animationState _unit) >> "moveset")) != "") then {_unit switchCamera "INTERNAL"}}];
 player addEventHandler ["AnimDone", {params ["_unit"]; [_unit] call tsp_fnc_melee_moveset_poll}];
 player addEventHandler ["AnimChanged", {params ["_unit"]; [_unit] call tsp_fnc_melee_moveset_poll}];

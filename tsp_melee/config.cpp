@@ -39,7 +39,7 @@ class CfgMelee {
 		condition = "false";
 	};
 	class variant_base_block: variant_base {gesture = "tsp_melee_fistBlock"; blockableDamage[] = {{"punch", 0.1, {{"tsp_melee\snd\impact1.ogg", 0}}}, {"stab", 0.2, {{"tsp_melee\snd\slice1.ogg", 1}}}};};
-	class variant_base_kick: variant_base {reach = 2.5; manKnockoutChance = 0; manStunChance = 1; manDisarmChance = 0.5; swingTime = 0.3; impactTime = 0.1; restTime = 0.3; afterTime = 0.1; environmentDamage[] = {1,0.6,0.3,0,0};};
+	class variant_base_kick: variant_base {reach = 2.7; manKnockoutChance = 0; manStunChance = 1; manDisarmChance = 0.5; swingTime = 0.3; impactTime = 0.1; restTime = 0.3; afterTime = 0.1; environmentDamage[] = {1,0.6,0.3,0,0};};
 	class fist {
 		class ready {
 			class variant: variant_base {gesture = "tsp_melee_fistReady";};
@@ -228,11 +228,7 @@ class CfgMelee {
 			class variant1: variant {gesture = "tsp_melee_knifeUpReady1";};
 		};
 		class main: main {class variant1: variant {gesture = "tsp_melee_knifeUpSlashRight";};};
-		class alt: alt {
-			class variant: variant {
-				gesture = "tsp_melee_knifeUpStab";
-			};
-		};
+		class alt: alt {class variant: variant {gesture = "tsp_melee_knifeUpStab";};};
 		class special {
 			class variant: variant_base {
 				condition = "alive (_this#1) && stance (_this#0) in ['STAND','CROUCH'] && speed (_this#1) < 12 && [position (_this#1), (getDir (_this#1))-180, 180, position (_this#0)] call BIS_fnc_inAngleSector";
@@ -381,6 +377,20 @@ class CfgMelee {
 			};
 		};
 	};
+	class saber: knifeDown {
+		moveset = "saber";
+		class ready {class variant: variant_base {gesture = "tsp_melee_saberReady";};};
+		class block {class variant: variant_base_block {gesture = "tsp_melee_saberBlock";};};
+		class main: main {
+			class variant: variant {gesture = "tsp_melee_saberSlashLeft"; manDamage = 0.4;};
+			class variant1: variant {gesture = "tsp_melee_saberSlashRight";};
+		};
+		class alt: alt {class variant: variant {gesture = "tsp_melee_saberLunge"; manDamage = 0.6;};};
+		class kick {class variant: variant_base_kick {animation = "tsp_melee_pistolKick"; gesture = "tsp_melee_saberReady";};};
+		class dodge_left {class variant: variant_base {animation = "tsp_melee_pistol_dodge_left"; gesture = "tsp_common_stop";};};
+		class dodge_right {class variant: variant_base {animation = "tsp_melee_pistol_dodge_right"; gesture = "tsp_common_stop";};};
+		class special {class variant: variant_base {condition = "false";}}
+	};
 };
 
 //-- WEAPONS
@@ -515,6 +525,11 @@ class CfgMovesBasic {
 		tsp_melee_axeSlashLeft[] = {"tsp_melee_axeSlashLeft", "Gesture"};
 		tsp_melee_axeSmash[] = {"tsp_melee_axeSmash", "Gesture"};
 		tsp_melee_sledgeSlam[] = {"tsp_melee_sledgeSlam", "Gesture"};
+		tsp_melee_saberReady[] = {"tsp_melee_saberReady", "Gesture"};
+		tsp_melee_saberBlock[] = {"tsp_melee_saberBlock", "Gesture"};
+		tsp_melee_saberSlashRight[] = {"tsp_melee_saberSlashRight", "Gesture"};
+		tsp_melee_saberSlashLeft[] = {"tsp_melee_saberSlashLeft", "Gesture"};
+		tsp_melee_saberLunge[] = {"tsp_melee_saberLunge", "Gesture"};
 	};
 };
 class CfgGesturesMale {
@@ -564,6 +579,12 @@ class CfgGesturesMale {
 		class tsp_melee_axeSlashLeft: tsp_melee_axeSlashRight {file = "tsp_melee\anim\axeSlashLeft.rtm";};
 		class tsp_melee_axeSmash: tsp_melee_axeSlashLeft {file = "tsp_melee\anim\axeSmash.rtm"; speed = 1.2;};
 		class tsp_melee_sledgeSlam: tsp_melee_axeSmash {file = "tsp_melee\anim\sledgeSlam.rtm";};
+
+		class tsp_melee_saberReady: tsp_melee_knifeUpReady {file = "tsp_melee\anim\saberReady.rtm"; mask = "meleeSaber";};
+		class tsp_melee_saberBlock: tsp_melee_saberReady {file = "tsp_melee\anim\saberBlock.rtm"; mask = "meleeSaber";};
+		class tsp_melee_saberSlashRight: tsp_melee_knifeUpSlashRight {file = "tsp_melee\anim\knifeUpSlashRight.rtm"; mask = "meleeSaber";};
+		class tsp_melee_saberSlashLeft: tsp_melee_knifeSlashLeft {file = "tsp_melee\anim\pistolSlashLeft.rtm"; mask = "meleeSaber";};
+		class tsp_melee_saberLunge: tsp_melee_knifeUpStab {file = "tsp_melee\anim\saberLunge.rtm"; mask = "meleeSaber";};
 	};
 	class BlendAnims {  //-- Masks
 		meleeFist[] = {
@@ -901,6 +922,35 @@ class CfgGesturesMale {
 			"Spine1", 1,
 			"Spine2", 1,
 			"Spine3", 1
+		};
+		meleeSaber[] = {
+			"Neck", 0.1,
+			"Spine", 0.2,
+			"Spine1", 0.3,
+			"Spine2", 0.4,
+			"Spine3", 0.5,
+			"RightShoulder", 1,
+			"RightArm", 1,
+			"RightArmRoll", 1,
+			"RightForeArm", 1,
+			"RightForeArmRoll", 1,
+			"RightHand", 1,
+			"RightHandRing", 1,
+			"RightHandPinky1", 1,
+			"RightHandPinky2", 1,
+			"RightHandPinky3", 1,
+			"RightHandRing1", 1,
+			"RightHandRing2", 1,
+			"RightHandRing3", 1,
+			"RightHandMiddle1", 1,
+			"RightHandMiddle2", 1,
+			"RightHandMiddle3", 1,
+			"RightHandIndex1", 1,
+			"RightHandIndex2", 1,
+			"RightHandIndex3", 1,
+			"RightHandThumb1", 1,
+			"RightHandThumb2", 1,
+			"RightHandThumb3", 1
 		};
 	};
 };
