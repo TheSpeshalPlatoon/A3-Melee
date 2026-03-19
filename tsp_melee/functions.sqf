@@ -154,7 +154,7 @@ tsp_fnc_melee_ai = {
 	while {sleep 0.5; alive _unit} do {
 		if (lifeState _unit == "INCAPACITATED" || !("amov" in animationState _unit) || captive _unit) then {continue};
 		if !(([gestureState _unit] call tsp_fnc_gesture_sanitize) == '' || 'melee' in ([gestureState _unit] call tsp_fnc_gesture_sanitize)) then {continue};
-		_targets = ([_unit, 5, _radius, {_x isKindOf "CAManBase"}] call tsp_fnc_targets);
+		_targets = ([_unit, 5, _radius, {_x isKindOf "CAManBase" && !([side group _x, side group _unit] call BIS_fnc_sideIsFriendly)}] call tsp_fnc_targets);
 		_target = if (count _targets > 0) then {_targets#0} else {[_unit] call tsp_fnc_gesture_stop; continue};  //-- If no target, skip loop
 		_unit doMove ([[[getPos _target, _reach]],[]] call BIS_fnc_randomPos);
 		if (_unit distance _target > _reach) then {[_unit] call tsp_fnc_gesture_stop; continue};
