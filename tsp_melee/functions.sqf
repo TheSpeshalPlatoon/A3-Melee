@@ -59,6 +59,7 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 		"_objectProjectile", "_objectSound", "_environmentDamage",
 		"_condition", "_code"
 	];
+	_environmentDamage params ["_glass", "_civil", "_military", "_reinforced", "_wall", "_bush", "_tree"];
 		
 	if !(_unit getVariable ["meleeEH", false]) then {  //-- Need to do this way for AI melee i think - cancels melee if can no longer do
 		_unit addEventHandler ["AnimDone", {if (_this#0 call tsp_fnc_melee_doing && !(_this#0 call tsp_fnc_melee_can)) then {[_this#0] call tsp_fnc_gesture_stop}}];
@@ -80,6 +81,8 @@ tsp_fnc_melee_action = {  //-- Ready, main, alt, block, push, kick, special, dod
 	sleep _impactTime;
 
 	//-- Impact
+	if (cursorObject in (nearestTerrainObjects [_unit, ["BUSH"], 15])) then {cursorObject setDamage (damage cursorObject + (_bush / ((boundingBox cursorObject)#2/8 max 0.01) min 1) )};
+	if (cursorObject in (nearestTerrainObjects [_unit, ["TREE","SMALL TREE"], 15])) then {cursorObject setDamage (damage cursorObject + (_tree / ((boundingBox cursorObject)#2/8 max 0.01) min 1) )};
 	if (!isNil "tsp_fnc_breach_melee") then {[_unit, _environmentDamage] spawn tsp_fnc_breach_melee};
 	if (!isPlayer _unit) then {_angle = 180};
 	_victims = [_unit, eyePos _unit, getCameraViewDirection _unit, _reach, _angle] call tsp_fnc_obstruction select {_x#0 isKindOf "Man"};

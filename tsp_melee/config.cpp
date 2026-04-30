@@ -34,12 +34,12 @@ class CfgMelee {
 		blockableDamage[] = {};
 		objectProjectile = "";
 		objectSound[] = {{"tsp_melee\snd\impact1.ogg", 1}};
-		environmentDamage[] = {1,0.1,0,0,0};  //_glass,_civil,_military,_reinforced,_wall
+		environmentDamage[] = {1, 0.1, 0, 0, 0, 0.2, 0.01};  //-- glass, civil, military, reinforced, wall, bush, tree
 		code = "";
 		condition = "false";
 	};
 	class variant_base_block: variant_base {gesture = "tsp_melee_fistBlock"; blockableDamage[] = {{"punch", 0.1, {{"tsp_melee\snd\impact1.ogg", 0}}}, {"stab", 0.2, {{"tsp_melee\snd\slice1.ogg", 1}}}};};
-	class variant_base_kick: variant_base {reach = 2.7; manKnockoutChance = 0; manStunChance = 1; manDisarmChance = 0.5; swingTime = 0.3; impactTime = 0.1; restTime = 0.3; afterTime = 0.1; environmentDamage[] = {1,0.6,0.3,0,0};};
+	class variant_base_kick: variant_base {reach = 2.7; manKnockoutChance = 0; manStunChance = 1; manDisarmChance = 0.5; swingTime = 0.3; impactTime = 0.1; restTime = 0.3; afterTime = 0.1; environmentDamage[] = {1, 0.7, 0.3, 0, 0, 0.2, 0.01};};  //-- glass, civil, military, reinforced, wall, bush, tree
 	class fist {
 		class ready {
 			class variant: variant_base {gesture = "tsp_melee_fistReady";};
@@ -190,6 +190,7 @@ class CfgMelee {
 				restTime = 0.1;
 				afterTime = 0.05;
 				objectProjectile = "tsp_melee_medium";
+				environmentDamage[] = {1, 0.1, 0, 0, 0, 0.3, 0.02};  //-- glass, civil, military, reinforced, wall, bush, tree
 			};
 			class variant1: variant {gesture = "tsp_melee_knifeDownSlashRight";};
 		};
@@ -209,6 +210,7 @@ class CfgMelee {
 				restTime = 0.25; 
 				afterTime = 0.3; 
 				objectProjectile = "tsp_melee_medium";
+				environmentDamage[] = {1, 0.1, 0, 0, 0, 0.3, 0.02};  //-- glass, civil, military, reinforced, wall, bush, tree
 			};
 		};
 		class push {class variant: variant_base_kick {animation = "tsp_melee_pistolKick"; gesture = "tsp_common_stop";};};
@@ -276,7 +278,6 @@ class CfgMelee {
 				restTime = 0.01; 
 				afterTime = 0.1;
 				objectProjectile = "tsp_melee_big";
-				environmentDamage[] = {1,0.2,0,0,0};  //_glass,_civil,_military,_reinforced,_wall
 			};
 		};
 		class special {class variant: variant_base {condition = "false";}}
@@ -327,7 +328,7 @@ class CfgMelee {
 				manStunChance = 0.75; 
 				manDisarmChance = 0.75;
 				objectProjectile = "tsp_melee_big";
-				environmentDamage[] = {1,0.8,0.1,0,0};  //_glass,_civil,_military,_reinforced,_wall
+				environmentDamage[] = {1, 0.8, 0.1, 0, 0, 0.5, 0.4};  //-- glass, civil, military, reinforced, wall, bush, tree
 			};
 			class variant1: variant {gesture = "tsp_melee_axeSlashLeft";};
 		};
@@ -349,7 +350,7 @@ class CfgMelee {
 				manStunChance = 1; 
 				manDisarmChance = 1;
 				objectProjectile = "tsp_melee_big";
-				environmentDamage[] = {1,0.9,0.2,0,0};  //_glass,_civil,_military,_reinforced,_wall
+				environmentDamage[] = {1, 0.9, 0.2, 0, 0, 0.7, 0.5};  //-- glass, civil, military, reinforced, wall, bush, tree
 			};
 		};
 		class push {class variant: variant_base_kick {animation = "tsp_melee_axeKick"; gesture = "";};};
@@ -365,6 +366,7 @@ class CfgMelee {
 				manDamageType = "punch";
 				manSound[] = {{"tsp_melee\snd\blunt1.ogg", 1},{"tsp_melee\snd\blunt2.ogg", 1},{"tsp_melee\snd\impact1.ogg", 1}}; 
 				manKnockoutSound[] = {{"tsp_melee\snd\knockout1.ogg", 1}};
+				environmentDamage[] = {1, 0.8, 0.4, 0, 0, 0.3, 0.1};  //-- glass, civil, military, reinforced, wall, bush, tree
 			};
 			class variant1: variant {gesture = "tsp_melee_sledgeSlam";};
 		};
@@ -373,7 +375,7 @@ class CfgMelee {
 				manDamageType = "punch";
 				manSound[] = {{"tsp_melee\snd\blunt1.ogg", 2},{"tsp_melee\snd\blunt1.ogg", 2}}; 
 				manKnockoutSound[] = {{"tsp_melee\snd\knockout1.ogg", 2}};
-				environmentDamage[] = {1,0.8,0.4,0,0};  //_glass,_civil,_military,_reinforced,_wall
+				environmentDamage[] = {1, 0.8, 0.4, 0, 0, 0.3, 0.1};  //-- glass, civil, military, reinforced, wall, bush, tree
 			};
 		};
 	};
