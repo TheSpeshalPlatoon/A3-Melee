@@ -20302,7 +20302,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 
 		class tsp_AinvPknlMstpSnonWnonDnon_medic: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic0.rtm";
 			showHandGun = true;
 			speed=1000000;
@@ -20359,7 +20359,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medicUp: tsp_AinvPknlMstpSnonWnonDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic4.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -20411,7 +20411,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDnon_medicEnd: tsp_AinvPknlMstpSnonWnonDnon_medic
 		{
 			speed=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic_ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -20440,7 +20440,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicEnd: HealBaseRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic_ainvpknlmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActions";
@@ -20577,7 +20577,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medic0: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic0.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -20621,28 +20621,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medic1: tsp_AinvPknlMstpSnonWnonDnon_medic0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic1.rtm";
 			showHandGun = true;
 			speed=0.25999999;
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medic2: tsp_AinvPknlMstpSnonWnonDnon_medic0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic2.rtm";
 			showHandGun = true;
 			speed=0.19;
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medic3: tsp_AinvPknlMstpSnonWnonDnon_medic0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic3.rtm";
 			showHandGun = true;
 			speed=0.2;
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medic3: tsp_AinvPknlMstpSnonWnonDnon_medic0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medic3.rtm";
 			showHandGun = true;
 			speed=0.13;
@@ -20667,7 +20667,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDr_medic4: HealBase
 		{
 			actions="tsp_HealActionsNon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medic4.rtm";
 			showHandGun = true;
 			speed=0.22;
@@ -20693,7 +20693,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDr_medic5: HealBase
 		{
 			actions="tsp_HealActionsNon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medic5.rtm";
 			showHandGun = true;
 			speed=0.11;
@@ -20718,7 +20718,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medic4: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic4.rtm";
 			showHandGun = true;
 			speed=0.13;
@@ -20747,7 +20747,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_HealActionsNon";
 			speed=0.43000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medic5.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon.p3d";
@@ -20834,7 +20834,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medic0: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medic0.rtm";
 			showHandGun = true;
 			speed=0.11;
@@ -20861,21 +20861,21 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medic1: tsp_AinvPknlMstpSnonWnonDr_medic0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medic1.rtm";
 			showHandGun = true;
 			speed=0.20999999;
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medic2: tsp_AinvPknlMstpSnonWnonDr_medic0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medic2.rtm";
 			showHandGun = true;
 			speed=0.13;
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medicUp0: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medicup0.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -20918,28 +20918,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medicUp1: tsp_AinvPknlMstpSnonWnonDnon_medicUp0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medicup1.rtm";
 			showHandGun = true;
 			speed=0.25999999;
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medicUp2: tsp_AinvPknlMstpSnonWnonDnon_medicUp0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medicup2.rtm";
 			showHandGun = true;
 			speed=0.19;
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medicUp3: tsp_AinvPknlMstpSnonWnonDnon_medicUp0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medicup3.rtm";
 			showHandGun = true;
 			speed=0.2;
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medicUp3: tsp_AinvPknlMstpSnonWnonDnon_medicUp0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medicup3.rtm";
 			showHandGun = true;
 			speed=-0.13;
@@ -20964,7 +20964,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDr_medicUp4: HealBase
 		{
 			actions="tsp_HealActionsNon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medicup4.rtm";
 			showHandGun = true;
 			speed=0.22;
@@ -20990,7 +20990,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDr_medicUp5: HealBase
 		{
 			actions="tsp_HealActionsNon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medicup5.rtm";
 			showHandGun = true;
 			speed=-0.11;
@@ -21015,7 +21015,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medicUp4: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medicup3.rtm";
 			showHandGun = true;
 			speed=-0.13;
@@ -21043,7 +21043,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_HealActionsNon";
 			speed=0.43000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_medicup5.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon.p3d";
@@ -21130,7 +21130,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medicUp0: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medicup0.rtm";
 			showHandGun = true;
 			speed=0.11;
@@ -21157,21 +21157,21 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medicUp1: tsp_AinvPknlMstpSnonWnonDr_medicUp0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medicup1.rtm";
 			showHandGun = true;
 			speed=0.20999999;
 		};
 		class tsp_AinvPknlMstpSnonWnonDr_medicUp2: tsp_AinvPknlMstpSnonWnonDr_medicUp0
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondr_medicup2.rtm";
 			showHandGun = true;
 			speed=0.13;
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon_medic: HealBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwnondnon_ainvpknlmstpsnonwnondnon_medic.rtm";
 			showHandGun = true;
 			actions="tsp_HealActionsNon";
@@ -21198,7 +21198,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_AinvPknlMstpSnonWrflDnon_medic: HealBaseRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_ainvpknlmstpsnonwrfldnon_medic.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon.p3d";
@@ -21244,7 +21244,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medic: HealBaseRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic0.rtm";
 			showHandGun = true;
 			speed=1e+008;
@@ -21303,7 +21303,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp: tsp_AinvPknlMstpSnonWrflDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicups0.rtm";
 			showHandGun = true;
 			actions="tsp_HealSelfActionBase";
@@ -21413,7 +21413,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic0_old: tsp_AinvPknlMstpSnonWrflDr_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic0.rtm";
 			showHandGun = true;
 			speed=0.11;
@@ -21437,7 +21437,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic1_old: tsp_AinvPknlMstpSnonWrflDr_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic1.rtm";
 			showHandGun = true;
 			speed=0.20999999;
@@ -21461,7 +21461,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic2_old: tsp_AinvPknlMstpSnonWrflDr_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic2.rtm";
 			showHandGun = true;
 			speed=0.13;
@@ -21485,7 +21485,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic3_old: tsp_AinvPknlMstpSnonWrflDr_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic3.rtm";
 			showHandGun = true;
 			speed=0.22;
@@ -21509,7 +21509,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic4_old: tsp_AinvPknlMstpSnonWrflDr_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic4.rtm";
 			showHandGun = true;
 			speed=0.22;
@@ -21533,7 +21533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic5_old: tsp_AinvPknlMstpSnonWrflDr_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic5.rtm";
 			showHandGun = true;
 			speed=0.11;
@@ -21677,7 +21677,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medic1: tsp_AinvPknlMstpSnonWrflDnon_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic1.rtm";
 			showHandGun = true;
 			speed=0.25999999;
@@ -21701,7 +21701,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medic2: tsp_AinvPknlMstpSnonWrflDnon_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic2.rtm";
 			showHandGun = true;
 			speed=0.19;
@@ -21725,7 +21725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medic3: tsp_AinvPknlMstpSnonWrflDnon_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic3.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -21749,7 +21749,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medic4: tsp_AinvPknlMstpSnonWrflDnon_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic4.rtm";
 			showHandGun = true;
 			speed=0.13;
@@ -21773,7 +21773,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medic5: tsp_AinvPknlMstpSnonWrflDnon_medic0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medic5.rtm";
 			showHandGun = true;
 			speed=0.43000001;
@@ -21797,7 +21797,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp0: tsp_AinvPknlMstpSnonWrflDnon_medicUp0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicup0.rtm";
 			showHandGun = true;
 			speed=0.31;
@@ -21821,7 +21821,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp1: tsp_AinvPknlMstpSnonWrflDnon_medicUp0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicup1.rtm";
 			showHandGun = true;
 			speed=0.25999999;
@@ -21845,7 +21845,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp2: tsp_AinvPknlMstpSnonWrflDnon_medicUp0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicup2.rtm";
 			showHandGun = true;
 			speed=0.19;
@@ -21869,7 +21869,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp3: tsp_AinvPknlMstpSnonWrflDnon_medicUp0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicup3.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -21893,7 +21893,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp4: tsp_AinvPknlMstpSnonWrflDnon_medicUp0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicup4.rtm";
 			showHandGun = true;
 			speed=0.13;
@@ -21917,7 +21917,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDnon_medicUp5: tsp_AinvPknlMstpSnonWrflDnon_medicUp0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldnon_medicup5.rtm";
 			showHandGun = true;
 			speed=0.43000001;
@@ -21942,7 +21942,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Crew: Default
 		{
 			actions="CargoActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -21971,7 +21971,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_BasicDriver: Default
 		{
 			actions="CargoActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_basicgunner.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -21994,7 +21994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_BasicDriverDying: DefaultDie
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dth\pne\stp\ras\rfl\adthppnemstpsraswrfldnon_1.rtm";
 			showHandGun = true;
 			looped=0;
@@ -22027,7 +22027,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_BasicDriverOut: Default
 		{
 			actions="CargoActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_basicgunner.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -22050,7 +22050,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_BasicDriverOutDying: DefaultDie
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dth\pne\stp\ras\rfl\adthppnemstpsraswrfldnon_1.rtm";
 			showHandGun = true;
 			looped=0;
@@ -22083,7 +22083,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_BasicSittingGunner_Dead: DefaultDie
 		{
 			actions="DeadActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dth\pne\stp\ras\rfl\adthppnemstpsraswrfldnon_1.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -22099,7 +22099,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_BasicSittingGunner: tsp_Crew
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_basicgunner.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -22121,7 +22121,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=7;
 			turnSpeed=2;
 			actions="tsp_RifleStandEvasiveActionsF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldf.rtm";
 			showHandGun = true;
 			speed=1.666;
@@ -22159,7 +22159,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_SprintBaseDfl: tsp_SprintBaseDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldfl.rtm";
 			showHandGun = true;
 			speed=1.4152499;
@@ -22177,7 +22177,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_SprintBaseDfr: tsp_SprintBaseDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldfr.rtm";
 			showHandGun = true;
 			speed=1.4152499;
@@ -22195,7 +22195,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_SprintCivilBaseDf: tsp_SprintBaseDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			speed=1.37143;
@@ -22213,13 +22213,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_SprintCivilBaseDfl: tsp_SprintCivilBaseDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 		};
 		class tsp_SprintCivilBaseDfr: tsp_SprintCivilBaseDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 		};
@@ -22240,7 +22240,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			actions="tsp_RifleLowStandActions";
 			duty=-0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\data\geom\sdr\Perc_Wrfl_Low.p3d";
@@ -22545,7 +22545,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSlowWrflDnon_G01: tsp_AidlPercMstpSlowWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g01.rtm";
 			showHandGun = true;
 			speed=-30;
@@ -22569,28 +22569,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSlowWrflDnon_G02: tsp_AidlPercMstpSlowWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g02.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.017899999,1,0.035500001,0,0.13699999,0,0.168,1,0.537,1,0.542,0,0.68000001,0,0.70599997,1};
 		};
 		class tsp_AidlPercMstpSlowWrflDnon_G03: tsp_AidlPercMstpSlowWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g03.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.69300002,1,0.71111,0,0.80800003,0,0.82599998,1};
 		};
 		class tsp_AidlPercMstpSlowWrflDnon_G04: tsp_AidlPercMstpSlowWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g04.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={1};
 		};
 		class tsp_AidlPercMstpSlowWrflDnon_G05: tsp_AidlPercMstpSlowWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g05.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.053300001,1,0.066600002,0,0.182,0,0.2,1,0.27700001,1,0.29300001,0,0.38600001,0,0.40000001,1};
@@ -22740,7 +22740,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			speed=-1.25;
 			minPlayTime=0.69;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\low\rfl\aovrpercmstpslowwrfldf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wovr.p3d";
@@ -22760,7 +22760,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWrflDnon_turnL: tsp_AidlPercMstpSlowWrflDnon_G0S
 		{
 			duty=-0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -22782,7 +22782,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWrflDnon_turnR: tsp_AidlPercMstpSlowWrflDnon_G0S
 		{
 			duty=-0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -22817,7 +22817,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			interpolationSpeed=4;
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -23090,7 +23090,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_AI: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			variantsAI[]=
@@ -23130,7 +23130,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G01: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g01.rtm";
 			showHandGun = true;
 			speed=-30;
@@ -23163,46 +23163,46 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G02: tsp_AidlPercMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g02.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.017899999,1,0.035500001,0,0.13699999,0,0.168,1,0.537,1,0.542,0,0.68000001,0,0.70599997,1};
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G03: tsp_AidlPercMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g03.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.69300002,1,0.71111,0,0.80800003,0,0.82599998,1};
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G04: tsp_AidlPercMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\rfl\aidlpercmstpslowwrfldnon_g04.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={1};
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G01_player: tsp_AidlPercMstpSrasWrflDnon_G04
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\rfl\aidlpercmstpsraswrfldnon_g01_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G02_player: tsp_AidlPercMstpSrasWrflDnon_G04
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\rfl\aidlpercmstpsraswrfldnon_g02_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G03_player: tsp_AidlPercMstpSrasWrflDnon_G04
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\rfl\aidlpercmstpsraswrfldnon_g03_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_G04_player: tsp_AidlPercMstpSrasWrflDnon_G04
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\rfl\aidlpercmstpsraswrfldnon_g04_player.rtm";
 			showHandGun = true;
 		};
@@ -23211,7 +23211,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=0;
 			canBlendStep=0;
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -23240,7 +23240,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=0;
 			canBlendStep=0;
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.7;
@@ -23266,7 +23266,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_turnR: tsp_AmovPercMstpSrasWrflDnon_turnR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActions_Idle";
@@ -23285,7 +23285,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWrflDnon_turnL: tsp_AmovPercMstpSrasWrflDnon_turnL
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActions_Idle";
@@ -23326,7 +23326,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWrflDnon_AadjPercMstpSrasWrflDup: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_aadjpercmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23358,7 +23358,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWrflDnon_AadjPercMstpSrasWrflDdown: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_aadjpercmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23389,7 +23389,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWrflDnon_AadjPercMstpSrasWrflDleft: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_aadjpercmstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23420,7 +23420,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWrflDnon_AadjPercMstpSrasWrflDright: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_aadjpercmstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23450,7 +23450,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWrflDup: tsp_AidlPercMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=0.106195;
@@ -23546,7 +23546,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldup_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23559,7 +23559,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWrflDdown: tsp_AadjPercMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrflddown.rtm";
 			showHandGun = true;
 			actions="tsp_RifleAdjustBStandActions";
@@ -23655,7 +23655,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrflddown_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23668,7 +23668,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWrflDleft: tsp_AadjPercMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=0.13953499;
@@ -23767,7 +23767,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldleft_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23779,7 +23779,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWrflDright: tsp_AadjPercMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=0.101695;
@@ -23877,7 +23877,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldright_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -23898,7 +23898,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			speed=0.60000002;
 			minPlayTime=0.69;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\ras\rfl\aovrpercmstpsraswrfldf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wovr.p3d";
@@ -23920,7 +23920,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			forceAim=1;
 			minPlayTime=0.89999998;
 			duty=10;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\ras\rfl\aovrpercmrunsraswrfldf.rtm";
 			showHandGun = true;
 			speed=1.25849;
@@ -23938,7 +23938,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			actions="tsp_RifleKneelLowActions";
 			duty=-0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			visibleSize=0.30000001;
@@ -24142,7 +24142,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSlowWrflDnon_G01: tsp_AidlPknlMstpSlowWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\rfl\aidlpknlmstpslowwrfldnon_g01.rtm";
 			showHandGun = true;
 			speed=-30;
@@ -24165,14 +24165,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSlowWrflDnon_G02: tsp_AidlPknlMstpSlowWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\rfl\aidlpknlmstpslowwrfldnon_g02.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.213,1,0.23,0,0.36000001,0,0.375,1,0.76700002,1,0.778,0,0.85299999,0,0.87099999,1,0.93699998,1,0.94199997,0,0.97000003,0,0.977,1};
 		};
 		class tsp_AidlPknlMstpSlowWrflDnon_G03: tsp_AidlPknlMstpSlowWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\rfl\aidlpknlmstpslowwrfldnon_g03.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.56800002,1,0.60000002,0,0.66600001,0,0.68400002,1,0.85699999,1,0.86699998,0,0.93000001,0,0.94199997,1};
@@ -24298,7 +24298,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0.61000001,0,0.81,1};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_gear_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -24328,7 +24328,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0.31,1,0.44999999,0};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpsraswrfldnon_gear.rtm";
 			showHandGun = true;
 			speed=2.8;
@@ -24356,7 +24356,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWrflDnon_gear: tsp_AidlPknlMstpSlowWrflDnon_G0S
 		{
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_gear.rtm";
 			showHandGun = true;
 			speed=10;
@@ -24423,7 +24423,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0.61000001,0,0.81,1};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_gear_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -24455,7 +24455,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0.31,1,0.44999999,0};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpsraswrfldnon_gear.rtm";
 			showHandGun = true;
 			speed=2.8;
@@ -24484,7 +24484,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWrflDnon_gear: tsp_AmovPknlMstpSrasWrflDnon_gear
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_gear.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActions_gear";
@@ -24575,7 +24575,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSlowWrflDnon_turnL: tsp_AidlPknlMstpSlowWrflDnon_G0S
 		{
 			duty=-0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -24597,7 +24597,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSlowWrflDnon_turnR: tsp_AidlPknlMstpSlowWrflDnon_G0S
 		{
 			duty=-0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -24627,7 +24627,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.5
 			};
 			variantAfter[]={15,15,15};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wrfl.p3d";
@@ -24850,7 +24850,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWrflDnon_AI: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			variantAfter[]={30,30,30};
@@ -24882,7 +24882,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWrflDnon_G01: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\rfl\aidlpknlmstpslowwrfldnon_g01.rtm";
 			showHandGun = true;
 			speed=-15;
@@ -24905,7 +24905,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWrflDnon_G02: tsp_AidlPknlMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\rfl\aidlpknlmstpslowwrfldnon_g02.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -24926,19 +24926,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWrflDnon_G01_player: tsp_AidlPknlMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\rfl\aidlpknlmstpsraswrfldnon_g01_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSrasWrflDnon_G02_player: tsp_AidlPknlMstpSrasWrflDnon_G02
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\rfl\aidlpknlmstpsraswrfldnon_g02_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPknlMstpSrasWrflDnon_AadjPknlMstpSrasWrflDup: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_aadjpknlmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -24967,7 +24967,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWrflDnon_AadjPknlMstpSrasWrflDdown: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_aadjpknlmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -24997,7 +24997,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWrflDnon_AadjPknlMstpSrasWrflDleft: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_aadjpknlmstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -25026,7 +25026,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWrflDnon_AadjPknlMstpSrasWrflDright: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_aadjpknlmstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -25056,7 +25056,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMstpSrasWrflDup: tsp_AidlPknlMstpSrasWrflDnon_G0S
 		{
 			aimPrecision=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=0.116505;
@@ -25155,7 +25155,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrfldup_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -25166,7 +25166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPknlMstpSrasWrflDdown: tsp_AadjPknlMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -25265,7 +25265,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrflddown_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -25277,7 +25277,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPknlMstpSrasWrflDleft: tsp_AadjPknlMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=0.13953499;
@@ -25377,7 +25377,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrfldleft_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -25388,7 +25388,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPknlMstpSrasWrflDright: tsp_AadjPknlMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=0.13953499;
@@ -25488,7 +25488,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrfldright_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.25;
@@ -25500,7 +25500,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWrflDnon_AmovPknlMrunSlowWrflDf: tsp_AmovPknlMstpSrasWrflDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmstpsraswrfldnon_amovpknlmrunslowwrfldf.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -25524,7 +25524,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=-0.2;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.35;
@@ -25554,7 +25554,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=-0.2;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.35;
@@ -25594,7 +25594,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			actions="tsp_RifleProneActions";
 			duty=-0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne.p3d";
@@ -25847,7 +25847,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPpneMstpSrasWrflDnon_G01: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			speed=-15;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\rfl\aidlppnemstpsraswrfldnon_g01.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -25868,31 +25868,31 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPpneMstpSrasWrflDnon_G02: tsp_AidlPpneMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\rfl\aidlppnemstpsraswrfldnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWrflDnon_G03: tsp_AidlPpneMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\rfl\aidlppnemstpsraswrfldnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWrflDnon_G01_player: tsp_AidlPpneMstpSrasWrflDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\rfl\aidlppnemstpsraswrfldnon_g01_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWrflDnon_G02_player: tsp_AidlPpneMstpSrasWrflDnon_G02
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\rfl\aidlppnemstpsraswrfldnon_g02_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWrflDnon_G03_player: tsp_AidlPpneMstpSrasWrflDnon_G03
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\rfl\aidlppnemstpsraswrfldnon_g03_player.rtm";
 			showHandGun = true;
 		};
@@ -25909,7 +25909,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWrflDnon_AadjPpneMstpSrasWrflDup: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aadjppnemstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.94999999;
@@ -25943,7 +25943,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWrflDnon_AadjPpneMstpSrasWrflDdown: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aadjppnemstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -25977,7 +25977,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDup: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			aimPrecision=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldup.rtm";
 			showHandGun = true;
 			canBlendStep=0;
@@ -26028,7 +26028,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDup_turnL: tsp_AadjPpneMstpSrasWrflDup
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -26049,7 +26049,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDup_turnR: tsp_AadjPpneMstpSrasWrflDup
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -26075,7 +26075,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldup_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.87;
@@ -26088,7 +26088,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMstpSrasWrflDdown: tsp_AadjPpneMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrflddown.rtm";
 			showHandGun = true;
 			aimPrecision=1.25;
@@ -26122,7 +26122,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDdown_turnL: tsp_AadjPpneMstpSrasWrflDdown
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -26143,7 +26143,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDdown_turnR: tsp_AadjPpneMstpSrasWrflDdown
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -26164,7 +26164,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDleft: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			aimPrecision=1.25;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldleft.rtm";
 			showHandGun = true;
 			actions="tsp_RifleAdjustLProneActions";
@@ -26206,7 +26206,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWrflDright: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			aimPrecision=1.25;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldright.rtm";
 			showHandGun = true;
 			actions="tsp_RifleAdjustRProneActions";
@@ -26249,7 +26249,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovpercmstpsraswrfldnon_aadjppnemstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-1.6;
@@ -26265,7 +26265,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovpercmstpsraswrfldnon_aadjppnemstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-1.6;
@@ -26281,7 +26281,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovpknlmstpsraswrfldnon_aadjppnemstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-1.8;
@@ -26298,7 +26298,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovpknlmstpsraswrfldnon_aadjppnemstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-1.6;
@@ -26318,7 +26318,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrflddown_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -26332,7 +26332,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_AadjPpneMstpSrasWrflDright: tsp_AadjPpneMstpSrasWrflDright
 		{
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aadjppnemstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -26347,7 +26347,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_AadjPpneMstpSrasWrflDleft: tsp_AadjPpneMstpSrasWrflDleft
 		{
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aadjppnemstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -26368,7 +26368,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldleft_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-2;
@@ -26386,7 +26386,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldright_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-2;
@@ -26405,7 +26405,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldleft_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1.75;
@@ -26423,7 +26423,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldright_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1.35;
@@ -26441,7 +26441,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldleft_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1.3;
@@ -26459,7 +26459,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldright_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1.3;
@@ -26493,7 +26493,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWrflDnon_injured: AgonyBaseRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\geom_empty.p3d";
@@ -26534,7 +26534,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_injuredHealed: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			actions="tsp_RifleProneActions_injured";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_healed.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -26564,7 +26564,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_turnL: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			duty=-0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.70588201;
@@ -26590,7 +26590,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_turnR: tsp_AidlPpneMstpSrasWrflDnon_G0S
 		{
 			duty=-0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.85714298;
@@ -26628,7 +26628,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantAfter[]={15,15,15};
 			actions="tsp_PistolStandActions";
 			duty=-0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -26858,7 +26858,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPercMstpSrasWpstDnon_G01: tsp_AidlPercMstpSrasWpstDnon_G0S
 		{
 			speed=-15;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\pst\aidlpercmstpsraswpstdnon_g01.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -26879,31 +26879,31 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWpstDnon_G02: tsp_AidlPercMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\pst\aidlpercmstpsraswpstdnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWpstDnon_G03: tsp_AidlPercMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\pst\aidlpercmstpsraswpstdnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWpstDnon_G01_player: tsp_AidlPercMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\pst\aidlpercmstpsraswpstdnon_g01_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWpstDnon_G02_player: tsp_AidlPercMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\pst\aidlpercmstpsraswpstdnon_g02_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWpstDnon_G03_player: tsp_AidlPercMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\pst\aidlpercmstpsraswpstdnon_g03_player.rtm";
 			showHandGun = true;
 		};
@@ -26916,7 +26916,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=0;
 			looped=0;
 			speed=0.347368;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\ras\pst\aovrpercmstpsraswpstdf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wovr.p3d";
@@ -26966,7 +26966,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AadjPercMstpSrasWpstDup: tsp_AmovPercMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\amovpercmstpsraswpstdnon_aadjpercmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -26999,7 +26999,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AadjPercMstpSrasWpstDdown: tsp_AmovPercMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\amovpercmstpsraswpstdnon_aadjpercmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -27032,7 +27032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AadjPercMstpSrasWpstDleft: tsp_AmovPercMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\amovpercmstpsraswpstdnon_aadjpercmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-0.30000001;
@@ -27065,7 +27065,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AadjPercMstpSrasWpstDright: tsp_AmovPercMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\amovpercmstpsraswpstdnon_aadjpercmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-0.30000001;
@@ -27098,7 +27098,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMstpSrasWpstDup: tsp_AmovPercMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=0.037500001;
@@ -27194,7 +27194,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdup_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -27206,7 +27206,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWpstDdown: tsp_AadjPercMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=0.032432001;
@@ -27302,7 +27302,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstddown_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -27315,7 +27315,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWpstDleft: tsp_AadjPercMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=0.037795;
@@ -27412,7 +27412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdleft_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -27425,7 +27425,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPercMstpSrasWpstDright: tsp_AadjPercMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=0.037795;
@@ -27522,7 +27522,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdright_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -27546,7 +27546,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.33399999
 			};
 			actions="tsp_PistolLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -27712,7 +27712,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWpstDnon_turnL: tsp_AidlPercMstpSlowWpstDnon_G0S
 		{
 			duty=-0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -27734,7 +27734,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWpstDnon_turnR: tsp_AidlPercMstpSlowWpstDnon_G0S
 		{
 			duty=-0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -27756,7 +27756,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPercMstpSlowWpstDnon_G01: tsp_AidlPercMstpSlowWpstDnon_G0S
 		{
 			speed=-15;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\pst\aidlpercmstpslowwpstdnon_g01.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -27777,13 +27777,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSlowWpstDnon_G02: tsp_AidlPercMstpSlowWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\pst\aidlpercmstpslowwpstdnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSlowWpstDnon_G03: tsp_AidlPercMstpSlowWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\low\pst\aidlpercmstpslowwpstdnon_g03.rtm";
 			showHandGun = true;
 		};
@@ -27800,7 +27800,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			speed=1.66667;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			interpolationRestart=2;
@@ -27820,7 +27820,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSlowWpstDnon_AmovPercMstpSrasWpstDnon: tsp_AmovPercMstpSrasWpstDnon_AidlPercMstpSlowWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.7647099;
@@ -27846,7 +27846,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=-0.2;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -27870,7 +27870,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=-0.2;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -27905,7 +27905,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_PistolKneelActions";
 			duty=-0.60000002;
 			visibleSize=0.30000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wpst.p3d";
@@ -28080,7 +28080,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPknlMstpSrasWpstDnon_G01: tsp_AidlPknlMstpSrasWpstDnon_G0S
 		{
 			speed=-15;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\pst\aidlpknlmstpsraswpstdnon_g01.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -28101,31 +28101,31 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWpstDnon_G02: tsp_AidlPknlMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\pst\aidlpknlmstpsraswpstdnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSrasWpstDnon_G03: tsp_AidlPknlMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\pst\aidlpknlmstpsraswpstdnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSrasWpstDnon_G01_player: tsp_AidlPknlMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\pst\aidlpknlmstpsraswpstdnon_g01_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSrasWpstDnon_G02_player: tsp_AidlPknlMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\pst\aidlpknlmstpsraswpstdnon_g02_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSrasWpstDnon_G03_player: tsp_AidlPknlMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\pst\aidlpknlmstpsraswpstdnon_g03_player.rtm";
 			showHandGun = true;
 		};
@@ -28151,7 +28151,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPcrhMstpSrasWpstDnon_AadjPcrhMstpSrasWpstDup: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\amovpcrhmstpsraswpstdnon_aadjpcrhmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=2.6666701;
@@ -28179,7 +28179,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPcrhMstpSrasWpstDnon_AadjPcrhMstpSrasWpstDdown: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\amovpcrhmstpsraswpstdnon_aadjpcrhmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=2.8800001;
@@ -28207,7 +28207,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPcrhMstpSrasWpstDnon_AadjPcrhMstpSrasWpstDleft: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\amovpcrhmstpsraswpstdnon_aadjpcrhmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=2.25;
@@ -28235,7 +28235,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPcrhMstpSrasWpstDnon_AadjPcrhMstpSrasWpstDright: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\amovpcrhmstpsraswpstdnon_aadjpcrhmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=2.1818199;
@@ -28263,7 +28263,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPcrhMstpSrasWpstDup: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstdup.rtm";
 			showHandGun = true;
 			aimprecision=1;
@@ -28285,7 +28285,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPcrhMstpSrasWpstDup_AmovPcrhMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstdup_amovpcrhmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.6381;
@@ -28306,7 +28306,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPcrhMstpSrasWpstDdown: tsp_AadjPcrhMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=0.037500001;
@@ -28326,7 +28326,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPcrhMstpSrasWpstDDown_AmovPcrhMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstddown_amovpcrhmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=2;
@@ -28347,7 +28347,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPcrhMstpSrasWpstDleft: tsp_AadjPcrhMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=0.035036001;
@@ -28367,7 +28367,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPcrhMstpSrasWpstDleft_AmovPcrhMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstdleft_amovpcrhmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.4;
@@ -28388,7 +28388,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPcrhMstpSrasWpstDright: tsp_AadjPcrhMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=0.036641002;
@@ -28408,7 +28408,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPcrhMstpSrasWpstDright_AmovPcrhMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\crh\stp\ras\pst\aadjpcrhmstpsraswpstdright_amovpcrhmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=2.1619101;
@@ -28430,7 +28430,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AadjPknlMstpSrasWpstDup: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_aadjpknlmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -28463,7 +28463,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AadjPknlMstpSrasWpstDdown: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_aadjpknlmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -28496,7 +28496,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AadjPknlMstpSrasWpstDleft: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_aadjpknlmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-0.30000001;
@@ -28529,7 +28529,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AadjPknlMstpSrasWpstDright: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_aadjpknlmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-0.30000001;
@@ -28562,7 +28562,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMstpSrasWpstDup: tsp_AmovPknlMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=0.058823001;
@@ -28661,7 +28661,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstdup_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -28674,7 +28674,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPknlMstpSrasWpstDdown: tsp_AadjPknlMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=0.048485;
@@ -28774,7 +28774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstddown_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.2;
@@ -28787,7 +28787,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPknlMstpSrasWpstDleft: tsp_AadjPknlMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=0.045283001;
@@ -28886,7 +28886,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstdleft_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.40000001;
@@ -28899,7 +28899,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPknlMstpSrasWpstDright: tsp_AadjPknlMstpSrasWpstDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=0.034042999;
@@ -28998,7 +28998,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstdright_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.40000001;
@@ -29022,7 +29022,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AidlPknlMstpSlowWpstDnon_G01",
 				0.33399999
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			disableWeaponsLong=1;
@@ -29157,7 +29157,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPknlMstpSlowWpstDnon_G01: tsp_AidlPknlMstpSlowWpstDnon_G0S
 		{
 			speed=-8;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\pst\aidlpknlmstpslowwpstdnon_g01.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -29178,20 +29178,20 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSlowWpstDnon_G02: tsp_AidlPknlMstpSlowWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\pst\aidlpknlmstpslowwpstdnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSlowWpstDnon_G03: tsp_AidlPknlMstpSlowWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\low\pst\aidlpknlmstpslowwpstdnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPknlMstpSlowWpstDnon_turnL: tsp_AidlPknlMstpSlowWpstDnon_G0S
 		{
 			duty=-0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -29213,7 +29213,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSlowWpstDnon_turnR: tsp_AidlPknlMstpSlowWpstDnon_G0S
 		{
 			duty=-0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -29238,7 +29238,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=0.1;
 			static=1;
 			relSpeedMin=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -29275,7 +29275,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDfl: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsWlkFl";
@@ -29306,7 +29306,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDl: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -29338,7 +29338,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDbl: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdbl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -29370,7 +29370,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDb: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -29402,7 +29402,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDbr: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -29434,7 +29434,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDr: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdr.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -29466,7 +29466,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWpstDfr: tsp_AmovPknlMwlkSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\pst\amovpknlmwlkslowwpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsWlkFr";
@@ -29498,7 +29498,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDf: tsp_AmovPknlMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -29526,7 +29526,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDfl: tsp_AmovPknlMwlkSlowWpstDfl
 		{
 			actions="tsp_PistolLowKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdfl.rtm";
 			showHandGun = true;
 			headBobStrength=0.050000001;
@@ -29554,7 +29554,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDfr: tsp_AmovPknlMwlkSlowWpstDfr
 		{
 			actions="tsp_PistolLowKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdfr.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -29582,7 +29582,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDl: tsp_AmovPknlMwlkSlowWpstDl
 		{
 			actions="tsp_PistolLowKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdl.rtm";
 			showHandGun = true;
 			speed=0.43478;
@@ -29610,7 +29610,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDr: tsp_AmovPknlMwlkSlowWpstDr
 		{
 			actions="tsp_PistolLowKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdr.rtm";
 			showHandGun = true;
 			headBobStrength=0.050000001;
@@ -29638,7 +29638,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDbl: tsp_AmovPknlMwlkSlowWpstDbl
 		{
 			actions="tsp_PistolLowKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdbl.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -29666,7 +29666,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDbr: tsp_AmovPknlMwlkSlowWpstDbr
 		{
 			actions="tsp_PistolLowKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -29694,7 +29694,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWpstDb: tsp_AmovPknlMwlkSlowWpstDb
 		{
 			actions="tsp_PistolLowKneelActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\pst\amovpknlmlmpslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -29725,7 +29725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			duty=0.2;
 			speed=0.75;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdf.rtm";
 			showHandGun = true;
 			headBobStrength=0.124378;
@@ -29762,7 +29762,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSlowWpstDfl: tsp_AmovPknlMtacSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacFL";
@@ -29798,7 +29798,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSlowWpstDl: tsp_AmovPknlMtacSlowWpstDf
 		{
 			speed=0.779221;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacL";
@@ -29830,7 +29830,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSlowWpstDb: tsp_AmovPknlMtacSlowWpstDf
 		{
 			speed=0.81081098;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdb.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacB";
@@ -29861,7 +29861,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSlowWpstDbl: tsp_AmovPknlMtacSlowWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdbl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacBL";
@@ -29892,7 +29892,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSlowWpstDbr: tsp_AmovPknlMtacSlowWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdbr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacBR";
@@ -29923,7 +29923,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSlowWpstDr: tsp_AmovPknlMtacSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacR";
@@ -29954,7 +29954,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSlowWpstDfr: tsp_AmovPknlMtacSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\pst\amovpknlmtacslowwpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsTacFR";
@@ -29991,7 +29991,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			aimPrecision=3;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdf.rtm";
 			showHandGun = true;
 			duty=0.30000001;
@@ -30035,7 +30035,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDfl: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsRunFl";
@@ -30068,7 +30068,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDl: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdl.rtm";
 			showHandGun = true;
 			speed=1.66667;
@@ -30103,7 +30103,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDbl: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdbl.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -30135,7 +30135,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDb: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -30167,7 +30167,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDbr: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -30199,7 +30199,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDr: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdr.rtm";
 			showHandGun = true;
 			speed=1.66667;
@@ -30231,7 +30231,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWpstDfr: tsp_AmovPknlMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowKneelActionsRunFr";
@@ -30264,7 +30264,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			speed=2.3076899;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -30290,7 +30290,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			leftHandIKCurve[]={0.61000001,0,0.81,1};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_gear_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -30323,7 +30323,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			leftHandIKCurve[]={0.31,1,0.44999999,0};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsraswpstdnon_gear.rtm";
 			showHandGun = true;
 			speed=2.8;
@@ -30352,7 +30352,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_gear.rtm";
 			showHandGun = true;
 			speed=10;
@@ -30400,7 +30400,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0.61000001,0,0.81,1};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_gear_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -30432,7 +30432,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0.31,1,0.44999999,0};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsraswpstdnon_gear.rtm";
 			showHandGun = true;
 			speed=2.8;
@@ -30461,7 +30461,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_gear: tsp_AmovPknlMstpSrasWpstDnon_gear
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_gear.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActions_gear";
@@ -30492,7 +30492,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSlowWpstDnon_gear: tsp_AmovPknlMstpSrasWpstDnon_gear
 		{
 			speed=6;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -30518,7 +30518,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=-0.40000001;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -30544,7 +30544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=-0.40000001;
 			boundingSphere=8;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -30577,7 +30577,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			actions="tsp_PistolProneActions";
 			duty=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			visibleSize=0.15000001;
@@ -30725,7 +30725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPpneMstpSrasWpstDnon_G01: tsp_AidlPpneMstpSrasWpstDnon_G0S
 		{
 			speed=-15;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\pst\aidlppnemstpsraswpstdnon_g01.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -30746,38 +30746,38 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPpneMstpSrasWpstDnon_G02: tsp_AidlPpneMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\pst\aidlppnemstpsraswpstdnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWpstDnon_G03: tsp_AidlPpneMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\pst\aidlppnemstpsraswpstdnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWpstDnon_G01_player: tsp_AidlPpneMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\pst\aidlppnemstpsraswpstdnon_g01_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWpstDnon_G02_player: tsp_AidlPpneMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\pst\aidlppnemstpsraswpstdnon_g02_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSrasWpstDnon_G03_player: tsp_AidlPpneMstpSrasWpstDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\ras\pst\aidlppnemstpsraswpstdnon_g03_player.rtm";
 			showHandGun = true;
 		};
 		class tsp_AadjPpneMstpSrasWpstDup: tsp_AidlPpneMstpSrasWpstDnon_G0S
 		{
 			aimPrecision=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdup.rtm";
 			showHandGun = true;
 			actions="tsp_PistolAdjustFProneActions";
@@ -30818,7 +30818,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWpstDup_turnL: tsp_AadjPpneMstpSrasWpstDup
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -30839,7 +30839,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWpstDup_turnR: tsp_AadjPpneMstpSrasWpstDup
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -30861,7 +30861,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			aimPrecision=1.25;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstddown.rtm";
 			showHandGun = true;
 			actions="tsp_PistolAdjustBProneActions";
@@ -30892,7 +30892,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWpstDdown_turnL: tsp_AadjPpneMstpSrasWpstDdown
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -30913,7 +30913,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMstpSrasWpstDdown_turnR: tsp_AadjPpneMstpSrasWpstDdown
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -30933,7 +30933,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMstpSrasWpstDleft: tsp_AidlPpneMstpSrasWpstDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdleft.rtm";
 			showHandGun = true;
 			actions="tsp_PistolAdjustLProneActions";
@@ -30972,7 +30972,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMstpSrasWpstDright: tsp_AidlPpneMstpSrasWpstDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdright.rtm";
 			showHandGun = true;
 			actions="tsp_PistolAdjustRProneActions";
@@ -31012,7 +31012,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AadjPpneMstpSrasWpstDup: tsp_AadjPpneMstpSrasWpstDup
 		{
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aadjppnemstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=1;
@@ -31028,7 +31028,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AadjPpneMstpSrasWpstDdown: tsp_AadjPpneMstpSrasWpstDdown
 		{
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aadjppnemstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -31044,7 +31044,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AadjPpneMstpSrasWpstDright: tsp_AadjPpneMstpSrasWpstDright
 		{
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aadjppnemstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -31060,7 +31060,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AadjPpneMstpSrasWpstDleft: tsp_AadjPpneMstpSrasWpstDleft
 		{
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aadjppnemstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -31077,7 +31077,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovpercmstpsraswpstdnon_aadjppnemstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-1.6;
@@ -31094,7 +31094,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovpercmstpsraswpstdnon_aadjppnemstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-1.6;
@@ -31111,7 +31111,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovpknlmstpsraswpstdnon_aadjppnemstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-1.8;
@@ -31128,7 +31128,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\amovpknlmstpsraswpstdnon_aadjppnemstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-1.6;
@@ -31149,7 +31149,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdup_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -31166,7 +31166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstddown_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -31184,7 +31184,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdleft_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-2;
@@ -31202,7 +31202,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdleft_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1.75;
@@ -31218,7 +31218,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdright_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1.35;
@@ -31235,7 +31235,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdright_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1.7;
@@ -31251,7 +31251,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdleft_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1.3;
@@ -31268,7 +31268,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdright_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1.3;
@@ -31300,7 +31300,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_turnL: tsp_AidlPpneMstpSrasWpstDnon_G0S
 		{
 			duty=-0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -31323,7 +31323,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_turnR: tsp_AidlPpneMstpSrasWpstDnon_G0S
 		{
 			duty=-0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -31367,7 +31367,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_LauncherKneelActions";
 			duty=-0.40000001;
 			visibleSize=0.30000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -31575,7 +31575,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ReloadRPGKneel: tsp_AidlPknlMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\reloadfullrpgkneel.rtm";
 			showHandGun = true;
 			speed=0.339149;
@@ -31605,7 +31605,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ReloadRPG7VKneel: tsp_AidlPknlMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\reloadrpg7vkneel.rtm";
 			showHandGun = true;
 			speed=0.339149;
@@ -31636,7 +31636,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWlnrDnon_G01: tsp_AidlPknlMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\lnr\aidlpknlmstpsraswlnrdnon_g01.rtm";
 			showHandGun = true;
 			speed=-15;
@@ -31660,20 +31660,20 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSrasWlnrDnon_G02: tsp_AidlPknlMstpSrasWlnrDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\lnr\aidlpknlmstpsraswlnrdnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSrasWlnrDnon_G03: tsp_AidlPknlMstpSrasWlnrDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\ras\lnr\aidlpknlmstpsraswlnrdnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPknlMstpSrasWlnrDnon_turnL: tsp_AidlPknlMstpSrasWlnrDnon_G0S
 		{
 			duty=-0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.35;
@@ -31700,7 +31700,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWlnrDnon_turnR: tsp_AidlPknlMstpSrasWlnrDnon_G0S
 		{
 			duty=-0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.35;
@@ -31726,7 +31726,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWlnrDnon: tsp_AidlPknlMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\lnr\amovppnemstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			duty=-1.2;
@@ -31814,7 +31814,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSrasWlnrDf: tsp_AmovPpneMstpSrasWlnrDnon
 		{
 			visibleSize=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdf.rtm";
 			showHandGun = true;
 			speed=0.600541;
@@ -31858,7 +31858,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDfl: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdfl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -31887,7 +31887,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDl: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdl.rtm";
 			showHandGun = true;
 			speed=0.625;
@@ -31914,7 +31914,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDbl: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdbl.rtm";
 			showHandGun = true;
 			speed=0.70252401;
@@ -31941,7 +31941,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDb: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdb.rtm";
 			showHandGun = true;
 			speed=0.64692301;
@@ -31968,7 +31968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDbr: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdbr.rtm";
 			showHandGun = true;
 			speed=0.85934103;
@@ -31995,7 +31995,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDr: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdr.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -32022,7 +32022,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSrasWlnrDfr: tsp_AmovPpneMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\lnr\amovppnemrunslowwlnrdfr.rtm";
 			showHandGun = true;
 			speed=0.45519599;
@@ -32068,7 +32068,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			InterpolationSpeed=2.5;
 			actions="tsp_CivilStandActions";
 			duty=-0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -32338,7 +32338,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSnonWnonDnon_G01: tsp_AidlPercMstpSnonWnonDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\non\non\aidlpercmstpsnonwnondnon_g01.rtm";
 			showHandGun = true;
 			speed=-45;
@@ -32360,31 +32360,31 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSnonWnonDnon_G02: tsp_AidlPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\non\non\aidlpercmstpsnonwnondnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSnonWnonDnon_G03: tsp_AidlPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\non\non\aidlpercmstpsnonwnondnon_g03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSnonWnonDnon_G04: tsp_AidlPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\non\non\aidlpercmstpsnonwnondnon_g04.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSnonWnonDnon_G05: tsp_AidlPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\non\non\aidlpercmstpsnonwnondnon_g05.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSnonWnonDnon_G06: tsp_AidlPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\non\non\aidlpercmstpsnonwnondnon_g06.rtm";
 			showHandGun = true;
 		};
@@ -32412,7 +32412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			headBobMode=0;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Idle.p3d";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_assemblingvehicleerc.rtm";
 			showHandGun = true;
 			speed=-30;
@@ -32439,14 +32439,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_table1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_table1.rtm";
 			showHandGun = true;
 			speed=0.021052999;
 		};
 		class tsp_InBaseMoves_HandsBehindBack1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_handsbehindback1.rtm";
 			showHandGun = true;
 			speed=0.016367;
@@ -32472,7 +32472,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_HandsBehindBack2: tsp_InBaseMoves_HandsBehindBack1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_handsbehindback2.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -32485,21 +32485,21 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_repairVehicleKnl: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_repairvehicleknl.rtm";
 			showHandGun = true;
 			speed=-25;
 		};
 		class tsp_InBaseMoves_repairVehiclePne: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_repairvehiclepne.rtm";
 			showHandGun = true;
 			speed=-60;
 		};
 		class tsp_InBaseMoves_patrolling1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_patrolling1.rtm";
 			showHandGun = true;
 			speed=0.018750001;
@@ -32522,7 +32522,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_patrolling2: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_patrolling2.rtm";
 			showHandGun = true;
 			speed=0.019610001;
@@ -32545,7 +32545,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_SittingRifle1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_sittingrifle1.rtm";
 			showHandGun = true;
 			speed=0.019262001;
@@ -32554,7 +32554,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_SittingRifle2: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_sittingrifle2.rtm";
 			showHandGun = true;
 			speed=0.015686;
@@ -32563,7 +32563,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_Lean1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_lean1.rtm";
 			showHandGun = true;
 			weaponIK=1;
@@ -32572,7 +32572,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_holdleft_idle1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_holdleft_idle1.rtm";
 			showHandGun = true;
 			speed=0.055300001;
@@ -32581,7 +32581,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_InBaseMoves_sitHighUp1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\inbasemoves_sithighup1.rtm";
 			showHandGun = true;
 			speed=0.030303;
@@ -32591,7 +32591,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_c4coming2cDf_genericstani1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\c4coming2cdf_genericstani1.rtm";
 			showHandGun = true;
 			speed=-25;
@@ -32600,7 +32600,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_c4coming2cDf_genericstani2: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\c4coming2cdf_genericstani2.rtm";
 			showHandGun = true;
 			speed=0.031704001;
@@ -32608,7 +32608,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_c4coming2cDf_genericstani4: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\c4coming2cdf_genericstani4.rtm";
 			showHandGun = true;
 			speed=0.024666;
@@ -32617,7 +32617,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_c5efe_HonzaLoop: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\c5efe_honzaloop.rtm";
 			showHandGun = true;
 			speed=0.157895;
@@ -32626,7 +32626,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_c5efe_MichalLoop: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\c5efe_michalloop.rtm";
 			showHandGun = true;
 			speed=0.159574;
@@ -32635,14 +32635,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LHD_krajPaluby: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\lhd_krajpaluby.rtm";
 			showHandGun = true;
 			speed=0.010877;
 		};
 		class tsp_sitTableRfl_listening: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\sittablerfl_listening.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -32652,35 +32652,35 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnaErcPoslechVelitele1: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\unaercposlechvelitele1.rtm";
 			showHandGun = true;
 			speed=0.066666998;
 		};
 		class tsp_UnaErcPoslechVelitele2: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\unaercposlechvelitele2.rtm";
 			showHandGun = true;
 			speed=0.066666998;
 		};
 		class tsp_UnaErcPoslechVelitele3: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\unaercposlechvelitele3.rtm";
 			showHandGun = true;
 			speed=0.090908997;
 		};
 		class tsp_UnaErcPoslechVelitele4: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\arma2\unaercposlechvelitele4.rtm";
 			showHandGun = true;
 			speed=0.050000001;
 		};
 		class tsp_Poster_pose_01: tsp_InBaseMoves_assemblingVehicleErc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\poster_pose_01.rtm";
 			showHandGun = true;
 			speed=0.00050000002;
@@ -32692,7 +32692,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Poster_pose_02: tsp_Poster_pose_01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\poster_pose_02.rtm";
 			showHandGun = true;
 		};
@@ -32709,7 +32709,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			speed=0.60000002;
 			minPlayTime=0.69;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\non\non\aovrpercmstpsnonwnondf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wovr.p3d";
@@ -32727,7 +32727,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_turnL: tsp_AmovPercMstpSnonWnonDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -32748,7 +32748,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_turnR: tsp_AmovPercMstpSnonWnonDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -32783,7 +32783,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=-1;
 			aiming="tsp_AimingCivilKneel";
 			aimingBody="tsp_AimingUpCivilKneel";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon.p3d";
@@ -32936,7 +32936,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSnonWnonDnon_G01: tsp_AidlPknlMstpSnonWnonDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\non\non\aidlpknlmstpsnonwnondnon_g01.rtm";
 			showHandGun = true;
 			speed=-45;
@@ -32958,13 +32958,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPknlMstpSnonWnonDnon_G02: tsp_AidlPknlMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\non\non\aidlpknlmstpsnonwnondnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPknlMstpSnonWnonDnon_G03: tsp_AidlPknlMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\knl\stp\non\non\aidlpknlmstpsnonwnondnon_g03.rtm";
 			showHandGun = true;
 		};
@@ -33037,7 +33037,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSnonWnonDnon_gear_trans: tsp_AmovPknlMstpSnonWnonDnon_gear
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_gear_trans.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -33085,7 +33085,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSnonWnonDnon_turnL: tsp_AmovPknlMstpSnonWnonDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -33106,7 +33106,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSnonWnonDnon_turnR: tsp_AmovPknlMstpSnonWnonDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -33139,7 +33139,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantAfter[]={30,30,30};
 			actions="tsp_CivilProneActions";
 			duty=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			legs="Wholebody";
@@ -33264,7 +33264,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPpneMstpSnonWnonDnon_G01: tsp_AidlPpneMstpSnonWnonDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\non\non\aidlppnemstpsnonwnondnon_g01.rtm";
 			showHandGun = true;
 			speed=-45;
@@ -33286,13 +33286,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPpneMstpSnonWnonDnon_G02: tsp_AidlPpneMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\non\non\aidlppnemstpsnonwnondnon_g02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPpneMstpSnonWnonDnon_G03: tsp_AidlPpneMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\pne\stp\non\non\aidlppnemstpsnonwnondnon_g03.rtm";
 			showHandGun = true;
 		};
@@ -33317,7 +33317,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSnonWnonDnon_turnL: tsp_AidlPpneMstpSnonWnonDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -33338,7 +33338,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSnonWnonDnon_turnR: tsp_AidlPpneMstpSnonWnonDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -33363,7 +33363,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsnonwnondnon_in.rtm";
 			showHandGun = true;
 			speed=1.66667;
@@ -33394,7 +33394,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsnonwnondnon_out.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -33406,7 +33406,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_in.rtm";
 			showHandGun = true;
 			speed=1.30435;
@@ -33438,7 +33438,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_out.rtm";
 			showHandGun = true;
 			speed=0.90899998;
@@ -33451,7 +33451,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsnonwnondnon_in.rtm";
 			showHandGun = true;
 			speed=2.7272699;
@@ -33483,7 +33483,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsnonwnondnon_out.rtm";
 			showHandGun = true;
 			speed=0.85714298;
@@ -33495,7 +33495,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.80000001;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldf_ver2.rtm";
 			showHandGun = true;
 			speed=0.27535999;
@@ -33618,7 +33618,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDf_v2: tsp_AmovPercMwlkSlowWrflDf_v1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldf_v2.rtm";
 			showHandGun = true;
 			speed=0.20689701;
@@ -33644,7 +33644,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDf_v3: tsp_AmovPercMwlkSlowWrflDf_v1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldf_v3.rtm";
 			showHandGun = true;
 			speed=0.20689701;
@@ -33698,7 +33698,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDfl_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldfl_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsWlkFL";
@@ -33739,7 +33739,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDl_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldl_ver2.rtm";
 			showHandGun = true;
 			speed=0.17679;
@@ -33780,7 +33780,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDbl_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldbl_ver2.rtm";
 			showHandGun = true;
 			speed=0.197726;
@@ -33820,7 +33820,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDb_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldb_ver2.rtm";
 			showHandGun = true;
 			speed=0.197726;
@@ -33860,7 +33860,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDbr_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldbr_ver2.rtm";
 			showHandGun = true;
 			speed=0.197726;
@@ -33900,7 +33900,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDr_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldr_ver2.rtm";
 			showHandGun = true;
 			speed=0.214284;
@@ -33940,7 +33940,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWrflDfr_ver2: tsp_AmovPercMwlkSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldfr_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsWlkFR";
@@ -33985,7 +33985,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=3;
 			variantsPlayer[]={};
 			visibleSize=0.90012097;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -34076,7 +34076,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWrflDfl: tsp_AmovPercMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldfl.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Mrun_Slow_Wrfl.p3d";
@@ -34127,7 +34127,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWrflDl: tsp_AmovPercMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -34171,7 +34171,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWrflDbl: tsp_AmovPercMrunSlowWrflDfl
 		{
 			duty=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.774194;
@@ -34213,7 +34213,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWrflDb: tsp_AmovPercMrunSlowWrflDfl
 		{
 			duty=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.774194;
@@ -34255,7 +34255,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWrflDbr: tsp_AmovPercMrunSlowWrflDfl
 		{
 			duty=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.774194;
@@ -34296,7 +34296,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWrflDr: tsp_AmovPercMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldr.rtm";
 			showHandGun = true;
 			speed=0.827586;
@@ -34338,7 +34338,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWrflDfr: tsp_AmovPercMrunSlowWrflDfl
 		{
 			duty=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsRunFR";
@@ -34392,7 +34392,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMax=1;
 			variantsAI[]={};
 			visibleSize=0.89999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldf.rtm";
 			showHandGun = true;
 			speed=0.85000002;
@@ -34451,7 +34451,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDfl: tsp_AmovPercMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsWlkFL";
@@ -34498,7 +34498,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDl: tsp_AmovPercMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldl.rtm";
 			showHandGun = true;
 			speed=0.41152301;
@@ -34542,7 +34542,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDb: tsp_AmovPercMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldb.rtm";
 			showHandGun = true;
 			speed=0.43800199;
@@ -34587,7 +34587,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDbl: tsp_AmovPercMwlkSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldbl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacBL";
@@ -34630,7 +34630,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDbr: tsp_AmovPercMwlkSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldbr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsWlkBR";
@@ -34673,7 +34673,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDr: tsp_AmovPercMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.36231899;
@@ -34713,7 +34713,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDfr: tsp_AmovPercMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsWlkFR";
@@ -34761,7 +34761,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDf: tsp_AmovPercMwlkSrasWrflDf
 		{
 			actions="tsp_RifleStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldf.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -34789,7 +34789,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDfl: tsp_AmovPercMwlkSrasWrflDfl
 		{
 			actions="tsp_RifleStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldfl.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -34817,7 +34817,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDfr: tsp_AmovPercMwlkSrasWrflDfr
 		{
 			actions="tsp_RifleStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldfr.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -34845,7 +34845,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDl: tsp_AmovPercMwlkSrasWrflDl
 		{
 			actions="tsp_RifleStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldl.rtm";
 			showHandGun = true;
 			speed=0.39473999;
@@ -34873,7 +34873,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDr: tsp_AmovPercMwlkSrasWrflDr
 		{
 			actions="tsp_RifleStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.40540999;
@@ -34901,7 +34901,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDbl: tsp_AmovPercMwlkSrasWrflDbl
 		{
 			actions="tsp_RifleStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldbl.rtm";
 			showHandGun = true;
 			speed=0.44775999;
@@ -34929,7 +34929,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDbr: tsp_AmovPercMwlkSrasWrflDbr
 		{
 			actions="tsp_RifleStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldbr.rtm";
 			showHandGun = true;
 			speed=0.44775999;
@@ -34957,7 +34957,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWrflDb: tsp_AmovPercMwlkSrasWrflDb
 		{
 			actions="tsp_RifleStandActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\rfl\amovpercmlmpsraswrfldb.rtm";
 			showHandGun = true;
 			speed=0.44775999;
@@ -34990,7 +34990,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=0.5;
 			soundOverride="Tactical";
 			aimPrecision=4;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldf.rtm";
 			showHandGun = true;
 			speed=0.78571397;
@@ -35050,7 +35050,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDfl: tsp_AmovPercMtacSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacFL";
@@ -35108,7 +35108,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWrflDl: tsp_AmovPercMtacSrasWrflDf
 		{
 			speed=0.76156402;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldl.rtm";
 			showHandGun = true;
 			headBobStrength=0.164179;
@@ -35159,7 +35159,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWrflDb: tsp_AmovPercMtacSrasWrflDf
 		{
 			speed=0.72290301;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldb.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl_Db.p3d";
@@ -35209,7 +35209,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDbl: tsp_AmovPercMtacSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldbl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacBL";
@@ -35258,7 +35258,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDbr: tsp_AmovPercMtacSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldbr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacBR";
@@ -35308,7 +35308,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWrflDr: tsp_AmovPercMtacSrasWrflDf
 		{
 			speed=0.68723202;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacR";
@@ -35357,7 +35357,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDfr: tsp_AmovPercMtacSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldfr.rtm";
 			showHandGun = true;
 			headBobStrength=0.144279;
@@ -35414,7 +35414,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			duty=0.15000001;
 			speed=0.64864999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldf_ver2.rtm";
 			showHandGun = true;
 			interpolationSpeed=3;
@@ -35464,7 +35464,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			duty=0.15000001;
 			speed=0.64864999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldfl_ver2.rtm";
 			showHandGun = true;
 			interpolationSpeed=3;
@@ -35514,7 +35514,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWrflDb_ver2: tsp_AmovPercMtacSlowWrflDf_ver2
 		{
 			speed=0.39804301;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldb_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsTacB";
@@ -35557,7 +35557,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWrflDbl_ver2: tsp_AmovPercMtacSlowWrflDb_ver2
 		{
 			speed=0.39804301;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldbl_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsTacBL";
@@ -35599,7 +35599,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWrflDbr_ver2: tsp_AmovPercMtacSlowWrflDb_ver2
 		{
 			speed=0.39804301;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldbr_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsTacBR";
@@ -35641,7 +35641,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWrflDr_ver2: tsp_AmovPercMtacSlowWrflDf_ver2
 		{
 			speed=0.70749497;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldr_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsTacR";
@@ -35683,7 +35683,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWrflDl_ver2: tsp_AmovPercMtacSlowWrflDf_ver2
 		{
 			speed=1.236369;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldl_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsTacL";
@@ -35725,7 +35725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSlowWrflDfr_ver2: tsp_AmovPercMtacSlowWrflDf_ver2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldfr_ver2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActionsTacFR";
@@ -35774,7 +35774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.55;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldf.rtm";
 			showHandGun = true;
 		};
@@ -35782,7 +35782,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.55;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldfl.rtm";
 			showHandGun = true;
 		};
@@ -35790,7 +35790,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.5;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldfr.rtm";
 			showHandGun = true;
 		};
@@ -35798,7 +35798,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.5;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldl.rtm";
 			showHandGun = true;
 		};
@@ -35806,7 +35806,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.51429;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldr.rtm";
 			showHandGun = true;
 		};
@@ -35814,7 +35814,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.57895;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldb.rtm";
 			showHandGun = true;
 		};
@@ -35822,7 +35822,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.57895;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldbl.rtm";
 			showHandGun = true;
 		};
@@ -35830,7 +35830,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.57895;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\rfl\amovpercmtacslowwrfldbr.rtm";
 			showHandGun = true;
 		};
@@ -35838,7 +35838,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.30000001;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldf.rtm";
 			showHandGun = true;
 		};
@@ -35846,7 +35846,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.30000001;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldfl.rtm";
 			showHandGun = true;
 		};
@@ -35854,7 +35854,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.30000001;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldfr.rtm";
 			showHandGun = true;
 		};
@@ -35862,7 +35862,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.20689701;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldl.rtm";
 			showHandGun = true;
 		};
@@ -35870,7 +35870,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.15286601;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldr.rtm";
 			showHandGun = true;
 		};
@@ -35878,7 +35878,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.20339;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldb.rtm";
 			showHandGun = true;
 		};
@@ -35886,7 +35886,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.20689701;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldbl.rtm";
 			showHandGun = true;
 		};
@@ -35894,14 +35894,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.20689701;
 			leftHandIKCurve=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldbr.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPercMlmpSlowWrflDf: tsp_AmovPercMwlkSlowWrflDf
 		{
 			actions="tsp_RifleLowStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.46154001;
@@ -35929,7 +35929,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDfl: tsp_AmovPercMwlkSlowWrflDfl
 		{
 			actions="tsp_RifleLowStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldfl.rtm";
 			showHandGun = true;
 			headBobStrength=0.23;
@@ -35956,7 +35956,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDfr: tsp_AmovPercMwlkSlowWrflDfr
 		{
 			actions="tsp_RifleLowStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldfr.rtm";
 			showHandGun = true;
 			speed=0.46154001;
@@ -35984,7 +35984,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDl: tsp_AmovPercMwlkSlowWrflDl
 		{
 			actions="tsp_RifleLowStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.78947002;
@@ -36012,7 +36012,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDr: tsp_AmovPercMwlkSlowWrflDr
 		{
 			actions="tsp_RifleLowStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldr.rtm";
 			showHandGun = true;
 			speed=0.83332998;
@@ -36040,7 +36040,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDbl: tsp_AmovPercMwlkSlowWrflDbl
 		{
 			actions="tsp_RifleLowStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -36068,7 +36068,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDbr: tsp_AmovPercMwlkSlowWrflDbr
 		{
 			actions="tsp_RifleLowStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -36096,7 +36096,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWrflDb: tsp_AmovPercMwlkSlowWrflDb
 		{
 			actions="tsp_RifleLowStandActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\rfl\amovpercmlmpslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -36130,7 +36130,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			visibleSize=0.89999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -36205,7 +36205,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDfl: tsp_AmovPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldfl.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36274,7 +36274,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDl: tsp_AmovPercMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldl.rtm";
 			showHandGun = true;
 			speed=0.71676803;
@@ -36336,7 +36336,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDb: tsp_AmovPercMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldb.rtm";
 			showHandGun = true;
 			speed=0.76833999;
@@ -36401,7 +36401,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDbl: tsp_AmovPercMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldbl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsRunBL";
@@ -36464,7 +36464,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDbr: tsp_AmovPercMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldbr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsRunBR";
@@ -36527,7 +36527,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDr: tsp_AmovPercMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.75422102;
@@ -36597,7 +36597,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDfr: tsp_AmovPercMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsRunFR";
@@ -36667,14 +36667,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDf_ldst: tsp_AmovPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldf_ldst.rtm";
 			showHandGun = true;
 			limitGunMovement=0.1;
 		};
 		class tsp_AmovPercMrunSrasWrflDfl_ldst: tsp_AmovPercMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\rfl\amovpercmrunsraswrfldfl_ldst.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36683,7 +36683,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDl_ldst: tsp_AmovPercMrunSrasWrflDl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldl.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36691,7 +36691,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDbl_ldst: tsp_AmovPercMrunSrasWrflDbl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldbl.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36699,7 +36699,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDb_ldst: tsp_AmovPercMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldb.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36707,7 +36707,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDbr_ldst: tsp_AmovPercMrunSrasWrflDbr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldbr.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36715,7 +36715,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDr_ldst: tsp_AmovPercMrunSrasWrflDr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldr.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36723,7 +36723,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWrflDfr_ldst: tsp_AmovPercMrunSrasWrflDfr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldfr.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
@@ -36736,7 +36736,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.80000001;
 			actions="tsp_CivilWlkActionsF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -36775,7 +36775,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDfl: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -36809,7 +36809,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDl: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.47619;
@@ -36839,7 +36839,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDbl: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.33707899;
@@ -36869,7 +36869,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDb: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.33707899;
@@ -36899,7 +36899,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDbr: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.33707899;
@@ -36929,7 +36929,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDr: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.48387101;
@@ -36959,7 +36959,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSnonWnonDfr: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilWlkActionsFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -36997,7 +36997,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			variantsPlayer[]={};
 			actions="tsp_CivilRunActionsF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=1.2485;
@@ -37046,7 +37046,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDfl: tsp_AmovPercMrunSnonWnonDf
 		{
 			actions="tsp_CivilRunActionsFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 
@@ -37081,7 +37081,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDl: tsp_AmovPercMrunSnonWnonDfl
 		{
 			actions="tsp_CivilRunActionsL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -37113,7 +37113,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDbl: tsp_AmovPercMrunSnonWnonDl
 		{
 			actions="tsp_CivilRunActionsBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 
@@ -37142,7 +37142,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDb: tsp_AmovPercMrunSnonWnonDl
 		{
 			actions="tsp_CivilRunActionsB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -37172,7 +37172,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDbr: tsp_AmovPercMrunSnonWnonDl
 		{
 			actions="tsp_CivilRunActionsBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -37200,7 +37200,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDr: tsp_AmovPercMrunSnonWnonDl
 		{
 			actions="tsp_CivilRunActionsR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -37230,7 +37230,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDfr: tsp_AmovPercMrunSnonWnonDf
 		{
 			actions="tsp_CivilRunActionsFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			speed=1.2485;
@@ -37268,7 +37268,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			static=1;
 			relSpeedMin=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -37318,7 +37318,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDfl: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelLowActionsWlkFL";
@@ -37353,7 +37353,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDl: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -37389,7 +37389,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDbl: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -37425,7 +37425,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDb: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -37461,7 +37461,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDbr: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -37497,7 +37497,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDr: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldr.rtm";
 			showHandGun = true;
 			speed=1.07143;
@@ -37533,7 +37533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSlowWrflDfr: tsp_AmovPknlMwlkSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\low\rfl\amovpknlmwlkslowwrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelLowActionsWlkFR";
@@ -37570,7 +37570,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			aimPrecision=3;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -37631,7 +37631,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSlowWrflDnon_AmovPknlMrunSlowWrflDf: tsp_AmovPknlMrunSlowWrflDf
 		{
 			speed=1.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmstpslowwrfldnon_amovpknlmrunslowwrfldf.rtm";
 			showHandGun = true;
 			looped=0;
@@ -37654,7 +37654,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWrflDfl: tsp_AmovPknlMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldfl.rtm";
 			showHandGun = true;
 			speed=0.63246602;
@@ -37698,7 +37698,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWrflDl: tsp_AmovPknlMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.65769202;
@@ -37736,7 +37736,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWrflDbl: tsp_AmovPknlMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.79411799;
@@ -37774,7 +37774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWrflDb: tsp_AmovPknlMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.79411799;
@@ -37812,7 +37812,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWrflDbr: tsp_AmovPknlMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.79411799;
@@ -37850,7 +37850,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSlowWrflDr: tsp_AmovPknlMrunSlowWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldr.rtm";
 			showHandGun = true;
 			speed=0.771429;
@@ -37889,7 +37889,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMrunSlowWrflDfr: tsp_AmovPknlMrunSlowWrflDfl
 		{
 			speed=0.4743;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\rfl\amovpknlmrunslowwrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelLowActionsRunFR";
@@ -37935,7 +37935,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.45;
 			actions="tsp_RifleKneelLowActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldf.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -37982,7 +37982,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.45;
 			actions="tsp_RifleKneelLowActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldfl.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38029,7 +38029,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.6;
 			actions="tsp_RifleKneelLowActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldl.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38074,7 +38074,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.6;
 			actions="tsp_RifleKneelLowActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldbl.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38119,7 +38119,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.6;
 			actions="tsp_RifleKneelLowActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldb.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38164,7 +38164,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.6;
 			actions="tsp_RifleKneelLowActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldbr.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38207,7 +38207,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.71429;
 			actions="tsp_RifleKneelLowActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldr.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38252,7 +38252,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			speed=1.75;
 			actions="tsp_RifleKneelLowActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\low\rfl\amovpknlmtacslowwrfldfr.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -38298,7 +38298,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMin=0.80000001;
 			variantsPlayer[]={};
 			soundEdge[]={0.123,0.34599999,0.60500002,0.852};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldf.rtm";
 			showHandGun = true;
 			speed=0.34999999;
@@ -38347,7 +38347,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWrflDfl: tsp_AmovPknlMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsWlkFL";
@@ -38384,7 +38384,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMwlkSrasWrflDl: tsp_AmovPknlMwlkSrasWrflDf
 		{
 			soundEdge[]={0.18000001,0.68000001};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldl.rtm";
 			showHandGun = true;
 			speed=0.56526703;
@@ -38423,7 +38423,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWrflDb: tsp_AmovPknlMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldb.rtm";
 			showHandGun = true;
 			speed=0.31468499;
@@ -38460,7 +38460,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWrflDbl: tsp_AmovPknlMwlkSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldbl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsWlkBL";
@@ -38495,7 +38495,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWrflDbr: tsp_AmovPknlMwlkSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldbr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsWlkBR";
@@ -38531,7 +38531,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMwlkSrasWrflDr: tsp_AmovPknlMwlkSrasWrflDf
 		{
 			soundEdge[]={0.18000001,0.68000001};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.58568299;
@@ -38570,7 +38570,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWrflDfr: tsp_AmovPknlMwlkSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\rfl\amovpknlmwlksraswrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsWlkFR";
@@ -38607,7 +38607,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDf: tsp_AmovPknlMwlkSrasWrflDf
 		{
 			actions="tsp_RifleKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldf.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -38635,7 +38635,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDfl: tsp_AmovPknlMwlkSrasWrflDfl
 		{
 			actions="tsp_RifleKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldfl.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -38663,7 +38663,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDfr: tsp_AmovPknlMwlkSrasWrflDfr
 		{
 			actions="tsp_RifleKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldfr.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -38691,7 +38691,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDl: tsp_AmovPknlMwlkSrasWrflDl
 		{
 			actions="tsp_RifleKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldl.rtm";
 			showHandGun = true;
 			speed=0.42254001;
@@ -38719,7 +38719,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDr: tsp_AmovPknlMwlkSrasWrflDr
 		{
 			actions="tsp_RifleKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -38747,7 +38747,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDbl: tsp_AmovPknlMwlkSrasWrflDbl
 		{
 			actions="tsp_RifleKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldbl.rtm";
 			showHandGun = true;
 			speed=0.42254001;
@@ -38775,7 +38775,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDbr: tsp_AmovPknlMwlkSrasWrflDbr
 		{
 			actions="tsp_RifleKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldbr.rtm";
 			showHandGun = true;
 			speed=0.42254001;
@@ -38803,7 +38803,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWrflDb: tsp_AmovPknlMwlkSrasWrflDb
 		{
 			actions="tsp_RifleKneelActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\rfl\amovpknlmlmpsraswrfldb.rtm";
 			showHandGun = true;
 			speed=0.42254001;
@@ -38831,7 +38831,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDf: tsp_AmovPknlMwlkSlowWrflDf
 		{
 			actions="tsp_RifleLowKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.43478;
@@ -38859,7 +38859,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDfl: tsp_AmovPknlMwlkSlowWrflDfl
 		{
 			actions="tsp_RifleLowKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldfl.rtm";
 			showHandGun = true;
 			speed=0.43478;
@@ -38887,7 +38887,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDfr: tsp_AmovPknlMwlkSlowWrflDfr
 		{
 			actions="tsp_RifleLowKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldfr.rtm";
 			showHandGun = true;
 			speed=0.43478;
@@ -38915,7 +38915,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDl: tsp_AmovPknlMwlkSlowWrflDl
 		{
 			actions="tsp_RifleLowKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -38943,7 +38943,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDr: tsp_AmovPknlMwlkSlowWrflDr
 		{
 			actions="tsp_RifleLowKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldr.rtm";
 			showHandGun = true;
 			speed=0.41666999;
@@ -38971,7 +38971,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDbl: tsp_AmovPknlMwlkSlowWrflDbl
 		{
 			actions="tsp_RifleLowKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.42857;
@@ -38999,7 +38999,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDbr: tsp_AmovPknlMwlkSlowWrflDbr
 		{
 			actions="tsp_RifleLowKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.42857;
@@ -39027,7 +39027,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSlowWrflDb: tsp_AmovPknlMwlkSlowWrflDb
 		{
 			actions="tsp_RifleLowKneelActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\low\rfl\amovpknlmlmpslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.42857;
@@ -39057,7 +39057,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			aimPrecision=5;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -39114,7 +39114,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDf_ldst: tsp_AmovPknlMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldf_ldst.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39148,7 +39148,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDfl: tsp_AmovPknlMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsRunFL";
@@ -39185,13 +39185,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDfl_ldst: tsp_AmovPknlMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldfl_ldst.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPknlMrunSrasWrflDl: tsp_AmovPknlMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldl.rtm";
 			showHandGun = true;
 			speed=0.804829;
@@ -39232,7 +39232,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDl_ldst: tsp_AmovPknlMrunSrasWrflDl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldl_ldst.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39264,7 +39264,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDb: tsp_AmovPknlMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldb.rtm";
 			showHandGun = true;
 			speed=0.86147898;
@@ -39301,7 +39301,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDb_ldst: tsp_AmovPknlMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldb_ldst.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39331,7 +39331,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDbl: tsp_AmovPknlMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldbl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsRunBL";
@@ -39366,7 +39366,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDbl_ldst: tsp_AmovPknlMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldbl_ldst.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39396,7 +39396,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDbr: tsp_AmovPknlMrunSrasWrflDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldbr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsRunBR";
@@ -39431,7 +39431,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDbr_ldst: tsp_AmovPknlMrunSrasWrflDbr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldbr_ldst.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39461,7 +39461,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDr: tsp_AmovPknlMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.78818703;
@@ -39502,7 +39502,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDr_ldst: tsp_AmovPknlMrunSrasWrflDr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldr_ldst.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39534,7 +39534,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDfr: tsp_AmovPknlMrunSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsRunFR";
@@ -39571,7 +39571,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWrflDfr_ldst: tsp_AmovPknlMrunSrasWrflDfr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\rfl\amovpknlmrunsraswrfldfr_ldst.rtm";
 			showHandGun = true;
 		};
@@ -39583,7 +39583,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitgunmovement=0.80000001;
 			actions="tsp_RifleKneelActionsTacF";
 			speed=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldf.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -39638,7 +39638,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWrflDfl: tsp_AmovPknlMtacSrasWrflDf
 		{
 			actions="tsp_RifleKneelActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39686,7 +39686,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.61643797;
 			actions="tsp_RifleKneelActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39732,7 +39732,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.585738;
 			actions="tsp_RifleKneelActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldb.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wrfl_Db.p3d";
@@ -39780,7 +39780,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWrflDbl: tsp_AmovPknlMtacSrasWrflDb
 		{
 			actions="tsp_RifleKneelActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39825,7 +39825,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWrflDbr: tsp_AmovPknlMtacSrasWrflDb
 		{
 			actions="tsp_RifleKneelActionsTacBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -39870,7 +39870,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWrflDr: tsp_AmovPknlMtacSrasWrflDf
 		{
 			speed=0.62532598;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsTacR";
@@ -39916,7 +39916,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWrflDfr: tsp_AmovPknlMtacSrasWrflDf
 		{
 			speed=0.54619998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\rfl\amovpknlmtacsraswrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActionsTacFR";
@@ -39964,7 +39964,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			headBobStrength=0.02;
 			actions="tsp_PistolStandActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -40026,7 +40026,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDfl: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -40073,7 +40073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDl: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdl.rtm";
 			showHandGun = true;
 			speed=0.400049;
@@ -40109,7 +40109,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDb: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdb.rtm";
 			showHandGun = true;
 			speed=0.81642699;
@@ -40147,7 +40147,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDbl: tsp_AmovPercMwlkSrasWpstDb
 		{
 			actions="tsp_PistolStandActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -40182,7 +40182,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDbr: tsp_AmovPercMwlkSrasWpstDb
 		{
 			actions="tsp_PistolStandActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdbr.rtm";
 			showHandGun = true;
 			limitGunMovement=1;
@@ -40218,7 +40218,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDr: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdr.rtm";
 			showHandGun = true;
 			speed=0.40634099;
@@ -40254,7 +40254,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDfr: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -40302,7 +40302,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=-0.5;
 			actions="tsp_PistolLowStandActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -40344,7 +40344,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDfl: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -40379,7 +40379,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDl: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdl.rtm";
 			showHandGun = true;
 			speed=0.88235301;
@@ -40413,7 +40413,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDbl: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkBl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdbl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -40447,7 +40447,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDb: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -40481,7 +40481,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDbr: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -40515,7 +40515,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDr: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdr.rtm";
 			showHandGun = true;
 			speed=0.909091;
@@ -40549,7 +40549,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSlowWpstDfr: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsWlkFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\pst\amovpercmwlkslowwpstdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -40584,7 +40584,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDf: tsp_AmovPercMwlkSlowWpstDf
 		{
 			actions="tsp_PistolLowStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -40612,7 +40612,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDfl: tsp_AmovPercMwlkSlowWpstDfl
 		{
 			actions="tsp_PistolLowStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdfl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -40640,7 +40640,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDfr: tsp_AmovPercMwlkSlowWpstDfr
 		{
 			actions="tsp_PistolLowStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdfr.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -40668,7 +40668,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDl: tsp_AmovPercMwlkSlowWpstDl
 		{
 			actions="tsp_PistolLowStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdl.rtm";
 			showHandGun = true;
 			speed=0.39473999;
@@ -40696,7 +40696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDr: tsp_AmovPercMwlkSlowWpstDr
 		{
 			actions="tsp_PistolLowStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdr.rtm";
 			showHandGun = true;
 			speed=0.42254001;
@@ -40724,7 +40724,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDbl: tsp_AmovPercMwlkSlowWpstDbl
 		{
 			actions="tsp_PistolLowStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdbl.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -40752,7 +40752,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDbr: tsp_AmovPercMwlkSlowWpstDbr
 		{
 			actions="tsp_PistolLowStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -40780,7 +40780,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSlowWpstDb: tsp_AmovPercMwlkSlowWpstDb
 		{
 			actions="tsp_PistolLowStandActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\low\pst\amovpercmlmpslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -40808,7 +40808,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDf: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdf.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -40836,7 +40836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDfl: tsp_AmovPercMwlkSrasWpstDfl
 		{
 			actions="tsp_PistolStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdfl.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -40866,7 +40866,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDfr: tsp_AmovPercMwlkSrasWpstDfr
 		{
 			actions="tsp_PistolStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdfr.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -40894,7 +40894,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDl: tsp_AmovPercMwlkSrasWpstDl
 		{
 			actions="tsp_PistolStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdl.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -40922,7 +40922,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDr: tsp_AmovPercMwlkSrasWpstDr
 		{
 			actions="tsp_PistolStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdr.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -40950,7 +40950,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDbl: tsp_AmovPercMwlkSrasWpstDbl
 		{
 			actions="tsp_PistolStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdbl.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -40978,7 +40978,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDbr: tsp_AmovPercMwlkSrasWpstDbr
 		{
 			actions="tsp_PistolStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdbr.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -41006,7 +41006,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWpstDb: tsp_AmovPercMwlkSrasWpstDb
 		{
 			actions="tsp_PistolStandActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\pst\amovpercmlmpsraswpstdb.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -41036,7 +41036,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			duty=0;
 			speed=0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdf.rtm";
 			showHandGun = true;
 			headBobStrength=0.124378;
@@ -41073,7 +41073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSlowWpstDfl: tsp_AmovPercMtacSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacFL";
@@ -41109,7 +41109,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWpstDl: tsp_AmovPercMtacSlowWpstDf
 		{
 			speed=0.779221;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacL";
@@ -41141,7 +41141,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSlowWpstDb: tsp_AmovPercMtacSlowWpstDf
 		{
 			speed=0.81081098;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdb.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacB";
@@ -41172,7 +41172,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSlowWpstDbl: tsp_AmovPercMtacSlowWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdbl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacBL";
@@ -41203,7 +41203,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSlowWpstDbr: tsp_AmovPercMtacSlowWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdbr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacBR";
@@ -41234,7 +41234,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSlowWpstDr: tsp_AmovPercMtacSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacR";
@@ -41265,7 +41265,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSlowWpstDfr: tsp_AmovPercMtacSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\low\pst\amovpercmtacslowwpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActionsTacFR";
@@ -41303,7 +41303,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			duty=0.2;
 			speed=0.85059202;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdf.rtm";
 			showHandGun = true;
 			headBobStrength=0.124378;
@@ -41344,7 +41344,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWpstDfl: tsp_AmovPercMtacSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacFL";
@@ -41382,7 +41382,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWpstDl: tsp_AmovPercMtacSrasWpstDf
 		{
 			speed=1.67255;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacL";
@@ -41417,7 +41417,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWpstDb: tsp_AmovPercMtacSrasWpstDf
 		{
 			speed=0.81566602;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdb.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacB";
@@ -41451,7 +41451,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWpstDbl: tsp_AmovPercMtacSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdbl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacBL";
@@ -41484,7 +41484,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWpstDbr: tsp_AmovPercMtacSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdbr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacBR";
@@ -41518,7 +41518,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWpstDr: tsp_AmovPercMtacSrasWpstDf
 		{
 			speed=1.45696;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacR";
@@ -41552,7 +41552,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWpstDfr: tsp_AmovPercMtacSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\pst\amovpercmtacsraswpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActionsTacFR";
@@ -41595,7 +41595,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundEdge[]={0.25,0.5,0.75,1};
 			actions="tsp_PistolStandActionsRunF";
 			visibleSize=0.90012097;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.76624;
@@ -41698,7 +41698,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDfl: tsp_AmovPercMrunSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -41779,7 +41779,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDl: tsp_AmovPercMrunSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdl.rtm";
 			showHandGun = true;
 			speed=1.46224;
@@ -41853,7 +41853,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDb: tsp_AmovPercMrunSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.81282598;
@@ -41925,7 +41925,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDbl: tsp_AmovPercMrunSrasWpstDb
 		{
 			actions="tsp_PistolStandActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -41994,7 +41994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDbr: tsp_AmovPercMrunSrasWpstDb
 		{
 			actions="tsp_PistolStandActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -42063,7 +42063,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDr: tsp_AmovPercMrunSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdr.rtm";
 			showHandGun = true;
 			speed=1.51886;
@@ -42136,7 +42136,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWpstDfr: tsp_AmovPercMrunSrasWpstDf
 		{
 			actions="tsp_PistolStandActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -42222,7 +42222,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			visibleSize=0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -42274,7 +42274,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDfl: tsp_AmovPknlMwlkSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsWlkFL";
@@ -42311,7 +42311,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDl: tsp_AmovPknlMwlkSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdl.rtm";
 			showHandGun = true;
 			speed=0.357366;
@@ -42349,7 +42349,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDb: tsp_AmovPknlMwlkSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdb.rtm";
 			showHandGun = true;
 			speed=0.36780101;
@@ -42387,7 +42387,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDbl: tsp_AmovPknlMwlkSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdbl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsWlkBL";
@@ -42422,7 +42422,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDbr: tsp_AmovPknlMwlkSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdbr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsWlkBR";
@@ -42457,7 +42457,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDr: tsp_AmovPknlMwlkSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdr.rtm";
 			showHandGun = true;
 			speed=0.34758401;
@@ -42495,7 +42495,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWpstDfr: tsp_AmovPknlMwlkSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\pst\amovpknlmwlksraswpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsWlkFR";
@@ -42533,7 +42533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDf: tsp_AmovPknlMwlkSrasWpstDf
 		{
 			actions="tsp_PistolKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdf.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -42561,7 +42561,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDfl: tsp_AmovPknlMwlkSrasWpstDfl
 		{
 			actions="tsp_PistolKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdfl.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -42589,7 +42589,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDfr: tsp_AmovPknlMwlkSrasWpstDfr
 		{
 			actions="tsp_PistolKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdfr.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -42617,7 +42617,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDl: tsp_AmovPknlMwlkSrasWpstDl
 		{
 			actions="tsp_PistolKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdl.rtm";
 			showHandGun = true;
 			speed=0.40540999;
@@ -42645,7 +42645,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDr: tsp_AmovPknlMwlkSrasWpstDr
 		{
 			actions="tsp_PistolKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdr.rtm";
 			showHandGun = true;
 			speed=0.40540999;
@@ -42673,7 +42673,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDbl: tsp_AmovPknlMwlkSrasWpstDbl
 		{
 			actions="tsp_PistolKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdbl.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -42701,7 +42701,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDbr: tsp_AmovPknlMwlkSrasWpstDbr
 		{
 			actions="tsp_PistolKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdbr.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -42729,7 +42729,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWpstDb: tsp_AmovPknlMwlkSrasWpstDb
 		{
 			actions="tsp_PistolKneelActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\pst\amovpknlmlmpsraswpstdb.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -42760,7 +42760,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=5;
 			soundEdge[]={0.25,0.5,0.75,1};
 			visibleSize=0.60012197;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.67733997;
@@ -42815,7 +42815,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSlowWpstDnon_AmovPknlMrunSrasWpstDf: tsp_AmovPknlMrunSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_amovpknlmrunslowwpstdf.rtm";
 			showHandGun = true;
 			speed=1;
@@ -42834,7 +42834,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDfl: tsp_AmovPknlMrunSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsRunFL";
@@ -42871,7 +42871,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDl: tsp_AmovPknlMrunSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdl.rtm";
 			showHandGun = true;
 			speed=1.41345;
@@ -42908,7 +42908,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDb: tsp_AmovPknlMrunSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.81765801;
@@ -42943,7 +42943,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDbl: tsp_AmovPknlMrunSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdbl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsRunBL";
@@ -42976,7 +42976,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDbr: tsp_AmovPknlMrunSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdbr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsRunBR";
@@ -43009,7 +43009,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDr: tsp_AmovPknlMrunSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdr.rtm";
 			showHandGun = true;
 			speed=1.31375;
@@ -43045,7 +43045,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWpstDfr: tsp_AmovPknlMrunSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\low\pst\amovpknlmrunslowwpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsRunFr";
@@ -43086,7 +43086,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=5;
 			limitgunmovement=1;
 			speed=0.767223;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdf.rtm";
 			showHandGun = true;
 			camShakeFire=1.15;
@@ -43128,7 +43128,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWpstDfl: tsp_AmovPknlMtacSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacFL";
@@ -43164,7 +43164,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWpstDl: tsp_AmovPknlMtacSrasWpstDf
 		{
 			speed=1.50659;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacL";
@@ -43197,7 +43197,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWpstDb: tsp_AmovPknlMtacSrasWpstDf
 		{
 			speed=0.65519702;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdb.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacB";
@@ -43229,7 +43229,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWpstDbl: tsp_AmovPknlMtacSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdbl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacBL";
@@ -43260,7 +43260,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWpstDbr: tsp_AmovPknlMtacSrasWpstDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdbr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacBR";
@@ -43292,7 +43292,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMtacSrasWpstDr: tsp_AmovPknlMtacSrasWpstDf
 		{
 			speed=1.3986;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacR";
@@ -43324,7 +43324,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWpstDfr: tsp_AmovPknlMtacSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\pst\amovpknlmtacsraswpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActionsTacFR";
@@ -43361,7 +43361,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			aimPrecision=4;
 			actions="tsp_LauncherStandRunFActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -43411,7 +43411,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			visibleSize=0.60000002;
 			stamina=-0.1;
 			aimPrecision=5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdf.rtm";
 			showHandGun = true;
 			speed=0.62305301;
@@ -43458,7 +43458,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWlnrDfl: tsp_AmovPercMrunSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdfl.rtm";
 			showHandGun = true;
 			speed=0.34999999;
@@ -43488,7 +43488,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMrunSrasWlnrDfl: tsp_AmovPknlMrunSrasWlnrDf
 		{
 			actions="tsp_LauncherKneelActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -43530,7 +43530,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWlnrDl: tsp_AmovPercMrunSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdl.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wrfl_side.p3d";
@@ -43560,7 +43560,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWlnrDl: tsp_AmovPknlMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdl.rtm";
 			showHandGun = true;
 			speed=1.40698;
@@ -43602,7 +43602,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWlnrDbl: tsp_AmovPercMrunSlowWlnrDf
 		{
 			actions="tsp_LauncherStandRunBActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdbl.rtm";
 			showHandGun = true;
 			speed=0.61764699;
@@ -43632,7 +43632,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWlnrDb: tsp_AmovPercMrunSlowWlnrDf
 		{
 			actions="tsp_LauncherStandRunBActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdb.rtm";
 			showHandGun = true;
 			speed=0.61764699;
@@ -43662,7 +43662,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWlnrDb: tsp_AmovPknlMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdb.rtm";
 			showHandGun = true;
 			speed=0.545865;
@@ -43703,7 +43703,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWlnrDbl: tsp_AmovPknlMrunSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdbl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionsRunBL";
@@ -43743,7 +43743,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWlnrDbr: tsp_AmovPercMrunSlowWlnrDf
 		{
 			actions="tsp_LauncherStandRunBActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdbr.rtm";
 			showHandGun = true;
 			speed=0.61764699;
@@ -43773,7 +43773,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWlnrDbr: tsp_AmovPknlMrunSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdbr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionsRunBR";
@@ -43812,7 +43812,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWlnrDr: tsp_AmovPercMrunSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdr.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -43841,7 +43841,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWlnrDr: tsp_AmovPknlMrunSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdr.rtm";
 			showHandGun = true;
 			speed=1.27516;
@@ -43882,7 +43882,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWlnrDfr: tsp_AmovPercMrunSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\lnr\amovpercmrunslowwlnrdfr.rtm";
 			showHandGun = true;
 			speed=0.34999999;
@@ -43911,7 +43911,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSrasWlnrDfr: tsp_AmovPercMrunSlowWlnrDfr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\ras\lnr\amovpknlmrunsraswlnrdfr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -43959,7 +43959,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			aimPrecision=7;
 			actions="tsp_LauncherStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\lnr\amovpercmsprslowwlnrdf.rtm";
 			showHandGun = true;
 			duty=1.4;
@@ -43994,7 +43994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMevaSlowWlnrDfr: tsp_AmovPercMevaSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\lnr\amovpercmsprslowwlnrdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -44026,7 +44026,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMevaSlowWlnrDfl: tsp_AmovPercMevaSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\lnr\amovpercmsprslowwlnrdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -44061,7 +44061,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=8;
 			stamina=-1;
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\lnr\amovpknlmsprslowwlnrdf.rtm";
 			showHandGun = true;
 			duty=1.6;
@@ -44095,7 +44095,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMevaSlowWlnrDfr: tsp_AmovPknlMevaSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\lnr\amovpknlmsprslowwlnrdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -44127,7 +44127,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMevaSlowWlnrDfl: tsp_AmovPknlMevaSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\lnr\amovpknlmsprslowwlnrdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -44162,7 +44162,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			visibleSize=0.60000002;
 			actions="tsp_LauncherKneelActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdf.rtm";
 			showHandGun = true;
 			speed=0.69999999;
@@ -44213,7 +44213,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDfl: tsp_AmovPknlMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdfl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionsWlkFL";
@@ -44253,7 +44253,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDl: tsp_AmovPknlMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdl.rtm";
 			showHandGun = true;
 			speed=0.46944901;
@@ -44294,7 +44294,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDb: tsp_AmovPknlMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdb.rtm";
 			showHandGun = true;
 			speed=0.390625;
@@ -44335,7 +44335,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDbl: tsp_AmovPknlMwlkSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdbl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionsWlkBL";
@@ -44374,7 +44374,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDbr: tsp_AmovPknlMwlkSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdbr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionsWlkBR";
@@ -44413,7 +44413,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDr: tsp_AmovPknlMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdr.rtm";
 			showHandGun = true;
 			speed=0.42168701;
@@ -44454,7 +44454,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSrasWlnrDfr: tsp_AmovPknlMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\ras\lnr\amovpknlmwlksraswlnrdfr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionsWlkFR";
@@ -44495,7 +44495,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDf: tsp_AmovPknlMwlkSrasWlnrDf
 		{
 			actions="tsp_LauncherKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdf.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -44521,7 +44521,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDfl: tsp_AmovPknlMwlkSrasWlnrDfl
 		{
 			actions="tsp_LauncherKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdfl.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -44547,7 +44547,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDfr: tsp_AmovPknlMwlkSrasWlnrDfr
 		{
 			actions="tsp_LauncherKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdfr.rtm";
 			showHandGun = true;
 			speed=0.46875;
@@ -44573,7 +44573,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDl: tsp_AmovPknlMwlkSrasWlnrDl
 		{
 			actions="tsp_LauncherKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdl.rtm";
 			showHandGun = true;
 			speed=0.38462001;
@@ -44599,7 +44599,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDr: tsp_AmovPknlMwlkSrasWlnrDr
 		{
 			actions="tsp_LauncherKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdr.rtm";
 			showHandGun = true;
 			speed=0.40540999;
@@ -44625,7 +44625,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDbl: tsp_AmovPknlMwlkSrasWlnrDbl
 		{
 			actions="tsp_LauncherKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdbl.rtm";
 			showHandGun = true;
 			speed=0.42857;
@@ -44651,7 +44651,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDbr: tsp_AmovPknlMwlkSrasWlnrDbr
 		{
 			actions="tsp_LauncherKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdbr.rtm";
 			showHandGun = true;
 			speed=0.42857;
@@ -44677,7 +44677,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSrasWlnrDb: tsp_AmovPknlMwlkSrasWlnrDb
 		{
 			actions="tsp_LauncherKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\ras\lnr\amovpknlmlmpsraswlnrdb.rtm";
 			showHandGun = true;
 			speed=0.42857;
@@ -44705,7 +44705,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			visibleSize=0.60000002;
 			actions="tsp_LauncherKneelActionstacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdf.rtm";
 			showHandGun = true;
 			speed=1;
@@ -44757,7 +44757,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDfl: tsp_AmovPknlMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdfl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionstacFL";
@@ -44797,7 +44797,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDl: tsp_AmovPknlMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdl.rtm";
 			showHandGun = true;
 			speed=0.77777803;
@@ -44836,7 +44836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDb: tsp_AmovPknlMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdb.rtm";
 			showHandGun = true;
 			speed=0.65645498;
@@ -44875,7 +44875,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDbl: tsp_AmovPknlMtacSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdbl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionstacBL";
@@ -44912,7 +44912,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDbr: tsp_AmovPknlMtacSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdbr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionstacBR";
@@ -44949,7 +44949,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDr: tsp_AmovPknlMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdr.rtm";
 			showHandGun = true;
 			speed=0.702811;
@@ -44988,7 +44988,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMtacSrasWlnrDfr: tsp_AmovPknlMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\tac\ras\lnr\amovpknlmtacsraswlnrdfr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherKneelActionstacFR";
@@ -45032,7 +45032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=5;
 			stamina=-0.1;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -45076,7 +45076,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=3;
 			static=1;
 			relSpeedMin=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.50561899;
@@ -45109,7 +45109,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDbr: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -45139,7 +45139,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDbl: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -45169,7 +45169,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDb: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -45199,7 +45199,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDl: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -45230,7 +45230,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDr: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -45260,7 +45260,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDfr: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActionsWlkFR";
@@ -45291,7 +45291,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSnonWnonDfl: tsp_AmovPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon_fl.p3d";
@@ -45323,7 +45323,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSnonWnonDnon_AmovPknlMrunSnonWnonDf: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=1;
@@ -45346,7 +45346,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDfl: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActionsRunFL";
@@ -45380,7 +45380,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDl: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.625;
@@ -45411,7 +45411,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDbl: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActionsRunBL";
@@ -45440,7 +45440,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDb: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActionsRunB";
@@ -45469,7 +45469,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDbr: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActionsRunBR";
@@ -45498,7 +45498,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDr: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.71428603;
@@ -45528,7 +45528,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWnonDfr: tsp_AmovPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActionsRunFR";
@@ -45565,7 +45565,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=6;
 			variantsPlayer[]={};
 			visibleSize=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.65054101;
@@ -45626,7 +45626,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSlowWrflDfl: tsp_AmovPpneMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldfl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -45668,7 +45668,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWrflDl: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.625;
@@ -45708,7 +45708,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWrflDbl: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.70252401;
@@ -45748,7 +45748,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWrflDb: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.64692301;
@@ -45788,7 +45788,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWrflDbr: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.85934103;
@@ -45828,7 +45828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWrflDr: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldr.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -45867,7 +45867,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSlowWrflDfr: tsp_AmovPpneMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldfr.rtm";
 			showHandGun = true;
 			speed=0.45519599;
@@ -45909,7 +45909,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMsprSlowWrflDf: tsp_AmovPpneMrunSlowWrflDf
 		{
 			visibleSize=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.79523897;
@@ -45956,7 +45956,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			aimPrecision=9;
 			actions="tsp_RifleProneActionsEvasiveF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\rfl\amovppnemevaslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.34999999;
@@ -46004,7 +46004,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMsprSlowWrflDbl: tsp_AmovPpneMsprSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.653427;
@@ -46044,7 +46044,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMsprSlowWrflDl: tsp_AmovPpneMsprSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.97058803;
@@ -46084,7 +46084,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMsprSlowWrflDr: tsp_AmovPpneMsprSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldr.rtm";
 			showHandGun = true;
 			speed=1.13912;
@@ -46124,7 +46124,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMsprSlowWrflDbr: tsp_AmovPpneMsprSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.96303701;
@@ -46164,7 +46164,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMsprSlowWrflDb: tsp_AmovPpneMsprSlowWrflDf
 		{
 			actions="tsp_RifleProneActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.79074401;
@@ -46205,7 +46205,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.5;
 			showWeaponAim=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\rfl\amovppnemsprslowwrfldf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne.p3d";
@@ -46227,7 +46227,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMsprSlowWrflDfl: tsp_AmovPpneMsprSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldfl.rtm";
 			showHandGun = true;
 			speed=1.42766;
@@ -46270,7 +46270,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMsprSlowWrflDfr: tsp_AmovPpneMsprSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldfr.rtm";
 			showHandGun = true;
 			speed=0.45649499;
@@ -46314,7 +46314,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMwlkSrasWrflDup_f: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleAdjustFProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_front.rtm";
 			showHandGun = true;
 			speed=0.91666299;
@@ -46362,49 +46362,49 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_fl: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_fl.rtm";
 			showHandGun = true;
 			speed=0.75000203;
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_fr: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_fr.rtm";
 			showHandGun = true;
 			speed=0.80488098;
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_b: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_back.rtm";
 			showHandGun = true;
 			speed=0.84615302;
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_bl: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_bl.rtm";
 			showHandGun = true;
 			speed=0.76743698;
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_br: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_br.rtm";
 			showHandGun = true;
 			speed=0.75000203;
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_l: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_left.rtm";
 			showHandGun = true;
 			speed=0.84615302;
 		};
 		class tsp_AadjPpneMwlkSrasWrflDup_r: tsp_AadjPpneMwlkSrasWrflDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldup_right.rtm";
 			showHandGun = true;
 			speed=0.91666299;
@@ -46412,7 +46412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMwlkSrasWrflDleft_l: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleAdjustLProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldleft_l.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne_Adjl.p3d";
@@ -46447,7 +46447,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDleft_r: tsp_AadjPpneMwlkSrasWrflDleft_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldleft_r.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne_Adjr.p3d";
@@ -46481,7 +46481,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDleft_f: tsp_AadjPpneMwlkSrasWrflDleft_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldleft_f.rtm";
 			showHandGun = true;
 			speed=0.35714;
@@ -46515,7 +46515,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDleft_b: tsp_AadjPpneMwlkSrasWrflDleft_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldleft_b.rtm";
 			showHandGun = true;
 			speed=0.36144999;
@@ -46550,7 +46550,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMwlkSrasWrflDright_l: tsp_AmovPpneMrunSlowWrflDf
 		{
 			actions="tsp_RifleAdjustRProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldright_l.rtm";
 			showHandGun = true;
 			speed=0.895522;
@@ -46586,7 +46586,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDright_r: tsp_AadjPpneMwlkSrasWrflDright_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldright_r.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -46620,7 +46620,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDright_f: tsp_AadjPpneMwlkSrasWrflDright_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldright_f.rtm";
 			showHandGun = true;
 			speed=0.37037;
@@ -46654,7 +46654,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWrflDright_b: tsp_AadjPpneMwlkSrasWrflDright_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\rfl\aadjppnemwlksraswrfldright_b.rtm";
 			showHandGun = true;
 			speed=0.35714;
@@ -46691,7 +46691,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			aimPrecision=6;
 			visibleSize=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.443333;
@@ -46746,7 +46746,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			aimPrecision=9;
 			visibleSize=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			speed=0.73288602;
@@ -46784,7 +46784,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSlowWpstDfl: tsp_AmovPpneMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdfl.rtm";
 			showHandGun = true;
 			speed=0.91383803;
@@ -46820,7 +46820,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWpstDl: tsp_AmovPpneMrunSlowWpstDf
 		{
 			soundEdge[]={0.2,0.69999999};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdl.rtm";
 			showHandGun = true;
 			speed=0.97736597;
@@ -46851,7 +46851,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSlowWpstDbl: tsp_AmovPpneMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdbl.rtm";
 			showHandGun = true;
 			speed=0.902174;
@@ -46883,7 +46883,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWpstDb: tsp_AmovPpneMrunSlowWpstDf
 		{
 			soundEdge[]={0.2,0.69999999};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.81632698;
@@ -46914,7 +46914,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSlowWpstDbr: tsp_AmovPpneMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=0.85427099;
@@ -46946,7 +46946,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMrunSlowWpstDr: tsp_AmovPpneMrunSlowWpstDf
 		{
 			soundEdge[]={0.2,0.69999999};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdr.rtm";
 			showHandGun = true;
 			speed=1.11524;
@@ -46977,7 +46977,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSlowWpstDfr: tsp_AmovPpneMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdfr.rtm";
 			showHandGun = true;
 			speed=0.94850999;
@@ -47013,7 +47013,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMwlkSrasWpstDup_f: tsp_AmovPpneMrunSlowWpstDf
 		{
 			actions="tsp_PistolAdjustFProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_front.rtm";
 			showHandGun = true;
 			speed=0.80488098;
@@ -47058,49 +47058,49 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_b: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_back.rtm";
 			showHandGun = true;
 			speed=0.91666299;
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_l: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_left.rtm";
 			showHandGun = true;
 			speed=0.82499999;
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_r: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_right.rtm";
 			showHandGun = true;
 			speed=0.91666299;
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_fl: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_fl.rtm";
 			showHandGun = true;
 			speed=0.75000203;
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_fr: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_fr.rtm";
 			showHandGun = true;
 			speed=0.80488098;
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_bl: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_bl.rtm";
 			showHandGun = true;
 			speed=0.71738702;
 		};
 		class tsp_AadjPpneMwlkSrasWpstDup_br: tsp_AadjPpneMwlkSrasWpstDup_f
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdup_br.rtm";
 			showHandGun = true;
 			speed=0.90908998;
@@ -47108,7 +47108,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMwlkSrasWpstDleft_l: tsp_AmovPpneMrunSlowWpstDf
 		{
 			actions="tsp_PistolAdjustLProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdleft_l.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -47138,7 +47138,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDleft_r: tsp_AadjPpneMwlkSrasWpstDleft_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdleft_r.rtm";
 			showHandGun = true;
 			speed=0.895522;
@@ -47167,7 +47167,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDleft_f: tsp_AadjPpneMwlkSrasWpstDleft_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdleft_f.rtm";
 			showHandGun = true;
 			speed=0.35714;
@@ -47196,7 +47196,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDleft_b: tsp_AadjPpneMwlkSrasWpstDleft_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdleft_b.rtm";
 			showHandGun = true;
 			speed=0.36144999;
@@ -47226,7 +47226,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPpneMwlkSrasWpstDright_l: tsp_AmovPpneMrunSlowWpstDf
 		{
 			actions="tsp_PistolAdjustRProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdright_l.rtm";
 			showHandGun = true;
 			speed=0.895522;
@@ -47256,7 +47256,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDright_r: tsp_AadjPpneMwlkSrasWpstDright_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdright_r.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -47285,7 +47285,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDright_f: tsp_AadjPpneMwlkSrasWpstDright_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdright_f.rtm";
 			showHandGun = true;
 			speed=0.37037;
@@ -47314,7 +47314,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AadjPpneMwlkSrasWpstDright_b: tsp_AadjPpneMwlkSrasWpstDright_l
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\wlk\ras\pst\aadjppnemwlksraswpstdright_b.rtm";
 			showHandGun = true;
 			speed=0.35714;
@@ -47346,7 +47346,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			visibleSize=0.2;
 			aimPrecision=6;
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.77586198;
@@ -47390,7 +47390,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDfl: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.818183;
@@ -47421,7 +47421,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDl: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -47450,7 +47450,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDbl: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=1.022727;
@@ -47479,7 +47479,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDb: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.652174;
@@ -47508,7 +47508,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDbr: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=1.184211;
@@ -47537,7 +47537,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDr: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -47566,7 +47566,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWnonDfr: tsp_AmovPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -47603,7 +47603,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			aimPrecision=9;
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			duty=1;
@@ -47682,7 +47682,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMstpSrasWrflDnon_turnL: tsp_AmovPincMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -47703,7 +47703,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMstpSrasWrflDnon_turnR: tsp_AmovPincMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -47768,7 +47768,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMstpSrasWpstDnon_turnL: tsp_AmovPincMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -47788,7 +47788,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMstpSrasWpstDnon_turnR: tsp_AmovPincMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -47858,7 +47858,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMstpSnonWnonDnon_turnL: tsp_AmovPincMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_aiturn90l.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -47878,7 +47878,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMstpSnonWnonDnon_turnR: tsp_AmovPincMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -47899,7 +47899,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPincMrunSlowWrflDf: tsp_AmovPincMstpSrasWrflDnon
 		{
 			visibleSize=0.150123;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.600541;
@@ -47925,7 +47925,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDfl: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldfl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -47948,7 +47948,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDl: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldl.rtm";
 			showHandGun = true;
 			speed=0.625;
@@ -47971,7 +47971,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDbl: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldbl.rtm";
 			showHandGun = true;
 			speed=0.70252401;
@@ -47994,7 +47994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDb: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldb.rtm";
 			showHandGun = true;
 			speed=0.64692301;
@@ -48017,7 +48017,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDbr: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldbr.rtm";
 			showHandGun = true;
 			speed=0.85934103;
@@ -48040,7 +48040,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDr: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldr.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -48063,7 +48063,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWrflDfr: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldfr.rtm";
 			showHandGun = true;
 			speed=0.45519599;
@@ -48086,7 +48086,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMsprSlowWrflDf: tsp_AmovPincMrunSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\rfl\amovppnemrunslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.73054099;
@@ -48109,7 +48109,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPincMrunSlowWpstDf: tsp_AmovPincMstpSrasWpstDnon
 		{
 			visibleSize=0.150123;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdf.rtm";
 			showHandGun = true;
 			speed=1;
@@ -48136,7 +48136,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDfl: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdfl.rtm";
 			showHandGun = true;
 			speed=0.93000001;
@@ -48159,7 +48159,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDl: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdl.rtm";
 			showHandGun = true;
 			speed=1.4;
@@ -48183,7 +48183,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDbl: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -48205,7 +48205,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDb: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdb.rtm";
 			showHandGun = true;
 			speed=0.73000002;
@@ -48228,7 +48228,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDbr: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdbr.rtm";
 			showHandGun = true;
 			speed=1.05;
@@ -48251,7 +48251,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDr: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdr.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -48274,7 +48274,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSlowWpstDfr: tsp_AmovPincMrunSlowWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\low\pst\amovppnemrunslowwpstdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -48296,7 +48296,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDf: tsp_AmovPincMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.517241;
@@ -48320,7 +48320,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDfl: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -48343,7 +48343,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDl: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -48366,7 +48366,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDbl: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -48389,7 +48389,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDb: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -48412,7 +48412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDbr: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -48435,7 +48435,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDr: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -48458,7 +48458,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPincMrunSnonWnonDfr: tsp_AmovPincMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			speed=0.625;
@@ -48483,7 +48483,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			visibleSize=0.15000001;
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\rld\rfl\awoppercmstpsrldwrfldnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -48520,7 +48520,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMk20: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmk20prone.rtm";
 			showHandGun = true;
 			speed=-2.8333299;
@@ -48528,7 +48528,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMk20UGL: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmk20uglprone.rtm";
 			showHandGun = true;
 			speed=0.34884;
@@ -48536,7 +48536,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMX: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmxprone.rtm";
 			showHandGun = true;
 			speed=0.37;
@@ -48544,7 +48544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMXUGL: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmxuglprone.rtm";
 			showHandGun = true;
 			speed=0.55479598;
@@ -48552,7 +48552,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneTRGUGL: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadtrguglprone.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -48560,19 +48560,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMXCompact: tsp_RifleReloadProneMX
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmxcompactprone.rtm";
 			showHandGun = true;
 		};
 		class tsp_RifleReloadProneMXSniper: tsp_RifleReloadProneMX
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmxsniperprone.rtm";
 			showHandGun = true;
 		};
 		class tsp_RifleReloadProneTRG: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadtrgprone.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -48580,7 +48580,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneKatiba: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadkatibaprone.rtm";
 			showHandGun = true;
 			speed=0.278;
@@ -48588,7 +48588,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneKatibaUGL: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadkatibauglprone.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -48596,7 +48596,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneM200: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadm200prone.rtm";
 			showHandGun = true;
 			speed=0.189403;
@@ -48604,7 +48604,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneLRR: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadlrrprone.rtm";
 			showHandGun = true;
 			speed=-5.1999998;
@@ -48613,7 +48613,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneEBR: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadebrprone.rtm";
 			showHandGun = true;
 			speed=0.27195001;
@@ -48622,7 +48622,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSMG_02: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadsmg_02prone.rtm";
 			showHandGun = true;
 			speed=0.38;
@@ -48630,7 +48630,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSMG_03: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadsmg_03prone.rtm";
 			showHandGun = true;
 			speed=0.25999999;
@@ -48639,7 +48639,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSDAR: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadrfbprone.rtm";
 			showHandGun = true;
 			speed=0.28;
@@ -48647,7 +48647,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloaddmrprone.rtm";
 			showHandGun = true;
 			speed=0.25;
@@ -48655,7 +48655,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR02: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloaddmr02prone.rtm";
 			showHandGun = true;
 			speed=0.32258099;
@@ -48664,7 +48664,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR03: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloaddmr03prone.rtm";
 			showHandGun = true;
 			speed=0.32967001;
@@ -48673,7 +48673,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR04: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloaddmr04prone.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -48682,7 +48682,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR05: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloaddmr05prone.rtm";
 			showHandGun = true;
 			speed=0.285714;
@@ -48691,7 +48691,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR06: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloaddmr06prone.rtm";
 			showHandGun = true;
 			speed=0.27026999;
@@ -48700,7 +48700,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMMG01: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmmg01prone.rtm";
 			showHandGun = true;
 			speed=0.132743;
@@ -48709,7 +48709,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneMMG02: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadmmg02prone.rtm";
 			showHandGun = true;
 			speed=0.12987;
@@ -48718,7 +48718,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneAKM: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadakmprone.rtm";
 			showHandGun = true;
 			speed=0.32609001;
@@ -48727,7 +48727,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneAKS: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadaksprone.rtm";
 			showHandGun = true;
 			speed=0.34090999;
@@ -48737,7 +48737,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneLIM: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadlimprone.rtm";
 			showHandGun = true;
 			speed=0.12820999;
@@ -48747,7 +48747,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSMG_05: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadsmg_05prone.rtm";
 			showHandGun = true;
 			speed=-2.8499999;
@@ -48756,7 +48756,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSPAR_01: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadspar_01prone.rtm";
 			showHandGun = true;
 			speed=-2.5;
@@ -48765,7 +48765,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSPAR_02: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadspar_02prone.rtm";
 			showHandGun = true;
 			speed=-2.5;
@@ -48774,7 +48774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSPARUGL: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadsparuglprone.rtm";
 			showHandGun = true;
 			speed=-2.2;
@@ -48783,7 +48783,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneARX: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadarxprone.rtm";
 			showHandGun = true;
 			speed=-2.5;
@@ -48792,7 +48792,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneARX2: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadarx2prone.rtm";
 			showHandGun = true;
 			speed=-2.5;
@@ -48801,7 +48801,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneCTAR: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloadctarprone.rtm";
 			showHandGun = true;
 			speed=0.278;
@@ -48810,7 +48810,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneDMR07: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\gesturereloaddmr07prone.rtm";
 			showHandGun = true;
 			weaponIK=1;
@@ -48819,7 +48819,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneGM6: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadlynxprone.rtm";
 			showHandGun = true;
 			speed=0.175;
@@ -48828,7 +48828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneSMG_01: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadsmg_01prone.rtm";
 			showHandGun = true;
 			speed=0.37078601;
@@ -48836,7 +48836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_RifleReloadProneM4SSAS: tsp_RifleReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadm4ssas.rtm";
 			showHandGun = true;
 			speed=0.105079;
@@ -48845,7 +48845,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_PistolReloadProneBase: tsp_RifleReloadProneBase
 		{
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\rld\pst\awoppercmstpsrldwpstdnon.rtm";
 			showHandGun = true;
 			speed=0.75012398;
@@ -48861,7 +48861,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_PistolReloadProne: tsp_PistolReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadpistolprone.rtm";
 			showHandGun = true;
 			speed=-2.9000001;
@@ -48869,14 +48869,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_PistolHeavy02ReloadProne: tsp_PistolReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadpistolheavy02prone.rtm";
 			showHandGun = true;
 			speed=0.28;
 		};
 		class tsp_PistolReloadProneFlaregun: tsp_PistolReloadProneBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadflaregun.rtm";
 			showHandGun = true;
 			speed=-2.9000001;
@@ -48886,7 +48886,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			visibleSize=0.69999999;
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\rld\rfl\awoppercmstpsrldwrfldnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -48914,7 +48914,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			visibleSize=0.350124;
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\rld\rfl\awoppknlmstpsrldwrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wrfl.p3d";
@@ -48927,7 +48927,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_WeaponMagazineReloadProne: tsp_WeaponMagazineReloadStand
 		{
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\rld\rfl\awopppnemstpsrldwrfldnon.rtm";
 			showHandGun = true;
 			visibleSize=0.15000001;
@@ -48950,7 +48950,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_PistolMagazineReloadStand: Default
 		{
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\rld\pst\awoppercmstpsrldwpstdnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -48980,7 +48980,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_PistolMagazineReloadKneel: tsp_PistolMagazineReloadStand
 		{
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\rld\pst\awoppknlmstpsrldwpstdnon.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -48994,7 +48994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_PistolMagazineReloadProne: tsp_PistolMagazineReloadStand
 		{
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\rld\pst\awopppnemstpsrldwpstdnon.rtm";
 			showHandGun = true;
 			visibleSize=0.15000001;
@@ -49013,7 +49013,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_LauncherReloadKneel: Default
 		{
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\rld\lnr\awoppknlmstpsrldwlnrdnon.rtm";
 			showHandGun = true;
 			looped=0;
@@ -49041,7 +49041,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LauncherReloadStand: tsp_LauncherReloadKneel
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\rld\lnr\awoppercmstpsrldwlnrdnon.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActions";
@@ -49055,7 +49055,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_TransAnimBase: Default
 		{
 			stamina=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\trigger.rtm";
 			showHandGun = true;
 			visibleSize=0.34999999;
@@ -49104,7 +49104,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWrflDdown_AadjPpneMstpSrasWrflDup";
 			actions="tsp_RifleAdjustBKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\rfl\aadjppnemstpsraswrfldup_aadjpknlmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.64999998;
@@ -49131,7 +49131,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPpneMstpSrasWrflDup_AadjPknlMstpSrasWrflDdown";
 			actions="tsp_RifleAdjustFProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\rfl\aadjpknlmstpsraswrflddown_aadjppnemstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -49150,7 +49150,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSlowWpstDnon: tsp_TransAnimBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			speed=1.03448;
@@ -49179,7 +49179,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSlowWpstDnon_AmovPknlMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSlowWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelActions";
@@ -49224,7 +49224,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSnonWnonDnon: tsp_TransAnimBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			actions="tsp_CivilKneelActions";
@@ -49257,7 +49257,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSnonWnonDnon_end: tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			//--showHandgun=0;
@@ -49284,7 +49284,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSnonWnonDnon_AmovPknlMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			//--showHandgun=0;
@@ -49311,7 +49311,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSnonWnonDnon_AmovPknlMstpSrasWpstDnon_end: tsp_AmovPknlMstpSnonWnonDnon_AmovPknlMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpknlmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -49338,7 +49338,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWpstDnon_AmovPercMstpSrasWpstDnon: tsp_TransAnimBase
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActions";
@@ -49369,7 +49369,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSlowWpstDnon: tsp_TransAnimBase
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			actions="tsp_PistolLowStandActions";
@@ -49401,7 +49401,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSlowWlnrDnon_AmovPercMstpSrasWlnrDnon: tsp_TransAnimBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\lnr\amovpercmstpslowwlnrdnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActions";
@@ -49430,7 +49430,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPercMstpSlowWlnrDnon: tsp_TransAnimBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpercmstpslowwlnrdnon.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActions";
@@ -49460,7 +49460,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPercMstpSrasWrflDnon: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActions";
@@ -49496,7 +49496,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPercMstpSrasWrflDnon_end: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpercmstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActions";
@@ -49533,7 +49533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWrflDnon_AmovPercMstpSrasWlnrDnon_end: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpsraswlnrdnon_end.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActions";
@@ -49569,7 +49569,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWrflDnon_AmovPercMstpSrasWlnrDnon: tsp_TransAnimBase_noIK
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActions";
@@ -49604,7 +49604,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			aimPrecision=3;
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=1.42857;
@@ -49643,7 +49643,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			stamina=0;
 			actions="tsp_LauncherStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\lnr\amovppnemstpsraswlnrdnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=0.447761;
@@ -49679,7 +49679,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPpneMstpSrasWlnrDnon: tsp_TransAnimBase
 		{
 			actions="tsp_LauncherProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovppnemstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=0.52631599;
@@ -49719,7 +49719,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			stamina=0;
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\lnr\amovppnemstpsraswlnrdnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -49751,7 +49751,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon: tsp_TransAnimBase
 		{
 			aimPrecision=3;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActions";
@@ -49791,7 +49791,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=0;
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.57894802;
@@ -49834,7 +49834,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWlnrDnon_AmovPpneMstpSnonWnonDnon: tsp_AmovPercMstpSrasWlnrDnon_AmovPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			soundOverride="Adjust_kneel_to_prone";
@@ -49847,7 +49847,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon_in.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -49875,7 +49875,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPercMstpSrasWrflDnon_Putdown: tsp_AmovPercMstpSrasWrflDnon_AinvPercMstpSrasWrflDnon_Putdown
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-9.9999997e-006;
@@ -49912,7 +49912,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon_out.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -49928,7 +49928,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			actions="tsp_RifleStandActions_inv";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -49964,7 +49964,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={11,11,11};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -49978,7 +49978,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPercMstpSrasWrflDnon_G01: tsp_AmovPercMstpSrasWrflDnon_AinvPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon_gloop.rtm";
 			showHandGun = true;
 			speed=-11;
@@ -49997,7 +49997,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\rfl\ainvpercmstpsraswrfldnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50013,7 +50013,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon_in.rtm";
 			showHandGun = true;
 			speed=1.42857;
@@ -50042,7 +50042,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSrasWrflDnon_Putdown: tsp_AmovPknlMstpSrasWrflDnon_AinvPknlMstpSrasWrflDnon_Putdown
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-9.9999997e-006;
@@ -50080,7 +50080,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon_out.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -50097,7 +50097,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_RifleKneelActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon_gin.rtm";
 			showHandGun = true;
 			speed=1.85;
@@ -50133,7 +50133,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={6,6,6};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50147,7 +50147,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSrasWrflDnon_G01: tsp_AmovPknlMstpSrasWrflDnon_AinvPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon_gloop.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -50165,7 +50165,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\rfl\ainvpknlmstpsraswrfldnon_gout.rtm";
 			showHandGun = true;
 			speed=1.75;
@@ -50178,7 +50178,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon_in.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -50204,7 +50204,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPpneMstpSrasWrflDnon_Putdown: tsp_AmovPpneMstpSrasWrflDnon_AinvPpneMstpSrasWrflDnon_Putdown
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-9.9999997e-006;
@@ -50238,7 +50238,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon_out.rtm";
 			showHandGun = true;
 			speed=0.58823502;
@@ -50253,7 +50253,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			actions="tsp_rifleproneActions_inv";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon_gin.rtm";
 			showHandGun = true;
 			speed=1.11111;
@@ -50285,7 +50285,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={7,7,7};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50298,7 +50298,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPpneMstpSrasWrflDnon_G01: tsp_AmovPpneMstpSrasWrflDnon_AinvPpneMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon_gloop.rtm";
 			showHandGun = true;
 			speed=-6.9499998;
@@ -50314,7 +50314,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=0.75;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\rfl\ainvppnemstpsraswrfldnon_gout.rtm";
 			showHandGun = true;
 			speed=1.85;
@@ -50330,7 +50330,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_PistolStandActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\pst\ainvpercmstpsraswpstdnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50368,7 +50368,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={7,7,7};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\pst\ainvpercmstpsraswpstdnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50382,7 +50382,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPercMstpSrasWpstDnon_G01: tsp_AmovPercMstpSrasWpstDnon_AinvPercMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\pst\ainvpercmstpsraswpstdnon_gloop.rtm";
 			showHandGun = true;
 			speed=-6.9499998;
@@ -50402,7 +50402,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\pst\ainvpercmstpsraswpstdnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50420,7 +50420,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_PistolKneelActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\pst\ainvpknlmstpsraswpstdnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50458,7 +50458,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={6,6,6};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\pst\ainvpknlmstpsraswpstdnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50472,7 +50472,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSrasWpstDnon_G01: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\pst\ainvpknlmstpsraswpstdnon_gloop.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -50492,7 +50492,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\pst\ainvpknlmstpsraswpstdnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50510,7 +50510,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_PistolProneActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\pst\ainvppnemstpsraswpstdnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50544,7 +50544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={8,8,8};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\pst\ainvppnemstpsraswpstdnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50558,7 +50558,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPpneMstpSrasWpstDnon_G01: tsp_AmovPpneMstpSrasWpstDnon_AinvPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\pst\ainvppnemstpsraswpstdnon_gloop.rtm";
 			showHandGun = true;
 			speed=-8;
@@ -50576,7 +50576,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\pst\ainvppnemstpsraswpstdnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50592,7 +50592,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\pst\ainvpercmstpsraswpstdnon_in.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50628,7 +50628,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\pst\ainvpercmstpsraswpstdnon_out.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -50643,7 +50643,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\pst\ainvpknlmstpsraswpstdnon_in.rtm";
 			showHandGun = true;
 			speed=1.42857;
@@ -50679,7 +50679,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\pst\ainvpknlmstpsraswpstdnon_out.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -50694,7 +50694,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\pst\ainvppnemstpsraswpstdnon_in.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -50726,7 +50726,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\ras\pst\ainvppnemstpsraswpstdnon_out.rtm";
 			showHandGun = true;
 			speed=0.58823502;
@@ -50742,7 +50742,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_CivilStandActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsnonwnondnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50776,7 +50776,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={6,6,6};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsnonwnondnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50785,7 +50785,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPercMstpSnonWnonDnon_G01: tsp_AmovPercMstpSnonWnonDnon_AinvPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsnonwnondnon_gloop.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -50802,7 +50802,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsnonwnondnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50818,7 +50818,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_CivilKneelActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50852,7 +50852,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={4,4,4};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50861,7 +50861,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_G01: tsp_AmovPknlMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_gloop.rtm";
 			showHandGun = true;
 			speed=-4;
@@ -50877,7 +50877,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50893,7 +50893,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_CivilProneActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsnonwnondnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -50927,7 +50927,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={8,8,8};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsnonwnondnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -50936,7 +50936,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPpneMstpSnonWnonDnon_G01: tsp_AmovPpneMstpSnonWnonDnon_AinvPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsnonwnondnon_gloop.rtm";
 			showHandGun = true;
 			speed=-8;
@@ -50952,7 +50952,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsnonwnondnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -50968,7 +50968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -50988,7 +50988,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_amovpknlmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.75;
@@ -51022,7 +51022,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.69;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.710527;
@@ -51051,7 +51051,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.50999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1.4;
@@ -51075,7 +51075,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.41;
 			reverse="tsp_AmovPpneMstpSrasWrflDnon_AmovPknlMstpSrasWrflDnon";
 			leftHandIKCurve[]={0,1,0.16862699,1,0.223529,0,0.85097998,0,0.92941201,1};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -51091,7 +51091,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -51111,7 +51111,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=3.0553899;
@@ -51130,7 +51130,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -51148,7 +51148,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationRestart=2;
 			disableWeapons=1;
 			disableWeaponsLong=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=2.2971399;
@@ -51160,7 +51160,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			boundingSphere=3;
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldf_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -51194,7 +51194,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMsprSlowWrflDf_AmovPpneMstpSrasWrflDnon_2: tsp_AmovPercMsprSlowWrflDf_AmovPpneMstpSrasWrflDnon
 		{
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne.p3d";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldf_amovppnemstpsraswrfldnon_2.rtm";
 			showHandGun = true;
 			speed=0.92307699;
@@ -51219,7 +51219,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf_amovppnemstpsraswrfldnon_start.rtm";
 			showHandGun = true;
 			speed=1.03448;
@@ -51260,7 +51260,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.76999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf_amovppnemstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			speed=1.53846;
@@ -51284,7 +51284,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.76999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne_trans.p3d";
@@ -51309,7 +51309,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.44999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -51352,7 +51352,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.64999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.82653099;
@@ -51372,7 +51372,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWrflDnon_AmovPknlMsprSrasWrflDf: tsp_TransAnimBase
 		{
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpercmsprslowwrfldf.rtm";
 			showHandGun = true;
 			speed=2.0699999;
@@ -51398,7 +51398,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWrflDnon_AmovPercMsprSrasWrflDf_2: tsp_AmovPknlMstpSrasWrflDnon_AmovPknlMsprSrasWrflDf
 		{
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpercmsprslowwrfldf_2.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -51456,7 +51456,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMin=0.80000001;
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.60447699;
@@ -51482,7 +51482,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=0;
 			variantsAI[]={};
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovpercmsprslowwrfldf.rtm";
 			showHandGun = true;
 			speed=1;
@@ -51509,7 +51509,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWrflDnon_AmovPercMsprSlowWrflDf_2: tsp_AmovPpneMstpSrasWrflDnon_AmovPercMsprSlowWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovpercmsprslowwrfldf_2.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -51542,7 +51542,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			minPlayTime=0.47;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\rfl\amovpknlmstpslowwrfldnon_amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=-0.75;
@@ -51567,7 +51567,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			minPlayTime=0.70999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.987804;
@@ -51590,7 +51590,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -51610,7 +51610,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon_amovpknlmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			speed=1.11111;
@@ -51625,7 +51625,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMin=1;
 			static=1;
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\pst\amovpercmsprslowwpstdf_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=2.1818199;
@@ -51662,7 +51662,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.44999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\pst\amovpercmsprslowwpstdf_amovppnemstpsraswpstdnon_2.rtm";
 			showHandGun = true;
 			speed=1.04348;
@@ -51676,7 +51676,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=0.818183;
@@ -51700,7 +51700,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSlowWpstDnon_AmovPpneMstpSrasWpstDnon: tsp_AmovPercMstpSrasWpstDnon_AmovPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -51709,7 +51709,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSlowWpstDnon_AmovPpneMstpSrasWpstDnon: tsp_AmovPercMstpSrasWpstDnon_AmovPpneMstpSrasWpstDnon
 		{
 			aimPrecision=3;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=0.56603801;
@@ -51723,7 +51723,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-0.37;
@@ -51743,7 +51743,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\low\pst\amovpknlmstpslowwpstdnon_amovpercmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			speed=0.96774203;
@@ -51754,7 +51754,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			aimPrecision=2;
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpercmsprslowwpstdf.rtm";
 			showHandGun = true;
 			speed=3.71;
@@ -51779,7 +51779,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=0;
 			aimPrecision=3;
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=0.83721;
@@ -51806,7 +51806,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMax=1;
 			relSpeedMin=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=0.679245;
@@ -51833,7 +51833,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			stamina=0;
 			aimPrecision=3;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=0.857144;
@@ -51862,7 +51862,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=0;
 			aimPrecision=4;
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovpercmsprslowwpstdf.rtm";
 			showHandGun = true;
 			speed=1.3099999;
@@ -51892,7 +51892,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AmovPercMsprSlowWpstDf_2: tsp_AmovPpneMstpSrasWpstDnon_AmovPercMsprSlowWpstDf
 		{
 			actions="tsp_PistolRunFActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovpercmsprslowwpstdf_2.rtm";
 			showHandGun = true;
 			speed=2.1700001;
@@ -51920,7 +51920,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.53846;
@@ -51947,7 +51947,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			canBlendStep=0;
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.94999999;
@@ -51984,7 +51984,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf_amovppnemstpsnonwnondnon_2.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -52009,7 +52009,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.88693601;
@@ -52042,7 +52042,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.4673899;
@@ -52068,7 +52068,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			canBlendStep=0;
 			actions="tsp_CivilKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			speed=2.55;
@@ -52096,7 +52096,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			canBlendStep=0;
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpercmsprsnonwnondf_2.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -52110,7 +52110,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.44999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.32353;
@@ -52147,7 +52147,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -52182,7 +52182,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.44999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.895522;
@@ -52217,7 +52217,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=0;
 			canBlendStep=0;
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			speed=1.0599999;
@@ -52248,7 +52248,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSnonWnonDnon_AmovPercMsprSnonWnonDf_2: tsp_AmovPpneMstpSnonWnonDnon_AmovPercMsprSnonWnonDf
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovpercmsprsnonwnondf_2.rtm";
 			showHandGun = true;
 			speed=1.3200001;
@@ -52263,7 +52263,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=0.5;
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -52293,7 +52293,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWrflDnon_AmovPercMstpSrasWpstDnon_end: tsp_AmovPercMstpSrasWrflDnon_AmovPercMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.52;
@@ -52326,7 +52326,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			soundOverride="rifle_to_handgun";
@@ -52352,7 +52352,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -52377,7 +52377,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1.5;
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.104167;
@@ -52413,7 +52413,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWrflDnon_AmovPpneMstpSrasWpstDnon_end: tsp_AmovPpneMstpSrasWrflDnon_AmovPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovppnemstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.682539;
@@ -52446,7 +52446,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			aimprecision=0.5;
@@ -52473,7 +52473,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpsraswlnrdnon_end.rtm";
 			showHandGun = true;
 			aimprecision=0.5;
@@ -52497,7 +52497,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWrflDnon_AmovPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.441176;
@@ -52516,7 +52516,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWrflDnon_AmovPknlMstpSnonWnonDnon: tsp_AmovPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.441176;
@@ -52536,7 +52536,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_AmovPpneMstpSnonWnonDnon: tsp_TransAnimBase
 		{
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -52571,7 +52571,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=0.5;
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=2.6666551;
@@ -52602,7 +52602,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSrasWrflDnon_end: tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			//--showHandgun=0;
@@ -52635,7 +52635,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSrasWrflDnon: tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSrasWrflDnon
 		{
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelActions";
@@ -52661,7 +52661,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AmovPknlMstpSrasWrflDnon_end: tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSrasWrflDnon_end
 		{
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			soundEnabled=0;
@@ -52688,7 +52688,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1.5;
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=2.5591359;
@@ -52722,7 +52722,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMstpSrasWrflDnon_end: tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovppnemstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			speed=0.90151602;
@@ -52754,7 +52754,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPercMstpSrasWpstDnon: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -52791,7 +52791,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPercMstpSrasWpstDnon_end: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpercmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -52825,7 +52825,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSrasWlnrDnon: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -52861,7 +52861,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSrasWlnrDnon_end: tsp_TransAnimBase
 		{
 			duty=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsraswlnrdnon_end.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -52900,7 +52900,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			soundOverride="handgun_to_launcher";
@@ -52927,7 +52927,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=1;
 			actions="tsp_LauncherKneelActions";
 			soundEnabled=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_amovpknlmstpsraswlnrdnon_end.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -52951,7 +52951,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSnonWnonDnon: tsp_TransAnimBase
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.03448;
@@ -52984,7 +52984,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSnonWnonDnon_end: tsp_AmovPercMstpSrasWpstDnon_AmovPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_amovpercmstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -53016,7 +53016,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMstpSnonWnonDnon: tsp_TransAnimBase
 		{
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -53046,7 +53046,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMstpSnonWnonDnon_end: tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMstpSnonWnonDnon
 		{
 			mask="weaponSwitching";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovppnemstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.11111;
@@ -53063,7 +53063,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			aimprecision=0.5;
@@ -53090,7 +53090,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpknlmstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			aimprecision=0.5;
@@ -53116,7 +53116,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			soundOverride="launcher_to_handgun";
@@ -53142,7 +53142,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=1;
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpknlmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -53166,7 +53166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWlnrDnon_AmovPercMstpSnonWnonDnon: tsp_TransAnimBase
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.34;
@@ -53199,7 +53199,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AmovPercMstpSrasWrflDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=3.1578901;
@@ -53237,7 +53237,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			disableWeapons=1;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			speed=0.64516199;
@@ -53249,7 +53249,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AmovPknlMstpSrasWrflDnon: tsp_TransAnimBase
 		{
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=3.1578901;
@@ -53294,7 +53294,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeapons=1;
 			looped=0;
 			soundEnabled=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			speed=0.64516199;
@@ -53308,7 +53308,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSoptWbinDnon_AmovPpneMstpSrasWrflDnon: tsp_TransAnimBase
 		{
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.992064;
@@ -53354,7 +53354,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			disableWeapons=1;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_amovppnemstpsraswrfldnon_end.rtm";
 			showHandGun = true;
 			speed=0.541125;
@@ -53366,7 +53366,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AmovPercMstpSrasWpstDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.66667;
@@ -53404,7 +53404,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			disableWeapons=1;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.15385;
@@ -53412,7 +53412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AmovPknlMstpSrasWpstDnon: tsp_TransAnimBase
 		{
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.66667;
@@ -53449,7 +53449,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.15385;
@@ -53458,7 +53458,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSoptWbinDnon_AmovPpneMstpSrasWpstDnon: tsp_TransAnimBase
 		{
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.77632;
@@ -53497,7 +53497,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_amovppnemstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.27359;
@@ -53506,7 +53506,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AmovPercMstpSnonWnonDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.665;
@@ -53542,7 +53542,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.665;
@@ -53550,7 +53550,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AmovPknlMstpSnonWnonDnon: tsp_TransAnimBase
 		{
 			actions="tsp_CivilKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.665;
@@ -53587,7 +53587,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.665;
@@ -53596,7 +53596,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSoptWbinDnon_AmovPpneMstpSnonWnonDnon: tsp_TransAnimBase
 		{
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.32353;
@@ -53634,7 +53634,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_amovppnemstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -53643,7 +53643,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon: tsp_TransAnimBase
 		{
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.42857099;
@@ -53677,7 +53677,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSnonWnonDnon_AmovPknlMstpSrasWrflDnon: tsp_TransAnimBase
 		{
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.46153;
@@ -53711,7 +53711,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSnonWnonDnon_AmovPpneMstpSrasWrflDnon: tsp_TransAnimBase
 		{
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.842188;
@@ -53745,7 +53745,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon: tsp_TransAnimBase
 		{
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.7647099;
@@ -53778,7 +53778,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_end: tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpercmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.07143;
@@ -53805,7 +53805,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSnonWnonDnon_AmovPpneMstpSrasWpstDnon: tsp_TransAnimBase
 		{
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.48077;
@@ -53836,7 +53836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSnonWnonDnon_AmovPpneMstpSrasWpstDnon_end: tsp_AmovPpneMstpSnonWnonDnon_AmovPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovppnemstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=0.93145198;
@@ -53851,7 +53851,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPknlMstpSrasWlnrDnon: tsp_TransAnimBase
 		{
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=1;
@@ -53946,7 +53946,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aiming="tsp_AimingDefault";
 			aimingBody="tsp_AimingUpDefault";
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprsraswrfldf_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -53960,14 +53960,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMevaSrasWrflDfr_AmovPknlMstpSrasWrflDnon: tsp_AmovPercMevaSrasWrflDf_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprsraswrfldfr_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.89999998;
 		};
 		class tsp_AmovPercMevaSrasWrflDfl_AmovPknlMstpSrasWrflDnon: tsp_AmovPercMevaSrasWrflDf_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprsraswrfldfl_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.89999998;
@@ -53979,7 +53979,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMin=0.5;
 			Walkcycles=2;
 			speed=1.4759901;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\rfl\amovpknlmsprslowwrfldf.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelEvasiveActionsF";
@@ -54097,7 +54097,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSrasWrflDfl: tsp_AmovPercMevaSrasWrflDf
 		{
 			relSpeedMax=1.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandEvasiveActionsFL";
@@ -54146,7 +54146,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMevaSrasWrflDfl: tsp_AmovPknlMevaSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\rfl\amovpknlmsprslowwrfldfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelEvasiveActionsFL";
@@ -54184,7 +54184,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSlowWrflDfl: tsp_AmovPercMevaSrasWrflDf
 		{
 			actions="tsp_RifleStandLowEvasiveActionsFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldfl.rtm";
 			showHandGun = true;
 			aimPrecision=4;
@@ -54227,7 +54227,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMevaSrasWrflDfr: tsp_AmovPercMevaSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\rfl\amovpercmsprslowwrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandEvasiveActionsFR";
@@ -54533,7 +54533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSrasWrflDfr: tsp_AmovPercMevaSrasWrflDfr
 		{
 			speed=1.461447;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\rfl\amovpknlmsprslowwrfldfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleKneelEvasiveActionsFR";
@@ -54690,7 +54690,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWrflDnon_AmovPknlMevaSrasWrflDr: tsp_AmovPknlMstpSrasWrflDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_amovpknlmevasraswrfldr.rtm";
 			showHandGun = true;
 			speed=0.50999999;
@@ -54717,7 +54717,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-1;
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovppnemevaslowwrfldl.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -54752,7 +54752,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWrflDnon_AmovPpneMevaSlowWrflDr: tsp_AmovPpneMstpSrasWrflDnon_AmovPpneMevaSlowWrflDl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_amovppnemevaslowwrfldr.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -54767,7 +54767,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			enableOptics=0;
 			speed=1.666666;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\pst\amovpercmsprslowwpstdf.rtm";
 			showHandGun = true;
 			weaponIK=2;
@@ -54804,7 +54804,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=8;
 			duty=1;
 			relSpeedMin=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\pst\amovpknlmsprslowwpstdf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\data\geom\sdr\Pknl_Mrun_Slow_Wpst.p3d";
@@ -54874,7 +54874,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
 			actions="tsp_PistolStandEvasiveActionsFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\pst\amovpercmsprslowwpstdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -54908,7 +54908,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMevaSrasWpstDfl: tsp_AmovPknlMevaSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\pst\amovpknlmsprslowwpstdfl.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelEvasiveActionsFL";
@@ -54975,7 +54975,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl.p3d";
 			actions="tsp_PistolStandEvasiveActionsFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\low\pst\amovpercmsprslowwpstdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -55009,7 +55009,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMevaSrasWpstDfr: tsp_AmovPknlMevaSrasWpstDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\low\pst\amovpknlmsprslowwpstdfr.rtm";
 			showHandGun = true;
 			actions="tsp_PistolKneelEvasiveActionsFR";
@@ -55203,7 +55203,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovppnemevaslowwpstdl.rtm";
 			showHandGun = true;
 			speed=1.02;
@@ -55234,7 +55234,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMevaSlowWpstDr: tsp_AmovPpneMstpSrasWpstDnon_AmovPpneMevaSlowWpstDl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_amovppnemevaslowwpstdr.rtm";
 			showHandGun = true;
 		};
@@ -55277,7 +55277,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMevaSnonWnonDfl: tsp_AmovPercMevaSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -55307,7 +55307,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMevaSnonWnonDfr: tsp_AmovPercMevaSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -55345,7 +55345,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMin=0.5;
 			duty=0.80000001;
 			Walkcycles=2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondf.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -55377,7 +55377,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWnonDfl: tsp_AmovPknlMevaSnonWnonDf
 		{
 			speed=1.7647099;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -55408,7 +55408,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWnonDfr: tsp_AmovPknlMevaSnonWnonDf
 		{
 			speed=1.7647099;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -55439,7 +55439,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSnonWnonDnon_AmovPpneMevaSnonWnonDl: tsp_AidlPpneMstpSnonWnonDnon_G0S
 		{
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovppnemevasnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.94999999;
@@ -55470,7 +55470,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSnonWnonDnon_AmovPpneMevaSnonWnonDr: tsp_AidlPpneMstpSnonWnonDnon_G0S
 		{
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovppnemevasnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.94999999;
@@ -55532,7 +55532,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_exercisekneeBendA: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_exercisekneebenda.rtm";
 			showHandGun = true;
 			speed=0.17200001;
@@ -55560,7 +55560,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_exercisekneeBendB: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_exercisekneebendb.rtm";
 			showHandGun = true;
 			speed=0.33000001;
@@ -55585,7 +55585,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_exercisePushup: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_exercisepushup.rtm";
 			showHandGun = true;
 			speed=0.063559003;
@@ -55613,7 +55613,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_exerciseKata: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_exercisekata.rtm";
 			showHandGun = true;
 			speed=0.029999999;
@@ -55648,7 +55648,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_Scared: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_scared.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -55672,7 +55672,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_Scared2: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_scared2.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -55697,7 +55697,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWrflDnon_SaluteIn: tsp_AidlPercMstpSlowWrflDnon_G0S
 		{
 			actions="tsp_RifleLowStandSaluteActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_salutein.rtm";
 			showHandGun = true;
 			speed=2.5;
@@ -55750,7 +55750,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSlowWrflDnon_Salute: tsp_AmovPercMstpSlowWrflDnon_SaluteIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_salute.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -55783,7 +55783,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWrflDnon_SaluteOut: tsp_AmovPercMstpSlowWrflDnon_SaluteIn
 		{
 			actions="tsp_RifleLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_saluteout.rtm";
 			showHandGun = true;
 			rightHandIKCurve[]={0.80000001,0,0.89999998,1};
@@ -55830,7 +55830,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsAI[]={};
 			actions="tsp_RifleStandSaluteActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_salutein.rtm";
 			showHandGun = true;
 			speed=2.5;
@@ -55864,7 +55864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWrflDnon_Salute: tsp_AmovPercMstpSrasWrflDnon_SaluteIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_salute.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -55888,7 +55888,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWrflDnon_SaluteOut: tsp_AmovPercMstpSrasWrflDnon_SaluteIn
 		{
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_saluteout.rtm";
 			showHandGun = true;
 			rightHandIKCurve[]={0.80000001,0,0.89999998,1};
@@ -55918,7 +55918,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_PistolStandSaluteActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_salutein.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -55948,7 +55948,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_SaluteIn_end: tsp_AmovPercMstpSrasWpstDnon_SaluteIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_salutein_end.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -55973,7 +55973,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_Salute: tsp_AmovPercMstpSrasWpstDnon_SaluteIn_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_salute.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -55995,7 +55995,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_SaluteOut: tsp_AmovPercMstpSrasWpstDnon_SaluteIn_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_saluteout.rtm";
 			showHandGun = true;
 			actions="tsp_PistolStandActions";
@@ -56019,7 +56019,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_SaluteOut_end: tsp_AmovPercMstpSrasWpstDnon_SaluteOut
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_saluteout_end.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -56046,7 +56046,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_CivilStandSaluteActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_salutein.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -56071,7 +56071,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_Salute: tsp_AmovPercMstpSnonWnonDnon_SaluteIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_salute.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -56093,7 +56093,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_SaluteOut: tsp_AmovPercMstpSnonWnonDnon_SaluteIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_saluteout.rtm";
 			showHandGun = true;
 			actions="tsp_CivilStandActions";
@@ -56118,7 +56118,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_EaseIn: CutsceneAnimationBase
 		{
 			actions="tsp_CivilStandSaluteActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_easein.rtm";
 			showHandGun = true;
 			speed=1.6;
@@ -56143,7 +56143,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_Ease: tsp_AmovPercMstpSnonWnonDnon_EaseIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_ease.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -56156,7 +56156,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_EaseOut: tsp_AmovPercMstpSnonWnonDnon_EaseIn
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_easeout.rtm";
 			showHandGun = true;
 			speed=1.09;
@@ -56169,7 +56169,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWrflDnon_AmovPsitMstpSlowWrflDnon: tsp_AmovPercMstpSlowWrflDnon
 		{
 			actions="tsp_RifleLowSitActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_amovpsitmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -56209,7 +56209,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPsitMstpSlowWrflDnon: tsp_AmovPercMstpSlowWrflDnon_AmovPsitMstpSlowWrflDnon
 		{
 			blockMobileSwitching=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -56254,7 +56254,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPsitMstpSlowWrflDnon_WeaponCheck1: tsp_AmovPsitMstpSlowWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_weaponcheck1.rtm";
 			showHandGun = true;
 			speed=0.15000001;
@@ -56274,14 +56274,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPsitMstpSlowWrflDnon_WeaponCheck2: tsp_AmovPsitMstpSlowWrflDnon_WeaponCheck1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_weaponcheck2.rtm";
 			showHandGun = true;
 			speed=0.13;
 		};
 		class tsp_AmovPsitMstpSlowWrflDnon_Smoking: tsp_AmovPsitMstpSlowWrflDnon_WeaponCheck1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_smoking.rtm";
 			showHandGun = true;
 			speed=0.039999999;
@@ -56292,7 +56292,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			variantsPlayer[]={};
 			leftHandIKCurve[]={0,0,0.213,1};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -56303,7 +56303,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_RifleSitActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_amovpsitmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -56347,7 +56347,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPsitMstpSrasWrflDnon: tsp_AmovPercMstpSlowWrflDnon_AmovPsitMstpSrasWrflDnon
 		{
 			blockMobileSwitching=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -56411,7 +56411,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPsitMstpSrasWrflDnon_WeaponCheck1: tsp_AmovPsitMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_weaponcheck1.rtm";
 			showHandGun = true;
 			speed=0.15000001;
@@ -56436,14 +56436,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPsitMstpSrasWrflDnon_WeaponCheck2: tsp_AmovPsitMstpSrasWrflDnon_WeaponCheck1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_weaponcheck2.rtm";
 			showHandGun = true;
 			speed=0.13;
 		};
 		class tsp_AmovPsitMstpSrasWrflDnon_Smoking: tsp_AmovPsitMstpSrasWrflDnon_WeaponCheck1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_smoking.rtm";
 			showHandGun = true;
 			speed=0.039999999;
@@ -56451,7 +56451,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPsitMstpSrasWrflDnon_AmovPercMstpSlowWrflDnon: tsp_AmovPsitMstpSrasWrflDnon
 		{
 			actions="tsp_RifleLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -56477,7 +56477,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWpstDnon_AmovPsitMstpSnonWpstDnon_ground: CutsceneAnimationBase
 		{
 			actions="tsp_PistolSitActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpsitmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			speed=0.69999999;
@@ -56520,7 +56520,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPsitMstpSnonWpstDnon_smoking",
 				0.25
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -56548,7 +56548,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPsitMstpSnonWpstDnon_smoking: tsp_AmovPsitMstpSnonWpstDnon_ground
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_smoking.rtm";
 			showHandGun = true;
 			speed=0.039999999;
@@ -56572,7 +56572,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_PistolStandActions";
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_amovpercmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -56596,7 +56596,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPsitMstpSnonWnonDnon_ground: CutsceneAnimationBase
 		{
 			actions="tsp_CivilSitActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpsitmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			speed=0.69999999;
@@ -56631,7 +56631,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			blockMobileSwitching=1;
 			actions="tsp_CivilSitActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_amovpsitmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -56667,7 +56667,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.25
 			};
 			variantAfter[]={10,15,25};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -56717,7 +56717,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPsitMstpSnonWnonDnon_smoking: tsp_AmovPsitMstpSnonWnonDnon_ground
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\low\rfl\amovpsitmstpslowwrfldnon_smoking.rtm";
 			showHandGun = true;
 			speed=0.039999999;
@@ -56744,7 +56744,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_CivilStandActions";
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_amovpercmstpsnonwnondnon_ground.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -56768,7 +56768,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPsitMstpSnonWnonDnon_ground_AmovPpneMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon_AmovPsitMstpSnonWnonDnon_ground
 		{
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\sit\stp\non\non\amovpsitmstpsnonwnondnon_ground_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -56793,7 +56793,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSsurWnonDnon: CutsceneAnimationBase
 		{
 			actions="tsp_CivilStandSurrenderActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon.rtm";
 			showHandGun = true;
 			speed=1;
@@ -56819,7 +56819,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSsurWnonDnon: tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSsurWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\sur\non\amovpercmstpssurwnondnon.rtm";
 			showHandGun = true;
 			speed=0;
@@ -56843,7 +56843,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSsurWnonDnon_AmovPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSsurWnonDnon
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\sur\non\amovpercmstpssurwnondnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -56868,7 +56868,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_dancing.rtm";
 			showHandGun = true;
 			speed=0.015;
@@ -56889,7 +56889,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_TestSurrender: tsp_TestDance
 		{
 			duty=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\sur\rfl\amovpknlmstpssurwrfldnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -56912,7 +56912,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSgthWrflDnon_Start1: Default
 		{
 			actions="tsp_RifleLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\rfl\awoppercmstpsgthwrfldnon_start.rtm";
 			showHandGun = true;
 			speed=0.533333;
@@ -56942,7 +56942,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWrflDnon_Throw1: tsp_AwopPercMstpSgthWrflDnon_Start1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\rfl\awoppercmstpsgthwrfldnon_throw.rtm";
 			showHandGun = true;
 			speed=4.3636398;
@@ -56956,7 +56956,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWrflDnon_End1: tsp_AwopPercMstpSgthWrflDnon_Start1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\rfl\awoppercmstpsgthwrfldnon_end.rtm";
 			showHandGun = true;
 			speed=0.592592;
@@ -56997,7 +56997,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthStart: Default
 		{
 			actions="tsp_RifleLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf_amovpercmstpsraswrfldnon_gthstart.rtm";
 			showHandGun = true;
 			speed=1.9;
@@ -57026,7 +57026,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthThrow: tsp_AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthStart
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf_amovpercmstpsraswrfldnon_gththrow.rtm";
 			showHandGun = true;
 			speed=0.73000002;
@@ -57038,7 +57038,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthEnd: tsp_AmovPercMrunSlowWrflDf_AmovPercMstpSrasWrflDnon_gthThrow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunslowwrfldf_amovpercmstpsraswrfldnon_gthend.rtm";
 			showHandGun = true;
 			speed=0.91000003;
@@ -57053,7 +57053,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWrflDf_AmovPercMstpSrasWrflDnon_gthStart: Default
 		{
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldf_amovpercmstpsraswrfldnon_gthstart.rtm";
 			showHandGun = true;
 			rightHandIKCurve[]={0.30000001,1,0.40000001,0};
@@ -57083,7 +57083,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDf_AmovPercMstpSrasWrflDnon_gthThrow: tsp_AmovPercMwlkSrasWrflDf_AmovPercMstpSrasWrflDnon_gthStart
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldf_amovpercmstpsraswrfldnon_gththrow.rtm";
 			showHandGun = true;
 			speed=0.72926998;
@@ -57096,7 +57096,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWrflDf_AmovPercMstpSrasWrflDnon_gthEnd: tsp_AmovPercMwlkSrasWrflDf_AmovPercMstpSrasWrflDnon_gthThrow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldf_amovpercmstpsraswrfldnon_gthend.rtm";
 			showHandGun = true;
 			speed=0.90908998;
@@ -57110,7 +57110,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSgthWrflDnon_Start: Default
 		{
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\rfl\awoppknlmstpsgthwrfldnon_start.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -57137,7 +57137,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPknlMstpSgthWrflDnon_Throw: tsp_AwopPknlMstpSgthWrflDnon_Start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\rfl\awoppknlmstpsgthwrfldnon_throw.rtm";
 			showHandGun = true;
 			speed=4.9949999;
@@ -57149,7 +57149,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPknlMstpSgthWrflDnon_End: tsp_AwopPknlMstpSgthWrflDnon_Start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\rfl\awoppknlmstpsgthwrfldnon_end.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -57162,7 +57162,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSgthWrflDnon_Fast_Start: Default
 		{
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\rfl\awopppnemstpsgthwrfldnon_fast_start.rtm";
 			showHandGun = true;
 			speed=-1.05;
@@ -57195,7 +57195,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWrflDnon_Fast_End: tsp_AmovPpneMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\rfl\awopppnemstpsgthwrfldnon_fast_end.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -57209,7 +57209,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSgthWpstDnon_Fast_Start: Default
 		{
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_fast_start.rtm";
 			showHandGun = true;
 			speed=2.3076899;
@@ -57239,7 +57239,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWpstDnon_Fast_Start_1: tsp_AwopPpneMstpSgthWpstDnon_Fast_Start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_fast_start_1.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -57252,7 +57252,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWpstDnon_Fast_End: tsp_AwopPpneMstpSgthWpstDnon_Fast_Start_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_fast_end.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -57264,7 +57264,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWpstDnon_Fast_End_1: tsp_AmovPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_fast_end_1.rtm";
 			showHandGun = true;
 			speed=2.5;
@@ -57276,7 +57276,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSgthWnonDnon_Fast_Start: Default
 		{
 			actions="tsp_CivilProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\non\awopppnemstpsgthwnondnon_fast_start.rtm";
 			showHandGun = true;
 			speed=-1.05;
@@ -57308,7 +57308,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWnonDnon_Fast_End: tsp_AmovPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\non\awopppnemstpsgthwnondnon_fast_end.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -57321,7 +57321,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSgthWrflDnon_Start: Default
 		{
 			actions="tsp_RifleProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\rfl\awopppnemstpsgthwrfldnon_start.rtm";
 			showHandGun = true;
 			speed=0.82499999;
@@ -57351,7 +57351,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWrflDnon_Throw: tsp_AwopPpneMstpSgthWrflDnon_Start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\rfl\awopppnemstpsgthwrfldnon_throw.rtm";
 			showHandGun = true;
 			speed=4.5;
@@ -57364,7 +57364,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWrflDnon_End: tsp_AwopPpneMstpSgthWrflDnon_Start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\rfl\awopppnemstpsgthwrfldnon_end.rtm";
 			showHandGun = true;
 			speed=2.04;
@@ -57378,7 +57378,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSgthWpstDnon_Part1: Default
 		{
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\pst\awoppercmstpsgthwpstdnon_part1.rtm";
 			showHandGun = true;
 			speed=1.875;
@@ -57406,7 +57406,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWpstDnon_Part2: tsp_AwopPercMstpSgthWpstDnon_Part1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\pst\awoppercmstpsgthwpstdnon_part2.rtm";
 			showHandGun = true;
 			speed=0.58499998;
@@ -57419,7 +57419,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWpstDnon_Part3: tsp_AwopPercMstpSgthWpstDnon_Part2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\pst\awoppercmstpsgthwpstdnon_part3.rtm";
 			showHandGun = true;
 			speed=1.98;
@@ -57431,7 +57431,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWpstDnon_Part4: tsp_AwopPercMstpSgthWpstDnon_Part3
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\pst\awoppercmstpsgthwpstdnon_part4.rtm";
 			showHandGun = true;
 			speed=0.64499998;
@@ -57443,7 +57443,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWpstDnon_Part5: tsp_AwopPercMstpSgthWpstDnon_Part4
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\pst\awoppercmstpsgthwpstdnon_part5.rtm";
 			showHandGun = true;
 			speed=2.1900001;
@@ -57457,7 +57457,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthStart: Default
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdf_amovpercmstpsraswpstdnon_gthstart.rtm";
 			showHandGun = true;
 			speed=1.6900001;
@@ -57486,7 +57486,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthThrow: tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthStart
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdf_amovpercmstpsraswpstdnon_gththrow.rtm";
 			showHandGun = true;
 			speed=0.73000002;
@@ -57498,7 +57498,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthArm: tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthThrow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdf_amovpercmstpsraswpstdnon_gtharm.rtm";
 			showHandGun = true;
 			speed=1.1799999;
@@ -57510,7 +57510,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthEnd: tsp_AmovPercMrunSlowWpstDf_AmovPercMstpSrasWpstDnon_gthArm
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\pst\amovpercmrunslowwpstdf_amovpercmstpsraswpstdnon_gthend.rtm";
 			showHandGun = true;
 			speed=1.35;
@@ -57523,7 +57523,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWpstDf_AwopPercMrunSgthWnonDf_1: Default
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdf_awoppercmrunsgthwnondf_1.rtm";
 			showHandGun = true;
 			speed=1.85;
@@ -57553,7 +57553,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthStart: Default
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdf_amovpercmstpsraswpstdnon_gthstart.rtm";
 			showHandGun = true;
 			speed=1.33;
@@ -57580,7 +57580,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthThrow: tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthStart
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdf_amovpercmstpsraswpstdnon_gththrow.rtm";
 			showHandGun = true;
 			speed=0.68000001;
@@ -57592,7 +57592,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthArm: tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthThrow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdf_amovpercmstpsraswpstdnon_gtharm.rtm";
 			showHandGun = true;
 			speed=1.17;
@@ -57604,7 +57604,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthEnd: tsp_AmovPercMwlkSrasWpstDf_AmovPercMstpSrasWpstDnon_gthArm
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\pst\amovpercmwlksraswpstdf_amovpercmstpsraswpstdnon_gthend.rtm";
 			showHandGun = true;
 			speed=1.35;
@@ -57619,7 +57619,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSgthWpstDnon_Part1: Default
 		{
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\pst\awoppknlmstpsgthwpstdnon_part1.rtm";
 			showHandGun = true;
 			speed=1.875;
@@ -57647,7 +57647,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPknlMstpSgthWpstDnon_Part2: tsp_AwopPknlMstpSgthWpstDnon_Part1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\pst\awoppknlmstpsgthwpstdnon_part2.rtm";
 			showHandGun = true;
 			speed=0.58499998;
@@ -57660,7 +57660,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPknlMstpSgthWpstDnon_Part3: tsp_AwopPknlMstpSgthWpstDnon_Part2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\pst\awoppknlmstpsgthwpstdnon_part3.rtm";
 			showHandGun = true;
 			speed=1.98;
@@ -57672,7 +57672,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPknlMstpSgthWpstDnon_Part4: tsp_AwopPknlMstpSgthWpstDnon_Part3
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\pst\awoppknlmstpsgthwpstdnon_part4.rtm";
 			showHandGun = true;
 			speed=0.64499998;
@@ -57684,7 +57684,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPknlMstpSgthWpstDnon_Part5: tsp_AwopPknlMstpSgthWpstDnon_Part4
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\gth\pst\awoppknlmstpsgthwpstdnon_part5.rtm";
 			showHandGun = true;
 			speed=2.1900001;
@@ -57698,7 +57698,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSgthWpstDnon_Part1: Default
 		{
 			actions="tsp_PistolProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_1.rtm";
 			showHandGun = true;
 			speed=1.275;
@@ -57726,7 +57726,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWpstDnon_Part2: tsp_AwopPpneMstpSgthWpstDnon_Part1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_2.rtm";
 			showHandGun = true;
 			speed=0.66000003;
@@ -57739,7 +57739,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWpstDnon_Part3: tsp_AwopPpneMstpSgthWpstDnon_Part2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_4.rtm";
 			showHandGun = true;
 			speed=4.0050001;
@@ -57760,7 +57760,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWpstDnon_Part5: tsp_AwopPpneMstpSgthWpstDnon_Part4
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\pst\awopppnemstpsgthwpstdnon_5.rtm";
 			showHandGun = true;
 			speed=1.245;
@@ -57774,7 +57774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSgthWnonDnon_start: Default
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\non\awoppercmstpsgthwnondnon_start.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -57801,7 +57801,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWnonDnon_throw: tsp_AwopPercMstpSgthWnonDnon_start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\non\awoppercmstpsgthwnondnon_throw.rtm";
 			showHandGun = true;
 			speed=3;
@@ -57813,7 +57813,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPercMstpSgthWnonDnon_end: tsp_AwopPercMstpSgthWnonDnon_throw
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\gth\non\awoppercmstpsgthwnondnon_end.rtm";
 			showHandGun = true;
 			speed=0.97500002;
@@ -57826,7 +57826,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSnonWnonDf_AmovPercMstpSnonWnonDnon_gthStart: Default
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf_amovpercmstpsnonwnondnon_gthstart.rtm";
 			showHandGun = true;
 			speed=3;
@@ -57854,7 +57854,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWnonDf_AmovPercMstpSnonWnonDnon_gthThrow: tsp_AmovPercMrunSnonWnonDf_AmovPercMstpSnonWnonDnon_gthStart
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf_amovpercmstpsnonwnondnon_gththrow.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -57866,7 +57866,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWnonDf_AmovPercMstpSnonWnonDnon_gthEnd: tsp_AmovPercMrunSnonWnonDf_AmovPercMstpSnonWnonDnon_gthThrow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf_amovpercmstpsnonwnondnon_gthend.rtm";
 			showHandGun = true;
 			speed=0.89999998;
@@ -57879,7 +57879,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPpneMstpSgthWnonDnon_start: Default
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\non\awopppnemstpsgthwnondnon_start.rtm";
 			showHandGun = true;
 			speed=1.005;
@@ -57909,7 +57909,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWnonDnon_throw: tsp_AwopPpneMstpSgthWnonDnon_start
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\non\awopppnemstpsgthwnondnon_throw.rtm";
 			showHandGun = true;
 			speed=3;
@@ -57921,7 +57921,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AwopPpneMstpSgthWnonDnon_end: tsp_AwopPpneMstpSgthWnonDnon_throw
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\gth\non\awopppnemstpsgthwnondnon_end.rtm";
 			showHandGun = true;
 			speed=0.67500001;
@@ -57934,7 +57934,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_LadderCivilStatic: Standbase
 		{
 			blockMobileSwitching=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\stp\non\non\aldrpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -57976,7 +57976,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LadderCivilOn_Top: tsp_LadderCivilStatic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_aldrpercmstpsnonwnondnon_top.rtm";
 			showHandGun = true;
 			speed=2.5;
@@ -57999,7 +57999,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LadderCivilOn_Bottom: tsp_LadderCivilStatic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_aldrpercmstpsnonwnondnon_bottom.rtm";
 			showHandGun = true;
 			speed=2.5;
@@ -58022,7 +58022,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LadderCivilUpLoop: tsp_LadderCivilStatic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\wlk\non\non\aldrpercmwlksnonwnondu.rtm";
 			showHandGun = true;
 			speed=1.05;
@@ -58051,7 +58051,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_LadderCivilTopOff: tsp_LadderCivilUpLoop
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\stp\non\non\aldrpercmstpsnonwnondnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=2.5;
@@ -58075,13 +58075,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LadderCivilDownOff: tsp_LadderCivilTopOff
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\stp\non\non\aldrpercmstpsnonwnondnon_amovpercmstpsnonwnondnon_down.rtm";
 			showHandGun = true;
 		};
 		class tsp_LadderCivilDownLoop: tsp_LadderCivilUpLoop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\wlk\non\non\aldrpercmwlksnonwnondd.rtm";
 			showHandGun = true;
 			duty=0;
@@ -58105,7 +58105,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_LadderRifleStatic: tsp_LadderCivilStatic
 		{
 			actions="tsp_LadderRifleActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\stp\low\rfl\aldrpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -58133,7 +58133,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_LadderRifleOn: tsp_LadderCivilOn_Top
 		{
 			actions="tsp_LadderRifleActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\rfl\amovpercmstpslowwrfldnon_aldrpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -58145,7 +58145,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_LadderRifleTopOff: tsp_LadderCivilTopOff
 		{
 			actions="tsp_RifleLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\stp\low\rfl\aldrpercmstpslowwrfldnon_amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -58168,14 +58168,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LadderRifleDownOff: tsp_LadderRifleTopOff
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\stp\low\rfl\aldrpercmstpslowwrfldnon_amovpercmstpslowwrfldnon_down.rtm";
 			showHandGun = true;
 		};
 		class tsp_LadderRifleUpLoop: tsp_LadderCivilUpLoop
 		{
 			actions="tsp_LadderRifleActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\wlk\low\rfl\aldrpercmwlkslowwrfldu.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -58197,7 +58197,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LadderRifleDownLoop: tsp_LadderCivilDownLoop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ldr\erc\wlk\low\rfl\aldrpercmwlkslowwrfldd.rtm";
 			showHandGun = true;
 			actions="tsp_LadderRifleActions";
@@ -58223,7 +58223,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_SwimmingActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.188347;
@@ -58299,7 +58299,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -58333,7 +58333,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -58342,7 +58342,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMstpSnonWnonDnon_goup: tsp_AswmPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_goup.rtm";
 			showHandGun = true;
 			duty=0.40000001;
@@ -58363,7 +58363,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMstpSnonWnonDnon_godown: tsp_AswmPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_godown.rtm";
 			showHandGun = true;
 			duty=0.80000001;
@@ -58424,7 +58424,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_SwimmingActionsRunF";
 			soundOverride="swim";
 			soundEdge[]={0.15000001,0.64999998};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -58507,7 +58507,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMrunSnonWnonDfl: tsp_AswmPercMrunSnonWnonDf
 		{
 			actions="tsp_SwimmingActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -58584,7 +58584,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMrunSnonWnonDfr: tsp_AswmPercMrunSnonWnonDf
 		{
 			actions="tsp_SwimmingActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -58661,7 +58661,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMrunSnonWnonDl: tsp_AswmPercMrunSnonWnonDf
 		{
 			actions="tsp_SwimmingActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -58734,7 +58734,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMrunSnonWnonDr: tsp_AswmPercMrunSnonWnonDf
 		{
 			actions="tsp_SwimmingActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -58807,7 +58807,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMrunSnonWnonDb: tsp_AswmPercMrunSnonWnonDf
 		{
 			actions="tsp_SwimmingActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -58989,7 +58989,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_SwimmingActionsRunF";
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon_aswmpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -59013,7 +59013,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AswmPercMrunSnonWnonDf_AswmPercMstpSnonWnonDnon: tsp_AswmPercMrunSnonWnonDf
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondf_aswmpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.91000003;
@@ -59081,7 +59081,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMstpSnonWnonDnon_goup: tsp_AsswPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_goup.rtm";
 			showHandGun = true;
 			duty=0.1;
@@ -59099,7 +59099,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMstpSnonWnonDnon_goDown: tsp_AsswPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_godown.rtm";
 			showHandGun = true;
 			duty=0.1;
@@ -59162,7 +59162,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundEdge[]={0.1,0.60000002};
 			stamina=0;
 			actions="tsp_SurfaceSwimmingActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.23834699;
@@ -59244,7 +59244,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMrunSnonWnonDfl: tsp_AsswPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceSwimmingActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -59321,7 +59321,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMrunSnonWnonDfr: tsp_AsswPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceSwimmingActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -59398,7 +59398,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMrunSnonWnonDl: tsp_AsswPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceSwimmingActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -59471,7 +59471,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMrunSnonWnonDr: tsp_AsswPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceSwimmingActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -59544,7 +59544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMrunSnonWnonDb: tsp_AsswPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceSwimmingActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -59726,7 +59726,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_SurfaceSwimmingActionsRunF";
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon_aswmpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -59750,7 +59750,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsswPercMrunSnonWnonDf_AsswPercMstpSnonWnonDnon: tsp_AsswPercMrunSnonWnonDf
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondf_aswmpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.91000003;
@@ -59773,7 +59773,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMstpSnonWnonDnon: tsp_AswmPercMstpSnonWnonDnon
 		{
 			actions="tsp_BottomSwimmingActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\abswpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			headBobMode=0;
@@ -59840,7 +59840,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMstpSnonWnonDnon_goup: tsp_AbswPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_goup.rtm";
 			showHandGun = true;
 			duty=0.30000001;
@@ -59862,7 +59862,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMstpSnonWnonDnon_goDown: tsp_AbswPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_godown.rtm";
 			showHandGun = true;
 			duty=0.30000001;
@@ -59879,7 +59879,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AbswPercMstpSnonWnonDnon_putDown: tsp_AbswPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=10;
@@ -59902,7 +59902,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_BottomSwimmingActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.23834699;
@@ -59984,7 +59984,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMrunSnonWnonDfl: tsp_AbswPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomSwimmingActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -60061,7 +60061,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMrunSnonWnonDfr: tsp_AbswPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomSwimmingActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -60138,7 +60138,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMrunSnonWnonDl: tsp_AbswPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomSwimmingActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -60211,7 +60211,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMrunSnonWnonDr: tsp_AbswPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomSwimmingActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -60284,7 +60284,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMrunSnonWnonDb: tsp_AbswPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomSwimmingActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -60466,7 +60466,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_BottomSwimmingActionsRunF";
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\stp\non\non\aswmpercmstpsnonwnondnon_aswmpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -60490,7 +60490,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbswPercMrunSnonWnonDf_AbswPercMstpSnonWnonDnon: tsp_AbswPercMrunSnonWnonDf
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\swm\erc\run\non\non\aswmpercmrunsnonwnondf_aswmpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.91000003;
@@ -60515,7 +60515,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_DivingActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.12;
@@ -60630,7 +60630,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -60664,7 +60664,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -60691,7 +60691,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWnonDnon_GetInSDV: tsp_AdvePercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getinsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -60717,7 +60717,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWnonDnon_GetOutSDV: tsp_AdvePercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getoutsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -60744,7 +60744,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMstpSnonWnonDnon_goup: tsp_AdvePercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_goup.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -60775,7 +60775,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMstpSnonWnonDnon_godown: tsp_AdvePercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_godown.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -60807,7 +60807,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldf_advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			interpolationSpeed=7;
@@ -60848,7 +60848,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSnonWnonDf_AdvePercMrunSnonWnonDf: tsp_AmovPercMwlkSrasWrflDf_AdvePercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf_advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -60864,7 +60864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWnonDnon_turnL: tsp_AdvePercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_turnl.rtm";
 			showHandGun = true;
 			speed=0.17142899;
@@ -60891,7 +60891,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWnonDnon_turnR: tsp_AdvePercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_turnr.rtm";
 			showHandGun = true;
 			speed=0.17142899;
@@ -60920,7 +60920,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_DivingActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -60970,7 +60970,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDfr: tsp_AdvePercMwlkSnonWnonDf
 		{
 			actions="tsp_DivingActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61013,7 +61013,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDfl: tsp_AdvePercMwlkSnonWnonDf
 		{
 			actions="tsp_DivingActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61056,7 +61056,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDb: tsp_AdvePercMwlkSnonWnonDf
 		{
 			actions="tsp_DivingActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61100,7 +61100,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDbr: tsp_AdvePercMwlkSnonWnonDb
 		{
 			actions="tsp_DivingActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61143,7 +61143,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDbl: tsp_AdvePercMwlkSnonWnonDb
 		{
 			actions="tsp_DivingActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61186,7 +61186,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDl: tsp_AdvePercMwlkSnonWnonDf
 		{
 			actions="tsp_DivingActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61230,7 +61230,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWnonDr: tsp_AdvePercMwlkSnonWnonDf
 		{
 			actions="tsp_DivingActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61274,7 +61274,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDf: tsp_AdvePercMstpSnonWnonDnon
 		{
 			actions="tsp_DivingActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -61324,7 +61324,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDfr: tsp_AdvePercMtacSnonWnonDf
 		{
 			actions="tsp_DivingActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61367,7 +61367,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDfl: tsp_AdvePercMtacSnonWnonDf
 		{
 			actions="tsp_DivingActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61410,7 +61410,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDb: tsp_AdvePercMtacSnonWnonDf
 		{
 			actions="tsp_DivingActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61454,7 +61454,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDbr: tsp_AdvePercMtacSnonWnonDb
 		{
 			actions="tsp_DivingActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61497,7 +61497,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDbl: tsp_AdvePercMtacSnonWnonDb
 		{
 			actions="tsp_DivingActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61540,7 +61540,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDl: tsp_AdvePercMtacSnonWnonDf
 		{
 			actions="tsp_DivingActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61584,7 +61584,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWnonDr: tsp_AdvePercMtacSnonWnonDf
 		{
 			actions="tsp_DivingActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61629,7 +61629,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_DivingActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -61679,7 +61679,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDfr: tsp_AdvePercMrunSnonWnonDf
 		{
 			actions="tsp_DivingActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61722,7 +61722,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDfl: tsp_AdvePercMrunSnonWnonDf
 		{
 			actions="tsp_DivingActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61765,7 +61765,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDb: tsp_AdvePercMrunSnonWnonDf
 		{
 			actions="tsp_DivingActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61809,7 +61809,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDbr: tsp_AdvePercMrunSnonWnonDb
 		{
 			actions="tsp_DivingActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61852,7 +61852,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDbl: tsp_AdvePercMrunSnonWnonDb
 		{
 			actions="tsp_DivingActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -61895,7 +61895,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDl: tsp_AdvePercMrunSnonWnonDf
 		{
 			actions="tsp_DivingActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61939,7 +61939,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWnonDr: tsp_AdvePercMrunSnonWnonDf
 		{
 			actions="tsp_DivingActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -61983,7 +61983,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMsprSnonWnonDf: tsp_AdvePercMrunSnonWnonDf
 		{
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\spr\non\non\advepercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_DivingActionsFastF";
@@ -62024,7 +62024,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsAI[]={};
 			actions="tsp_DivingRifleActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			InterpolationSpeed=2.5;
@@ -62131,7 +62131,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -62165,7 +62165,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -62192,7 +62192,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWrflDnon_GetInSDV: tsp_AdvePercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getinsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -62217,7 +62217,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWrflDnon_GetOutSDV: tsp_AdvePercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getoutsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -62245,7 +62245,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			disableWeaponsLong=1;
 			disableWeapons=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_goup.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -62277,7 +62277,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			disableWeaponsLong=1;
 			disableWeapons=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_godown.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -62308,7 +62308,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\rfl\amovpercmwlksraswrfldf_advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			interpolationSpeed=7;
@@ -62403,7 +62403,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_DivingRifleActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -62453,7 +62453,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWrflDfr: tsp_AdvePercMwlkSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62496,7 +62496,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWrflDfl: tsp_AdvePercMwlkSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62540,7 +62540,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0};
 			actions="tsp_DivingRifleActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -62584,7 +62584,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWrflDbr: tsp_AdvePercMwlkSnonWrflDb
 		{
 			actions="tsp_DivingRifleActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62627,7 +62627,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWrflDbl: tsp_AdvePercMwlkSnonWrflDb
 		{
 			actions="tsp_DivingRifleActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62670,7 +62670,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWrflDl: tsp_AdvePercMwlkSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -62714,7 +62714,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMwlkSnonWrflDr: tsp_AdvePercMwlkSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -62762,7 +62762,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_DivingRifleActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -62812,7 +62812,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWrflDfr: tsp_AdvePercMtacSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62855,7 +62855,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWrflDfl: tsp_AdvePercMtacSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62899,7 +62899,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0};
 			actions="tsp_DivingRifleActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -62943,7 +62943,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWrflDbr: tsp_AdvePercMtacSnonWrflDb
 		{
 			actions="tsp_DivingRifleActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -62986,7 +62986,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWrflDbl: tsp_AdvePercMtacSnonWrflDb
 		{
 			actions="tsp_DivingRifleActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63029,7 +63029,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWrflDl: tsp_AdvePercMtacSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -63073,7 +63073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMtacSnonWrflDr: tsp_AdvePercMtacSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -63122,7 +63122,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_DivingRifleActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -63172,7 +63172,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWrflDfr: tsp_AdvePercMrunSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63215,7 +63215,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWrflDfl: tsp_AdvePercMrunSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63259,7 +63259,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0};
 			actions="tsp_DivingRifleActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -63303,7 +63303,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWrflDbr: tsp_AdvePercMrunSnonWrflDb
 		{
 			actions="tsp_DivingRifleActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63346,7 +63346,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWrflDbl: tsp_AdvePercMrunSnonWrflDb
 		{
 			actions="tsp_DivingRifleActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63389,7 +63389,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWrflDl: tsp_AdvePercMrunSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -63433,7 +63433,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMrunSnonWrflDr: tsp_AdvePercMrunSnonWrflDf
 		{
 			actions="tsp_DivingRifleActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -63479,7 +63479,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=6;
 			stamina=-1;
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\spr\non\rfl\advepercmsprsnonwrfldf.rtm";
 			showHandGun = true;
 			actions="tsp_DivingRifleActionsFastF";
@@ -63521,7 +63521,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_SurfaceDivingActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\stp\non\non\asdvpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.12;
@@ -63635,7 +63635,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -63669,7 +63669,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -63696,7 +63696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AsdvPercMstpSnonWnonDnon_GetInSDV: tsp_AsdvPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getinsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -63722,7 +63722,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AsdvPercMstpSnonWnonDnon_GetOutSDV: tsp_AsdvPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getoutsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -63740,7 +63740,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMstpSnonWnonDnon_goup: tsp_AsdvPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_goup.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -63772,7 +63772,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMstpSnonWnonDnon_godown: tsp_AsdvPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_godown.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -63854,7 +63854,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_SurfaceDivingActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -63904,7 +63904,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDfr: tsp_AsdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63947,7 +63947,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDfl: tsp_AsdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -63991,7 +63991,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDb: tsp_AsdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64035,7 +64035,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDbr: tsp_AsdvPercMwlkSnonWnonDb
 		{
 			actions="tsp_SurfaceDivingActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64078,7 +64078,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDbl: tsp_AsdvPercMwlkSnonWnonDb
 		{
 			actions="tsp_SurfaceDivingActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64122,7 +64122,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDl: tsp_AsdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64166,7 +64166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWnonDr: tsp_AsdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64212,7 +64212,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_SurfaceDivingActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -64262,7 +64262,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDfr: tsp_AsdvPercMtacSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64305,7 +64305,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDfl: tsp_AsdvPercMtacSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64349,7 +64349,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDb: tsp_AsdvPercMtacSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64393,7 +64393,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDbr: tsp_AsdvPercMtacSnonWnonDb
 		{
 			actions="tsp_SurfaceDivingActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64437,7 +64437,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDbl: tsp_AsdvPercMtacSnonWnonDb
 		{
 			actions="tsp_SurfaceDivingActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64481,7 +64481,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDl: tsp_AsdvPercMtacSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64526,7 +64526,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWnonDr: tsp_AsdvPercMtacSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64572,7 +64572,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_SurfaceDivingActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -64623,7 +64623,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDfr: tsp_AsdvPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64666,7 +64666,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDfl: tsp_AsdvPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64709,7 +64709,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDb: tsp_AsdvPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64753,7 +64753,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDbr: tsp_AsdvPercMrunSnonWnonDb
 		{
 			actions="tsp_SurfaceDivingActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64796,7 +64796,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDbl: tsp_AsdvPercMrunSnonWnonDb
 		{
 			actions="tsp_SurfaceDivingActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -64839,7 +64839,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDl: tsp_AsdvPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64883,7 +64883,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWnonDr: tsp_AsdvPercMrunSnonWnonDf
 		{
 			actions="tsp_SurfaceDivingActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\non\asdvpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -64927,7 +64927,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMsprSnonWnonDf: tsp_AsdvPercMrunSnonWnonDf
 		{
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\spr\non\non\advepercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_SurfaceDivingActionsFastF";
@@ -64968,7 +64968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsAI[]={};
 			actions="tsp_SurfaceDivingRifleActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\stp\non\rfl\asdvpercmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			InterpolationSpeed=2.5;
@@ -65073,7 +65073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -65107,7 +65107,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -65134,7 +65134,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AsdvPercMstpSnonWrflDnon_GetInSDV: tsp_AsdvPercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getinsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -65159,7 +65159,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AsdvPercMstpSnonWrflDnon_GetOutSDV: tsp_AsdvPercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getoutsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -65178,7 +65178,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			disableWeapons=1;
 			disableWeaponsLong=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_goup.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -65211,7 +65211,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			disableWeapons=1;
 			disableWeaponsLong=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_godown.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -65296,7 +65296,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_SurfaceDivingRifleActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -65347,7 +65347,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDfr: tsp_AsdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65390,7 +65390,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDfl: tsp_AsdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65433,7 +65433,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDb: tsp_AsdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -65477,7 +65477,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDbr: tsp_AsdvPercMwlkSnonWrflDb
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65520,7 +65520,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDbl: tsp_AsdvPercMwlkSnonWrflDb
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65563,7 +65563,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDl: tsp_AsdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -65607,7 +65607,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMwlkSnonWrflDr: tsp_AsdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -65657,7 +65657,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeapons=1;
 			leftHandIKCurve[]={0};
 			actions="tsp_SurfaceDivingRifleActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -65708,7 +65708,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWrflDfr: tsp_AsdvPercMtacSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65751,7 +65751,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWrflDfl: tsp_AsdvPercMtacSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65794,7 +65794,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWrflDb: tsp_AsdvPercMtacSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -65838,7 +65838,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWrflDbr: tsp_AsdvPercMtacSnonWrflDb
 		{
 			actions="tsp_SurfaceDivingRifleActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65881,7 +65881,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMtacSnonWrflDbl: tsp_AsdvPercMtacSnonWrflDb
 		{
 			actions="tsp_SurfaceDivingRifleActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -65925,7 +65925,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={1};
 			actions="tsp_SurfaceDivingRifleActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -65970,7 +65970,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={1};
 			actions="tsp_SurfaceDivingRifleActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -66019,7 +66019,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_SurfaceDivingRifleActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -66070,7 +66070,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWrflDfr: tsp_AsdvPercMrunSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66113,7 +66113,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWrflDfl: tsp_AsdvPercMrunSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66157,7 +66157,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunB";
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -66201,7 +66201,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWrflDbr: tsp_AsdvPercMrunSnonWrflDb
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66244,7 +66244,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWrflDbl: tsp_AsdvPercMrunSnonWrflDb
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66287,7 +66287,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWrflDl: tsp_AsdvPercMrunSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -66331,7 +66331,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMrunSnonWrflDr: tsp_AsdvPercMrunSnonWrflDf
 		{
 			actions="tsp_SurfaceDivingRifleActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\sdv\erc\run\non\rfl\asdvpercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -66376,7 +66376,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			aimPrecision=6;
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\spr\non\rfl\advepercmsprsnonwrfldf.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0};
@@ -66419,7 +66419,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_BottomDivingActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\bdv\erc\stp\non\non\abdvpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.12;
@@ -66533,7 +66533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -66567,7 +66567,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -66594,7 +66594,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AbdvPercMstpSnonWnonDnon_GetInSDV: tsp_AbdvPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getinsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -66620,7 +66620,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AbdvPercMstpSnonWnonDnon_GetOutSDV: tsp_AbdvPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getoutsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -66638,7 +66638,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMstpSnonWnonDnon_goup: tsp_AbdvPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_goup.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -66670,7 +66670,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMstpSnonWnonDnon_godown: tsp_AbdvPercMstpSnonWnonDnon
 		{
 			stamina=-0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_godown.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -66751,7 +66751,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_BottomDivingActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -66801,7 +66801,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDfr: tsp_AbdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66845,7 +66845,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDfl: tsp_AbdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66888,7 +66888,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDb: tsp_AbdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -66932,7 +66932,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDbr: tsp_AbdvPercMwlkSnonWnonDb
 		{
 			actions="tsp_BottomDivingActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -66975,7 +66975,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDbl: tsp_AbdvPercMwlkSnonWnonDb
 		{
 			actions="tsp_BottomDivingActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67019,7 +67019,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDl: tsp_AbdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67063,7 +67063,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWnonDr: tsp_AbdvPercMwlkSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67108,7 +67108,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_BottomDivingActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -67158,7 +67158,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDfr: tsp_AbdvPercMtacSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67201,7 +67201,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDfl: tsp_AbdvPercMtacSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67244,7 +67244,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDb: tsp_AbdvPercMtacSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67289,7 +67289,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDbr: tsp_AbdvPercMtacSnonWnonDb
 		{
 			actions="tsp_BottomDivingActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67332,7 +67332,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDbl: tsp_AbdvPercMtacSnonWnonDb
 		{
 			actions="tsp_BottomDivingActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67375,7 +67375,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDl: tsp_AbdvPercMtacSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67420,7 +67420,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWnonDr: tsp_AbdvPercMtacSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67465,7 +67465,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			stamina=-0.1;
 			actions="tsp_BottomDivingActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -67515,7 +67515,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDfr: tsp_AbdvPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67558,7 +67558,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDfl: tsp_AbdvPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67602,7 +67602,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDb: tsp_AbdvPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67647,7 +67647,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDbr: tsp_AbdvPercMrunSnonWnonDb
 		{
 			actions="tsp_BottomDivingActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67690,7 +67690,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDbl: tsp_AbdvPercMrunSnonWnonDb
 		{
 			actions="tsp_BottomDivingActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -67733,7 +67733,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDl: tsp_AbdvPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67778,7 +67778,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWnonDr: tsp_AbdvPercMrunSnonWnonDf
 		{
 			actions="tsp_BottomDivingActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\non\advepercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -67823,7 +67823,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMsprSnonWnonDf: tsp_AbdvPercMrunSnonWnonDf
 		{
 			stamina=-1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\spr\non\non\advepercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BottomDivingActionsFastF";
@@ -67865,7 +67865,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsAI[]={};
 			actions="tsp_BottomDivingRifleActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\bdv\erc\stp\non\rfl\abdvpercmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			InterpolationSpeed=2.5;
@@ -67971,7 +67971,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.5;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_invin.rtm";
 			showHandGun = true;
 			speed=1.63636;
@@ -68005,7 +68005,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_invout.rtm";
 			showHandGun = true;
 			speed=0.470588;
@@ -68032,7 +68032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AbdvPercMstpSnonWrflDnon_GetInSDV: tsp_AbdvPercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getinsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -68057,7 +68057,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AbdvPercMstpSnonWrflDnon_GetOutSDV: tsp_AbdvPercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_getoutsdv.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -68076,7 +68076,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			disableWeapons=1;
 			disableWeaponsLong=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_goup.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -68109,7 +68109,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-0.1;
 			disableWeapons=1;
 			disableWeaponsLong=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_godown.rtm";
 			showHandGun = true;
 			speed=0.80000001;
@@ -68193,7 +68193,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_BottomDivingRifleActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -68243,7 +68243,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWrflDfr: tsp_AbdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsWlkFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68287,7 +68287,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWrflDfl: tsp_AbdvPercMwlkSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsWlkFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68331,7 +68331,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0};
 			actions="tsp_BottomDivingRifleActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -68375,7 +68375,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWrflDbr: tsp_AbdvPercMwlkSnonWrflDb
 		{
 			actions="tsp_BottomDivingRifleActionsWlkBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68419,7 +68419,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMwlkSnonWrflDbl: tsp_AbdvPercMwlkSnonWrflDb
 		{
 			actions="tsp_BottomDivingRifleActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68463,7 +68463,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_BottomDivingRifleActionsWlkL";
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -68508,7 +68508,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_BottomDivingRifleActionsWlkR";
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -68558,7 +68558,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_BottomDivingRifleActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -68608,7 +68608,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWrflDfr: tsp_AbdvPercMtacSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsTacFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68651,7 +68651,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWrflDfl: tsp_AbdvPercMtacSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsTacFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68696,7 +68696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0};
 			actions="tsp_BottomDivingRifleActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -68740,7 +68740,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWrflDbr: tsp_AbdvPercMtacSnonWrflDb
 		{
 			actions="tsp_BottomDivingRifleActionsTacBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68783,7 +68783,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWrflDbl: tsp_AbdvPercMtacSnonWrflDb
 		{
 			actions="tsp_BottomDivingRifleActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -68827,7 +68827,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWrflDl: tsp_AbdvPercMtacSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -68871,7 +68871,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMtacSnonWrflDr: tsp_AbdvPercMtacSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -68921,7 +68921,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeaponsLong=1;
 			disableWeapons=1;
 			actions="tsp_BottomDivingRifleActionsRunF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldf.rtm";
 			showHandGun = true;
 			speed=0.122414;
@@ -68972,7 +68972,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWrflDfr: tsp_AbdvPercMrunSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -69015,7 +69015,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWrflDfl: tsp_AbdvPercMrunSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -69059,7 +69059,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			leftHandIKCurve[]={0};
 			actions="tsp_BottomDivingRifleActionsRunB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldb.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -69103,7 +69103,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWrflDbr: tsp_AbdvPercMrunSnonWrflDb
 		{
 			actions="tsp_BottomDivingRifleActionsRunBR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -69146,7 +69146,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWrflDbl: tsp_AbdvPercMrunSnonWrflDb
 		{
 			actions="tsp_BottomDivingRifleActionsRunBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -69189,7 +69189,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWrflDl: tsp_AbdvPercMrunSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsRunL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldl.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -69233,7 +69233,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMrunSnonWrflDr: tsp_AbdvPercMrunSnonWrflDf
 		{
 			actions="tsp_BottomDivingRifleActionsRunR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\run\non\rfl\advepercmrunsnonwrfldr.rtm";
 			showHandGun = true;
 			speed=0.2;
@@ -69279,7 +69279,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			aimPrecision=6;
 			stamina=-1;
 			leftHandIKCurve[]={0};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\spr\non\rfl\advepercmsprsnonwrfldf.rtm";
 			showHandGun = true;
 			actions="tsp_BottomDivingRifleActionsFastF";
@@ -69318,7 +69318,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AdvePercMstpSnonWrflDnon_AdvePercMstpSnonWnonDnon: tsp_AdvePercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_advepercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			interpolationRestart=1;
@@ -69351,7 +69351,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AdvePercMstpSnonWnonDnon_AdvePercMstpSnonWrflDnon: tsp_AdvePercMstpSnonWrflDnon
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_advepercmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			interpolationSpeed=2.5;
@@ -69365,7 +69365,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AbdvPercMstpSnonWrflDnon_AbdvPercMstpSnonWnonDnon: tsp_AbdvPercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_advepercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -69397,7 +69397,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AbdvPercMstpSnonWnonDnon_AbdvPercMstpSnonWrflDnon: tsp_AbdvPercMstpSnonWnonDnon
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_advepercmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			interpolationSpeed=2.5;
@@ -69411,7 +69411,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AsdvPercMstpSnonWrflDnon_AsdvPercMstpSnonWnonDnon: tsp_AsdvPercMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\rfl\advepercmstpsnonwrfldnon_advepercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.31999999;
@@ -69444,7 +69444,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AsdvPercMstpSnonWnonDnon_AsdvPercMstpSnonWrflDnon: tsp_AsdvPercMstpSnonWnonDnon
 		{
 			static=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\dve\erc\stp\non\non\advepercmstpsnonwnondnon_advepercmstpsnonwrfldnon.rtm";
 			showHandGun = true;
 			interpolationSpeed=2.5;
@@ -69462,7 +69462,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			disableWeaponsLong=0;
@@ -69574,7 +69574,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMwlkSoptWbinDf: tsp_AmovPercMstpSoptWbinDnon
 		{
 			visibleSize=0.89999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -69616,7 +69616,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfr: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsWlkFR";
@@ -69651,7 +69651,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDr: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.909091;
@@ -69688,7 +69688,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbr: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -69725,7 +69725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDb: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -69762,7 +69762,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbl: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -69799,7 +69799,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDl: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.88235301;
@@ -69836,7 +69836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfl: tsp_AmovPercMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsWlkFL";
@@ -69872,7 +69872,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDf: tsp_AmovPercMwlkSoptWbinDf
 		{
 			actions="tsp_BinocStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindf.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -69898,7 +69898,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDfl: tsp_AmovPercMwlkSoptWbinDfl
 		{
 			actions="tsp_BinocStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindfl.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -69924,7 +69924,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDfr: tsp_AmovPercMwlkSoptWbinDfr
 		{
 			actions="tsp_BinocStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindfr.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -69950,7 +69950,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDl: tsp_AmovPercMwlkSoptWbinDl
 		{
 			actions="tsp_BinocStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -69976,7 +69976,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDr: tsp_AmovPercMwlkSoptWbinDr
 		{
 			actions="tsp_BinocStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.28571001;
@@ -70002,7 +70002,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDbl: tsp_AmovPercMwlkSoptWbinDbl
 		{
 			actions="tsp_BinocStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindbl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -70028,7 +70028,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDbr: tsp_AmovPercMwlkSoptWbinDbr
 		{
 			actions="tsp_BinocStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindbr.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -70054,7 +70054,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSoptWbinDb: tsp_AmovPercMwlkSoptWbinDb
 		{
 			actions="tsp_BinocStandActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\opt\bin\amovpercmlmpsoptwbindb.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -70093,7 +70093,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundOverride="run";
 			soundEdge[]={0.5,1};
 			speed=1.2485;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsRunF";
@@ -70134,7 +70134,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfr: tsp_AmovPercMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsRunFR";
@@ -70175,7 +70175,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDr: tsp_AmovPercMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -70212,7 +70212,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDb: tsp_AmovPercMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -70249,7 +70249,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbr: tsp_AmovPercMrunSnonWbinDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsRunBR";
@@ -70285,7 +70285,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbl: tsp_AmovPercMrunSnonWbinDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsRunBL";
@@ -70321,7 +70321,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDl: tsp_AmovPercMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -70358,7 +70358,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfl: tsp_AmovPercMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsRunFL";
@@ -70423,7 +70423,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			speed=1.54286;
 			duty=0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\opt\bin\amovpercmsprsoptwbindf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsEvasiveF";
@@ -70460,7 +70460,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocStandActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\opt\bin\amovpercmsprsoptwbindfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -70493,7 +70493,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSnonWbinDfr: tsp_AmovPercMevaSnonWbinDf
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\opt\bin\amovpercmsprsoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandActionsEvasiveFR";
@@ -70537,7 +70537,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			speed=0.60000002;
 			minPlayTime=0.69;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\non\non\aovrpercmstpsnonwnondf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wovr.p3d";
@@ -70569,7 +70569,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -70679,7 +70679,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMwlkSoptWbinDf: tsp_AmovPknlMstpSoptWbinDnon
 		{
 			visibleSize=0.60000002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -70721,7 +70721,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfr: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsWlkFR";
@@ -70756,7 +70756,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDr: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -70792,7 +70792,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbr: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -70828,7 +70828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDb: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -70864,7 +70864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbl: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -70900,7 +70900,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDl: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsWlkL";
@@ -70936,7 +70936,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfl: tsp_AmovPknlMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsWlkFL";
@@ -70972,7 +70972,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDf: tsp_AmovPknlMwlkSoptWbinDf
 		{
 			actions="tsp_BinocKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindf.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -70998,7 +70998,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDfl: tsp_AmovPknlMwlkSoptWbinDfl
 		{
 			actions="tsp_BinocKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindfl.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71024,7 +71024,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDfr: tsp_AmovPknlMwlkSoptWbinDfr
 		{
 			actions="tsp_BinocKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindfr.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71048,7 +71048,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDl: tsp_AmovPknlMwlkSoptWbinDl
 		{
 			actions="tsp_BinocKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.27778;
@@ -71074,7 +71074,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDr: tsp_AmovPknlMwlkSoptWbinDr
 		{
 			actions="tsp_BinocKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -71100,7 +71100,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDbl: tsp_AmovPknlMwlkSoptWbinDbl
 		{
 			actions="tsp_BinocKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindbl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71126,7 +71126,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDbr: tsp_AmovPknlMwlkSoptWbinDbr
 		{
 			actions="tsp_BinocKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindbr.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71152,7 +71152,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSoptWbinDb: tsp_AmovPknlMwlkSoptWbinDb
 		{
 			actions="tsp_BinocKneelActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\opt\bin\amovpknlmlmpsoptwbindb.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71178,7 +71178,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDf: tsp_AmovPercMwlkSnonWnonDf
 		{
 			actions="tsp_CivilStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71204,7 +71204,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDfl: tsp_AmovPercMwlkSnonWnonDfl
 		{
 			actions="tsp_CivilStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71230,7 +71230,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDfr: tsp_AmovPercMwlkSnonWnonDfr
 		{
 			actions="tsp_CivilStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondfr.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71256,7 +71256,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDl: tsp_AmovPercMwlkSnonWnonDl
 		{
 			actions="tsp_CivilStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71282,7 +71282,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDr: tsp_AmovPercMwlkSnonWnonDr
 		{
 			actions="tsp_CivilStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.28571001;
@@ -71308,7 +71308,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDbl: tsp_AmovPercMwlkSnonWnonDbl
 		{
 			actions="tsp_CivilStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71334,7 +71334,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDbr: tsp_AmovPercMwlkSnonWnonDbr
 		{
 			actions="tsp_CivilStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71360,7 +71360,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSnonWnonDb: tsp_AmovPercMwlkSnonWnonDb
 		{
 			actions="tsp_CivilStandActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\non\non\amovpercmlmpsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71386,7 +71386,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDf: tsp_AmovPknlMwlkSnonWnonDf
 		{
 			actions="tsp_CivilKneelActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71412,7 +71412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDfl: tsp_AmovPknlMwlkSnonWnonDfl
 		{
 			actions="tsp_CivilKneelActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71438,7 +71438,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDfr: tsp_AmovPknlMwlkSnonWnonDfr
 		{
 			actions="tsp_CivilKneelActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondfr.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -71462,7 +71462,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDl: tsp_AmovPknlMwlkSnonWnonDl
 		{
 			actions="tsp_CivilKneelActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.27778;
@@ -71488,7 +71488,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDr: tsp_AmovPknlMwlkSnonWnonDr
 		{
 			actions="tsp_CivilKneelActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.28301999;
@@ -71514,7 +71514,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDbl: tsp_AmovPknlMwlkSnonWnonDbl
 		{
 			actions="tsp_CivilKneelActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71540,7 +71540,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDbr: tsp_AmovPknlMwlkSnonWnonDbr
 		{
 			actions="tsp_CivilKneelActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71566,7 +71566,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMlmpSnonWnonDb: tsp_AmovPknlMwlkSnonWnonDb
 		{
 			actions="tsp_CivilKneelActionsLimpB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\lmp\non\non\amovpknlmlmpsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.29703;
@@ -71604,7 +71604,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.66666698;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsRunF";
@@ -71645,7 +71645,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfr: tsp_AmovPknlMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsRunFR";
@@ -71686,7 +71686,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDr: tsp_AmovPknlMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -71722,7 +71722,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDb: tsp_AmovPknlMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -71758,7 +71758,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbr: tsp_AmovPknlMrunSnonWbinDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsRunBR";
@@ -71793,7 +71793,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbl: tsp_AmovPknlMrunSnonWbinDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsRunBL";
@@ -71828,7 +71828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDl: tsp_AmovPknlMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -71864,7 +71864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfl: tsp_AmovPknlMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsRunFL";
@@ -71909,7 +71909,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			speed=1.54286;
 			duty=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\opt\bin\amovpknlmevasoptwbindf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsEvasiveF";
@@ -71946,7 +71946,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocKneelActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\opt\bin\amovpknlmevasoptwbindfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -71979,7 +71979,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWbinDfr: tsp_AmovPknlMevaSnonWbinDf
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\opt\bin\amovpknlmevasoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelActionsEvasiveFR";
@@ -72033,7 +72033,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -72104,7 +72104,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMwlkSoptWbinDf: tsp_AmovPpneMstpSoptWbinDnon
 		{
 			visibleSize=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.2,0.69999999};
@@ -72144,7 +72144,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfr: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsWlkFR";
@@ -72178,7 +72178,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDr: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -72212,7 +72212,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbr: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -72246,7 +72246,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDb: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -72280,7 +72280,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbl: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -72314,7 +72314,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDl: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsWlkL";
@@ -72348,7 +72348,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfl: tsp_AmovPpneMwlkSoptWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsWlkFL";
@@ -72396,7 +72396,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundOverride="crawl";
 			soundEdge[]={0.2,0.69999999};
 			speed=0.77586198;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsRunF";
@@ -72431,7 +72431,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfr: tsp_AmovPpneMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsRunFR";
@@ -72467,7 +72467,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDr: tsp_AmovPpneMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -72501,7 +72501,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDb: tsp_AmovPpneMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.652174;
@@ -72535,7 +72535,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbr: tsp_AmovPpneMrunSnonWbinDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=1.184211;
@@ -72569,7 +72569,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbl: tsp_AmovPpneMrunSnonWbinDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsRunBL";
@@ -72603,7 +72603,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDl: tsp_AmovPpneMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -72635,7 +72635,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfl: tsp_AmovPpneMrunSnonWbinDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.818183;
@@ -72675,7 +72675,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			stamina=-1;
 			speed=0.73288602;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneActionsEvasiveF";
@@ -72732,7 +72732,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPpneMstpSoptWbinDnon",
 				0.02
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\opt\bin\amovppnemstpsoptwbindnon_amovppnemevasoptwbindl.rtm";
 			showHandGun = true;
 			showItemInHand=1;
@@ -72746,7 +72746,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPpneMstpSoptWbinDnon",
 				0.02
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\opt\bin\amovppnemstpsoptwbindnon_amovppnemevasoptwbindr.rtm";
 			showHandGun = true;
 			showItemInHand=1;
@@ -72756,7 +72756,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_BinocStandRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			disableWeaponsLong=0;
@@ -72844,7 +72844,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDf_rfl: tsp_AwopPercMstpSoptWbinDnon_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -72886,7 +72886,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfr_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsWlkFR";
@@ -72921,7 +72921,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDr_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.909091;
@@ -72957,7 +72957,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbr_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -72993,7 +72993,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDb_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -73029,7 +73029,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbl_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -73065,7 +73065,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDl_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.88235301;
@@ -73101,7 +73101,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfl_rfl: tsp_AmovPercMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsWlkFL";
@@ -73145,7 +73145,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=1.2485;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsRunF";
@@ -73186,7 +73186,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfr_rfl: tsp_AmovPercMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsRunFR";
@@ -73227,7 +73227,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDr_rfl: tsp_AmovPercMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -73263,7 +73263,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDb_rfl: tsp_AmovPercMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -73299,7 +73299,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbr_rfl: tsp_AmovPercMrunSnonWbinDb_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsRunBR";
@@ -73334,7 +73334,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbl_rfl: tsp_AmovPercMrunSnonWbinDb_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsRunBL";
@@ -73369,7 +73369,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDl_rfl: tsp_AmovPercMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -73405,7 +73405,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfl_rfl: tsp_AmovPercMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsRunFL";
@@ -73468,7 +73468,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsEvasiveF";
@@ -73501,7 +73501,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocStandRflActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -73532,7 +73532,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSnonWbinDfr_rfl: tsp_AmovPercMevaSnonWbinDf_rfl
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandRflActionsEvasiveFR";
@@ -73565,7 +73565,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocKneelRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -73654,7 +73654,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDf_rfl: tsp_AwopPknlMstpSoptWbinDnon_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -73696,7 +73696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfr_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsWlkFR";
@@ -73731,7 +73731,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDr_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -73767,7 +73767,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbr_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -73803,7 +73803,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDb_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -73839,7 +73839,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbl_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -73875,7 +73875,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDl_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsWlkL";
@@ -73911,7 +73911,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfl_rfl: tsp_AmovPknlMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsWlkFL";
@@ -73955,7 +73955,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.66666698;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsRunF";
@@ -73996,7 +73996,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfr_rfl: tsp_AmovPknlMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsRunFR";
@@ -74037,7 +74037,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDr_rfl: tsp_AmovPknlMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -74073,7 +74073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDb_rfl: tsp_AmovPknlMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -74109,7 +74109,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbr_rfl: tsp_AmovPknlMrunSnonWbinDb_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsRunBR";
@@ -74144,7 +74144,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbl_rfl: tsp_AmovPknlMrunSnonWbinDb_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsRunBL";
@@ -74179,7 +74179,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDl_rfl: tsp_AmovPknlMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -74215,7 +74215,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfl_rfl: tsp_AmovPknlMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsRunFL";
@@ -74258,7 +74258,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsEvasiveF";
@@ -74291,7 +74291,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocKneelRflActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -74322,7 +74322,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWbinDfr_rfl: tsp_AmovPknlMevaSnonWbinDf_rfl
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelRflActionsEvasiveFR";
@@ -74374,7 +74374,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocProneRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -74438,7 +74438,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDf_rfl: tsp_AwopPpneMstpSoptWbinDnon_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -74478,7 +74478,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfr_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsWlkFR";
@@ -74512,7 +74512,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDr_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -74546,7 +74546,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbr_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -74580,7 +74580,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDb_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -74614,7 +74614,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbl_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -74648,7 +74648,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDl_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsWlkL";
@@ -74682,7 +74682,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfl_rfl: tsp_AmovPpneMwlkSoptWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsWlkFL";
@@ -74725,7 +74725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.517241;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsRunF";
@@ -74760,7 +74760,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfr_rfl: tsp_AmovPpneMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsRunFR";
@@ -74796,7 +74796,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDr_rfl: tsp_AmovPpneMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -74830,7 +74830,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDb_rfl: tsp_AmovPpneMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -74864,7 +74864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbr_rfl: tsp_AmovPpneMrunSnonWbinDb_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -74898,7 +74898,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbl_rfl: tsp_AmovPpneMrunSnonWbinDb_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsRunBL";
@@ -74932,7 +74932,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDl_rfl: tsp_AmovPpneMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -74964,7 +74964,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfl_rfl: tsp_AmovPpneMrunSnonWbinDf_rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -75002,7 +75002,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.73288602;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneRflActionsEvasiveF";
@@ -75053,7 +75053,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_BinocStandPstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			disableWeaponsLong=0;
@@ -75141,7 +75141,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDf_pst: tsp_AwopPercMstpSoptWbinDnon_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -75183,7 +75183,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfr_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsWlkFR";
@@ -75218,7 +75218,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDr_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.909091;
@@ -75254,7 +75254,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbr_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -75290,7 +75290,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDb_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -75326,7 +75326,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbl_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -75362,7 +75362,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDl_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.88235301;
@@ -75398,7 +75398,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfl_pst: tsp_AmovPercMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsWlkFL";
@@ -75442,7 +75442,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=1.2485;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsRunF";
@@ -75483,7 +75483,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfr_pst: tsp_AmovPercMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsRunFR";
@@ -75524,7 +75524,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDr_pst: tsp_AmovPercMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -75560,7 +75560,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDb_pst: tsp_AmovPercMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -75596,7 +75596,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbr_pst: tsp_AmovPercMrunSnonWbinDb_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsRunBR";
@@ -75631,7 +75631,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbl_pst: tsp_AmovPercMrunSnonWbinDb_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsRunBL";
@@ -75666,7 +75666,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDl_pst: tsp_AmovPercMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -75702,7 +75702,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfl_pst: tsp_AmovPercMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsRunFL";
@@ -75765,7 +75765,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsEvasiveF";
@@ -75798,7 +75798,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocStandPstActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -75829,7 +75829,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSnonWbinDfr_pst: tsp_AmovPercMevaSnonWbinDf_pst
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandPstActionsEvasiveFR";
@@ -75862,7 +75862,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocKneelPstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -75952,7 +75952,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDf_pst: tsp_AwopPknlMstpSoptWbinDnon_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -75994,7 +75994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfr_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsWlkFR";
@@ -76029,7 +76029,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDr_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -76065,7 +76065,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbr_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -76101,7 +76101,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDb_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -76137,7 +76137,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbl_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -76173,7 +76173,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDl_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsWlkL";
@@ -76209,7 +76209,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfl_pst: tsp_AmovPknlMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsWlkFL";
@@ -76253,7 +76253,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.66666698;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsRunF";
@@ -76294,7 +76294,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfr_pst: tsp_AmovPknlMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsRunFR";
@@ -76335,7 +76335,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDr_pst: tsp_AmovPknlMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -76371,7 +76371,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDb_pst: tsp_AmovPknlMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -76407,7 +76407,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbr_pst: tsp_AmovPknlMrunSnonWbinDb_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsRunBR";
@@ -76442,7 +76442,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbl_pst: tsp_AmovPknlMrunSnonWbinDb_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsRunBL";
@@ -76477,7 +76477,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDl_pst: tsp_AmovPknlMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -76513,7 +76513,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfl_pst: tsp_AmovPknlMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsRunFL";
@@ -76556,7 +76556,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsEvasiveF";
@@ -76589,7 +76589,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocKneelPstActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -76620,7 +76620,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWbinDfr_pst: tsp_AmovPknlMevaSnonWbinDf_pst
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelPstActionsEvasiveFR";
@@ -76672,7 +76672,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocPronePstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -76737,7 +76737,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDf_pst: tsp_AwopPpneMstpSoptWbinDnon_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -76777,7 +76777,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfr_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsWlkFR";
@@ -76811,7 +76811,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDr_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -76845,7 +76845,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbr_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -76879,7 +76879,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDb_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -76913,7 +76913,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbl_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -76947,7 +76947,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDl_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsWlkL";
@@ -76981,7 +76981,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfl_pst: tsp_AmovPpneMwlkSoptWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsWlkFL";
@@ -77024,7 +77024,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.517241;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsRunF";
@@ -77059,7 +77059,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfr_pst: tsp_AmovPpneMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsRunFR";
@@ -77095,7 +77095,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDr_pst: tsp_AmovPpneMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -77129,7 +77129,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDb_pst: tsp_AmovPpneMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -77163,7 +77163,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbr_pst: tsp_AmovPpneMrunSnonWbinDb_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -77197,7 +77197,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbl_pst: tsp_AmovPpneMrunSnonWbinDb_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsRunBL";
@@ -77231,7 +77231,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDl_pst: tsp_AmovPpneMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -77263,7 +77263,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfl_pst: tsp_AmovPpneMrunSnonWbinDf_pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -77301,7 +77301,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.73288602;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocPronePstActionsEvasiveF";
@@ -77352,7 +77352,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_BinocStandLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			disableWeaponsLong=0;
@@ -77439,7 +77439,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDf_lnr: tsp_AwopPercMstpSoptWbinDnon_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -77481,7 +77481,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfr_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsWlkFR";
@@ -77516,7 +77516,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDr_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.909091;
@@ -77552,7 +77552,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbr_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -77588,7 +77588,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDb_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -77624,7 +77624,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbl_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -77660,7 +77660,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDl_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.88235301;
@@ -77696,7 +77696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfl_lnr: tsp_AmovPercMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsWlkFL";
@@ -77740,7 +77740,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=1.2485;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsRunF";
@@ -77781,7 +77781,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfr_lnr: tsp_AmovPercMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsRunFR";
@@ -77822,7 +77822,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDr_lnr: tsp_AmovPercMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -77858,7 +77858,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDb_lnr: tsp_AmovPercMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -77894,7 +77894,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbr_lnr: tsp_AmovPercMrunSnonWbinDb_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsRunBR";
@@ -77929,7 +77929,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbl_lnr: tsp_AmovPercMrunSnonWbinDb_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsRunBL";
@@ -77964,7 +77964,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDl_lnr: tsp_AmovPercMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -78000,7 +78000,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfl_lnr: tsp_AmovPercMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsRunFL";
@@ -78063,7 +78063,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsEvasiveF";
@@ -78096,7 +78096,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocStandLnrActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -78127,7 +78127,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSnonWbinDfr_lnr: tsp_AmovPercMevaSnonWbinDf_lnr
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandLnrActionsEvasiveFR";
@@ -78160,7 +78160,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocKneelLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -78249,7 +78249,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDf_lnr: tsp_AwopPknlMstpSoptWbinDnon_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -78291,7 +78291,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfr_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsWlkFR";
@@ -78326,7 +78326,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDr_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -78362,7 +78362,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbr_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -78398,7 +78398,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDb_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -78434,7 +78434,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbl_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -78470,7 +78470,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDl_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsWlkL";
@@ -78506,7 +78506,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfl_lnr: tsp_AmovPknlMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsWlkFL";
@@ -78550,7 +78550,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.66666698;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsRunF";
@@ -78591,7 +78591,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfr_lnr: tsp_AmovPknlMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsRunFR";
@@ -78632,7 +78632,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDr_lnr: tsp_AmovPknlMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -78668,7 +78668,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDb_lnr: tsp_AmovPknlMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -78704,7 +78704,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbr_lnr: tsp_AmovPknlMrunSnonWbinDb_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsRunBR";
@@ -78739,7 +78739,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbl_lnr: tsp_AmovPknlMrunSnonWbinDb_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsRunBL";
@@ -78774,7 +78774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDl_lnr: tsp_AmovPknlMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -78810,7 +78810,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfl_lnr: tsp_AmovPknlMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsRunFL";
@@ -78853,7 +78853,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsEvasiveF";
@@ -78886,7 +78886,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocKneelLnrActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -78917,7 +78917,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWbinDfr_lnr: tsp_AmovPknlMevaSnonWbinDf_lnr
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelLnrActionsEvasiveFR";
@@ -78969,7 +78969,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocProneLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -79033,7 +79033,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDf_lnr: tsp_AwopPpneMstpSoptWbinDnon_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -79073,7 +79073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfr_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsWlkFR";
@@ -79107,7 +79107,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDr_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -79141,7 +79141,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbr_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -79175,7 +79175,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDb_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -79209,7 +79209,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbl_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -79243,7 +79243,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDl_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsWlkL";
@@ -79277,7 +79277,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfl_lnr: tsp_AmovPpneMwlkSoptWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsWlkFL";
@@ -79320,7 +79320,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.517241;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsRunF";
@@ -79355,7 +79355,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfr_lnr: tsp_AmovPpneMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsRunFR";
@@ -79391,7 +79391,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDr_lnr: tsp_AmovPpneMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -79425,7 +79425,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDb_lnr: tsp_AmovPpneMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -79459,7 +79459,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbr_lnr: tsp_AmovPpneMrunSnonWbinDb_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -79493,7 +79493,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbl_lnr: tsp_AmovPpneMrunSnonWbinDb_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsRunBL";
@@ -79527,7 +79527,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDl_lnr: tsp_AmovPpneMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -79559,7 +79559,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfl_lnr: tsp_AmovPpneMrunSnonWbinDf_lnr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -79597,7 +79597,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.73288602;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneLnrActionsEvasiveF";
@@ -79648,7 +79648,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_BinocStandCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			disableWeaponsLong=0;
@@ -79735,7 +79735,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDf_non: tsp_AwopPercMstpSoptWbinDnon_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -79777,7 +79777,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfr_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsWlkFR";
@@ -79812,7 +79812,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDr_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindr.rtm";
 			showHandGun = true;
 			speed=0.909091;
@@ -79848,7 +79848,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbr_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbr.rtm";
 			showHandGun = true;
 			speed=1;
@@ -79884,7 +79884,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDb_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -79920,7 +79920,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDbl_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindbl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -79956,7 +79956,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDl_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindl.rtm";
 			showHandGun = true;
 			speed=0.88235301;
@@ -79992,7 +79992,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSoptWbinDfl_non: tsp_AmovPercMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\wlk\opt\bin\awoppercmwlksoptwbindfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsWlkFL";
@@ -80036,7 +80036,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=1.2485;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsRunF";
@@ -80077,7 +80077,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfr_non: tsp_AmovPercMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsRunFR";
@@ -80118,7 +80118,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDr_non: tsp_AmovPercMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -80154,7 +80154,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDb_non: tsp_AmovPercMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -80190,7 +80190,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbr_non: tsp_AmovPercMrunSnonWbinDb_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsRunBR";
@@ -80225,7 +80225,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDbl_non: tsp_AmovPercMrunSnonWbinDb_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsRunBL";
@@ -80260,7 +80260,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDl_non: tsp_AmovPercMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -80296,7 +80296,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSnonWbinDfl_non: tsp_AmovPercMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\non\non\amovpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsRunFL";
@@ -80359,7 +80359,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsEvasiveF";
@@ -80392,7 +80392,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocStandCivilActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -80423,7 +80423,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMevaSnonWbinDfr_non: tsp_AmovPercMevaSnonWbinDf_non
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\spr\non\non\amovpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocStandCivilActionsEvasiveFR";
@@ -80456,7 +80456,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocKneelCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -80545,7 +80545,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDf_non: tsp_AwopPknlMstpSoptWbinDnon_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -80587,7 +80587,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfr_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsWlkFR";
@@ -80622,7 +80622,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDr_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.44999999;
@@ -80658,7 +80658,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbr_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -80694,7 +80694,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDb_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -80730,7 +80730,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDbl_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.44554499;
@@ -80766,7 +80766,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDl_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsWlkL";
@@ -80802,7 +80802,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMwlkSoptWbinDfl_non: tsp_AmovPknlMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\wlk\non\non\amovpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsWlkFL";
@@ -80846,7 +80846,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.66666698;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsRunF";
@@ -80887,7 +80887,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfr_non: tsp_AmovPknlMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsRunFR";
@@ -80928,7 +80928,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDr_non: tsp_AmovPknlMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.77205902;
@@ -80964,7 +80964,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDb_non: tsp_AmovPknlMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -81000,7 +81000,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbr_non: tsp_AmovPknlMrunSnonWbinDb_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsRunBR";
@@ -81035,7 +81035,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDbl_non: tsp_AmovPknlMrunSnonWbinDb_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsRunBL";
@@ -81070,7 +81070,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDl_non: tsp_AmovPknlMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.70946002;
@@ -81106,7 +81106,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMrunSnonWbinDfl_non: tsp_AmovPknlMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\run\non\non\amovpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsRunFL";
@@ -81149,7 +81149,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsEvasiveF";
@@ -81182,7 +81182,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=1.54286;
 			actions="tsp_BinocKneelCivilActionsEvasiveFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -81213,7 +81213,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMevaSnonWbinDfr_non: tsp_AmovPknlMevaSnonWbinDf_non
 		{
 			speed=1.54286;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\spr\non\non\amovpknlmevasnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocKneelCivilActionsEvasiveFR";
@@ -81265,7 +81265,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_BinocProneCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			showWeaponAim=0;
@@ -81329,7 +81329,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDf_non: tsp_AwopPpneMstpSoptWbinDnon_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -81369,7 +81369,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfr_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsWlkFR";
@@ -81403,7 +81403,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDr_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -81437,7 +81437,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbr_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -81471,7 +81471,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDb_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -81505,7 +81505,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDbl_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -81539,7 +81539,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDl_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsWlkL";
@@ -81573,7 +81573,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMwlkSoptWbinDfl_non: tsp_AmovPpneMwlkSoptWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsWlkFL";
@@ -81616,7 +81616,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			limitGunMovement=0.30000001;
 			soundOverride="run";
 			speed=0.517241;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsRunF";
@@ -81651,7 +81651,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfr_non: tsp_AmovPpneMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsRunFR";
@@ -81687,7 +81687,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDr_non: tsp_AmovPpneMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.66666698;
@@ -81721,7 +81721,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDb_non: tsp_AmovPpneMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.43478301;
@@ -81755,7 +81755,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbr_non: tsp_AmovPpneMrunSnonWbinDb_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.78947401;
@@ -81789,7 +81789,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDbl_non: tsp_AmovPpneMrunSnonWbinDb_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsRunBL";
@@ -81823,7 +81823,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDl_non: tsp_AmovPpneMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -81855,7 +81855,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMrunSnonWbinDfl_non: tsp_AmovPpneMrunSnonWbinDf_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\run\non\non\amovppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -81893,7 +81893,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.73288602;
 			duty=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\low\pst\amovppnemsprslowwpstdf.rtm";
 			showHandGun = true;
 			actions="tsp_BinocProneCivilActionsEvasiveF";
@@ -81943,7 +81943,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=0.1;
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.7;
@@ -81969,7 +81969,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -81989,7 +81989,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=0.2;
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -82021,7 +82021,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82050,7 +82050,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=1;
 			variantsPlayer[]={};
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -82078,7 +82078,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.92000002;
@@ -82102,7 +82102,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AwopPknlMstpSoptWbinDnon_rifle: tsp_AwopPknlMstpSoptWbinDnon_rfl
 		{
 			actions="tsp_BinocKneelRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.7;
@@ -82123,7 +82123,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82139,7 +82139,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AwopPercMstpSoptWbinDnon_rifle: tsp_AwopPercMstpSoptWbinDnon_rfl
 		{
 			actions="tsp_BinocStandRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -82166,7 +82166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82190,7 +82190,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			variantsPlayer[]={};
 			actions="tsp_BinocStandRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -82213,7 +82213,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocKneelRflActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.92000002;
@@ -82234,7 +82234,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AwopPknlMstpSoptWbinDnon_pistol: tsp_AwopPknlMstpSoptWbinDnon_pst
 		{
 			actions="tsp_BinocKneelPstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.7;
@@ -82255,7 +82255,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocPronePstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82271,7 +82271,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AwopPercMstpSoptWbinDnon_pistol: tsp_AwopPercMstpSoptWbinDnon_pst
 		{
 			actions="tsp_BinocStandPstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -82298,7 +82298,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocPronePstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82322,7 +82322,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			variantsPlayer[]={};
 			actions="tsp_BinocStandPstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -82345,7 +82345,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocKneelPstActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.92000002;
@@ -82366,7 +82366,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AwopPknlMstpSoptWbinDnon_launcher: tsp_AwopPknlMstpSoptWbinDnon_lnr
 		{
 			actions="tsp_BinocKneelLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.7;
@@ -82387,7 +82387,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82403,7 +82403,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AwopPercMstpSoptWbinDnon_launcher: tsp_AwopPercMstpSoptWbinDnon_lnr
 		{
 			actions="tsp_BinocStandLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -82430,7 +82430,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82454,7 +82454,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			variantsPlayer[]={};
 			actions="tsp_BinocStandLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -82477,7 +82477,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocKneelLnrActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.92000002;
@@ -82498,7 +82498,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AwopPknlMstpSoptWbinDnon_non: tsp_AwopPknlMstpSoptWbinDnon_non
 		{
 			actions="tsp_BinocKneelCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.7;
@@ -82519,7 +82519,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82535,7 +82535,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AwopPercMstpSoptWbinDnon_non: tsp_AwopPercMstpSoptWbinDnon_non
 		{
 			actions="tsp_BinocStandCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -82562,7 +82562,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocProneCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.1;
@@ -82586,7 +82586,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			blockMobileSwitching=1;
 			variantsPlayer[]={};
 			actions="tsp_BinocStandCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -82609,7 +82609,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			actions="tsp_BinocKneelCivilActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\pne\stp\opt\bin\awopppnemstpsoptwbindnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.92000002;
@@ -82630,7 +82630,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWrflDnon_AwopPercMstpSoptWbinDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.08108;
@@ -82669,7 +82669,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_awoppercmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=2.1052599;
@@ -82682,7 +82682,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWrflDnon_AwopPknlMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.08108;
@@ -82726,7 +82726,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			soundEnabled=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_awoppknlmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=2.1052599;
@@ -82739,7 +82739,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_AwopPpneMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.530505;
@@ -82785,7 +82785,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_awopppnemstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=1.4311301;
@@ -82798,7 +82798,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWpstDnon_AwopPercMstpSoptWbinDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.03448;
@@ -82836,7 +82836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_awoppercmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -82849,7 +82849,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWpstDnon_AwopPknlMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.03448;
@@ -82888,7 +82888,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			soundOverride=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_awoppknlmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -82901,7 +82901,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWpstDnon_AwopPpneMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -82939,7 +82939,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_awopppnemstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=1.0465111;
@@ -82952,7 +82952,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AwopPercMstpSoptWbinDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=2.04545;
@@ -82988,7 +82988,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_awoppercmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=2.04545;
@@ -83001,7 +83001,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSnonWnonDnon_AwopPknlMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=2.04545;
@@ -83037,7 +83037,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_awoppknlmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=2.04545;
@@ -83050,7 +83050,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSnonWnonDnon_AwopPpneMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_awopppnemstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.37755;
@@ -83088,7 +83088,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_awopppnemstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=1.29808;
@@ -83103,7 +83103,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			variantsAI[]={};
 			actions="tsp_RifleStandTakeActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\rfl\amovpercmstpsraswrfldnon_ainvpknlmstpslaywrfldnon.rtm";
 			showHandGun = true;
 			speed=1.5599999;
@@ -83132,7 +83132,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSlayWrflDnon: tsp_AmovPercMstpSrasWrflDnon_AinvPknlMstpSlayWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -83171,7 +83171,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSlayWrflDnon_AmovPercMstpSrasWrflDnon: tsp_AmovPercMstpSrasWrflDnon_AinvPknlMstpSlayWrflDnon
 		{
 			actions="tsp_RifleStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_amovpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=1.0599999;
@@ -83200,7 +83200,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_RifleKneelTakeActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\rfl\amovpknlmstpsraswrfldnon_ainvpknlmstpslaywrfldnon.rtm";
 			showHandGun = true;
 			speed=1.3;
@@ -83238,7 +83238,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSlayWrflDnon_1: tsp_AmovPknlMstpSrasWrflDnon_AinvPknlMstpSlayWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -83280,7 +83280,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_HealSelfActionBase";
 			aiming="empty";
 			aimingBody="empty";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_medic.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -83322,7 +83322,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_HealSelfActionBase";
 			aiming="empty";
 			aimingBody="empty";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_medicother.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -83389,7 +83389,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			actions="tsp_HealSelfActionProne";
 			soundOverride="healselfprone";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\rfl\ainvppnemstpslaywrfldnon_medic.rtm";
 			showHandGun = true;
 			speed=-8;
@@ -83416,7 +83416,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			actions="tsp_HealSelfActionProne";
 			soundOverride="healselfprone";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\rfl\ainvppnemstpslaywrfldnon_medicother.rtm";
 			showHandGun = true;
 			speed=-8;
@@ -83461,7 +83461,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			//--showHandgun=0;
 			aiming="empty";
 			aimingBody="empty";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medic.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -83499,7 +83499,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSlayWpstDnon_medicIn: tsp_AinvPknlMstpSlayWpstDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medic_in.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83518,7 +83518,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			minPlayTime=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medic_out.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83530,7 +83530,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationRestart=1;
 			aiming="empty";
 			aimingBody="empty";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medicother_mid.rtm";
 			showHandGun = true;
 			speed=0.15385;
@@ -83565,7 +83565,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSlayWpstDnon_medicOtherIn: tsp_AinvPknlMstpSlayWpstDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medicother.rtm";
 			showHandGun = true;
 			speed=2;
@@ -83583,7 +83583,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			minPlayTime=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medicother_end.rtm";
 			showHandGun = true;
 			speed=1.875;
@@ -83593,7 +83593,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			static=1;
 			actions="tsp_HealSelfPistolActionProne";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medic.rtm";
 			showHandGun = true;
 			speed=-8;
@@ -83609,7 +83609,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPpneMstpSlayWpstDnon_medicIn: tsp_AinvPpneMstpSlayWpstDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medic_in.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83629,7 +83629,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=0.80000001;
 			soundOverride="healselfpistolproneout";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medic_out.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83638,7 +83638,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			static=1;
 			actions="tsp_HealSelfPistolActionProne";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medicother_mid.rtm";
 			showHandGun = true;
 			speed=0.14706001;
@@ -83653,7 +83653,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPpneMstpSlayWpstDnon_medicOtherIn: tsp_AinvPpneMstpSlayWpstDnon_medicOther
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medicother.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -83673,7 +83673,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=0.80000001;
 			soundOverride="healselfpistolproneout";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medicother_end.rtm";
 			showHandGun = true;
 			speed=3;
@@ -83713,13 +83713,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			relSpeedMin=0.99667197;
 			relSpeedMax=0.99667197;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medic.rtm";
 			showHandGun = true;
 		};
 		class tsp_AinvPknlMstpSlayWnonDnon_medicIn: tsp_AinvPknlMstpSlayWpstDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medic_in.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83736,7 +83736,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			minPlayTime=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\pst\ainvpknlmstpslaywpstdnon_medic_out.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83746,7 +83746,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			soundOverride="healself";
 			actions="tsp_HealSelfCivilActionProne";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medic.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -83758,7 +83758,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPpneMstpSlayWnonDnon_medicIn: tsp_AinvPpneMstpSlayWpstDnon_medic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medic_in.rtm";
 			showHandGun = true;
 			speed=-0.5;
@@ -83775,14 +83775,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			canBlendStep=0;
 			minPlayTime=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\pst\ainvppnemstpslaywpstdnon_medic_out.rtm";
 			showHandGun = true;
 			speed=-0.5;
 		};
 		class tsp_AinvPknlMstpSlayWrflDnon_healed: tsp_AmovPknlMstpSrasWrflDnon_AinvPknlMstpSlayWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_healed1.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -83820,7 +83820,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSlayWrflDnon_healed2: tsp_AinvPknlMstpSlayWrflDnon_healed
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_healed2.rtm";
 			showHandGun = true;
 		};
@@ -83829,7 +83829,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_HealSelfCivilActionBase";
 			aiming="empty";
 			aimingBody="empty";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\non\ainvpknlmstpslaywnondnon_medicother.rtm";
 			showHandGun = true;
 			speed=0.13274001;
@@ -83863,7 +83863,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			actions="tsp_HealSelfCivilActionProne";
 			soundOverride="healselfprone";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\lay\non\ainvppnemstpslaywnondnon_medicother.rtm";
 			showHandGun = true;
 			speed=0.12876;
@@ -83883,7 +83883,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDf_left: tsp_AmovPercMwlkSrasWrflDf
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -83918,7 +83918,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDfl_left: tsp_AmovPercMwlkSrasWrflDfl
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -83953,7 +83953,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDl_left: tsp_AmovPercMwlkSrasWrflDl
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldl_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -83987,7 +83987,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDbl_left: tsp_AmovPercMwlkSrasWrflDbl
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldbl_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84021,7 +84021,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDb_left: tsp_AmovPercMwlkSrasWrflDb
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldb_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84055,7 +84055,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDbr_left: tsp_AmovPercMwlkSrasWrflDbr
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldbr_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84089,7 +84089,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDr_left: tsp_AmovPercMwlkSrasWrflDr
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldr_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84123,7 +84123,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWrflDfr_left: tsp_AmovPercMwlkSrasWrflDfr
 		{
 			actions="tsp_RifleAdjustLStandActionsWlkFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\rfl\aadjpercmwlksraswrfldfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -84158,7 +84158,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDf_left: tsp_AmovPercMtacSrasWrflDf
 		{
 			actions="tsp_RifleAdjustLStandActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldf_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84198,7 +84198,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDfl_left: tsp_AmovPercMtacSrasWrflDfl
 		{
 			actions="tsp_RifleAdjustLStandActionsTacFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldfl_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84234,7 +84234,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDl_left: tsp_AmovPercMtacSrasWrflDl
 		{
 			actions="tsp_RifleAdjustLStandActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldl_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84268,7 +84268,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDbl_left: tsp_AmovPercMtacSrasWrflDbl
 		{
 			actions="tsp_RifleAdjustLStandActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldbl_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84302,7 +84302,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDb_left: tsp_AmovPercMtacSrasWrflDb
 		{
 			actions="tsp_RifleAdjustLStandActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldb_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84336,7 +84336,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDbr_left: tsp_AmovPercMtacSrasWrflDbr
 		{
 			actions="tsp_RifleAdjustLStandActionsTacBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldbr_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84370,7 +84370,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDr_left: tsp_AmovPercMtacSrasWrflDr
 		{
 			actions="tsp_RifleAdjustLStandActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldr_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -84404,7 +84404,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWrflDfr_left: tsp_AmovPercMtacSrasWrflDfr
 		{
 			actions="tsp_RifleAdjustLStandActionsTacFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\rfl\aadjpercmtacsraswrfldfr_left.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -87304,7 +87304,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDf_left: tsp_AmovPknlMwlkSrasWrflDf
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87339,7 +87339,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDfl_left: tsp_AmovPknlMwlkSrasWrflDfl
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87374,7 +87374,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDl_left: tsp_AmovPknlMwlkSrasWrflDl
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87407,7 +87407,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDbl_left: tsp_AmovPknlMwlkSrasWrflDbl
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldbl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87440,7 +87440,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDb_left: tsp_AmovPknlMwlkSrasWrflDb
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldb_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87473,7 +87473,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDbr_left: tsp_AmovPknlMwlkSrasWrflDbr
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldbr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87506,7 +87506,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDr_left: tsp_AmovPknlMwlkSrasWrflDr
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87539,7 +87539,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWrflDfr_left: tsp_AmovPknlMwlkSrasWrflDfr
 		{
 			actions="tsp_RifleAdjustLKneelActionsWlkFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\rfl\aadjpknlmwlksraswrfldfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87574,7 +87574,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDf_left: tsp_AmovPknlMtacSrasWrflDf
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87613,7 +87613,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDfl_left: tsp_AmovPknlMtacSrasWrflDfl
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87648,7 +87648,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDl_left: tsp_AmovPknlMtacSrasWrflDl
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87681,7 +87681,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDbl_left: tsp_AmovPknlMtacSrasWrflDbl
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldbl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87714,7 +87714,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDb_left: tsp_AmovPknlMtacSrasWrflDb
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldb_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87747,7 +87747,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDbr_left: tsp_AmovPknlMtacSrasWrflDbr
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldbr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87780,7 +87780,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDr_left: tsp_AmovPknlMtacSrasWrflDr
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -87813,7 +87813,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWrflDfr_left: tsp_AmovPknlMtacSrasWrflDfr
 		{
 			actions="tsp_RifleAdjustLKneelActionsTacFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\rfl\aadjpknlmtacsraswrfldfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90688,7 +90688,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDf_left: tsp_AmovPercMwlkSrasWpstDf
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90723,7 +90723,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDfl_left: tsp_AmovPercMwlkSrasWpstDfl
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90758,7 +90758,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDl_left: tsp_AmovPercMwlkSrasWpstDl
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90791,7 +90791,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDbl_left: tsp_AmovPercMwlkSrasWpstDbl
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdbl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90824,7 +90824,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDb_left: tsp_AmovPercMwlkSrasWpstDb
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdb_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90857,7 +90857,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDbr_left: tsp_AmovPercMwlkSrasWpstDbr
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdbr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90890,7 +90890,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDr_left: tsp_AmovPercMwlkSrasWpstDr
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90923,7 +90923,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMwlkSrasWpstDfr_left: tsp_AmovPercMwlkSrasWpstDfr
 		{
 			actions="tsp_PistolAdjustLStandActionsWlkFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\wlk\ras\pst\aadjpercmwlksraswpstdfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90958,7 +90958,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDf_left: tsp_AmovPercMtacSrasWpstDf
 		{
 			actions="tsp_PistolAdjustLStandActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -90993,7 +90993,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDfl_left: tsp_AmovPercMtacSrasWpstDfl
 		{
 			actions="tsp_PistolAdjustLStandActionsTacFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -91028,7 +91028,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDl_left: tsp_AadjPercMtacSrasWpstDfl_left
 		{
 			actions="tsp_PistolAdjustLStandActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -91061,7 +91061,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDbl_left: tsp_AmovPercMtacSrasWpstDbl
 		{
 			actions="tsp_PistolAdjustLStandActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdbl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -91094,7 +91094,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDb_left: tsp_AmovPercMtacSrasWpstDb
 		{
 			actions="tsp_PistolAdjustLStandActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdb_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -91127,7 +91127,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDbr_left: tsp_AmovPercMtacSrasWpstDbr
 		{
 			actions="tsp_PistolAdjustLStandActionsTacBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdbr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -91160,7 +91160,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDr_left: tsp_AmovPercMtacSrasWpstDr
 		{
 			actions="tsp_PistolAdjustLStandActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -91193,7 +91193,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPercMtacSrasWpstDfr_left: tsp_AmovPercMtacSrasWpstDfr
 		{
 			actions="tsp_PistolAdjustLStandActionsTacFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\tac\ras\pst\aadjpercmtacsraswpstdfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94032,7 +94032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDf_left: tsp_AmovPknlMwlkSrasWpstDf
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94067,7 +94067,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDfl_left: tsp_AmovPknlMwlkSrasWpstDfl
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94102,7 +94102,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDl_left: tsp_AmovPknlMwlkSrasWpstDl
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94135,7 +94135,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDbl_left: tsp_AmovPknlMwlkSrasWpstDbl
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdbl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94168,7 +94168,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDb_left: tsp_AmovPknlMwlkSrasWpstDb
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdb_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94201,7 +94201,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDbr_left: tsp_AmovPknlMwlkSrasWpstDbr
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdbr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94234,7 +94234,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDr_left: tsp_AmovPknlMwlkSrasWpstDr
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94267,7 +94267,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMwlkSrasWpstDfr_left: tsp_AmovPknlMwlkSrasWpstDfr
 		{
 			actions="tsp_PistolAdjustLKneelActionsWlkFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\wlk\ras\pst\aadjpknlmwlksraswpstdfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94302,7 +94302,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDf_left: tsp_AmovPknlMtacSrasWpstDf
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdf_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94337,7 +94337,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDfl_left: tsp_AmovPknlMtacSrasWpstDfl
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacFl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdfl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94372,7 +94372,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDl_left: tsp_AmovPknlMtacSrasWpstDl
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94405,7 +94405,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDbl_left: tsp_AmovPknlMtacSrasWpstDbl
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacBL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdbl_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94438,7 +94438,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDb_left: tsp_AmovPknlMtacSrasWpstDb
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdb_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94471,7 +94471,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDbr_left: tsp_AmovPknlMtacSrasWpstDbr
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacBr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdbr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94504,7 +94504,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDr_left: tsp_AmovPknlMtacSrasWpstDr
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -94537,7 +94537,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AadjPknlMtacSrasWpstDfr_left: tsp_AmovPknlMtacSrasWpstDfr
 		{
 			actions="tsp_PistolAdjustLKneelActionsTacFr";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\tac\ras\pst\aadjpknlmtacsraswpstdfr_left.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -97352,7 +97352,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSlayWrflDnon_AmovPknlMstpSrasWrflDnon: tsp_AmovPknlMstpSrasWrflDnon_AinvPknlMstpSlayWrflDnon
 		{
 			actions="tsp_RifleKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.1,0,0.2,1};
@@ -97379,7 +97379,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPpneMstpSrasWrflDnon_healed: tsp_AmovPpneMstpSrasWrflDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\rfl\amovppnemstpsraswrfldnon_healed.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97401,7 +97401,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_PistolStandTakeActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -97425,7 +97425,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end: tsp_AmovPercMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon_ainvpknlmstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.15;
@@ -97439,7 +97439,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_1: tsp_AmovPercMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -97479,7 +97479,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon: tsp_AmovPercMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=1.04;
@@ -97494,7 +97494,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_end: tsp_AmovPercMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
 			actions="tsp_PistolStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_amovpercmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.97;
@@ -97512,7 +97512,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			variantsPlayer[]={};
 			actions="tsp_PistolKneelTakeActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.5700001;
@@ -97537,7 +97537,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\pst\amovpknlmstpsraswpstdnon_ainvpknlmstpsnonwnondnon_end.rtm";
 			showHandGun = true;
 			speed=1.15;
@@ -97553,7 +97553,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_2: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -97594,7 +97594,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDnon_medic_1: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
 			actions="tsp_HealSelfActionsNon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_medic.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97620,7 +97620,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_healed_1: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_healed1.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97634,7 +97634,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_AmovPknlMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_amovpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon.p3d";
@@ -97649,7 +97649,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSnonWnonDnon_AmovPknlMstpSrasWpstDnon_end: tsp_AmovPknlMstpSrasWpstDnon_AinvPknlMstpSnonWnonDnon_end
 		{
 			actions="tsp_PistolKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_amovpknlmstpsraswpstdnon_end.rtm";
 			showHandGun = true;
 			speed=1.97;
@@ -97663,7 +97663,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSrasWpstDnon_healed: tsp_AmovPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\ras\pst\amovppnemstpsraswpstdnon_healed.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97685,7 +97685,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			actions="tsp_CivilStandTakeActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.54;
@@ -97711,7 +97711,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_3: tsp_AmovPercMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -97751,7 +97751,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSlayWrflDnon_AmovPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
 			actions="tsp_CivilStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Pknl_Wnon.p3d";
@@ -97763,7 +97763,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_4: tsp_AmovPknlMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -97801,7 +97801,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_medic_2: tsp_AmovPknlMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_medic.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97813,7 +97813,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWnonDnon_healed_2: tsp_AmovPknlMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_healed2.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97826,7 +97826,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinvPknlMstpSlayWrflDnon_AmovPknlMstpSnonWnonDnon: tsp_AmovPknlMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon
 		{
 			actions="tsp_CivilKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsnonwnondnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -97837,7 +97837,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSnonWnonDnon_healed: tsp_AidlPpneMstpSnonWnonDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon_healed.rtm";
 			showHandGun = true;
 			speed=0.17;
@@ -97859,7 +97859,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\aparpercmstpsnonwnondnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=-1.5;
@@ -97898,7 +97898,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsraswrfldnon_getoutlow.rtm";
 			showHandGun = true;
 			speed=1.9;
@@ -97937,35 +97937,35 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutMedium: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsraswrfldnon_getoutmedium.rtm";
 			showHandGun = true;
 			speed=1.3329999;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutHigh: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsraswrfldnon_getouthigh.rtm";
 			showHandGun = true;
 			speed=0.91500002;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutHighZamak: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getouthighzamak.rtm";
 			showHandGun = true;
 			speed=0.5;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutHighHemtt: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getouthighhemtt.rtm";
 			showHandGun = true;
 			speed=0.49180299;
 		};
 		class tsp_GetInHelicopterCargoRfl: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_heli_light_02_getin_weapon.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -97974,14 +97974,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutHelicopterCargoRfl: tsp_GetInHelicopterCargoRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_heli_light_02_getout_weapon.rtm";
 			showHandGun = true;
 			speed=0.83333302;
 		};
 		class tsp_GetInMRAP_01Rfl: tsp_GetInHelicopterCargoRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\driver_mrap_01_getin.rtm";
 			showHandGun = true;
 			speed=0.87699997;
@@ -97991,7 +97991,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutMRAP_01Rfl: tsp_GetInMRAP_01Rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getout.rtm";
 			showHandGun = true;
 			speed=1.579;
@@ -97999,7 +97999,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetInMRAP_01_cargoRfl: tsp_GetInMRAP_01Rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getin.rtm";
 			showHandGun = true;
 			speed=0.57700002;
@@ -98007,14 +98007,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutMRAP_01_cargoRfl: tsp_GetOutMRAP_01Rfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getout.rtm";
 			showHandGun = true;
 			speed=0.579;
 		};
 		class tsp_Heli_Attack_01Pilot_AmovPercMstpSlowWrflDnon: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\cargoposes_f\anim\heli_attack_01_pilot_exit.rtm";
 			showHandGun = true;
 			speed=0.91500002;
@@ -98039,13 +98039,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Heli_Attack_01Gunner_AmovPercMstpSlowWrflDnon: tsp_Heli_Attack_01Pilot_AmovPercMstpSlowWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\cargoposes_f\anim\heli_attack_01_gunner_exit.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_Heli_Attack_01Pilot: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWrflDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\cargoposes_f\anim\heli_attack_01_pilot_getin.rtm";
 			showHandGun = true;
 			speed=-1.55;
@@ -98064,14 +98064,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_Heli_Attack_01Gunner: tsp_Heli_Attack_01Pilot_AmovPercMstpSlowWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\cargoposes_f\anim\heli_attack_01_gunner_getin.rtm";
 			showHandGun = true;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutLow: tsp_AmovPercMstpSrasWpstDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsraswpstdnon_getoutlow.rtm";
 			showHandGun = true;
 			speed=1.9;
@@ -98102,35 +98102,35 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutMedium: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsraswpstdnon_getoutmedium.rtm";
 			showHandGun = true;
 			speed=1.3329999;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutHigh: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsraswpstdnon_getouthigh.rtm";
 			showHandGun = true;
 			speed=0.91500002;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutHighZamak: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getouthighzamak.rtm";
 			showHandGun = true;
 			speed=0.5;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutHighHemtt: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getouthighhemtt.rtm";
 			showHandGun = true;
 			speed=0.5;
 		};
 		class tsp_GetInHelicopterCargoPst: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSrasWpstDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_heli_light_02_getin.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -98139,14 +98139,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutHelicopterCargoPst: tsp_GetInHelicopterCargoPst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_heli_light_02_getout.rtm";
 			showHandGun = true;
 			speed=0.83333302;
 		};
 		class tsp_GetInMRAP_01Pst: tsp_GetInHelicopterCargoPst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\driver_mrap_01_getin.rtm";
 			showHandGun = true;
 			speed=0.87699997;
@@ -98155,14 +98155,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutMRAP_01Pst: tsp_GetInMRAP_01Pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getout.rtm";
 			showHandGun = true;
 			speed=1.579;
 		};
 		class tsp_GetInMRAP_01_cargoPst: tsp_GetInMRAP_01Pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getin.rtm";
 			showHandGun = true;
 			speed=0.57700002;
@@ -98171,7 +98171,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutMRAP_01_cargoPst: tsp_GetOutMRAP_01Pst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getout.rtm";
 			showHandGun = true;
 			speed=0.579;
@@ -98179,7 +98179,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInLow: tsp_AmovPercMstpSnonWnonDnon
 		{
 			variantsPlayer[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_acrgpknlmstpsnonwnondnon_getinlow.rtm";
 			showHandGun = true;
 			speed=2;
@@ -98209,28 +98209,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInMedium: tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_acrgpknlmstpsnonwnondnon_getinmedium.rtm";
 			showHandGun = true;
 			speed=0.83329999;
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInHigh: tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_acrgpknlmstpsnonwnondnon_getinhigh.rtm";
 			showHandGun = true;
 			speed=0.83329999;
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInSDV: tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_acrgpknlmstpsnonwnondnon_getinhigh.rtm";
 			showHandGun = true;
 			speed=0.83329999;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutLow: tsp_AmovPercMstpSnonWnonDnon_AcrgPknlMstpSnonWnonDnon_getInLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsnonwnondnon_getoutlow.rtm";
 			showHandGun = true;
 			speed=1.5;
@@ -98242,35 +98242,35 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutMedium: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsnonwnondnon_getoutmedium.rtm";
 			showHandGun = true;
 			speed=1.666;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutHigh: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\acrgpknlmstpsnonwnondnon_amovpercmstpsnonwnondnon_getouthigh.rtm";
 			showHandGun = true;
 			speed=0.91500002;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutHighZamak: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getouthighzamak.rtm";
 			showHandGun = true;
 			speed=0.5;
 		};
 		class tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutHighHemtt: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getouthighhemtt.rtm";
 			showHandGun = true;
 			speed=0.5;
 		};
 		class tsp_GetInHelicopterCargo: tsp_AcrgPknlMstpSnonWnonDnon_AmovPercMstpSnonWnonDnon_getOutLow
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_heli_light_02_getin.rtm";
 			showHandGun = true;
 			speed=0.75;
@@ -98279,14 +98279,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutHelicopterCargo: tsp_GetInHelicopterCargo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_heli_light_02_getout.rtm";
 			showHandGun = true;
 			speed=0.83333302;
 		};
 		class tsp_GetInMRAP_01: tsp_GetInHelicopterCargo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\driver_mrap_01_getin.rtm";
 			showHandGun = true;
 			speed=0.87699997;
@@ -98295,14 +98295,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutMRAP_01: tsp_GetInMRAP_01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getout.rtm";
 			showHandGun = true;
 			speed=1.579;
 		};
 		class tsp_GetInMRAP_01_cargo: tsp_GetInMRAP_01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getin.rtm";
 			showHandGun = true;
 			speed=0.57700002;
@@ -98311,14 +98311,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetOutMRAP_01_cargo: tsp_GetOutMRAP_01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\passenger_mrap_01_getout.rtm";
 			showHandGun = true;
 			speed=0.579;
 		};
 		class tsp_AinjPpneMstpSnonWrflDnon: tsp_AmovPpneMstpSrasWrflDnon_injured
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -98372,7 +98372,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			interpolationSpeed=1;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwrfldnon_rolltoback.rtm";
 			showHandGun = true;
 			speed=-2;
@@ -98400,7 +98400,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMstpSnonWrflDnon_rolltofront: tsp_AinjPpneMstpSnonWrflDnon_rolltoback
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwrfldnon_rolltofront.rtm";
 			showHandGun = true;
 			actions="tsp_InjuredManActionsRfl";
@@ -98426,7 +98426,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_RifleKneelActions";
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwnondnon_kneel.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -98448,7 +98448,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMstpSnonWrflDb: tsp_AinjPpneMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -98471,7 +98471,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMstpSnonWrflDb_release: tsp_AinjPpneMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemrunsnonwnondb_release.rtm";
 			showHandGun = true;
 			speed=1;
@@ -98499,7 +98499,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMwlkSlowWrflDb_still: tsp_AinjPpneMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlkslowwrfldb_still.rtm";
 			showHandGun = true;
 			actions="tsp_InjuredManDraggedActionsRfl";
@@ -98524,7 +98524,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousFaceDown: tsp_AinjPpneMstpSnonWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_ragdolltoinjured_r.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveWoundedDefaultActions";
@@ -98568,28 +98568,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousFaceLeft: tsp_UnconsciousFaceDown
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_sideragdolltoinjured_l.rtm";
 			showHandGun = true;
 			speed=0.32967001;
 		};
 		class tsp_UnconsciousFaceRight: tsp_UnconsciousFaceDown
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_sideragdolltoinjured_r.rtm";
 			showHandGun = true;
 			speed=0.53570998;
 		};
 		class tsp_UnconsciousFaceUp: tsp_UnconsciousFaceDown
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			speed=10;
 		};
 		class tsp_UnconsciousOutProne: tsp_AmovPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_injuredtouna.rtm";
 			showHandGun = true;
 			looped=0;
@@ -98619,7 +98619,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousOutKneelLauncher: tsp_AmovPknlMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_injuredtolauncher.rtm";
 			showHandGun = true;
 			looped=0;
@@ -98653,7 +98653,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveDefault: Unconscious
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveWoundedDefaultActions";
@@ -98707,7 +98707,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveDefault_Base: tsp_UnconsciousReviveDefault
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -98738,7 +98738,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveDefault_A: tsp_UnconsciousReviveDefault_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_base_a.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -98768,19 +98768,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveDefault_B: tsp_UnconsciousReviveDefault_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_base_b.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveDefault_C: tsp_UnconsciousReviveDefault_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_base_c.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveHead: Unconscious
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveWoundedDefaultActions";
@@ -98828,7 +98828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveHead_Base: tsp_UnconsciousReviveHead
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -98857,7 +98857,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveHead_A: tsp_UnconsciousReviveHead_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_head_a.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -98883,19 +98883,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveHead_B: tsp_UnconsciousReviveHead_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_head_b.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveHead_C: tsp_UnconsciousReviveHead_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_head_c.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveBody: Unconscious
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveWoundedDefaultActions";
@@ -98939,7 +98939,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveBody_Base: tsp_UnconsciousReviveBody
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -98966,7 +98966,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveBody_A: tsp_UnconsciousReviveBody_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_body_a.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -98990,13 +98990,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveBody_B: tsp_UnconsciousReviveBody_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_body_b.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveArms: Unconscious
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveWoundedDefaultActions";
@@ -99044,7 +99044,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveArms_Base: tsp_UnconsciousReviveArms
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -99073,7 +99073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveArms_A: tsp_UnconsciousReviveArms_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_arm_a.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -99099,19 +99099,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveArms_B: tsp_UnconsciousReviveArms_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_arm_b.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveArms_C: tsp_UnconsciousReviveArms_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_arm_c.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveLegs: Unconscious
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveWoundedDefaultActions";
@@ -99155,7 +99155,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveLegs_Base: tsp_UnconsciousReviveLegs
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -99182,7 +99182,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveLegs_A: tsp_UnconsciousReviveLegs_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_leg_a.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -99206,13 +99206,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveLegs_B: tsp_UnconsciousReviveLegs_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_wounded_leg_b.rtm";
 			showHandGun = true;
 		};
 		class tsp_UnconsciousReviveMedic: Unconscious
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medic_stillpose.rtm";
 			showHandGun = true;
 			actions="tsp_ReviveMedicActions";
@@ -99262,7 +99262,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveMedic_Base: tsp_UnconsciousReviveMedic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\stillpose_faceup.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -99289,7 +99289,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveMedic_A: tsp_UnconsciousReviveMedic_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medic_adrenalin.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -99313,14 +99313,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousReviveMedic_B: tsp_UnconsciousReviveMedic_A
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medic_cpr.rtm";
 			showHandGun = true;
 			speed=-13;
 		};
 		class tsp_UnconsciousMedicOutRifle: tsp_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medictorifle.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99351,7 +99351,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicOutLauncher: tsp_AmovPknlMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medictolauncher.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99382,7 +99382,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicOutPistol: tsp_AmovPknlMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medictopistol.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99412,7 +99412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicOutBinoc: tsp_AmovPknlMstpSoptWbinDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medicto//Binoculars.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99442,7 +99442,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicOut: tsp_AmovPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_medictounarmed.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99472,7 +99472,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicFromRifle: tsp_UnconsciousReviveMedic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_rifletomedic.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99502,14 +99502,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicFromRifleKneel: tsp_UnconsciousMedicFromRifle
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_kneel_unarmedtomedic.rtm";
 			showHandGun = true;
 			speed=0.96774;
 		};
 		class tsp_UnconsciousMedicFromLauncher: tsp_UnconsciousReviveMedic
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_launchertomedic.rtm";
 			showHandGun = true;
 			looped=0;
@@ -99539,49 +99539,49 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_UnconsciousMedicFromLauncherKneel: tsp_UnconsciousMedicFromLauncher
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_kneel_launchertomedic.rtm";
 			showHandGun = true;
 			speed=0.22727001;
 		};
 		class tsp_UnconsciousMedicFromPistol: tsp_UnconsciousMedicFromRifle
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_pistoltomedic.rtm";
 			showHandGun = true;
 			speed=0.39473999;
 		};
 		class tsp_UnconsciousMedicFromPistolKneel: tsp_UnconsciousMedicFromPistol
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_kneel_pistoltomedic.rtm";
 			showHandGun = true;
 			speed=0.39473999;
 		};
 		class tsp_UnconsciousMedicFromBinoc: tsp_UnconsciousMedicFromRifle
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_//Binocularstomedic.rtm";
 			showHandGun = true;
 			speed=0.35714;
 		};
 		class tsp_UnconsciousMedicFromBinocKneel: tsp_UnconsciousMedicFromBinoc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_kneel_binoculartomedic.rtm";
 			showHandGun = true;
 			speed=0.50847;
 		};
 		class tsp_UnconsciousMedicFromUnarmed: tsp_UnconsciousMedicFromRifle
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_unarmedtomedic.rtm";
 			showHandGun = true;
 			speed=0.47619;
 		};
 		class tsp_UnconsciousMedicFromUnarmedKneel: tsp_UnconsciousMedicFromUnarmed
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\rev\revive_kneel_unarmedtomedic.rtm";
 			showHandGun = true;
 			speed=0.96774;
@@ -99589,7 +99589,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_1: Default
 		{
 			actions="tsp_MoveWithInjuredManDraggerRfl";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\amovpercmstpslowwrfldnon_acinpknlmwlkslowwrfldb_1.rtm";
 			showHandGun = true;
 			speed=1;
@@ -99625,7 +99625,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_2: tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\amovpercmstpslowwrfldnon_acinpknlmwlkslowwrfldb_2.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -99652,7 +99652,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetIn_Vertical_Rifle: tsp_GetInHelicopterCargoRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getin_verticaltruck_rifle.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -99662,7 +99662,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetIn_Vertical_Pistol: tsp_GetInHelicopterCargoPst
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getin_verticaltruck.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -99671,7 +99671,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_GetIn_Vertical_Unarmed: tsp_GetInHelicopterCargo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\crg\knl\stp\non\non\getin_verticaltruck.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -99680,7 +99680,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMstpSrasWrflDnon: tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlkslowwrfldb_still.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -99725,7 +99725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_DraggerBase: Default
 		{
 			actions="tsp_MoveWithInjuredManDragger";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\amovpercmstpslowwrfldnon_acinpknlmwlkslowwrfldb_1.rtm";
 			showHandGun = true;
 			speed=1;
@@ -99756,7 +99756,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMwlkSlowWrflDb_AmovPercMstpSlowWrflDnon: tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlkslowwrfldb_amovpercmstpslowwrfldnon.rtm";
 			showHandGun = true;
 			duty=-0.5;
@@ -99785,7 +99785,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMstpSrasWrflDnon_AmovPknlMstpSrasWrflDnon: tsp_DraggerBaseRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmstpsraswrfldnon_amovpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -99813,7 +99813,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMstpSrasWrflDnon_AmovPpneMstpSrasWrflDnon: tsp_DraggerBaseRfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmstpsraswrfldnon_amovppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=0.38;
@@ -99839,7 +99839,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMwlkSrasWrflDb: tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlkslowwrfldb.rtm";
 			showHandGun = true;
 			looped=1;
@@ -99880,7 +99880,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMwlkSlowWrflDb_death: tsp_AmovPercMstpSlowWrflDnon_AcinPknlMwlkSlowWrflDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlkslowwrfldb_death.rtm";
 			showHandGun = true;
 			terminal=1;
@@ -99911,7 +99911,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDf: InjuredMovedBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrier.rtm";
 			showHandGun = true;
 			actions="tsp_MoveWithInjuredManCarrierRflStill";
@@ -99961,7 +99961,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDb: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdb.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -99995,7 +99995,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDbl: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -100029,7 +100029,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDbr: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -100063,7 +100063,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDfl: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -100097,7 +100097,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDfr: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -100131,7 +100131,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDl: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -100165,7 +100165,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDr: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carrierdr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -100199,7 +100199,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDf_death: tsp_AcinPercMrunSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-dead-carrier.rtm";
 			showHandGun = true;
 			terminal=1;
@@ -100238,7 +100238,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AcinPknlMstpSrasWrflDnon_AcinPercMrunSrasWrflDnon: InjuredMovedBase
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_rfl_pickup.rtm";
 			showHandGun = true;
 			speed=-15;
@@ -100273,7 +100273,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Helper_SwitchToCarryRfl: tsp_AcinPknlMstpSrasWrflDnon_AcinPercMrunSrasWrflDnon
 		{
 			speed=15;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\acinpknlmstpsraswrfldnon_helper.rtm";
 			showHandGun = true;
 			forceAim=0;
@@ -100296,7 +100296,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=1;
 			speed=1e+010;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_rfl_static.rtm";
 			showHandGun = true;
 			limitGunMovement=0.5;
@@ -100345,7 +100345,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMstpSrasWrflDnon_agony: tsp_AcinPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-dead-carrier.rtm";
 			showHandGun = true;
 			speed=0.20999999;
@@ -100369,7 +100369,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSrasWrflDf_AmovPercMstpSlowWrflDnon: InjuredMovedBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_rfl_laydown.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -100401,7 +100401,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Helper_InjuredRfl: AgonyBaseRfl
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\injured_pickup.rtm";
 			showHandGun = true;
 			speed=0;
@@ -100442,7 +100442,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPfalMstpSnonWrflDnon_carried_Up: AgonyBaseRfl
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\injured_pickup.rtm";
 			showHandGun = true;
 			speed=-15;
@@ -100472,7 +100472,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPfalMstpSnonWrflDnon_AmovPpneMstpSrasWrflDnon_injured: tsp_AinjPfalMstpSnonWrflDnon_carried_Up
 		{
 			speed=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-dead-carried.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -100487,7 +100487,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_InjuredManCarriedActionsRflStill";
 			speed=1e+010;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carried.rtm";
 			showHandGun = true;
 			duty=0;
@@ -100515,7 +100515,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPfalMstpSnonWrflDf_carried: tsp_AinjPfalMstpSnonWrflDnon_carried_Up
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-wc-carried.rtm";
 			showHandGun = true;
 			looped=1;
@@ -100544,7 +100544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPfalMstpSnonWrflDf_carried_fallwc: tsp_AinjPfalMstpSnonWrflDf_carried
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\injured_laydown.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -100568,7 +100568,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPfalMstpSnonWrflDf_carried_fall: tsp_AinjPfalMstpSnonWrflDf_carried_fallwc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarryrfl-dead-carried.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -100592,7 +100592,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPfalMstpSnonWrflDnon_carried_Down: AgonyBase
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\injured_laydown.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -100611,7 +100611,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPpneMstpSnonWnonDnon_injured: AgonyBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\stp\non\non\amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\geom_empty.p3d";
@@ -100672,7 +100672,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_InjuredManActionSnon";
 			speed=0.2;
 			showWeaponAim=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\pne\spr\non\non\amovppnemsprsnonwnondf.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Ppne.p3d";
@@ -100694,7 +100694,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMstpSnonWnonDnon: tsp_AmovPpneMstpSnonWnonDnon_injured
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -100749,7 +100749,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPpneMstpSnonWnonDnon_rolltoback: tsp_AinjPpneMstpSnonWnonDnon
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwnondnon_rolltoback.rtm";
 			showHandGun = true;
 			speed=1;
@@ -100777,7 +100777,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMstpSnonWnonDnon_rolltofront: tsp_AinjPpneMstpSnonWnonDnon_rolltoback
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemstpsnonwnondnon_rolltofront.rtm";
 			showHandGun = true;
 			actions="tsp_InjuredManActionSnon";
@@ -100801,7 +100801,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMrunSnonWnonDb: tsp_AinjPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=1;
@@ -100824,7 +100824,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMrunSnonWnonDb_grab: tsp_AinjPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemrunsnonwnondb_grab.rtm";
 			showHandGun = true;
 			ragdoll=1;
@@ -100854,7 +100854,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMrunSnonWnonDb_release: tsp_AinjPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemrunsnonwnondb_release.rtm";
 			showHandGun = true;
 			speed=1;
@@ -100882,7 +100882,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPpneMrunSnonWnonDb_still: tsp_AinjPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\ainjppnemrunsnonwnondb_still.rtm";
 			showHandGun = true;
 			actions="tsp_InjuredManDraggedActionsNon";
@@ -100908,7 +100908,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSnonWnonDnon_AcinPknlMwlkSnonWnonDb_1: Default
 		{
 			actions="tsp_MoveWithInjuredManDraggerNon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\amovpercmstpsnonwnondnon_acinpknlmwlksnonwnondb_1.rtm";
 			showHandGun = true;
 			speed=1;
@@ -100969,7 +100969,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_AcinPknlMwlkSnonWnonDb_2: tsp_AmovPercMstpSnonWnonDnon_AcinPknlMwlkSnonWnonDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\amovpercmstpsnonwnondnon_acinpknlmwlksnonwnondb_2.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -101008,7 +101008,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon_AcinPknlMwlkSnonWnonDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlksnonwnondb_still.rtm";
 			showHandGun = true;
 			speed=1e+010;
@@ -101074,14 +101074,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_DraggerBasenon: tsp_DraggerBase
 		{
 			actions="tsp_MoveWithInjuredManDraggernon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\amovpercmstpsnonwnondnon_acinpknlmwlksnonwnondb_1.rtm";
 			showHandGun = true;
 			disableWeaponsLong=1;
 		};
 		class tsp_AcinPknlMwlkSnonWnonDb_AmovPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon_AcinPknlMwlkSnonWnonDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlksnonwnondb_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			duty=-0.5;
@@ -101126,7 +101126,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMstpSnonWnonDnon_AmovPknlMstpSnonWnonDnon: tsp_DraggerBasenon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmstpsnonwnondnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.55000001;
@@ -101169,7 +101169,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMstpSnonWnonDnon_AmovPpneMstpSnonWnonDnon: tsp_DraggerBasenon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmstpsnonwnondnon_amovppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -101212,7 +101212,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMwlkSnonWnonDb: tsp_AmovPercMstpSnonWnonDnon_AcinPknlMwlkSnonWnonDb_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			looped=1;
@@ -101272,7 +101272,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPknlMwlkSnonWnonDb_death: tsp_AcinPknlMwlkSnonWnonDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\acinpknlmwlksnonwnondb_death.rtm";
 			showHandGun = true;
 			terminal=1;
@@ -101324,7 +101324,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDf: InjuredMovedBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier.rtm";
 			showHandGun = true;
 			actions="tsp_MoveWithInjuredManCarrierNonStill";
@@ -101374,7 +101374,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDb: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-db.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101408,7 +101408,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDbl: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-dbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101442,7 +101442,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDbr: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-dbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101476,7 +101476,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDfl: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-dfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101510,7 +101510,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDfr: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-dfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101544,7 +101544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDl: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-dl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101578,7 +101578,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDr: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carrier-dr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -101614,7 +101614,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_df.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101659,7 +101659,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_dfl.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101700,7 +101700,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_dfr.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101741,7 +101741,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_dl.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101782,7 +101782,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_dr.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101823,7 +101823,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_dbr.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101864,7 +101864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_dbl.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101905,7 +101905,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_db.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -101944,7 +101944,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDf_death: tsp_AcinPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-dead-carrier.rtm";
 			showHandGun = true;
 			terminal=1;
@@ -101984,7 +101984,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AcinPknlMstpSnonWnonDnon_AcinPercMrunSnonWnonDnon: InjuredMovedBase
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_rfl_pickup.rtm";
 			showHandGun = true;
 			speed=-15;
@@ -102017,7 +102017,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPst";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_pickup.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -102031,7 +102031,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0;
 			actions="tsp_MoveWithInjuredMan_helpernon";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\helper_switchtocarrynon.rtm";
 			showHandGun = true;
 			interpolationSpeed=6;
@@ -102071,7 +102071,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			variantsPlayer[]={};
 			variantsAI[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic1.rtm";
 			showHandGun = true;
 			speed=0.20999999;
@@ -102104,28 +102104,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic2: tsp_AinvPknlMstpSnonWrflDr_medic1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic2.rtm";
 			showHandGun = true;
 			speed=0.13;
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic3: tsp_AinvPknlMstpSnonWrflDr_medic1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic3.rtm";
 			showHandGun = true;
 			speed=0.22;
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic4: tsp_AinvPknlMstpSnonWrflDr_medic1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic4.rtm";
 			showHandGun = true;
 			speed=0.22;
 		};
 		class tsp_AinvPknlMstpSnonWrflDr_medic5: tsp_AinvPknlMstpSnonWrflDr_medic1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\healing\ainvpknlmstpsnonwrfldr_medic5.rtm";
 			showHandGun = true;
 			speed=0.11;
@@ -102134,7 +102134,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=1;
 			speed=1e+010;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_una_static.rtm";
 			showHandGun = true;
 			aimPrecision=6;
@@ -102182,7 +102182,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_MoveWithInjuredManCarrierPstStill";
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_static.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -102227,7 +102227,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMstpSnonWnonDnon_agony: tsp_AcinPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-dead-carrier.rtm";
 			showHandGun = true;
 			speed=0.20999999;
@@ -102259,7 +102259,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AcinPercMrunSnonWnonDf_AmovPercMstpSnonWnonDnon: InjuredMovedBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_rfl_laydown.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -102289,7 +102289,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			canReload=0;
 			actions="tsp_MoveWithInjuredManCarrierPst";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\carrier_pst_laydown.rtm";
 			showHandGun = true;
 			//--showHandgun=1;
@@ -102302,7 +102302,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPfalMstpSnonWnonDnon_carried_Up: AgonyBase
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\injured_pickup.rtm";
 			showHandGun = true;
 			speed=-15;
@@ -102332,7 +102332,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPfalMstpSnonWnonDnon_AmovPpneMstpSnonWnonDnon_injured: tsp_AinjPfalMstpSnonWnonDnon_carried_Up
 		{
 			speed=0.2;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-dead-carried.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -102346,7 +102346,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=1e+010;
 			actions="tsp_InjuredManCarriedActionSnonStill";
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carried.rtm";
 			showHandGun = true;
 			duty=0;
@@ -102376,7 +102376,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPfalMstpSnonWnonDf_carried: tsp_AinjPfalMstpSnonWnonDnon_carried_Up
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-carried.rtm";
 			showHandGun = true;
 			looped=1;
@@ -102405,7 +102405,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPfalMstpSnonWnonDf_carried_fallwc: tsp_AinjPfalMstpSnonWnonDf_carried
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-wc-dead-carried.rtm";
 			showHandGun = true;
 			speed=0.22;
@@ -102429,7 +102429,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinjPfalMstpSnonWnonDf_carried_fall: tsp_AinjPfalMstpSnonWnonDf_carried_fallwc
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\firemancarrynon-dead-carried.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -102453,7 +102453,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AinjPfalMstpSnonWnonDnon_carried_Down: AgonyBase
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inj\carrying\injured_laydown.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -102481,7 +102481,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPsitMstpSnonWnonDnon_ground00: Standbase
 		{
 			blockMobileSwitching=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\sit\stp\non\non\aidlpsitmstpsnonwnondnon_ground00.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -102508,7 +102508,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.5
 			};
 			variantAfter[]={6,6,6};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			duty=-0.2;
@@ -102671,7 +102671,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ReloadRPG: tsp_AidlPercMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\reloadfullrpg.rtm";
 			showHandGun = true;
 			speed=0.369149;
@@ -102685,7 +102685,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ReloadRPG7V: tsp_AidlPercMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\gst\reloadrpg7v.rtm";
 			showHandGun = true;
 			speed=0.369149;
@@ -102723,7 +102723,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWlnrDnon_G01: tsp_AidlPercMstpSrasWlnrDnon_G0S
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\lnr\aidlpercmstpsraswlnrdnon_g01.rtm";
 			showHandGun = true;
 			speed=-6;
@@ -102743,7 +102743,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWlnrDnon_G02: tsp_AidlPercMstpSrasWlnrDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\lnr\aidlpercmstpsraswlnrdnon_g02.rtm";
 			showHandGun = true;
 		};
@@ -102754,7 +102754,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundEdge[]={0.15000001,0.40000001};
 			visibleSize=0.89999998;
 			stamina=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\ras\lnr\aovrpercmstpsraswlnrdf.rtm";
 			showHandGun = true;
 			variantsPlayer[]={};
@@ -102812,7 +102812,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AidlPercMstpSrasWlnrDnon_3: tsp_AidlPercMstpSrasWlnrDnon_S
 		{
 			variantAfter[]={1,1,1};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\lnr\aidlpercmstpsraswlnrdnon01.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -102837,19 +102837,19 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AidlPercMstpSrasWlnrDnon_1: tsp_AidlPercMstpSrasWlnrDnon_3
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\lnr\aidlpercmstpsraswlnrdnon02.rtm";
 			showHandGun = true;
 		};
 		class tsp_AidlPercMstpSrasWlnrDnon_2: tsp_AidlPercMstpSrasWlnrDnon_3
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\idl\erc\stp\ras\lnr\aidlpercmstpsraswlnrdnon03.rtm";
 			showHandGun = true;
 		};
 		class tsp_AmovPercMstpSlowWlnrDnon: tsp_AmovPercMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\lnr\amovpercmstpslowwlnrdnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -102924,7 +102924,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundEdge[]={0.1,0.40000001};
 			visibleSize=0.89999998;
 			stamina=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\ovr\erc\stp\low\lnr\aovrpercmstpslowwlnrdf.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -102957,7 +102957,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSlowWlnrDnon_turnL: tsp_AmovPercMstpSlowWlnrDnon
 		{
 			speed=0.30000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\lnr\amovpercmstpslowwlnrdnon_aiturn90l.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl_turn.p3d";
@@ -102979,7 +102979,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSlowWlnrDnon_turnR: tsp_AmovPercMstpSlowWlnrDnon_turnL
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\lnr\amovpercmstpslowwlnrdnon_aiturn90r.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl_turn.p3d";
@@ -102988,7 +102988,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			static=1;
 			relSpeedMin=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdf.rtm";
 			showHandGun = true;
 			speed=0.555556;
@@ -103024,7 +103024,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDfr: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -103052,7 +103052,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDr: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdr.rtm";
 			showHandGun = true;
 			speed=0.58823502;
@@ -103081,7 +103081,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDbr: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdbr.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -103110,7 +103110,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDb: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdb.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -103137,7 +103137,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDbl: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdbl.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -103166,7 +103166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDl: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdl.rtm";
 			showHandGun = true;
 			speed=0.52631599;
@@ -103195,7 +103195,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSlowWlnrDfl: tsp_AmovPercMwlkSlowWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\lnr\amovpercmwlkslowwlnrdfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -103228,7 +103228,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			relSpeedMin=0.80000001;
 			headBobStrength=0.10199;
 			speed=0.80000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdf.rtm";
 			showHandGun = true;
 			duty=-0.1;
@@ -103273,7 +103273,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDfl: tsp_AmovPercMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdfl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsWlkFL";
@@ -103310,7 +103310,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDl: tsp_AmovPercMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdl.rtm";
 			showHandGun = true;
 			speed=0.62518001;
@@ -103348,7 +103348,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDb: tsp_AmovPercMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdb.rtm";
 			showHandGun = true;
 			speed=0.52447599;
@@ -103387,7 +103387,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDbl: tsp_AmovPercMwlkSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdbl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsWlkBL";
@@ -103424,7 +103424,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDbr: tsp_AmovPercMwlkSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdbr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsWlkBR";
@@ -103459,7 +103459,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDr: tsp_AmovPercMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdr.rtm";
 			showHandGun = true;
 			speed=0.562249;
@@ -103497,7 +103497,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMwlkSrasWlnrDfr: tsp_AmovPercMwlkSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\ras\lnr\amovpercmwlksraswlnrdfr.rtm";
 			showHandGun = true;
 			speed=0.70999998;
@@ -103536,7 +103536,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDf: tsp_AmovPercMwlkSrasWlnrDf
 		{
 			actions="tsp_LauncherStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdf.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -103564,7 +103564,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDfl: tsp_AmovPercMwlkSrasWlnrDfl
 		{
 			actions="tsp_LauncherStandActionsLimpLF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdfl.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -103592,7 +103592,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDfr: tsp_AmovPercMwlkSrasWlnrDfr
 		{
 			actions="tsp_LauncherStandActionsLimpRF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdfr.rtm";
 			showHandGun = true;
 			speed=0.44117999;
@@ -103620,7 +103620,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDl: tsp_AmovPercMwlkSrasWlnrDl
 		{
 			actions="tsp_LauncherStandActionsLimpL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdl.rtm";
 			showHandGun = true;
 			speed=0.40540999;
@@ -103648,7 +103648,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDr: tsp_AmovPercMwlkSrasWlnrDr
 		{
 			actions="tsp_LauncherStandActionsLimpR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdr.rtm";
 			showHandGun = true;
 			speed=0.41095999;
@@ -103676,7 +103676,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDbl: tsp_AmovPercMwlkSrasWlnrDbl
 		{
 			actions="tsp_LauncherStandActionsLimpLB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdbl.rtm";
 			showHandGun = true;
 			speed=0.44775999;
@@ -103704,7 +103704,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDbr: tsp_AmovPercMwlkSrasWlnrDbr
 		{
 			actions="tsp_LauncherStandActionsLimpRB";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdbr.rtm";
 			showHandGun = true;
 			speed=0.44775999;
@@ -103732,7 +103732,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMlmpSrasWlnrDb: tsp_AmovPercMwlkSrasWlnrDb
 		{
 			actions="tsp_LauncherStandActionsLimpF";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\lmp\ras\lnr\amovpercmlmpsraswlnrdb.rtm";
 			showHandGun = true;
 			speed=0.44775999;
@@ -103764,7 +103764,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			headBobStrength=0.164179;
 			speed=1.22699;
 			relSpeedMin=0.5;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdf.rtm";
 			showHandGun = true;
 			duty=0.5;
@@ -103813,7 +103813,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWlnrDfl: tsp_AmovPercMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdfl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacFL";
@@ -103855,7 +103855,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWlnrDl: tsp_AmovPercMtacSrasWlnrDf
 		{
 			speed=1.26697;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacL";
@@ -103893,7 +103893,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWlnrDb: tsp_AmovPercMtacSrasWlnrDf
 		{
 			speed=1.05033;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdb.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacB";
@@ -103931,7 +103931,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWlnrDbl: tsp_AmovPercMtacSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdbl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacBL";
@@ -103968,7 +103968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWlnrDbr: tsp_AmovPercMtacSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdbr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacBR";
@@ -104006,7 +104006,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMtacSrasWlnrDr: tsp_AmovPercMtacSrasWlnrDf
 		{
 			speed=1.12676;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacR";
@@ -104043,7 +104043,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWlnrDfr: tsp_AmovPercMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\lnr\amovpercmtacsraswlnrdfr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionstacFR";
@@ -104086,7 +104086,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			duty=0.40000001;
 			speed=0.730564;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdf.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsRunF";
@@ -104127,7 +104127,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWlnrDfl: tsp_AmovPercMrunSrasWlnrDf
 		{
 			actions="tsp_LauncherStandActionsRunFL";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdfl.rtm";
 			showHandGun = true;
 			duty=0.40000001;
@@ -104167,7 +104167,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWlnrDl: tsp_AmovPercMrunSrasWlnrDf
 		{
 			speed=1.72603;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsRunL";
@@ -104205,7 +104205,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWlnrDb: tsp_AmovPercMrunSlowWlnrDb
 		{
 			speed=0.66942102;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdb.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsRunB";
@@ -104242,7 +104242,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWlnrDbl: tsp_AmovPercMrunSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdbl.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsRunBL";
@@ -104279,7 +104279,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMrunSrasWlnrDbr: tsp_AmovPercMrunSrasWlnrDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdbr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsRunBR";
@@ -104317,7 +104317,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWlnrDr: tsp_AmovPercMrunSrasWlnrDf
 		{
 			speed=1.5702;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdr.rtm";
 			showHandGun = true;
 			actions="tsp_LauncherStandActionsRunR";
@@ -104355,7 +104355,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMrunSrasWlnrDfr: tsp_AmovPercMrunSrasWlnrDf
 		{
 			actions="tsp_LauncherStandActionsRunFR";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\ras\lnr\amovpercmrunsraswlnrdfr.rtm";
 			showHandGun = true;
 			duty=0.40000001;
@@ -104397,7 +104397,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			duty=0;
 			speed=1.2;
 			aimPrecision=3;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_aiturn90l.rtm";
 			showHandGun = true;
 			collisionShape="A3\anims_f\Data\Geom\Sdr\Perc_Wrfl_turn.p3d";
@@ -104412,7 +104412,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_turnR: tsp_AmovPercMstpSrasWlnrDnon
 		{
 			duty=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_aiturn90r.rtm";
 			showHandGun = true;
 			speed=1.4;
@@ -104434,7 +104434,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWrflDleft_AadjPercMstpSrasWrflDleft";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldleft_aadjpknlmstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104458,7 +104458,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWrflDleft_AadjPknlMstpSrasWrflDleft";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpknlmstpsraswrfldleft_aadjpercmstpsraswrfldleft.rtm";
 			showHandGun = true;
 			speed=-0.64999998;
@@ -104482,7 +104482,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWrflDright_AadjPercMstpSrasWrflDright";
 			actions="tsp_RifleAdjustRKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldright_aadjpknlmstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104506,7 +104506,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWrflDright_AadjPknlMstpSrasWrflDright";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpknlmstpsraswrfldright_aadjpercmstpsraswrfldright.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104529,7 +104529,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWrflDdown_AadjPercMstpSrasWrflDdown";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrflddown_aadjpknlmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104555,7 +104555,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWrflDup_AadjPercMstpSrasWrflDdown";
 			actions="tsp_RifleAdjustFKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrflddown_aadjpknlmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -104580,7 +104580,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWrflDdown_AadjPknlMstpSrasWrflDdown";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpknlmstpsraswrflddown_aadjpercmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.64999998;
@@ -104603,7 +104603,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWrflDup_AadjPercMstpSrasWrflDup";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpercmstpsraswrfldup_aadjpknlmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104627,7 +104627,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWrflDup_AadjPknlMstpSrasWrflDup";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpknlmstpsraswrfldup_aadjpercmstpsraswrfldup.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -104650,7 +104650,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWrflDdown_AadjPknlMstpSrasWrflDup";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\rfl\aadjpknlmstpsraswrfldup_aadjpercmstpsraswrflddown.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -104674,7 +104674,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWpstDleft_AadjPercMstpSrasWpstDleft";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdleft_aadjpknlmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104702,7 +104702,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWpstDleft_AadjPknlMstpSrasWpstDleft";
 			actions="tsp_PistolAdjustLStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpknlmstpsraswpstdleft_aadjpercmstpsraswpstdleft.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -104729,7 +104729,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWpstDright_AadjPercMstpSrasWpstDright";
 			actions="tsp_PistolAdjustRKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdright_aadjpknlmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104757,7 +104757,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWpstDright_AadjPknlMstpSrasWpstDright";
 			actions="tsp_PistolAdjustRStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpknlmstpsraswpstdright_aadjpercmstpsraswpstdright.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -104783,7 +104783,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWpstDdown_AadjPercMstpSrasWpstDdown";
 			actions="tsp_PistolAdjustBKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstddown_aadjpknlmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104810,7 +104810,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWpstDup_AadjPercMstpSrasWpstDdown";
 			actions="tsp_PistolAdjustFKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstddown_aadjpknlmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -104838,7 +104838,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWpstDdown_AadjPknlMstpSrasWpstDdown";
 			actions="tsp_PistolAdjustFStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpknlmstpsraswpstddown_aadjpercmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -104864,7 +104864,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPknlMstpSrasWpstDup_AadjPercMstpSrasWpstDup";
 			actions="tsp_PistolAdjustFKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpercmstpsraswpstdup_aadjpknlmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=-0.34999999;
@@ -104891,7 +104891,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWpstDup_AadjPknlMstpSrasWpstDup";
 			actions="tsp_PistolAdjustFStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpknlmstpsraswpstdup_aadjpercmstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=-0.55000001;
@@ -104917,7 +104917,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.64999998;
 			reverse="tsp_AadjPercMstpSrasWpstDdown_AadjPknlMstpSrasWpstDup";
 			actions="tsp_PistolAdjustBStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\erc\stp\ras\pst\aadjpknlmstpsraswpstdup_aadjpercmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-0.30000001;
@@ -104940,7 +104940,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			canBlendStep=0;
 			minPlayTime=0.64999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\knl\stp\ras\pst\aadjpknlmstpsraswpstddown_aadjppnemstpsraswpstdup.rtm";
 			showHandGun = true;
 			speed=-0.44999999;
@@ -104959,7 +104959,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsPlayer[]={};
 			canBlendStep=0;
 			minPlayTime=0.64999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\adj\pne\stp\ras\pst\aadjppnemstpsraswpstdup_aadjpknlmstpsraswpstddown.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -104973,7 +104973,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSnonWnonDnon_AmovPercMstpSrasWlnrDnon: tsp_AmovPercMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -104997,7 +104997,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMstpSrasWlnrDnon_AmovPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.41095901;
@@ -105019,7 +105019,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSnonWnonDnon_AmovPknlMstpSrasWlnrDnon: tsp_AmovPknlMstpSrasWlnrDnon
 		{
 			mask="weaponSwitching";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\non\non\amovpknlmstpsnonwnondnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			disableWeapons=1;
@@ -105040,7 +105040,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPknlMstpSrasWlnrDnon_AmovPknlMstpSnonWnonDnon: tsp_AmovPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_amovpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.41095901;
@@ -105062,7 +105062,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPercMstpSoptWbinDnon_AmovPercMstpSrasWlnrDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -105101,7 +105101,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeapons=1;
 			enableMissile=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\erc\stp\opt\bin\awoppercmstpsoptwbindnon_amovpercmstpsraswlnrdnon_end.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -105112,7 +105112,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AwopPknlMstpSoptWbinDnon_AmovPknlMstpSrasWlnrDnon: tsp_TransAnimBase
 		{
 			actions="tsp_LauncherKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -105153,7 +105153,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			canBlendStep=0;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\wop\knl\stp\opt\bin\awoppknlmstpsoptwbindnon_amovpknlmstpsraswlnrdnon_end.rtm";
 			showHandGun = true;
 			speed=0.40000001;
@@ -105167,7 +105167,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPercMstpSrasWlnrDnon_AwopPercMstpSoptWbinDnon: tsp_TransAnimBase_noIK
 		{
 			actions="tsp_BinocStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_awoppercmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=0.61224502;
@@ -105207,7 +105207,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=1;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\lnr\amovpercmstpsraswlnrdnon_awoppercmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=1.57895;
@@ -105220,7 +105220,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_AmovPknlMstpSrasWlnrDnon_AwopPknlMstpSoptWbinDnon: tsp_TransAnimBase
 		{
 			actions="tsp_BinocKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_awoppknlmstpsoptwbindnon.rtm";
 			showHandGun = true;
 			speed=1.08108;
@@ -105264,7 +105264,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			soundEnabled=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\knl\stp\ras\lnr\amovpknlmstpsraswlnrdnon_awoppknlmstpsoptwbindnon_end.rtm";
 			showHandGun = true;
 			speed=2.1052599;
@@ -105278,7 +105278,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			interpolationspeed=0.60000002;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunsraswrfldf_amovpercmrunsraswrfldfl.rtm";
 			showHandGun = true;
 			speed=1.53333;
@@ -105305,7 +105305,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationrestart=1;
 			interpolationspeed=0.60000002;
 			speed=1.08889;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunsraswrfldfl_amovpercmrunsraswrfldfr.rtm";
 			showHandGun = true;
 			looped=0;
@@ -105331,7 +105331,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationspeed=0.60000002;
 			interpolationrestart=1;
 			speed=1.08889;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunsraswrfldfl_amovpercmrunsraswrfldf.rtm";
 			showHandGun = true;
 			looped=0;
@@ -105359,7 +105359,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationspeed=0.60000002;
 			interpolationrestart=1;
 			speed=0.92727298;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunsraswrfldfr_amovpercmrunsraswrfldfl.rtm";
 			showHandGun = true;
 			looped=0;
@@ -105385,7 +105385,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationspeed=0.60000002;
 			interpolationrestart=1;
 			speed=1.53333;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\run\low\rfl\amovpercmrunsraswrfldfr_amovpercmrunsraswrfldf.rtm";
 			showHandGun = true;
 			looped=0;
@@ -105410,7 +105410,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPercMstpSrasWrflDnon: tsp_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\erc\stp\ras\rfl\afalpercmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1.5;
@@ -105567,7 +105567,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPknlMstpSrasWrflDnon: tsp_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\knl\stp\ras\rfl\afalpknlmstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -105696,7 +105696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPpneMstpSrasWrflDnon: tsp_AmovPpneMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\pne\stp\ras\rfl\afalppnemstpsraswrfldnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -105827,7 +105827,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPercMstpSrasWpstDnon: tsp_AmovPercMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\erc\stp\ras\pst\afalpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1.5;
@@ -105928,7 +105928,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPknlMstpSrasWpstDnon: tsp_AmovPknlMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\knl\stp\ras\pst\afalpknlmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -106005,7 +106005,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPpneMstpSrasWpstDnon: tsp_AmovPpneMstpSrasWpstDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\pne\stp\ras\pst\afalppnemstpsraswpstdnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -106078,7 +106078,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\erc\stp\non\non\afalpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -106173,7 +106173,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPknlMstpSnonWnonDnon: tsp_AmovPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\knl\stp\non\non\afalpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -106250,7 +106250,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPpneMstpSnonWnonDnon: tsp_AmovPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\pne\stp\non\non\afalppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -106309,7 +106309,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPercMstpSrasWlnrDnon: tsp_AmovPercMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\erc\stp\ras\lnr\afalpercmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=-1.5;
@@ -106396,7 +106396,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AfalPknlMstpSrasWlnrDnon: tsp_AmovPknlMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\fal\knl\stp\ras\lnr\afalpknlmstpsraswlnrdnon.rtm";
 			showHandGun = true;
 			speed=-1;
@@ -106498,7 +106498,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsoptwbindnon_putdown.rtm";
 			showHandGun = true;
 			speed=1.42857;
@@ -106534,7 +106534,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			canPullTrigger=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\non\non\ainvpercmstpsoptwbindnon_putdown_end.rtm";
 			showHandGun = true;
 			speed=0.68181998;
@@ -106547,7 +106547,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsoptwbindnon_putdown.rtm";
 			showHandGun = true;
 			speed=1.42857;
@@ -106582,7 +106582,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\non\non\ainvpknlmstpsoptwbindnon_putdown_end.rtm";
 			showHandGun = true;
 			speed=0.68181998;
@@ -106596,7 +106596,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsoptwbindnon_putdown.rtm";
 			showHandGun = true;
 			speed=0.90908998;
@@ -106627,7 +106627,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			minPlayTime=0.44999999;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\pne\stp\non\non\ainvppnemstpsoptwbindnon_putdown_end.rtm";
 			showHandGun = true;
 			speed=0.52631998;
@@ -106636,7 +106636,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDf_AmovPercMtacSrasWlnrDf: tsp_AmovPercMtacSrasWrflDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldf_amovpercmtacsraswlnrdf.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacLnr";
@@ -106674,7 +106674,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDf_AmovPercMtacSrasWlnrDf_2: tsp_AmovPercMtacSrasWlnrDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldf_amovpercmtacsraswlnrdf_2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacLnr";
@@ -106706,7 +106706,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDfl_AmovPercMtacSrasWlnrDfl: tsp_AmovPercMtacSrasWrflDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldfl_amovpercmtacsraswlnrdfl.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacLnr";
@@ -106744,7 +106744,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDfl_AmovPercMtacSrasWlnrDfl_2: tsp_AmovPercMtacSrasWlnrDfl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldfl_amovpercmtacsraswlnrdfl_2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacLnr";
@@ -106777,7 +106777,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDfr_AmovPercMtacSrasWlnrDfr: tsp_AmovPercMtacSrasWrflDfr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldfr_amovpercmtacsraswlnrdfr.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacLnr";
@@ -106816,7 +106816,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AmovPercMtacSrasWrflDfr_AmovPercMtacSrasWlnrDfr_2: tsp_AmovPercMtacSrasWlnrDfr
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\tac\ras\rfl\amovpercmtacsraswrfldfr_amovpercmtacsraswlnrdfr_2.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActionsTacLnr";
@@ -106849,7 +106849,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non: Default
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutralloop.rtm";
 			showHandGun = true;
 			actions="tsp_ParachuteFreeFall";
@@ -106911,7 +106911,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_FR: tsp_HaloFreeFall_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltorf.rtm";
 			showHandGun = true;
 			looped=0;
@@ -106941,7 +106941,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_R: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltor.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -106968,7 +106968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_BR: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltorb.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -106995,7 +106995,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_B: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltob.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -107022,7 +107022,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_BL: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltolb.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -107049,7 +107049,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_L: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltol.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -107076,7 +107076,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_FL: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltolf.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -107103,7 +107103,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_non_HaloFreeFall_F: tsp_HaloFreeFall_non_HaloFreeFall_FR
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_neutraltof.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -107130,7 +107130,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_F: tsp_HaloFreeFall_non
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_floop.rtm";
 			showHandGun = true;
 			speed=0.68181801;
@@ -107153,7 +107153,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_FL: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_lfloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107176,7 +107176,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_L: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_lloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107199,7 +107199,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_BL: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_lbloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107222,7 +107222,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_B: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_bloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107245,7 +107245,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_BR: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_rbloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107268,7 +107268,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_R: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_rloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107291,7 +107291,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HaloFreeFall_FR: tsp_HaloFreeFall_F
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\halo\halofreefall_rfloop.rtm";
 			showHandGun = true;
 			speed=0.30303001;
@@ -107317,7 +107317,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_RifleKneelActions";
 			weaponIK=1;
 			canPullTrigger=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadlynx.rtm";
 			showHandGun = true;
 			speed=0.17209999;
@@ -107343,7 +107343,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ReloadGM6Prone: tsp_ReloadGM6
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\gst\gesturereloadlynxprone.rtm";
 			showHandGun = true;
 			mask="BodyFullReal";
@@ -107356,7 +107356,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_MountOptic: Default
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_opticsmnt.rtm";
 			showHandGun = true;
 			speed=0.149626;
@@ -107394,7 +107394,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_LauncherStandActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\lnr\ainvpercmstpsraswlnrdnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -107430,7 +107430,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={7,7,7};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\lnr\ainvpercmstpsraswlnrdnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -107443,7 +107443,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPercMstpSrasWlnrDnon_G01: tsp_AmovPercMstpSrasWlnrDnon_AinvPercMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\lnr\ainvpercmstpsraswlnrdnon_gloop.rtm";
 			showHandGun = true;
 			speed=-7;
@@ -107463,7 +107463,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\lnr\ainvpercmstpsraswlnrdnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -107481,7 +107481,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			actions="tsp_LauncherKneelActions_inv";
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\lnr\ainvpknlmstpsraswlnrdnon_gin.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -107514,7 +107514,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_HealSelfLauncherActionBase";
 			aiming="empty";
 			aimingBody="empty";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\lnr\ainvpknlmstpslaywlnrdnon_medicother.rtm";
 			showHandGun = true;
 			speed=0.13274001;
@@ -107549,7 +107549,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				1
 			};
 			variantAfter[]={7,7,7};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\lnr\ainvpknlmstpsraswlnrdnon_g.rtm";
 			showHandGun = true;
 			speed=10;
@@ -107562,7 +107562,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_AinvPknlMstpSrasWlnrDnon_G01: tsp_AmovPknlMstpSrasWlnrDnon_AinvPknlMstpSrasWlnrDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\lnr\ainvpknlmstpsraswlnrdnon_gloop.rtm";
 			showHandGun = true;
 			speed=-7;
@@ -107582,7 +107582,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorEnd=0;
 			interpolationRestart=1;
 			enableOptics=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\lnr\ainvpknlmstpsraswlnrdnon_gout.rtm";
 			showHandGun = true;
 			speed=1.25;
@@ -107598,7 +107598,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\lnr\ainvpercmstpsraswlnrdnon_in.rtm";
 			showHandGun = true;
 			speed=1.8;
@@ -107634,7 +107634,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\erc\stp\ras\lnr\ainvpercmstpsraswlnrdnon_out.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -107649,7 +107649,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			variantsAI[]={};
 			looped=0;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\lnr\ainvpknlmstpsraswlnrdnon_in.rtm";
 			showHandGun = true;
 			speed=1.42857;
@@ -107685,7 +107685,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leaningFactorBeg=0;
 			leaningFactorEnd=0;
 			interpolationRestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\ras\lnr\ainvpknlmstpsraswlnrdnon_out.rtm";
 			showHandGun = true;
 			speed=0.83333302;
@@ -107699,7 +107699,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_DismountOptic: Default
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_opticsdis.rtm";
 			showHandGun = true;
 			speed=0.221402;
@@ -107734,7 +107734,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_MountSide: Default
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_ptrmnt.rtm";
 			showHandGun = true;
 			speed=0.058571;
@@ -107768,7 +107768,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_DismountSide: Default
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\inv\knl\stp\lay\rfl\ainvpknlmstpslaywrfldnon_ptrdis.rtm";
 			showHandGun = true;
 			speed=0.058571;
@@ -107802,7 +107802,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingCoveringRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingcoveringrifle01.rtm";
 			showHandGun = true;
 			looped=0;
@@ -107814,7 +107814,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingFiringLeftRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingfiringleftrifle01.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107825,7 +107825,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingFiringLeftRifle02: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingfiringleftrifle02.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107837,7 +107837,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingFiringLeftRifle03: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingfiringleftrifle03.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107849,7 +107849,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingFiringLeftRifle04: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingfiringleftrifle04.rtm";
 			showHandGun = true;
 			speed=0.189;
@@ -107863,7 +107863,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingIdleRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingidlerifle01.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107874,7 +107874,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingReloadingRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingreloadingrifle01.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107885,7 +107885,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingWatchingRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingwatchingrifle01.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107896,7 +107896,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CrouchingWatchingRifle02: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_crouchingwatchingrifle02.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -107906,7 +107906,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_PointingLeftUnarmed: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_pointingleftunarmed.rtm";
 			showHandGun = true;
 			speed=0.0135;
@@ -107917,7 +107917,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_StandingSpeakingUnarmed: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_standingspeakingunarmed.rtm";
 			showHandGun = true;
 			speed=0.0139;
@@ -107928,7 +107928,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLyingRifle01: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlyingrifle01.rtm";
 			showHandGun = true;
 			speed=0.106;
@@ -107937,7 +107937,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLyingRifle02: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlyingrifle01.rtm";
 			showHandGun = true;
 			speed=0.106;
@@ -107951,7 +107951,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLyingRifle02_180: tsp_Acts_InjuredLyingRifle02
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlyingrifle01_180.rtm";
 			showHandGun = true;
 			headBobMode=4;
@@ -107959,7 +107959,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLookingRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlookingrifle01.rtm";
 			showHandGun = true;
 			speed=0.167;
@@ -107968,7 +107968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLookingRifle02: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlookingrifle02.rtm";
 			showHandGun = true;
 			speed=0.102;
@@ -107977,7 +107977,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLookingRifle03: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlookingrifle03.rtm";
 			showHandGun = true;
 			speed=0.088;
@@ -107986,7 +107986,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLookingRifle04: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlookingrifle04.rtm";
 			showHandGun = true;
 			speed=0.059999999;
@@ -107995,7 +107995,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredLookingRifle05: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredlookingrifle05.rtm";
 			showHandGun = true;
 			speed=0.067000002;
@@ -108007,7 +108007,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_TacopsPoster_actions";
 			looped=1;
 			speed=0.56599998;
-			moveset = "knife";
+			moveset = "custom";
 			file="\a3\anims_f\data\anim\sdr\cts\poster_pose_tacops.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108023,7 +108023,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredAngryRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredangryrifle01.rtm";
 			showHandGun = true;
 			speed=0.097999997;
@@ -108032,7 +108032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredSpeakingRifle01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredspeakingrifle01.rtm";
 			showHandGun = true;
 			speed=0.064000003;
@@ -108041,7 +108041,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_InjuredCoughRifle02: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_injuredcoughrifle02.rtm";
 			showHandGun = true;
 			speed=0.142;
@@ -108054,7 +108054,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			headBobMode=0;
 			headBobStrength=0;
 			speed=0.21600001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_mhcargo_jumptowater_all.rtm";
 			showHandGun = true;
 			looped=0;
@@ -108078,7 +108078,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			headBobMode=0;
 			headBobStrength=0;
 			actions="NoActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\cts_mhcargo_jumptowater_sittingloop.rtm";
 			showHandGun = true;
 			disableWeapons=0;
@@ -108103,7 +108103,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			preload=1;
 			canPullTrigger=0;
 			canReload=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingua_idle1.rtm";
 			showHandGun = true;
 			legs="legsNo";
@@ -108124,7 +108124,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsCrewaidLIdle_actions";
 			speed=0.42250001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_idle.rtm";
 			showHandGun = true;
 			looped=1;
@@ -108145,7 +108145,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidL_idle_m: tsp_Acts_JetsCrewaidL_idle
 		{
 			actions="tsp_Acts_JetsCrewaidLIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_idle_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108167,7 +108167,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidRThumbup_actions";
 			speed=0.65219998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_thumbup_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108180,7 +108180,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidRCrouchThumbup_in_m: tsp_Acts_JetsCrewaidRCrouchThumbup_in
 		{
 			actions="tsp_Acts_JetsCrewaidRThumbup_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_thumbup_in_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108193,7 +108193,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsCrewaidRThumbup_actions";
 			speed=0.229;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_thumbup_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -108211,7 +108211,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidRCrouchThumbup_loop_m: tsp_Acts_JetsCrewaidRCrouchThumbup_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_thumbup_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidRThumbup_actions_m";
@@ -108231,7 +108231,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsCrewaidRCrouch_actions";
 			speed=0.0748;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_loop.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -108250,7 +108250,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidRCrouch_loop_m: tsp_Acts_JetsCrewaidRCrouch_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidRCrouch_actions_m";
@@ -108273,7 +108273,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidRCrouch_actions";
 			speed=0.7317;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_thumbup_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108286,7 +108286,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidRCrouchThumbup_out_m: tsp_Acts_JetsCrewaidRCrouchThumbup_out
 		{
 			actions="tsp_Acts_JetsCrewaidRCrouch_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_thumbup_out_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108300,7 +108300,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationrestart=1;
 			actions="tsp_Acts_JetsCrewaidFIdle_actions";
 			speed=0.1485;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_idle1.rtm";
 			showHandGun = true;
 			looped=1;
@@ -108324,7 +108324,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidF_idle_m: tsp_Acts_JetsCrewaidF_idle
 		{
 			actions="tsp_Acts_JetsCrewaidFIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_idle1_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108349,7 +108349,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_JetsCrewaidF_runB",
 				0.02
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_stillpose.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions";
@@ -108361,7 +108361,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidF_stillpose_m: tsp_Acts_JetsCrewaidF_stillpose
 		{
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_stillpose_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108376,7 +108376,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidRCrouch_actions";
 			speed=0.37040001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108389,7 +108389,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidRCrouch_in_m: tsp_Acts_JetsCrewaidRCrouch_in
 		{
 			actions="tsp_Acts_JetsCrewaidRCrouch_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_in_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108403,7 +108403,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsShooterLaunch_actions";
 			speed=0.5582;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_launch_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108415,7 +108415,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterShootingLaunch_in_m: tsp_Acts_JetsShooterShootingLaunch_in
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_launch_in_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterLaunch_actions_m";
@@ -108431,7 +108431,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidFThumbup_actions";
 			speed=1.1538;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_thumbup_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108444,7 +108444,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidFCrouchThumbup_in_m: tsp_Acts_JetsCrewaidFCrouchThumbup_in
 		{
 			actions="tsp_Acts_JetsCrewaidFThumbup_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_thumbup_in_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108458,7 +108458,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsCrewaidRIdle_actions";
 			speed=0.29699999;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_idle.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -108478,7 +108478,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidR_idle_m: tsp_Acts_JetsCrewaidR_idle
 		{
 			actions="tsp_Acts_JetsCrewaidRIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_idle_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108499,7 +108499,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationrestart=1;
 			actions="tsp_Acts_JetsShooterNavStop_actions";
 			speed=0.37029999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_stop_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -108517,7 +108517,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterNavigate_stop_m: tsp_Acts_JetsShooterNavigate_stop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_stop_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterNavStop_actions_m";
@@ -108538,7 +108538,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidRIdle_actions";
 			speed=0.49180001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108551,7 +108551,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidRCrouch_out_m: tsp_Acts_JetsCrewaidRCrouch_out
 		{
 			actions="tsp_Acts_JetsCrewaidRIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidr_crouch_out_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108564,7 +108564,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsCrewaidFThumbup_actions";
 			speed=0.1357;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_thumbup_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -108583,7 +108583,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidFCrouchThumbup_loop_m: tsp_Acts_JetsCrewaidFCrouchThumbup_loop
 		{
 			actions="tsp_Acts_JetsCrewaidFThumbup_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_thumbup_loop_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108602,7 +108602,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationrestart=1;
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_runb.rtm";
 			showHandGun = true;
 			speed=0.27270001;
@@ -108619,7 +108619,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidF_runB_m: tsp_Acts_JetsCrewaidF_runB
 		{
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_runb_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108634,7 +108634,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsCrewaidLThumbup_actions";
 			speed=0.1754;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_thumbup_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -108653,7 +108653,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidLCrouchThumbup_loop_m: tsp_Acts_JetsCrewaidLCrouchThumbup_loop
 		{
 			actions="tsp_Acts_JetsCrewaidLThumbup_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_thumbup_loop_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108673,7 +108673,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions";
 			speed=0.56599998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108686,7 +108686,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidFCrouch_out_m: tsp_Acts_JetsCrewaidFCrouch_out
 		{
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_out_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108701,7 +108701,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidFCrouch_actions";
 			speed=1.5789;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_thumbup_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108713,7 +108713,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidFCrouchThumbup_out_m: tsp_Acts_JetsCrewaidFCrouchThumbup_out
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_thumbup_out_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidFCrouch_actions_m";
@@ -108729,7 +108729,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidLCrouch_actions";
 			speed=0.45449999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108741,7 +108741,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidLCrouch_in_m: tsp_Acts_JetsCrewaidLCrouch_in
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_in_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidLCrouch_actions_m";
@@ -108757,7 +108757,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidLIdle_actions";
 			speed=0.28299999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108769,7 +108769,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidLCrouch_out_m: tsp_Acts_JetsCrewaidLCrouch_out
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_out_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidLIdle_actions_m";
@@ -108784,7 +108784,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsShooterIdleMoveaway_actions";
 			interpolationrestart=1;
 			speed=0.83329999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_in.rtm";
 			showHandGun = true;
 			looped=0;
@@ -108805,7 +108805,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterIdleMoveaway_in_m: tsp_Acts_JetsShooterIdleMoveaway_in
 		{
 			actions="tsp_Acts_JetsShooterIdleMoveaway_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_in_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108825,7 +108825,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidLCrouch_actions";
 			speed=0.53570002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_thumbup_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108837,7 +108837,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidLCrouchThumbup_out_m: tsp_Acts_JetsCrewaidLCrouchThumbup_out
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_thumbup_out_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidLCrouch_actions_m";
@@ -108852,7 +108852,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsShooterIdleMoveaway_actions";
 			speed=0.69770002;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_loop.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108872,7 +108872,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterIdleMoveaway_loop_m: tsp_Acts_JetsShooterIdleMoveaway_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterIdleMoveaway_actions_m";
@@ -108893,7 +108893,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidLThumbup_actions";
 			speed=0.7317;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_thumbup_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108905,7 +108905,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidLCrouchThumbup_in_m: tsp_Acts_JetsCrewaidLCrouchThumbup_in
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_thumbup_in_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidLThumbup_actions_m";
@@ -108921,7 +108921,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsShooterIdle2_actions";
 			speed=0.42250001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_launch_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -108933,7 +108933,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterShootingLaunch_out_m: tsp_Acts_JetsShooterShootingLaunch_out
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_launch_out_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterIdle2_actions_m";
@@ -108949,7 +108949,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions";
 			speed=0.1107;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_idle2.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -108971,7 +108971,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidF_idle2_m: tsp_Acts_JetsCrewaidF_idle2
 		{
 			actions="tsp_Acts_JetsCrewaidFIdle2_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_idle2_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -108995,7 +108995,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationrestart=1;
 			speed=0.27520001;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_out.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -109015,7 +109015,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterIdleMoveaway_out_m: tsp_Acts_JetsShooterIdleMoveaway_out
 		{
 			actions="tsp_Acts_JetsShooterIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_out_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109033,7 +109033,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsShooterLaunch_actions";
 			speed=0.3488;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_launch_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -109051,7 +109051,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterShootingLaunch_loop_m: tsp_Acts_JetsShooterShootingLaunch_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_launch_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterLaunch_actions_m";
@@ -109071,7 +109071,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsCrewaidLCrouch_actions";
 			speed=0.14560001;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_loop.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -109090,7 +109090,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsCrewaidLCrouch_loop_m: tsp_Acts_JetsCrewaidLCrouch_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidl_crouch_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsCrewaidLCrouch_actions_m";
@@ -109113,7 +109113,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsShooterLaunch_actions";
 			speed=0.23999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_ready_pointing.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109125,7 +109125,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterShootingReady_pointing_m: tsp_Acts_JetsShooterShootingReady_pointing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_ready_pointing_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterLaunch_actions_m";
@@ -109142,7 +109142,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsShooterIdle_actions";
 			speed=0.1961;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -109168,7 +109168,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterIdle_m: tsp_Acts_JetsShooterIdle
 		{
 			actions="tsp_Acts_JetsShooterIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109196,7 +109196,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.02
 			};
 			actions="tsp_Acts_JetsShooterIdleMoveaway_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_stillpose.rtm";
 			showHandGun = true;
 			interpolationRestart=1;
@@ -109205,7 +109205,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterIdle_stillpose_m: tsp_Acts_JetsShooterIdle_stillpose
 		{
 			actions="tsp_Acts_JetsShooterIdleMoveaway_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_stillpose_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109223,7 +109223,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.02
 			};
 			InterpolateTo[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_out_stillpose.rtm";
 			showHandGun = true;
 			looped=1;
@@ -109234,7 +109234,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterMoveAway_stillpose_m: tsp_Acts_JetsShooterMoveAway_stillpose
 		{
 			actions="tsp_Acts_JetsShooterIdle_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle_moveaway_out_stillpose_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109247,7 +109247,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsShooterIdle2_actions";
 			speed=0.1961;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle2.rtm";
 			showHandGun = true;
 			looped=1;
@@ -109266,7 +109266,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterIdle2_m: tsp_Acts_JetsShooterIdle2
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_idle2_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterIdle2_actions_m";
@@ -109288,7 +109288,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsShooterReady_actions";
 			speed=0.1538;
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_ready_loop.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -109305,7 +109305,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterShootingReady_loop_m: tsp_Acts_JetsShooterShootingReady_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_ready_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterReady_actions_m";
@@ -109328,7 +109328,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsShooterIdle_actions";
 			speed=0.7317;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_out.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109340,7 +109340,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterNavigate_out_m: tsp_Acts_JetsShooterNavigate_out
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_out_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterIdle_actions_m";
@@ -109354,7 +109354,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsCrewaidFCrouch_actions";
 			speed=0.39469999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouchloop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -109375,7 +109375,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidFCrouch_loop_m: tsp_Acts_JetsCrewaidFCrouch_loop
 		{
 			actions="tsp_Acts_JetsCrewaidFCrouch_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouchloop_m.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109397,7 +109397,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsCrewaidFCrouch_actions";
 			speed=0.3488;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109410,7 +109410,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsCrewaidFCrouch_in_m: tsp_Acts_JetsCrewaidFCrouch_in
 		{
 			actions="tsp_Acts_JetsCrewaidFCrouch_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_crewaidf_crouch_in_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109425,7 +109425,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			speed=1.3043;
 			actions="tsp_Acts_JetsShooterReady_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_ready_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109438,7 +109438,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterShootingReady_in_m: tsp_Acts_JetsShooterShootingReady_in
 		{
 			actions="tsp_Acts_JetsShooterReady_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_shooting_ready_in_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109453,7 +109453,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsShooterNavLoop_actions";
 			speed=0.9677;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109466,7 +109466,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsShooterNavigate_in_m: tsp_Acts_JetsShooterNavigate_in
 		{
 			actions="tsp_Acts_JetsShooterNavLoop_actions_m";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_in_m.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109479,7 +109479,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsShooterNavLoop_actions";
 			speed=0.075900003;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -109497,7 +109497,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsShooterNavigate_loop_m: tsp_Acts_JetsShooterNavigate_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_jets_shooter_navigate_loop_m.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_JetsShooterNavLoop_actions_m";
@@ -109517,7 +109517,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsMarshallingClear_actions";
 			speed=0.66670001;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_clear_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109531,7 +109531,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsMarshallingClear_actions";
 			looped=1;
 			speed=0.29699999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_clear_loop.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109548,7 +109548,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsMarshallingClear_out: CutsceneAnimationBaseZoZo
 		{
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_clear_out.rtm";
 			showHandGun = true;
 			looped=0;
@@ -109569,7 +109569,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="tsp_Acts_JetsMarshallingEmergencyStop_actions";
 			looped=0;
 			speed=1.1538;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_emergencystop_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109581,7 +109581,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsMarshallingEmergencyStop_loop: CutsceneAnimationBaseZoZo
 		{
 			actions="tsp_Acts_JetsMarshallingEmergencyStop_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_emergencystop_loop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -109602,7 +109602,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			interpolationrestart=1;
 			speed=1.1358;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_emergencystop_out.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109620,7 +109620,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			actions="tsp_Acts_JetsMarshallingEnginesOff_actions";
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_enginesoff_in.rtm";
 			showHandGun = true;
 			speed=1.6667;
@@ -109633,7 +109633,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsMarshallingEnginesOff_loop: CutsceneAnimationBaseZoZo
 		{
 			actions="tsp_Acts_JetsMarshallingEnginesOff_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_enginesoff_loop.rtm";
 			showHandGun = true;
 			speed=0.29409999;
@@ -109654,7 +109654,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			interpolationrestart=1;
 			speed=0.9677;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_enginesoff_out.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109672,7 +109672,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			actions="tsp_Acts_JetsMarshallingEnginesOn_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_engineson_in.rtm";
 			showHandGun = true;
 			speed=0.42250001;
@@ -109686,7 +109686,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=1;
 			actions="tsp_Acts_JetsMarshallingEnginesOn_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_engineson_loop.rtm";
 			showHandGun = true;
 			speed=0.39469999;
@@ -109705,7 +109705,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			interpolationrestart=1;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_engineson_out.rtm";
 			showHandGun = true;
 			speed=1.1538;
@@ -109725,7 +109725,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=0;
 			actions="tsp_Acts_JetsMarshallingLeft_actions";
 			speed=0.9677;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_left_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -109739,7 +109739,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			looped=1;
 			actions="tsp_Acts_JetsMarshallingLeft_actions";
 			speed=0.16670001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_left_loop.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109758,7 +109758,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			interpolationrestart=1;
 			looped=0;
 			speed=0.9677;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_left_out.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -109776,7 +109776,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			actions="tsp_Acts_JetsMarshallingRight_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_right_in.rtm";
 			showHandGun = true;
 			speed=1.2;
@@ -109790,7 +109790,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=1;
 			actions="tsp_Acts_JetsMarshallingRight_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_right_loop.rtm";
 			showHandGun = true;
 			speed=0.1807;
@@ -109809,7 +109809,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_right_out.rtm";
 			showHandGun = true;
 			speed=0.65219998;
@@ -109828,7 +109828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			actions="tsp_Acts_JetsMarshallingSlow_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_slow_in.rtm";
 			showHandGun = true;
 			speed=1.875;
@@ -109842,7 +109842,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=1;
 			actions="tsp_Acts_JetsMarshallingSlow_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_slow_loop.rtm";
 			showHandGun = true;
 			speed=0.2703;
@@ -109861,7 +109861,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_slow_out.rtm";
 			showHandGun = true;
 			speed=1.1538;
@@ -109880,7 +109880,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			actions="tsp_Acts_JetsMarshallingStop_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_stop_in.rtm";
 			showHandGun = true;
 			speed=0.7317;
@@ -109894,7 +109894,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=1;
 			actions="tsp_Acts_JetsMarshallingStop_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_stop_loop.rtm";
 			showHandGun = true;
 			speed=0.49180001;
@@ -109913,7 +109913,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_stop_out.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -109932,7 +109932,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			actions="tsp_Acts_JetsMarshallingStraight_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_straight_in.rtm";
 			showHandGun = true;
 			speed=1.1538;
@@ -109944,7 +109944,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_JetsMarshallingStraight_loop: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_straight_loop.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -109965,7 +109965,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			interpolationrestart=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_marshalling_straight_out.rtm";
 			showHandGun = true;
 			speed=0.60000002;
@@ -109983,7 +109983,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsFlyoverCheering_1: CutsceneAnimationBaseZoZo
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\actsjets_crew_flyover_cheering01_1.rtm";
 			showHandGun = true;
 			speed=0.1657;
@@ -109992,7 +109992,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsFlyoverCheering_2: CutsceneAnimationBaseZoZo
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\actsjets_crew_flyover_cheering01_2.rtm";
 			showHandGun = true;
 			speed=0.19230001;
@@ -110002,7 +110002,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsPilotThumbsUp: CutsceneAnimationBaseZoZo
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_pilot_thumbsup.rtm";
 			showHandGun = true;
 			speed=0.19230001;
@@ -110011,7 +110011,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsPilotWalking: CutsceneAnimationBaseZoZo
 		{
 			looped=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_pilot_walking.rtm";
 			showHandGun = true;
 			speed=0.15629999;
@@ -110020,7 +110020,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_JetsOfficerSpilling: CutsceneAnimationBaseZoZo
 		{
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_jets\anim\acts_officer_topgun.rtm";
 			showHandGun = true;
 			speed=0.1219;
@@ -110041,7 +110041,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairA_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchaira_idle1.rtm";
 			showHandGun = true;
 			speed=0.066699997;
@@ -110049,28 +110049,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairA_idle2: tsp_HubSittingChairA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchaira_idle2.rtm";
 			showHandGun = true;
 			speed=0.054499999;
 		};
 		class tsp_HubSittingChairA_idle3: tsp_HubSittingChairA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchaira_idle3.rtm";
 			showHandGun = true;
 			speed=0.076899998;
 		};
 		class tsp_HubSittingChairA_move1: tsp_HubSittingChairA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchaira_move1.rtm";
 			showHandGun = true;
 			speed=0.1132;
 		};
 		class tsp_HubSittingChairB_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairb_idle1.rtm";
 			showHandGun = true;
 			speed=0.057700001;
@@ -110078,28 +110078,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairB_idle2: tsp_HubSittingChairB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairb_idle2.rtm";
 			showHandGun = true;
 			speed=0.065200001;
 		};
 		class tsp_HubSittingChairB_idle3: tsp_HubSittingChairB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairb_idle3.rtm";
 			showHandGun = true;
 			speed=0.029300001;
 		};
 		class tsp_HubSittingChairB_move1: tsp_HubSittingChairB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairb_move1.rtm";
 			showHandGun = true;
 			speed=0.093199998;
 		};
 		class tsp_HubSittingChairC_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairc_idle1.rtm";
 			showHandGun = true;
 			speed=0.089000002;
@@ -110107,28 +110107,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairC_idle2: tsp_HubSittingChairC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairc_idle2.rtm";
 			showHandGun = true;
 			speed=0.066699997;
 		};
 		class tsp_HubSittingChairC_idle3: tsp_HubSittingChairC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairc_idle3.rtm";
 			showHandGun = true;
 			speed=0.066699997;
 		};
 		class tsp_HubSittingChairC_move1: tsp_HubSittingChairC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairc_move1.rtm";
 			showHandGun = true;
 			speed=0.062100001;
 		};
 		class tsp_HubSittingChairUA_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairua_idle1.rtm";
 			showHandGun = true;
 			speed=0.066699997;
@@ -110136,7 +110136,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairUA_idle2: tsp_HubSittingChairUA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairua_idle2.rtm";
 			showHandGun = true;
 			speed=0.054499999;
@@ -110148,13 +110148,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_HubSittingChairUA_move1: tsp_HubSittingChairUA_idle1
 		{
 			speed=0.1132;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairua_move1.rtm";
 			showHandGun = true;
 		};
 		class tsp_HubSittingChairUB_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairub_idle1.rtm";
 			showHandGun = true;
 			speed=0.057700001;
@@ -110162,28 +110162,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairUB_idle2: tsp_HubSittingChairUB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairub_idle2.rtm";
 			showHandGun = true;
 			speed=0.065200001;
 		};
 		class tsp_HubSittingChairUB_idle3: tsp_HubSittingChairUB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairub_idle3.rtm";
 			showHandGun = true;
 			speed=0.029300001;
 		};
 		class tsp_HubSittingChairUB_move1: tsp_HubSittingChairUB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairub_move1.rtm";
 			showHandGun = true;
 			speed=0.093199998;
 		};
 		class tsp_HubSittingChairUC_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairuc_idle1.rtm";
 			showHandGun = true;
 			speed=0.089000002;
@@ -110191,28 +110191,28 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingChairUC_idle2: tsp_HubSittingChairUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairuc_idle2.rtm";
 			showHandGun = true;
 			speed=0.066699997;
 		};
 		class tsp_HubSittingChairUC_idle3: tsp_HubSittingChairUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairuc_idle3.rtm";
 			showHandGun = true;
 			speed=0.066699997;
 		};
 		class tsp_HubSittingChairUC_move1: tsp_HubSittingChairUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingchairuc_move1.rtm";
 			showHandGun = true;
 			speed=0.062100001;
 		};
 		class tsp_HubSittingAtTableU_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingattableu_idle1.rtm";
 			showHandGun = true;
 			speed=0.074100003;
@@ -110220,21 +110220,21 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSittingAtTableU_idle2: tsp_HubSittingAtTableU_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingattableu_idle2.rtm";
 			showHandGun = true;
 			speed=0.088200003;
 		};
 		class tsp_HubSittingAtTableU_idle3: tsp_HubSittingAtTableU_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittingchair\hubsittingattableu_idle3.rtm";
 			showHandGun = true;
 			speed=0.048799999;
 		};
 		class tsp_HubSittingHighA_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghigha_idle1.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -110243,69 +110243,69 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			blockMobileSwitching=1;
 			speed=0.064800002;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_idle1.rtm";
 			showHandGun = true;
 		};
 		class tsp_HubSittingHighB_idle2: tsp_HubSittingHighB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_idle2.rtm";
 			showHandGun = true;
 			speed=0.068000004;
 		};
 		class tsp_HubSittingHighB_idle3: tsp_HubSittingHighB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_idle3.rtm";
 			showHandGun = true;
 			speed=0.071599998;
 		};
 		class tsp_HubSittingHighB_move1: tsp_HubSittingHighB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_move1.rtm";
 			showHandGun = true;
 			speed=0.030303;
 		};
 		class tsp_HubSittingHighB_in: tsp_HubSittingHighB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_in.rtm";
 			showHandGun = true;
 			speed=0.1345;
 		};
 		class tsp_HubSittingHighB_out: tsp_HubSittingHighB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_out.rtm";
 			showHandGun = true;
 			speed=0.33329999;
 		};
 		class tsp_HubSittingHighB_outSalute: tsp_HubSittingHighB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\sittinghigh\hubsittinghighb_outsalute.rtm";
 			showHandGun = true;
 			speed=0.23999999;
 		};
 		class tsp_HubWoundedProne_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\wounded\hubwoundedprone_idle1.rtm";
 			showHandGun = true;
 			speed=0.039999999;
 		};
 		class tsp_HubWoundedProne_idle2: tsp_HubWoundedProne_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\wounded\hubwoundedprone_idle2.rtm";
 			showHandGun = true;
 			speed=0.034200002;
 		};
 		class tsp_HubFixingVehicleProne_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\fixingvehicle\hubfixingvehicleprone_idle1.rtm";
 			showHandGun = true;
 			speed=0.054499999;
@@ -110321,7 +110321,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"HubShootingRangeKneel_shoot",
 				0.029999999
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\shootingrange\hubshootingrangekneel_shoot.rtm";
 			showHandGun = true;
 			looped=1;
@@ -110349,7 +110349,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubShootingRangeKneel_move1: tsp_HubShootingRange_base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_kneel_move1.rtm";
 			showHandGun = true;
 			speed=0.1224;
@@ -110362,14 +110362,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubShootingRangeKneel_move2: tsp_HubShootingRangeKneel_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_kneel_move2.rtm";
 			showHandGun = true;
 			speed=0.075000003;
 		};
 		class tsp_HubShootingRangeKneel_move3: tsp_HubShootingRangeKneel_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_kneel_move3.rtm";
 			showHandGun = true;
 			speed=0.1154;
@@ -110381,7 +110381,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"HubShootingRangeProne_shoot",
 				0.029999999
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\shootingrange\hubshootingrangeprone_shoot.rtm";
 			showHandGun = true;
 			actions="tsp_RifleProneActions";
@@ -110402,7 +110402,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubShootingRangeProne_move1: tsp_HubShootingRange_base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_prone_move1.rtm";
 			showHandGun = true;
 			speed=0.073200002;
@@ -110416,14 +110416,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubShootingRangeProne_move2: tsp_HubShootingRangeProne_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_prone_move2.rtm";
 			showHandGun = true;
 			speed=0.044399999;
 		};
 		class tsp_HubShootingRangeProne_move3: tsp_HubShootingRangeProne_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_prone_move3.rtm";
 			showHandGun = true;
 			speed=0.1364;
@@ -110435,7 +110435,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"HubShootingRangeStand_shoot",
 				0.029999999
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\shootingrange\hubshootingrangestand_shoot.rtm";
 			showHandGun = true;
 			actions="tsp_RifleStandActions";
@@ -110466,7 +110466,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubShootingRangeStand_move1: tsp_HubShootingRange_base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_stand_move1.rtm";
 			showHandGun = true;
 			speed=0.1304;
@@ -110478,21 +110478,21 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubShootingRangeStand_move2: tsp_HubShootingRangeStand_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_stand_move2.rtm";
 			showHandGun = true;
 			speed=0.1195;
 		};
 		class tsp_HubShootingRangeStand_move3: tsp_HubShootingRangeStand_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_stand_move3.rtm";
 			showHandGun = true;
 			speed=0.0779;
 		};
 		class tsp_HubShootingRangeStand_move4: tsp_HubShootingRangeStand_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\hub\shootingrange\hub_shootingrange_stand_move4.rtm";
 			showHandGun = true;
 			speed=0.071400002;
@@ -110501,7 +110501,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			reverse="HubShootingRangeStand_HubShootingRangeKneel";
 			minPlayTime=0.89999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\shootingrange\hubshootingrangekneel_hubshootingrangestand.rtm";
 			showHandGun = true;
 			speed=-1.1;
@@ -110521,7 +110521,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"HubShootingRangeKneel_shoot",
 				0.0099999998
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\shootingrange\hubshootingrangestand_hubshootingrangekneel.rtm";
 			showHandGun = true;
 			speed=-0.89999998;
@@ -110531,105 +110531,105 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubStandingUA_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingua_idle1.rtm";
 			showHandGun = true;
 			speed=0.054499999;
 		};
 		class tsp_HubStandingUA_idle2: tsp_HubStandingUA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingua_idle2.rtm";
 			showHandGun = true;
 			speed=0.057700001;
 		};
 		class tsp_HubStandingUA_idle3: tsp_HubStandingUA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingua_idle3.rtm";
 			showHandGun = true;
 			speed=0.055599999;
 		};
 		class tsp_HubStandingUA_move1: tsp_HubStandingUA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingua_move1.rtm";
 			showHandGun = true;
 			speed=0.065899998;
 		};
 		class tsp_HubStandingUA_move2: tsp_HubStandingUA_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingua_move2.rtm";
 			showHandGun = true;
 			speed=0.064499997;
 		};
 		class tsp_HubStandingUB_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingub_idle1.rtm";
 			showHandGun = true;
 			speed=0.056699999;
 		};
 		class tsp_HubStandingUB_idle2: tsp_HubStandingUB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingub_idle2.rtm";
 			showHandGun = true;
 			speed=0.068999998;
 		};
 		class tsp_HubStandingUB_idle3: tsp_HubStandingUB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingub_idle3.rtm";
 			showHandGun = true;
 			speed=0.066699997;
 		};
 		class tsp_HubStandingUB_move1: tsp_HubStandingUB_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandingub_move1.rtm";
 			showHandGun = true;
 			speed=0.071400002;
 		};
 		class tsp_HubStandingUC_idle1: tsp_HubTemplateU
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandinguc_idle1.rtm";
 			showHandGun = true;
 			speed=0.065899998;
 		};
 		class tsp_HubStandingUC_idle2: tsp_HubStandingUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandinguc_idle2.rtm";
 			showHandGun = true;
 			speed=0.1027;
 		};
 		class tsp_HubStandingUC_idle3: tsp_HubStandingUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandinguc_idle3.rtm";
 			showHandGun = true;
 			speed=0.070600003;
 		};
 		class tsp_HubStandingUC_move1: tsp_HubStandingUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandinguc_move1.rtm";
 			showHandGun = true;
 			speed=0.043200001;
 		};
 		class tsp_HubStandingUC_move2: tsp_HubStandingUC_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstandinguc_move2.rtm";
 			showHandGun = true;
 			speed=0.074100003;
 		};
 		class tsp_HubStanding_idle1: tsp_HubTemplate
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstanding_idle1.rtm";
 			showHandGun = true;
 			speed=-25;
@@ -110658,7 +110658,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubStanding_idle2: tsp_HubStanding_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstanding_idle2.rtm";
 			showHandGun = true;
 			speed=0.031704001;
@@ -110667,7 +110667,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubStanding_idle3: tsp_HubStanding_idle1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\standing\hubstanding_idle3.rtm";
 			showHandGun = true;
 			speed=0.024666;
@@ -110676,14 +110676,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubWave_move1: tsp_HubTemplate
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\wave\hubwave_move1.rtm";
 			showHandGun = true;
 			speed=0.33329999;
 		};
 		class tsp_HubWave_move2: tsp_HubWave_move1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\wave\hubwave_move2.rtm";
 			showHandGun = true;
 			speed=0.22220001;
@@ -110695,7 +110695,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_loop: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_loop.rtm";
 			showHandGun = true;
 			speed=0.0306;
@@ -110736,7 +110736,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_lookAround1: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_lookaround1.rtm";
 			showHandGun = true;
 			speed=0.1714;
@@ -110754,7 +110754,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_lookAround2: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_lookaround2.rtm";
 			showHandGun = true;
 			speed=0.082199998;
@@ -110772,7 +110772,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_pointAtTable: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_pointattable.rtm";
 			showHandGun = true;
 			speed=0.44780001;
@@ -110790,7 +110790,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_pointLeft: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_pointleft.rtm";
 			showHandGun = true;
 			speed=0.2174;
@@ -110808,7 +110808,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_pointRight: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_pointright.rtm";
 			showHandGun = true;
 			speed=0.28029999;
@@ -110826,7 +110826,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_scratch: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_scratch.rtm";
 			showHandGun = true;
 			speed=0.1875;
@@ -110844,7 +110844,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_stretch: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_stretch.rtm";
 			showHandGun = true;
 			speed=0.12;
@@ -110862,7 +110862,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_talkAround: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_talkaround.rtm";
 			showHandGun = true;
 			speed=0.082199998;
@@ -110880,7 +110880,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_think: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_think.rtm";
 			showHandGun = true;
 			speed=0.1136;
@@ -110898,7 +110898,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubBriefing_ext: tsp_HubTemplate_Briefing
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\briefing\hubbriefing_loop.rtm";
 			showHandGun = true;
 			speed=1e+009;
@@ -110956,7 +110956,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.0099999998
 			};
 			ConnectTo[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\custom\a_in\acts_crouchgetlowgesture.rtm";
 			showHandGun = true;
 			speed=0.38460001;
@@ -110968,7 +110968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			relSpeedMin=0.80000001;
 			relSpeedMax=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\custom\a_in\acts_percmwlkslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.5;
@@ -111022,7 +111022,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_PercMwlkSlowWrflDf2",
 				9.9999997e-006
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\wlk\low\rfl\amovpercmwlkslowwrfldf.rtm";
 			showHandGun = true;
 			speed=0.25;
@@ -111032,7 +111032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_PercMstpSlowWrflDnon_handup2: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_handup2.rtm";
 			showHandGun = true;
 			speed=0.22220001;
@@ -111055,7 +111055,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.31920001;
 			soundOverride="Acts_PercMstpSlowWrflDnon_handup2b";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_handup2b.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.0099999998,1,0.059999999,0,0.76999998,0,0.89999998,1};
@@ -111065,7 +111065,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.242;
 			soundOverride="Acts_PercMstpSlowWrflDnon_handup2c";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_handup2c.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0.0099999998,1,0.059999999,0,0.80000001,0,0.88,1};
@@ -111073,7 +111073,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_PercMstpSlowWrflDnon_handup1: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_handup1.rtm";
 			showHandGun = true;
 			speed=0.33329999;
@@ -111094,7 +111094,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_PercMstpSlowWrflDnon_handup1b: tsp_Acts_PercMstpSlowWrflDnon_handup1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_handup1b.rtm";
 			showHandGun = true;
 			speed=0.375;
@@ -111115,7 +111115,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.375;
 			soundOverride="Acts_PercMstpSlowWrflDnon_handup1c";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_handup1c.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -111132,7 +111132,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_WalkingChecking: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_walkingchecking.rtm";
 			showHandGun = true;
 			speed=0.038199998;
@@ -111150,7 +111150,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="StaticCutsceneLoop";
 			enableBinocular=0;
 			headBobStrength=0.104478;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\spectator\hubspectator_stand.rtm";
 			showHandGun = true;
 			canBlendStep=1;
@@ -111187,7 +111187,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_HubSpectator_walk: tsp_HubSpectator_stand
 		{
 			actions="CutsceneLoop";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\hubcleaned\spectator\hubspectator_walk.rtm";
 			showHandGun = true;
 			looped=1;
@@ -111223,7 +111223,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSpectator_walkU: tsp_HubSpectator_walk
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\hubspectator_walku.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -111240,7 +111240,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_HubSpectator_standU: tsp_HubSpectator_stand
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\hubspectator_standu.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -111267,7 +111267,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			soundOverride="Acts_UnconsciousStandUp_part1";
 			legs="legsNo";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_in\acts_unconsciousstandup_part1.rtm";
 			showHandGun = true;
 			speed=0.0228;
@@ -111287,7 +111287,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_UnconsciousStandUp_part2: tsp_Acts_UnconsciousStandUp_part1
 		{
 			minPlayTime=0.89999998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_in\acts_unconsciousstandup_part2.rtm";
 			showHandGun = true;
 			speed=0.36590001;
@@ -111311,7 +111311,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_HUBABriefing: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\hubbriefings\acts_hubabriefing.rtm";
 			showHandGun = true;
 			speed=0.025;
@@ -111324,7 +111324,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_SignalToCheck: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_signaltocheck.rtm";
 			showHandGun = true;
 			speed=0.42860001;
@@ -111340,7 +111340,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_carFixingWheel: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_carfixingwheel.rtm";
 			showHandGun = true;
 			useIdles=0;
@@ -111388,7 +111388,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_SittingJumpingSaluting_in: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_sittingjumpingsaluting_in.rtm";
 			showHandGun = true;
 			speed=0.1345;
@@ -111414,7 +111414,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_SittingJumpingSaluting_loop3",
 				0.30000001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_sittingjumpingsaluting_high_stillpose.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_SittingJumpingSaluting_actions";
@@ -111448,7 +111448,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.30000001
 			};
 			variantAfter[]={5,5,5};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_sittingjumpingsaluting_high_var1.rtm";
 			showHandGun = true;
 			speed=0.064800002;
@@ -111483,7 +111483,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			variantAfter[]={5,5,5};
 			soundOverride="Acts_SittingJumpingSaluting_loop2";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_sittingjumpingsaluting_high_var2.rtm";
 			showHandGun = true;
 			speed=0.068000004;
@@ -111518,7 +111518,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			variantAfter[]={5,5,5};
 			soundOverride="Acts_SittingJumpingSaluting_loop3";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_sittingjumpingsaluting_high_var3.rtm";
 			showHandGun = true;
 			speed=0.071599998;
@@ -111544,7 +111544,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			soundOverride="Acts_SittingJumpingSaluting_out";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_sittingjumpingsaluting_high_out.rtm";
 			showHandGun = true;
 			speed=0.2344;
@@ -111565,7 +111565,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NavigatingChopper_In: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_navigatingchopperin.rtm";
 			showHandGun = true;
 			speed=0.83329999;
@@ -111579,7 +111579,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NavigatingChopper_Loop: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_navigatingchopperlooptwice.rtm";
 			showHandGun = true;
 			speed=0.5456;
@@ -111608,7 +111608,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NavigatingChopper_Out: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_navigatingchopperout.rtm";
 			showHandGun = true;
 			speed=0.2586;
@@ -111629,7 +111629,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_TreatingWounded_loop",
 				9.9999997e-005
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\percmstpslowwrlfdnon_treatingwounded.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_TreatingWounded_actions";
@@ -111656,7 +111656,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_TreatingWounded06",
 				0.18000001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded_stillpose.rtm";
 			showHandGun = true;
 			speed=1e+009;
@@ -111683,7 +111683,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_TreatingWounded01: tsp_Acts_TreatingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded01.rtm";
 			showHandGun = true;
 			speed=0.18870001;
@@ -111702,7 +111702,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_TreatingWounded02: tsp_Acts_TreatingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded02.rtm";
 			showHandGun = true;
 			speed=0.1245;
@@ -111721,7 +111721,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_TreatingWounded03: tsp_Acts_TreatingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded03.rtm";
 			showHandGun = true;
 			speed=0.1154;
@@ -111740,7 +111740,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_TreatingWounded04: tsp_Acts_TreatingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded04.rtm";
 			showHandGun = true;
 			speed=0.1911;
@@ -111760,7 +111760,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_TreatingWounded05: tsp_Acts_TreatingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded05.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -111779,7 +111779,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_TreatingWounded06: tsp_Acts_TreatingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\acts_treatingwounded06.rtm";
 			showHandGun = true;
 			speed=0.1604;
@@ -111800,7 +111800,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_TreatingWounded_Out: tsp_Campaign_Base
 		{
 			speed=0.2543;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01\treatingwounded_percmstpslowwrlfdnon.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -111834,7 +111834,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_LyingWounded_loop3",
 				9.9999997e-005
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01-02\acts_lyingwounded_stillpose.rtm";
 			showHandGun = true;
 			interpolationRestart=1;
@@ -111843,7 +111843,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_LyingWounded_loop1: tsp_Acts_LyingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01-02\acts_lyingwounded01.rtm";
 			showHandGun = true;
 			speed=0.039999999;
@@ -111863,7 +111863,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_LyingWounded_loop2: tsp_Acts_LyingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01-02\acts_lyingwounded02.rtm";
 			showHandGun = true;
 			speed=0.034200002;
@@ -111883,7 +111883,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_LyingWounded_loop3: tsp_Acts_LyingWounded_loop
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_m01-02\acts_lyingwounded03.rtm";
 			showHandGun = true;
 			looped=0;
@@ -111908,7 +111908,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_ShowingTheRightWay_loop",
 				0.001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_showingtherightwayin.rtm";
 			showHandGun = true;
 			speed=0.55559999;
@@ -111933,7 +111933,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.001
 			};
 			soundOverride="Acts_ShowingTheRightWay_loop";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_showingtherightwayloop.rtm";
 			showHandGun = true;
 			speed=0.5456;
@@ -111945,7 +111945,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			ConnectTo[]={};
 			soundOverride="Acts_ShowingTheRightWay_out";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_showingtherightwayend.rtm";
 			showHandGun = true;
 			speed=0.52630001;
@@ -111968,7 +111968,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_ShieldFromSun_loop",
 				0.001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_shieldfromsunin.rtm";
 			showHandGun = true;
 			speed=0.85689998;
@@ -111994,7 +111994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_Acts_ShieldFromSun_out",
 				0.001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_shieldfromsunloop.rtm";
 			showHandGun = true;
 			actions="tsp_Acts_ShieldFromSun_actions";
@@ -112004,7 +112004,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			ConnectTo[]={};
 			soundOverride="Acts_ShieldFromSun_out";
 			speed=0.5456;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_shieldfromsunout.rtm";
 			showHandGun = true;
 			actions="tsp_RifleLowStandActions";
@@ -112021,7 +112021,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_listeningToRadio_In: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_listeningtoradioin.rtm";
 			showHandGun = true;
 			soundOverride="Acts_listeningToRadio_in";
@@ -112036,7 +112036,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_listeningToRadio_Loop: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_listeningtoradioloop.rtm";
 			showHandGun = true;
 			looped=1;
@@ -112062,7 +112062,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_listeningToRadio_Out: tsp_Campaign_Base
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in\acts_listeningtoradioout.rtm";
 			showHandGun = true;
 			speed=0.85689998;
@@ -112083,7 +112083,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BoatAttacked01: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\acts_boatattacked01.rtm";
 			showHandGun = true;
 			speed=0.077299997;
@@ -112095,7 +112095,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BoatAttacked02: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\acts_boatattacked02.rtm";
 			showHandGun = true;
 			speed=0.067400001;
@@ -112107,7 +112107,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BoatAttacked03: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\acts_boatattacked03.rtm";
 			showHandGun = true;
 			speed=0.064199999;
@@ -112119,7 +112119,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BoatAttacked04: tsp_AmovPercMstpSnonWnonDnon_Scared
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\acts_boatattacked04.rtm";
 			showHandGun = true;
 			speed=0.0682;
@@ -112132,7 +112132,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BoatAttacked05: CutsceneAnimationBaseZoZo
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\acts_boatattacked05.rtm";
 			showHandGun = true;
 			speed=0.096799999;
@@ -112151,7 +112151,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPercMstpSlowWrflDnon",
 				0.02
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\cts\custom\a_in\acts_percmstpslowwrfldnon_pissing.rtm";
 			showHandGun = true;
 			speed=0.052200001;
@@ -112162,7 +112162,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_A_M01_briefing: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_a_m01_briefing.rtm";
 			showHandGun = true;
 			speed=0.011;
@@ -112173,7 +112173,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_A_M02_briefing: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_a_m02_briefing.rtm";
 			showHandGun = true;
 			speed=0.024499999;
@@ -112184,7 +112184,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_A_M03_briefing: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_a_m03_briefing.rtm";
 			showHandGun = true;
 			speed=0.015;
@@ -112196,7 +112196,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_A_M04_briefing: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_a_m04_briefing.rtm";
 			showHandGun = true;
 			speed=0.014;
@@ -112207,7 +112207,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_A_M05_briefing: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_a_m05_briefing.rtm";
 			showHandGun = true;
 			speed=0.0147;
@@ -112219,7 +112219,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_A_OUT_briefing: CutsceneAnimationBase
 		{
 			rightHandIKCurve[]={0,1,0.20262,0,0.87685603,0,0.87685603,1};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub02\acts_a_out_briefing.rtm";
 			showHandGun = true;
 			speed=0.0131;
@@ -112237,7 +112237,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			preload=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_b_hub01_briefing.rtm";
 			showHandGun = true;
 			speed=0.011;
@@ -112277,7 +112277,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_B_m06_briefing: tsp_Acts_B_briefings
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_b_m06_briefing.rtm";
 			showHandGun = true;
 			speed=0.0115;
@@ -112290,7 +112290,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_B_M01_briefing: tsp_Acts_B_briefings
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_b_m01_briefing.rtm";
 			showHandGun = true;
 			speed=0.0126;
@@ -112303,7 +112303,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_B_M02_briefing: tsp_Acts_B_briefings
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_b_m02_briefing.rtm";
 			showHandGun = true;
 			speed=0.0106;
@@ -112317,7 +112317,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_B_M03_briefing: tsp_Acts_B_briefings
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_b_m03_briefing.rtm";
 			showHandGun = true;
 			speed=0.0118;
@@ -112330,7 +112330,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_B_M05_briefing: tsp_Acts_B_briefings
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_b_m05_briefing.rtm";
 			showHandGun = true;
 			speed=0.0144;
@@ -112343,7 +112343,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_B_out2_briefing: tsp_Acts_B_briefings
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_b_out2_briefing.rtm";
 			showHandGun = true;
 			speed=0.0088999998;
@@ -112356,7 +112356,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_C_in1_briefing: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_in1\acts_c_in1_briefing.rtm";
 			showHandGun = true;
 			looped=0;
@@ -112379,7 +112379,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPknlMstpSlowWrflDnon",
 				0.001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_in2\acts_pknlmstpslowwrfldnon.rtm";
 			showHandGun = true;
 		};
@@ -112388,7 +112388,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.33329999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk1a.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112414,7 +112414,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.12;
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_1b";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk1b.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112428,7 +112428,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.16670001;
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_1";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk2.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112442,7 +112442,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.085699998;
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_2";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk3.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112456,7 +112456,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.15790001;
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_3";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk4.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112470,7 +112470,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.1429;
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_4";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk5.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112484,7 +112484,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.17649999;
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_5";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk6.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112500,7 +112500,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundOverride="Acts_welcomeOnHUB01_AIWalk_6";
 			minPlayTime=0.95499998;
 			interpolationSpeed=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_aiwalk7.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112522,7 +112522,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundOverride="Acts_welcomeOnHUB02_AIWalk";
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_aiwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112547,7 +112547,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.1429;
 			soundOverride="Acts_welcomeOnHUB02_AIWalk_2";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_aiwalk2.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112561,7 +112561,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.37509999;
 			soundOverride="Acts_welcomeOnHUB02_AIWalk_3";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_aiwalk3.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112575,7 +112575,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.1304;
 			soundOverride="Acts_welcomeOnHUB02_AIWalk_4";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_aiwalk4.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112592,7 +112592,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			rightHandIKCurve[]={1};
 			weaponIK=1;
 			speed=0.1364;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_aiwalk5.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112608,7 +112608,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundOverride="Acts_welcomeOnHUB02_AIWalk_6";
 			minPlayTime=0.95499998;
 			interpolationSpeed=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_aiwalk6.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112629,7 +112629,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.30000001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk1.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -112654,7 +112654,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_welcomeOnHUB01_PlayerWalk_1: tsp_Acts_welcomeOnHUB01_PlayerWalk
 		{
 			speed=0.1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk2.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112668,7 +112668,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_welcomeOnHUB01_PlayerWalk_2: tsp_Acts_welcomeOnHUB01_PlayerWalk
 		{
 			speed=0.30000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk3.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112682,7 +112682,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_welcomeOnHUB01_PlayerWalk_3: tsp_Acts_welcomeOnHUB01_PlayerWalk
 		{
 			speed=0.066699997;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk4.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112696,7 +112696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_welcomeOnHUB01_PlayerWalk_4: tsp_Acts_welcomeOnHUB01_PlayerWalk
 		{
 			speed=0.2999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk5.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112710,7 +112710,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_welcomeOnHUB01_PlayerWalk_5: tsp_Acts_welcomeOnHUB01_PlayerWalk
 		{
 			speed=0.12;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk6.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112726,7 +112726,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.090899996;
 			minPlayTime=0.95499998;
 			interpolationSpeed=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub01_playerwalk7.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112748,7 +112748,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1587;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_playerwalk1.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -112774,7 +112774,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.12;
 			soundOverride="Acts_welcomeOnHUB02_PlayerWalk_1";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_playerwalk2.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112788,7 +112788,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			speed=0.096799999;
 			soundOverride="Acts_welcomeOnHUB02_PlayerWalk_2";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_playerwalk3.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112803,7 +112803,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			minPlayTime=0.95499998;
 			soundOverride="Acts_welcomeOnHUB02_PlayerWalk_3";
 			speed=0.069899999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_hub01\acts_welcomeonhub02_playerwalk4.rtm";
 			showHandGun = true;
 			soundEdge[]={0.001};
@@ -112824,7 +112824,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.090899996;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_aiwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112851,7 +112851,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.093800001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_aiwalk2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112878,7 +112878,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1961;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_aiwalk3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112905,7 +112905,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.32609999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_aiwalk4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112932,7 +112932,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.26089999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_aiwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112959,7 +112959,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.40000001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_aiwalk6.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -112991,7 +112991,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.079000004;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_playerwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113018,7 +113018,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.096799999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_playerwalk2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113045,7 +113045,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.2308;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_playerwalk3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113072,7 +113072,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.2069;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_playerwalk4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113099,7 +113099,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.079000004;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub01\acts_welcomeonhub03_playerwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113131,7 +113131,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1911;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_aiwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113158,7 +113158,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1042;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_aiwalk2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113185,7 +113185,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.2;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_aiwalk3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113212,7 +113212,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1079;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_aiwalk4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113239,7 +113239,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.3125;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_aiwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113266,7 +113266,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.4413;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_aiwalk6.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113298,7 +113298,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1797;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_playerwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113325,7 +113325,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1141;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_playerwalk2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113352,7 +113352,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1523;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_playerwalk3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113379,7 +113379,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1091;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_playerwalk4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113406,7 +113406,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.22220001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub02\acts_welcomeonhub04_playerwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113438,7 +113438,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.22220001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_aiwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113465,7 +113465,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.12;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_aiwalk2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113492,7 +113492,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.036800001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_aiwalk3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113519,7 +113519,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.33329999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_aiwalk4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113546,7 +113546,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.33329999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_aiwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113572,7 +113572,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_welcomeOnHUB05_AIWalk_6: tsp_Acts_welcomeOnHUB05_AIWalk_5
 		{
 			speed=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_aiwalk6.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -113592,7 +113592,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1639;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113619,7 +113619,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1523;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113646,7 +113646,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0504;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113673,7 +113673,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.15790001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113700,7 +113700,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.2308;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113727,7 +113727,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.28029999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk6.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113754,7 +113754,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.625;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_hub03\acts_welcomeonhub05_playerwalk5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -113783,7 +113783,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_1: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander1.rtm";
 			showHandGun = true;
 			speed=0.59990001;
@@ -113798,7 +113798,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_2: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander2.rtm";
 			showHandGun = true;
 			speed=1.5015;
@@ -113813,7 +113813,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_3: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander3.rtm";
 			showHandGun = true;
 			speed=0.2069;
@@ -113828,7 +113828,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_4: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander4.rtm";
 			showHandGun = true;
 			speed=0.85759997;
@@ -113843,7 +113843,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_5: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander5.rtm";
 			showHandGun = true;
 			speed=0.026699999;
@@ -113858,7 +113858,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_6: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander6.rtm";
 			showHandGun = true;
 			speed=0.1875;
@@ -113873,7 +113873,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_7: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander7.rtm";
 			showHandGun = true;
 			speed=0.30000001;
@@ -113888,7 +113888,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_8: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander8.rtm";
 			showHandGun = true;
 			speed=0.96810001;
@@ -113903,7 +113903,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Commander_9: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_commander9.rtm";
 			showHandGun = true;
 			speed=0.8818;
@@ -113924,7 +113924,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_1: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin1.rtm";
 			showHandGun = true;
 			speed=0.048799999;
@@ -113938,7 +113938,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_2: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin2.rtm";
 			showHandGun = true;
 			speed=0.5456;
@@ -113952,7 +113952,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_3: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin3.rtm";
 			showHandGun = true;
 			speed=0.0243;
@@ -113966,7 +113966,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_4: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin4.rtm";
 			showHandGun = true;
 			speed=1.2005;
@@ -113980,7 +113980,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_5: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin5.rtm";
 			showHandGun = true;
 			speed=0.22220001;
@@ -113994,7 +113994,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_6: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin6.rtm";
 			showHandGun = true;
 			speed=1.3643;
@@ -114008,7 +114008,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_NATOCommanderArrival_Larkin_7: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\b_out2\acts_natocommanderarrival_larkin7.rtm";
 			showHandGun = true;
 			speed=0.36140001;
@@ -114027,7 +114027,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_passenger_boat_holdright: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\passenger_boat_holdright2_mocap.rtm";
 			showHandGun = true;
 			actions="CargoActions";
@@ -114049,7 +114049,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_passenger_boat_holdleft: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\passenger_boat_holdleft2_mocap.rtm";
 			showHandGun = true;
 			looped=1;
@@ -114077,7 +114077,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeapons=0;
 			disableWeaponsLong=0;
 			actions="CargoActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\passenger_boat_rightrear_mocap.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -114098,7 +114098,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.033;
 			disableWeapons=1;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\gunner_mrap_01_mocap.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -114118,7 +114118,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			actions="CargoActions";
 			speed=0.033;
 			canBlendStep=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epa\data\anim\sdr\cts\custom\a_out\passenger_flatground_leanright_mocap.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -114141,7 +114141,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1515;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114168,7 +114168,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.39480001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout2.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114195,7 +114195,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1049;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout3.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114222,7 +114222,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0779;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout4.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114249,7 +114249,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.4411;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout5.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114276,7 +114276,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.091700003;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout6.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114303,7 +114303,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.15000001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout7.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114330,7 +114330,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.29409999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout8.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114357,7 +114357,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.2041;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout9.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114384,7 +114384,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.375;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout10.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114411,7 +114411,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.090599999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_cominginspeakingwalkingout11.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114441,7 +114441,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_SittingWounded_in: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_sittingwounded_in.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -114466,7 +114466,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			speed=0.32258099;
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_sittingwounded_wave.rtm";
 			showHandGun = true;
 			showItemInHand=1;
@@ -114483,7 +114483,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			speed=0.047169998;
 			actions="tsp_Acts_SittingWounded_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_sittingwounded_loop.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -114509,7 +114509,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			looped=0;
 			speed=0.229008;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_sittingwounded_out.rtm";
 			showHandGun = true;
 			showItemInHand=1;
@@ -114533,7 +114533,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			ConnectTo[]={};
 			looped=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_epc\data\anim\sdr\cts\custom\c_out2\acts_sittingwounded_breath.rtm";
 			showHandGun = true;
 			speed=0.1734;
@@ -114543,7 +114543,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_starterPistol_in: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_kart\data\anim\sdr\cts\starterpistol\acts_starterpistol_in.rtm";
 			showHandGun = true;
 			speed=0.4348;
@@ -114563,7 +114563,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_starterPistol_loop: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_kart\data\anim\sdr\cts\starterpistol\acts_starterpistol_loop.rtm";
 			showHandGun = true;
 			speed=0.1364;
@@ -114591,7 +114591,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_starterPistol_fire: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_kart\data\anim\sdr\cts\starterpistol\acts_starterpistol_fire.rtm";
 			showHandGun = true;
 			speed=0.1744;
@@ -114617,7 +114617,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_starterPistol_out: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_kart\data\anim\sdr\cts\starterpistol\acts_starterpistol_out.rtm";
 			showHandGun = true;
 			speed=0.46169999;
@@ -114636,7 +114636,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0106;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_abuse_abuser.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114656,7 +114656,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0106;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_abuse_abusing.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114676,7 +114676,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.013;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_abuse_akhanteros.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114696,7 +114696,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0116;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_abuse_lacey.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114724,7 +114724,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		{
 			headBobMode=1;
 			ConnectTo[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_abuse_lacey_2.rtm";
 			showHandGun = true;
 			speed=0.069799997;
@@ -114746,7 +114746,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0251;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_bootkoreshootingrange_adams.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114773,7 +114773,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.13510001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_bootkoreshootingrange_lacey.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114797,7 +114797,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			soundOverride="walk";
 			rightHandIKCurve[]={};
 			weaponIK=0;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_bootkoreshootingrange_lacey_001.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -114819,7 +114819,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			weaponIK=1;
 			leftHandIKCurve[]={0,0,0.98199999,0,0.98299998,1};
 			rightHandIKCurve[]={};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_bootkoreshootingrange_lacey_002.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -114838,7 +114838,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BootKoreShootingRange_Lacey3: tsp_Acts_BootKoreShootingRange_Lacey
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_bootkoreshootingrange_lacey_003.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -114857,7 +114857,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_BootKoreShootingRange_Lacey4: tsp_Acts_BootKoreShootingRange_Lacey
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_bootkoreshootingrange_lacey_004.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -114880,7 +114880,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.12549999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_ending_adams1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114911,7 +114911,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			soundEdge[]={0.223776,0.37762201,0.55944097,0.74125898,0.95804203};
 			speed=0.043499999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_ending_adams2.rtm";
 			showHandGun = true;
 		};
@@ -114923,7 +114923,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				0.001
 			};
 			speed=0.2098;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_ending_adams3.rtm";
 			showHandGun = true;
 		};
@@ -114932,7 +114932,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.13330001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_ending_lacey1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -114960,7 +114960,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_Ending_Lacey2: tsp_Acts_Ending_Lacey1
 		{
 			speed=0.039299998;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_ending_lacey2.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -114971,7 +114971,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_Ending_Lacey3: tsp_Acts_Ending_Lacey1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_ending_lacey3.rtm";
 			showHandGun = true;
 			speed=0.36149999;
@@ -114988,7 +114988,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.25209999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_adams1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115017,7 +115017,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			};
 			soundEdge[]={0.168539,0.46067399};
 			speed=0.33700001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_adams2.rtm";
 			showHandGun = true;
 		};
@@ -115032,7 +115032,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPercMstpSlowWrflDnon",
 				0.001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_adams3.rtm";
 			showHandGun = true;
 			speed=0.021600001;
@@ -115044,7 +115044,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0188;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_commander.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115069,7 +115069,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.29409999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_lacey1.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115094,7 +115094,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_FarmIncident_Lacey2: tsp_Acts_FarmIncident_Lacey1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_lacey2.rtm";
 			showHandGun = true;
 			ConnectTo[]=
@@ -115108,7 +115108,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_FarmIncident_Lacey3: tsp_Acts_FarmIncident_Lacey1
 		{
 			leftHandIKCurve[]={0,1,0.28299999,1,0.28400001,0,0.336,0,0.33700001,1,0.86000001,1,0.861,0,0.93300003,0,0.93400002,1,1,1};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_lacey3.rtm";
 			showHandGun = true;
 			weaponIK=1;
@@ -115129,7 +115129,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 				"tsp_AmovPercMstpSlowWrflDnon",
 				0.001
 			};
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_farmincident_lacey4.rtm";
 			showHandGun = true;
 			speed=0.1163;
@@ -115140,7 +115140,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.26789999;
 			looped=0;
 			actions="tsp_Acts_Helicargo_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargo_in.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115167,7 +115167,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.080200002;
 			looped=1;
 			actions="tsp_Acts_Helicargo_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargo_loop.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115210,7 +115210,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.26789999;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargo_out.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115233,7 +115233,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.52630001;
 			looped=0;
 			actions="tsp_Acts_Helicargo_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargohopinsignal.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115269,7 +115269,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.2703;
 			looped=0;
 			actions="tsp_Acts_Helicargo_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargopointing.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115304,7 +115304,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.26789999;
 			looped=0;
 			actions="tsp_Acts_HelicargoTalking_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargotalking_in.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115333,7 +115333,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.0254;
 			looped=1;
 			actions="tsp_Acts_HelicargoTalking_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargotalking_loop.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115370,7 +115370,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.26789999;
 			looped=0;
 			actions="tsp_Acts_Helicargo_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_helicargotalking_out.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115404,7 +115404,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.3062;
 			looped=0;
 			actions="tsp_Acts_Kore_IdleNoWeapon_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_idlenoweapon_in.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115429,7 +115429,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1339;
 			looped=1;
 			actions="tsp_Acts_Kore_IdleNoWeapon_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_idlenoweapon_loop.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115469,7 +115469,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.42860001;
 			looped=0;
 			actions="StaticCutsceneLoopPlayerWalk";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_idlenoweapon_out.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115504,7 +115504,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.26320001;
 			looped=0;
 			actions="tsp_Acts_Kore_IdleNoWeapon_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_introducing.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115535,7 +115535,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.31920001;
 			looped=0;
 			actions="tsp_Acts_Kore_IdleNoWeapon_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_pointingforward.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115566,7 +115566,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=1.3055;
 			looped=0;
 			actions="tsp_Acts_Kore_TalkingOverRadio_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_talkingoverradio_in.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115591,7 +115591,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=0.1339;
 			looped=1;
 			actions="tsp_Acts_Kore_TalkingOverRadio_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_talkingoverradio_loop.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115625,7 +115625,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=1.0718;
 			looped=0;
 			actions="tsp_Acts_Kore_IdleNoWeapon_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\acts_kore_talkingoverradio_out.rtm";
 			showHandGun = true;
 			soundEnabled=1;
@@ -115653,7 +115653,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LaceyTest1a: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\temp_laceytestfiles\lacey_test_1_cast1_naj_rsoff.rtm";
 			showHandGun = true;
 			looped=0;
@@ -115666,14 +115666,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LaceyTest1b: tsp_LaceyTest1a
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\temp_laceytestfiles\lacey_test_1_cast2_nas_rsoff.rtm";
 			showHandGun = true;
 			speed=1;
 		};
 		class tsp_LaceyTest2a: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\temp_laceytestfiles\lacey_test_1_cast1_naj_rson.rtm";
 			showHandGun = true;
 			looped=0;
@@ -115687,7 +115687,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_LaceyTest2b: tsp_LaceyTest2a
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_bootcamp\data\anim\sdr\cts\temp_laceytestfiles\lacey_test_1_cast2_nas_rson.rtm";
 			showHandGun = true;
 			speed=1;
@@ -115695,7 +115695,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_AidlPsitMstpSsurWnonDnon_loop: CutsceneAnimationBaseSit
 		{
 			actions="tsp_Acts_SittingTiedHands_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpsitmstpssurwnondnon_1.rtm";
 			showHandGun = true;
 			VariantsPlayer[]=
@@ -115771,35 +115771,35 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_AidlPsitMstpSsurWnonDnon02: tsp_Acts_AidlPsitMstpSsurWnonDnon01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpsitmstpssurwnondnon_2.rtm";
 			showHandGun = true;
 			speed=0.15000001;
 		};
 		class tsp_Acts_AidlPsitMstpSsurWnonDnon03: tsp_Acts_AidlPsitMstpSsurWnonDnon01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpsitmstpssurwnondnon_3.rtm";
 			showHandGun = true;
 			speed=0.059999999;
 		};
 		class tsp_Acts_AidlPsitMstpSsurWnonDnon04: tsp_Acts_AidlPsitMstpSsurWnonDnon01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpsitmstpssurwnondnon_4.rtm";
 			showHandGun = true;
 			speed=0.050000001;
 		};
 		class tsp_Acts_AidlPsitMstpSsurWnonDnon05: tsp_Acts_AidlPsitMstpSsurWnonDnon01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpsitmstpssurwnondnon_5.rtm";
 			showHandGun = true;
 			speed=0.050000001;
 		};
 		class tsp_Acts_AidlPsitMstpSsurWnonDnon_out: CutsceneAnimationBase
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpsitmstpssurwnondnon_out.rtm";
 			showHandGun = true;
 			ConnectTo[]={};
@@ -115819,7 +115819,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_AidlPercMstpSlowWrflDnon_warmup_loop: CutsceneAnimationBase
 		{
 			actions="tsp_Acts_WarmUp_actions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpercmstpslowwrfldnon_warmup01.rtm";
 			showHandGun = true;
 			VariantsPlayer[]=
@@ -115894,14 +115894,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_AidlPercMstpSlowWrflDnon_warmup02: tsp_Acts_AidlPercMstpSlowWrflDnon_warmup01
 		{
 			speed=0.115385;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpercmstpslowwrfldnon_warmup02.rtm";
 			showHandGun = true;
 		};
 		class tsp_Acts_AidlPercMstpSlowWrflDnon_warmup03: tsp_Acts_AidlPercMstpSlowWrflDnon_warmup01
 		{
 			speed=0.085713997;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpercmstpslowwrfldnon_warmup03.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0,1,0.2,1,0.22,0,0.69999999,0,0.71428603,1,0.788571,1,0.80000001,0,0.88,0,0.89428598,1};
@@ -115909,7 +115909,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_AidlPercMstpSlowWrflDnon_warmup04: tsp_Acts_AidlPercMstpSlowWrflDnon_warmup01
 		{
 			speed=0.065217003;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpercmstpslowwrfldnon_warmup04.rtm";
 			showHandGun = true;
 			leftHandIKCurve[]={0,1,0.030435,1,0.036956999,0,0.569565,0,0.576087,1};
@@ -115917,7 +115917,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_AidlPercMstpSlowWrflDnon_warmup05: tsp_Acts_AidlPercMstpSlowWrflDnon_warmup01
 		{
 			speed=0.068181999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\data\anim\sdr\cts\acts_aidlpercmstpslowwrfldnon_warmup05.rtm";
 			showHandGun = true;
 		};
@@ -117987,7 +117987,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_120_TopLeft: tsp_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\120_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118001,37 +118001,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_120_TopRight: tsp_Bipod_120_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\120_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_120_BottomLeft: tsp_Bipod_120_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\120_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_120_CenterLeft: tsp_Bipod_120_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\120_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_120_CenterRight: tsp_Bipod_120_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\120_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_120_BottomRight: tsp_Bipod_120_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\120_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_130_TopLeft: tsp_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\130_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118045,37 +118045,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_130_TopRight: tsp_Bipod_130_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\130_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_130_BottomLeft: tsp_Bipod_130_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\130_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_130_CenterLeft: tsp_Bipod_130_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\130_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_130_CenterRight: tsp_Bipod_130_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\130_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_130_BottomRight: tsp_Bipod_130_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\130_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_140_TopLeft: tsp_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\140_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118089,37 +118089,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_140_TopRight: tsp_Bipod_140_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\140_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_140_BottomLeft: tsp_Bipod_140_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\140_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_140_CenterLeft: tsp_Bipod_140_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\140_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_140_CenterRight: tsp_Bipod_140_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\140_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_140_BottomRight: tsp_Bipod_140_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\140_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_150_TopLeft: tsp_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\150_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118133,37 +118133,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_150_TopRight: tsp_Bipod_150_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\150_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_150_BottomLeft: tsp_Bipod_150_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\150_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_150_CenterLeft: tsp_Bipod_150_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\150_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_150_CenterRight: tsp_Bipod_150_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\150_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_150_BottomRight: tsp_Bipod_150_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\150_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_110_TopLeft: tsp_AmovPercMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\110_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118177,37 +118177,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_110_TopRight: tsp_Bipod_110_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\110_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_110_BottomLeft: tsp_Bipod_110_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\110_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_110_CenterLeft: tsp_Bipod_110_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\110_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_110_CenterRight: tsp_Bipod_110_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\110_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_110_BottomRight: tsp_Bipod_110_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\110_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_100_TopLeft: tsp_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\100_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118221,37 +118221,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_100_TopRight: tsp_Bipod_100_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\100_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_100_BottomLeft: tsp_Bipod_100_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\100_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_100_CenterLeft: tsp_Bipod_100_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\100_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_100_CenterRight: tsp_Bipod_100_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\100_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_100_BottomRight: tsp_Bipod_100_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\100_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_90_TopLeft: tsp_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\90_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118265,37 +118265,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_90_TopRight: tsp_Bipod_90_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\90_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_90_BottomLeft: tsp_Bipod_90_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\90_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_90_CenterLeft: tsp_Bipod_90_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\90_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_90_CenterRight: tsp_Bipod_90_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\90_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_90_BottomRight: tsp_Bipod_90_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\90_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_80_TopLeft: tsp_AmovPknlMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\80_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118309,37 +118309,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_80_TopRight: tsp_Bipod_80_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\80_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_80_BottomLeft: tsp_Bipod_80_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\80_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_80_CenterLeft: tsp_Bipod_80_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\80_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_80_CenterRight: tsp_Bipod_80_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\80_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_80_BottomRight: tsp_Bipod_80_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\80_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_60_TopLeft: tsp_AadjPpneMstpSrasWrflDup
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\60_bipod-tc-tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118353,37 +118353,37 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Bipod_60_TopRight: tsp_Bipod_60_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\60_bipod-tc-tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_60_BottomLeft: tsp_Bipod_60_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\60_bipod-bc-bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_60_CenterLeft: tsp_Bipod_60_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\60_bipod-cc-cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_60_CenterRight: tsp_Bipod_60_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\60_bipod-cc-cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_Bipod_60_BottomRight: tsp_Bipod_60_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\60_bipod-bc-br.rtm";
 			showHandGun = true;
 		};
 		class tsp_ProneBipod_TopLeft: tsp_AmovPpneMstpSrasWrflDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\prone-tc_tl.rtm";
 			showHandGun = true;
 			speed=1;
@@ -118398,38 +118398,38 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ProneBipod_TopRight: tsp_ProneBipod_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\prone-tc_tr.rtm";
 			showHandGun = true;
 		};
 		class tsp_ProneBipod_BottomLeft: tsp_ProneBipod_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\prone-bc_bl.rtm";
 			showHandGun = true;
 		};
 		class tsp_ProneBipod_CenterLeft: tsp_ProneBipod_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\prone-cc_cl.rtm";
 			showHandGun = true;
 		};
 		class tsp_ProneBipod_CenterRight: tsp_ProneBipod_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\prone-cc_cr.rtm";
 			showHandGun = true;
 		};
 		class tsp_ProneBipod_BottomRight: tsp_ProneBipod_TopLeft
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_mark\deployment\anim\prone-bc_br.rtm";
 			showHandGun = true;
 		};
 		class tsp_ApanPercMstpSnonWnonDnon: tsp_AmovPercMstpSnonWnonDnon
 		{
 			actions="tsp_CivilPanicStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\stp\non\non\apanpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118525,7 +118525,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDf: tsp_ApanPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=1.2485;
@@ -118571,7 +118571,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDfl: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118601,7 +118601,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDfr: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118631,7 +118631,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDl: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118657,7 +118657,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDr: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118683,7 +118683,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDb: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondb.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118709,7 +118709,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDbl: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118735,7 +118735,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMrunSnonWnonDbr: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\run\non\non\apanpercmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118762,7 +118762,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_ApanPknlMstpSnonWnonDnon: tsp_AmovPknlMstpSnonWnonDnon
 		{
 			actions="tsp_CivilPanicKneelActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\stp\non\non\apanpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118854,7 +118854,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDf: tsp_ApanPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondf.rtm";
 			showHandGun = true;
 			soundEdge[]={0.25,0.5,0.75,1};
@@ -118897,7 +118897,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDfl: tsp_ApanPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118925,7 +118925,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDfr: tsp_ApanPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -118953,7 +118953,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDl: tsp_ApanPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.9375;
@@ -118980,7 +118980,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDr: tsp_ApanPknlMrunSnonWnonDl
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119006,7 +119006,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDb: tsp_ApanPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.54545498;
@@ -119033,7 +119033,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDbl: tsp_ApanPknlMrunSnonWnonDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119059,7 +119059,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMrunSnonWnonDbr: tsp_ApanPknlMrunSnonWnonDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\run\non\non\apanpknlmrunsnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119086,7 +119086,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_ApanPpneMstpSnonWnonDnon: tsp_AmovPpneMstpSnonWnonDnon
 		{
 			actions="tsp_CivilPanicProneActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\stp\non\non\apanppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119154,7 +119154,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDf: tsp_ApanPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.69767398;
@@ -119201,7 +119201,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDfl: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondfl.rtm";
 			showHandGun = true;
 			speed=0.26785699;
@@ -119230,7 +119230,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDfr: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondfr.rtm";
 			showHandGun = true;
 			speed=0.375;
@@ -119259,7 +119259,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDl: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.23999999;
@@ -119288,7 +119288,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDr: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.34883699;
@@ -119317,7 +119317,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDb: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.243902;
@@ -119346,7 +119346,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDbl: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondbl.rtm";
 			showHandGun = true;
 			speed=0.61224502;
@@ -119375,7 +119375,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMrunSnonWnonDbr: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\run\non\non\apanppnemrunsnonwnondbr.rtm";
 			showHandGun = true;
 			speed=0.73170698;
@@ -119404,7 +119404,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDf: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondf.rtm";
 			showHandGun = true;
 			relSpeedMin=0.80000001;
@@ -119439,7 +119439,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDfl: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119467,7 +119467,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDfr: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119493,7 +119493,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDl: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119519,7 +119519,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDr: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119545,7 +119545,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDb: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondb.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119571,7 +119571,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDbl: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119597,7 +119597,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMwlkSnonWnonDbr: tsp_ApanPercMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\wlk\non\non\apanpercmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119623,7 +119623,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDf: tsp_ApanPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondf.rtm";
 			showHandGun = true;
 			static=1;
@@ -119659,7 +119659,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDfl: tsp_ApanPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119687,7 +119687,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDfr: tsp_ApanPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119715,7 +119715,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDl: tsp_ApanPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondl.rtm";
 			showHandGun = true;
 			speed=0.30927801;
@@ -119742,7 +119742,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDr: tsp_ApanPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondr.rtm";
 			showHandGun = true;
 			speed=0.31578901;
@@ -119769,7 +119769,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDb: tsp_ApanPknlMwlkSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondb.rtm";
 			showHandGun = true;
 			speed=0.23999999;
@@ -119796,7 +119796,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDbl: tsp_ApanPknlMwlkSnonWnonDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondbl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119824,7 +119824,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMwlkSnonWnonDbr: tsp_ApanPknlMwlkSnonWnonDb
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\wlk\non\non\apanpknlmwlksnonwnondbr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119850,7 +119850,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMsprSnonWnonDf: tsp_ApanPercMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\spr\non\non\apanpercmsprsnonwnondf.rtm";
 			showHandGun = true;
 			speed=1.875;
@@ -119881,7 +119881,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMsprSnonWnonDfl: tsp_ApanPercMsprSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\spr\non\non\apanpercmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119905,7 +119905,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMsprSnonWnonDfr: tsp_ApanPercMsprSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\spr\non\non\apanpercmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119929,7 +119929,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMsprSnonWnonDf: tsp_ApanPknlMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\spr\non\non\apanpknlmsprsnonwnondf.rtm";
 			showHandGun = true;
 			speed=0.447761;
@@ -119961,7 +119961,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMsprSnonWnonDfl: tsp_ApanPknlMsprSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\spr\non\non\apanpknlmsprsnonwnondfl.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -119983,7 +119983,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMsprSnonWnonDfr: tsp_ApanPknlMsprSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\spr\non\non\apanpknlmsprsnonwnondfr.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -120005,7 +120005,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMsprSnonWnonDf: tsp_ApanPpneMrunSnonWnonDf
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\spr\non\non\apanppnemsprsnonwnondf.rtm";
 			showHandGun = true;
 			duty=1;
@@ -120036,7 +120036,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.34999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\stp\non\non\apanpercmstpsnonwnondnon_apanpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.73171002;
@@ -120066,7 +120066,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\stp\non\non\apanpercmstpsnonwnondnon_apanppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.49180001;
@@ -120100,7 +120100,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.40000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\stp\non\non\apanpknlmstpsnonwnondnon_apanpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=1.03448;
@@ -120130,7 +120130,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.44999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\stp\non\non\apanpknlmstpsnonwnondnon_apanppnemstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.58824003;
@@ -120166,7 +120166,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.55000001;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\stp\non\non\apanppnemstpsnonwnondnon_apanpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.35714;
@@ -120200,7 +120200,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			canBlendStep=0;
 			looped=0;
 			minPlayTime=0.44999999;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\stp\non\non\apanppnemstpsnonwnondnon_apanpknlmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			speed=0.25209999;
@@ -120232,7 +120232,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMstpSnonWnonDnon_G01: tsp_ApanPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\stp\non\non\apanpercmstpsnonwnondnon_g01.rtm";
 			showHandGun = true;
 			speed=0.066519998;
@@ -120261,7 +120261,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMstpSnonWnonDnon_G02: tsp_ApanPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\stp\non\non\apanpercmstpsnonwnondnon_g02.rtm";
 			showHandGun = true;
 			speed=0.066519998;
@@ -120287,7 +120287,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPercMstpSnonWnonDnon_G03: tsp_ApanPercMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\erc\stp\non\non\apanpercmstpsnonwnondnon_g03.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -120313,7 +120313,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMstpSnonWnonDnon_G01: tsp_ApanPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\stp\non\non\apanpknlmstpsnonwnondnon_g01.rtm";
 			showHandGun = true;
 			speed=0.066519998;
@@ -120342,7 +120342,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMstpSnonWnonDnon_G02: tsp_ApanPknlMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\stp\non\non\apanpknlmstpsnonwnondnon_g02.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -120367,7 +120367,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPknlMstpSnonWnonDnon_G03: tsp_ApanPknlMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\knl\stp\non\non\apanpknlmstpsnonwnondnon_g03.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -120392,7 +120392,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMstpSnonWnonDnon_G01: tsp_ApanPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\stp\non\non\apanppnemstpsnonwnondnon_g01.rtm";
 			showHandGun = true;
 			speed=0.061099999;
@@ -120421,7 +120421,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMstpSnonWnonDnon_G02: tsp_ApanPpneMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\stp\non\non\apanppnemstpsnonwnondnon_g02.rtm";
 			showHandGun = true;
 			speed=0.092024997;
@@ -120447,7 +120447,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_ApanPpneMstpSnonWnonDnon_G03: tsp_ApanPpneMstpSnonWnonDnon_G01
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\pan\pne\stp\non\non\apanppnemstpsnonwnondnon_g03.rtm";
 			showHandGun = true;
 			speed=0.052173998;
@@ -120473,7 +120473,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilHiding_1: tsp_ApanPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\hiding\acts_civilian_hiding1.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -120492,7 +120492,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilHiding_2: tsp_Acts_CivilHiding_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\hiding\acts_civilian_hiding2.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -120509,7 +120509,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilIdle_1: tsp_ApanPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\idle\acts_civilian_idle1.rtm";
 			showHandGun = true;
 			speed=0.050000001;
@@ -120518,14 +120518,14 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilIdle_2: tsp_Acts_CivilIdle_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\idle\acts_civilian_idle2.rtm";
 			showHandGun = true;
 			speed=0.050000001;
 		};
 		class tsp_Acts_CivilInjuredArms_1: tsp_ApanPpneMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\injured\acts_civilian_injuredarms_1.rtm";
 			showHandGun = true;
 			speed=0.049669001;
@@ -120550,7 +120550,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilInjuredGeneral_1: tsp_Acts_CivilInjuredArms_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\injured\acts_civilian_injuredgeneral_1.rtm";
 			showHandGun = true;
 			speed=0.048232;
@@ -120573,7 +120573,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilInjuredHead_1: tsp_Acts_CivilInjuredArms_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\injured\acts_civilian_injuredhead_1.rtm";
 			showHandGun = true;
 			speed=0.039577998;
@@ -120596,7 +120596,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilInjuredChest_1: tsp_Acts_CivilInjuredArms_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\injured\acts_civilian_injuredchest_1.rtm";
 			showHandGun = true;
 			speed=0.062762;
@@ -120619,7 +120619,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilInjuredLegs_1: tsp_Acts_CivilInjuredArms_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\injured\acts_civilian_injuredlegs_1.rtm";
 			showHandGun = true;
 			speed=0.059172001;
@@ -120642,7 +120642,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilListening_1: tsp_ApanPercMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\listen\acts_civilian_listening1.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -120669,7 +120669,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilListening_2: tsp_Acts_CivilListening_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\listen\acts_civilian_listening2.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -120694,7 +120694,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilShocked_1: tsp_ApanPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\shocked\acts_civilian_shocked1.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -120713,7 +120713,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilShocked_2: tsp_Acts_CivilShocked_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\shocked\acts_civilian_shocked2.rtm";
 			showHandGun = true;
 			speed=0.1;
@@ -120730,7 +120730,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilTalking_1: tsp_ApanPknlMstpSnonWnonDnon
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\talking\acts_civilian_talking1.rtm";
 			showHandGun = true;
 			speed=0.050000001;
@@ -120757,7 +120757,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class tsp_Acts_CivilTalking_2: tsp_Acts_CivilTalking_1
 		{
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f_exp\data\anim\sdr\cts\civ\talking\acts_civilian_talking2.rtm";
 			showHandGun = true;
 			speed=0.050000001;
@@ -120803,7 +120803,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			disableWeapons=0;
 			looped=1;
 			actions="tsp_RifleLowStandActions";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\Anim\sdr\cts\cts_RifleLowStandDefault.rtm";
 			showHandGun = true;
 			speed=1000000000;
@@ -120836,7 +120836,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			static=1;
 			actions="tsp_PistolLowStandActions";
 			speed=1e+010;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\low\pst\amovpercmstpslowwpstdnon.rtm";
 			showHandGun = true;
 			InterpolateFrom[]={
@@ -120876,7 +120876,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class tsp_Acts_PistolRaisedStand_Default: tsp_Acts_PistolLowStand_Default
 		{
 			//--showHandgun=1;
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\ras\pst\amovpercmstpsraswpstdnon.rtm";
 			showHandGun = true;
 			actions="tsp_PistolRaisedStandCutsceneActions";
@@ -120904,7 +120904,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=1e+010;
 			disableWeapons=0;
 			showWeaponAim="";
-			moveset = "knife";
+			moveset = "custom";
 			file="A3\anims_f\data\anim\sdr\mov\erc\stp\non\non\amovpercmstpsnonwnondnon.rtm";
 			showHandGun = true;
 			actions="tsp_CivilStandCutsceneActions";

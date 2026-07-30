@@ -31,6 +31,7 @@ This mod adds DayZ-style melee combat to ArmA.
 ↳ Fire Axe  
 ↳ Sledgehammer  
 ↳ Halligan Bar  
+↳ Cavalry Saber  
 
 ## 🔥 Compatibility
 ✔️ Works with [ACE](https://steamcommunity.com/workshop/filedetails/?id=463939057) medical.  
